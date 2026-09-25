@@ -115,6 +115,13 @@
   font-size: var(--font-size-sm);
 }
 
+/* Touch targets stay ≥ 44 px on mobile (§8.2); the compact height is a desktop-only refinement. */
+@media (max-width: 899.98px) {
+  .btn--sm {
+    min-height: 44px;
+  }
+}
+
 /* ---------------------------------------------------------------------------
  * Form fields
  * ------------------------------------------------------------------------- */
