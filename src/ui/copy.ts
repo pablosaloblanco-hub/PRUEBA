@@ -281,6 +281,8 @@ export const copy = {
     categoryNameDuplicate: 'Ya existe una categoría con ese nombre',
     categoryNameTooLong: 'Máximo 30 caracteres',
     budgetDuplicate: 'Ya existe un presupuesto para esta categoría',
+    /** Generic inline message when the reducer rejects an action the form could not predict. */
+    saveFailed: 'No se ha podido guardar. Revisa los datos e inténtalo de nuevo',
   },
 } as const
 

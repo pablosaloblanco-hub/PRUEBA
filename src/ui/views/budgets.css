@@ -1,0 +1,89 @@
+/* src/ui/views/budgets.css — Presupuestos screen, BudgetSheet and BudgetCard (§7.4). */
+
+.budgets__toolbar {
+  align-items: flex-start;
+}
+
+.budgets__toolbar-help {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+.budgets__grid {
+  align-items: start;
+}
+
+.budget-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.budget-card__title {
+  margin: 0;
+}
+
+.budget-card__name {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.budget-card__total-icon {
+  font-weight: 700;
+}
+
+.budget-card__spent {
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  white-space: nowrap;
+}
+
+.budget-card__status {
+  margin: 0;
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  white-space: nowrap;
+}
+
+.budget-card__status--ok {
+  color: var(--color-accent);
+}
+
+.budget-card__status--warning {
+  color: var(--color-warning);
+}
+
+.budget-card__status--over {
+  color: var(--color-critical);
+}
+
+.budget-card__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-1);
+  margin-top: var(--space-1);
+}
+
+.budget-card__delete {
+  color: var(--color-critical);
+}
+
+.budget-card--compact {
+  padding: var(--space-3);
+  gap: var(--space-1);
+}
+
+.budget-sheet {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.budget-sheet__select {
+  width: 100%;
+  min-height: 44px;
+}
