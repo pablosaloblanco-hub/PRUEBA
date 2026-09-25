@@ -231,7 +231,11 @@
   bottom: 0;
   z-index: 30;
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  /* Symmetric around the FAB: the two long labels («Movimientos»,
+     «Presupuestos») get wider slots so the 600-weight current label never
+     ellipsizes at 360 px (74 px bold vs. 72 px equal slots). */
+  grid-template-columns:
+    minmax(0, 0.85fr) minmax(0, 1.15fr) minmax(0, 1fr) minmax(0, 1.15fr) minmax(0, 0.85fr);
   align-items: end;
   height: calc(var(--tabbar-height) + env(safe-area-inset-bottom));
   padding-bottom: env(safe-area-inset-bottom);
@@ -445,7 +449,7 @@
     font-size: var(--font-size-md);
   }
 
-  /* 72 px slots at 360 px: «Presupuestos» needs the full slot at 10 px. */
+  /* ≈ 83 px wide slots for the long labels at 360 px: 10 px keeps a margin. */
   .tabbar__slot {
     padding: 0;
   }
