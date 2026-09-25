@@ -208,3 +208,42 @@
     transition: none;
   }
 }
+
+/* 360 px: 4 columns fit only with compact cell padding and a month label that
+   wraps at its space («septiembre» / «2026»), never letter by letter. */
+.trend-table th[scope='row'] {
+  white-space: normal;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: manual;
+}
+
+.trend-table th,
+.trend-table td {
+  padding-right: var(--space-1);
+  padding-left: var(--space-1);
+}
+
+.trend-table th:first-child,
+.trend-table td:first-child {
+  padding-left: 0;
+}
+
+.trend-table th:last-child,
+.trend-table td:last-child {
+  padding-right: 0;
+}
+
+@media (min-width: 900px) {
+  .trend-table th,
+  .trend-table td {
+    padding-right: var(--space-3);
+    padding-left: var(--space-3);
+  }
+}
+
+@media (max-width: 899.98px) {
+  .trend-table {
+    font-size: var(--font-size-xs);
+  }
+}

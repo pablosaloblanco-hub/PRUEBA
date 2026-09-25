@@ -10,7 +10,7 @@ identifiers and comments are English; every user-facing string comes from
 | Owner (agent) | Files |
 |---|---|
 | Skeleton (done) | `src/App.tsx`, `src/main.tsx`, `src/index.css`, `src/styles/base.css`, `src/styles/layout.css`, `src/ui/state/*`, `src/ui/hooks/{useTheme,useDownload,useMediaQuery}.ts`, `src/ui/components/{Shell,TabBar,Sidebar,MonthSelector,ToastRegion,Banner}.tsx`, `src/ui/views/RecoveryView.tsx`, `src/test/{renderApp.tsx,setup.ts}` |
-| Shared components | `src/styles/components.css`, `src/ui/components/{Dialog,ConfirmDialog,AmountInput,CategoryPicker,ErrorBoundary,CategoryBadge,Money,TransactionRow,TransactionList,ProgressBar,BudgetCard,EmptyState,SegmentedControl,Chips}.tsx`, `src/ui/components/charts/*` |
+| Shared components | `src/styles/components.css`, `src/ui/components/{Dialog,ConfirmDialog,AmountInput,CategoryPicker,ErrorBoundary,CategoryBadge,Money,TransactionRow,TransactionList,ProgressBar,BudgetCard,EmptyState,SegmentedControl,Chips}.tsx`, `src/ui/components/amountField.ts` (pure `parseAmountField`/`currencySymbol`, kept out of the component file for `react/only-export-components`), `src/ui/components/charts/*` |
 | Views / sheets | `src/ui/views/{HomeView,TransactionsView,TransactionSheet,BudgetsView,BudgetSheet,ReportsView,CategoriesView,CategorySheet,SettingsView}.tsx` (+ co-located `*.css` and `*.test.tsx`) |
 
 The stub views/sheets currently in `src/ui/views/` are placeholders: replace the
@@ -100,7 +100,7 @@ Defined in `base.css`/`layout.css` (Skeleton):
 | `.stack`, `.row`, `.row--between`, `.row--wrap` | flex helpers |
 | `.banners` | column wrapper for the persistence banners |
 | `.recovery`, `.recovery__actions`, `.recovery__note`, `.recovery__confirm` | `RecoveryView` |
-| `.app-header`, `.app-header__title`, `.app-header__btn`, `.month-selector*`, `.tabbar*`, `.fab`, `.sidebar*`, `.content`, `.shell*` | shell chrome (do not reuse in views) |
+| `.app-header`, `.app-header__title`, `.app-header__btn` (+ `__back` / `__settings`), `.month-selector*`, `.tabbar*`, `.fab`, `.sidebar*`, `.content`, `.shell*` | shell chrome (do not reuse in views). Below 900 px the header is a 3-column grid: row 1 = [‹ Volver] title [⚙], row 2 = the month selector (a single row truncated both at 360 px) |
 
 Defined in `components.css` (shared components agent) and used by name across
 the app (the authoritative list is the file itself):
@@ -123,6 +123,11 @@ the app (the authoritative list is the file itself):
 | `.banner`, `.banner--warning`, `.banner--error`, `.banner__text`, `.banner__actions` | `Banner` (component in Skeleton, styles in components.css) |
 | `.toast-region`, `.toast` | `ToastRegion` (idem) |
 | `.table`, `.table-wrap` | tables under charts |
+
+Visual QA: `budget-card__status` wraps (compact cards at 360 px), warning text uses
+`color-mix(var(--color-warning), var(--color-text))` for ≥ 4.5:1, `.trend-table` drops
+to `--font-size-xs` and 4 px cell padding below 900 px, `.tile__name` hyphenates
+(`hyphens: auto`, `lang="es"`) before breaking mid-word.
 
 Rules: mobile-first, only `var(--…)` from `tokens.css`, no inline style objects
 except runtime values (`style={{ width: \`${pct}%\` }}`, series colours),

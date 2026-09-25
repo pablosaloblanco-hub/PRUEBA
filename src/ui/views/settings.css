@@ -76,3 +76,9 @@
     flex: 0 1 auto;
   }
 }
+
+@media (min-width: 900px) {
+  .settings-section > .stack {
+    max-width: 560px;
+  }
+}

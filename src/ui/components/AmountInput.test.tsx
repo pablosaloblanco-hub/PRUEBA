@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
-import { AmountInput, currencySymbol, parseAmountField } from './AmountInput'
+import { AmountInput } from './AmountInput'
+import { currencySymbol, parseAmountField } from './amountField'
 import type { AmountInputProps } from './AmountInput'
 import { copy } from '../copy'
 

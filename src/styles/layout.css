@@ -393,3 +393,66 @@
     justify-content: flex-end;
   }
 }
+
+/* Mobile header (< 900 px): two rows when the month selector is present ------
+ * Row 1: [‹ Volver] [screen title] [⚙]; row 2: ‹ septiembre 2026 › (Hoy).
+ * At 360 px a single row would truncate both the title and the month label.
+ */
+@media (max-width: 899.98px) {
+  .app-header {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    column-gap: 0;
+    row-gap: 0;
+    align-items: center;
+  }
+
+  .app-header__back {
+    grid-column: 1;
+    grid-row: 1;
+    margin-right: var(--space-2);
+  }
+
+  .app-header__title {
+    grid-column: 2;
+    grid-row: 1;
+    min-height: 44px;
+    line-height: 44px;
+  }
+
+  .app-header__settings {
+    grid-column: 3;
+    grid-row: 1;
+    margin-left: var(--space-2);
+  }
+
+  .month-selector {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-self: start;
+    max-width: 100%;
+    /* Optically align «‹» with the title's left edge. */
+    margin-left: calc(-1 * var(--space-3));
+  }
+
+  .month-selector__label {
+    font-size: var(--font-size-md);
+  }
+
+  .tabbar__slot {
+    padding: 0 2px;
+  }
+
+  .tabbar__label {
+    font-size: calc(var(--font-size-xs) * 0.92);
+    letter-spacing: -0.01em;
+  }
+}
+
+@media (min-width: 900px) {
+  /* 220 px sidebar: the primary button needs the compact size to fit its label. */
+  .sidebar__new {
+    padding: 0 var(--space-2);
+    font-size: var(--font-size-sm);
+  }
+}

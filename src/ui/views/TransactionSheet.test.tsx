@@ -271,7 +271,7 @@ describe('Flujo alta (F1)', () => {
       data: seedData(FIXTURE_NOW),
       userEventOptions: { advanceTimers: vi.advanceTimersByTime },
     })
-    await user.click(screen.getByRole('button', { name: 'Añadir movimiento' }))
+    await user.click(within(screen.getByRole('navigation', { name: 'Navegación principal' })).getByRole('button', { name: 'Añadir movimiento' }))
     expect(amountInput()).toHaveFocus()
     await user.keyboard('12,50')
     await user.click(saveButton())

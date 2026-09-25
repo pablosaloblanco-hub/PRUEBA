@@ -1037,3 +1037,17 @@ button.list-row:hover {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
+
+/* Category tiles: 4 columns at 360 px leave ~68 px per name; hyphenate long
+   names («Alimenta-ción») before falling back to an arbitrary break. */
+.tile {
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.tile__name {
+  font-size: calc(var(--font-size-xs) * 0.92);
+  letter-spacing: -0.01em;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}

@@ -87,3 +87,19 @@
   width: 100%;
   min-height: 44px;
 }
+
+/* «Has superado el presupuesto en 10,00 €» does not fit a compact card at 360 px:
+   let the sentence wrap (the amount itself keeps its NBSP and never splits). */
+.budget-card__status {
+  white-space: normal;
+}
+
+/* --color-warning is a bar colour (≈ 1.8:1 on the light surface); derive a text
+   colour from it that keeps the hue and reaches ≥ 4.5:1 in both themes (§8.2). */
+.budget-card__status--warning {
+  color: color-mix(in srgb, var(--color-warning) 55%, var(--color-text));
+}
+
+.budgets__toolbar {
+  justify-content: flex-end;
+}

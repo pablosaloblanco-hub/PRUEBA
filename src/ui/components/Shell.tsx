@@ -115,7 +115,7 @@ export function Shell() {
         <header className="app-header">
           {!isDesktop ? <h1 className="visually-hidden">{copy.app.title}</h1> : null}
           {showBack ? (
-            <button type="button" className="app-header__btn" aria-label={copy.nav.back} onClick={goBack}>
+            <button type="button" className="app-header__btn app-header__back" aria-label={copy.nav.back} onClick={goBack}>
               <span aria-hidden="true">‹</span>
             </button>
           ) : null}
@@ -124,7 +124,7 @@ export function Shell() {
           {!isDesktop && screen !== 'settings' ? (
             <button
               type="button"
-              className="app-header__btn"
+              className="app-header__btn app-header__settings"
               aria-label={copy.nav.settingsIcon}
               onClick={() => nav('settings')}
             >

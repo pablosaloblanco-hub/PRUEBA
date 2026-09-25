@@ -79,7 +79,7 @@ export function TransactionsView() {
   return (
     <div className="screen screen--transactions">
       <div className="field search">
-        <label htmlFor={searchId} className="field__label">
+        <label htmlFor={searchId} className="field__label visually-hidden">
           {copy.transactions.searchLabel}
         </label>
         <input
