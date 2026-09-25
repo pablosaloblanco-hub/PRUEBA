@@ -1,0 +1,32 @@
+/* ---------------------------------------------------------------------------
+ * src/ui/views/reports.css — Informes layout (§7.5): stacked cards on mobile
+ * (240px charts), donut and bars side by side from 900px with the table under
+ * the bars.
+ * ------------------------------------------------------------------------- */
+.reports__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-4);
+  min-width: 0;
+}
+
+.reports__card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.reports__card .section__title {
+  margin: 0 0 var(--space-3);
+}
+
+.reports__card .empty {
+  padding: var(--space-6) var(--space-2);
+}
+
+@media (min-width: 900px) {
+  .reports__grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: start;
+  }
+}

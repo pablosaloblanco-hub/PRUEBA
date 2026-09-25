@@ -1,0 +1,78 @@
+/* src/ui/views/settings.css — Ajustes (§7.7): sections, links, backup actions,
+   danger zone and footer. Mobile-first. */
+
+.settings-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.settings-select {
+  appearance: auto;
+}
+
+.settings-balance {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.settings-balance__help {
+  margin-top: calc(-1 * var(--space-1));
+}
+
+.settings-link {
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+}
+
+.settings-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.settings-actions .btn {
+  flex: 1 1 200px;
+}
+
+.settings-import-error {
+  margin: 0;
+}
+
+.settings-danger {
+  border-color: var(--color-critical);
+}
+
+.settings-footer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  padding: var(--space-2) 0 var(--space-4);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-xs);
+  text-align: center;
+}
+
+.settings-footer p {
+  margin: 0;
+}
+
+.settings-import-preview {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.settings-import-preview__warnings {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 900px) {
+  .settings-actions .btn {
+    flex: 0 1 auto;
+  }
+}

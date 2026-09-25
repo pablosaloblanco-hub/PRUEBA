@@ -1,0 +1,211 @@
+/* src/ui/views/home.css — Inicio (§7.1): hero, saldo total, KPI row, budgets,
+   category bars and recent movements. Mobile-first; desktop grid at ≥ 900 px. */
+
+.home__top {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  min-width: 0;
+}
+
+.home__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-4);
+  align-items: start;
+}
+
+/* Hero ------------------------------------------------------------------- */
+.home-hero {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.home-hero__label,
+.home-balance__label {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.home-hero__value {
+  margin: 0;
+  overflow: hidden;
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  line-height: 1.1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.home-hero__tiles {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+}
+
+.home-tile {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-width: 0;
+  padding: var(--space-3);
+  border-radius: var(--radius-md);
+  background: var(--color-surface-2);
+}
+
+.home-tile--income {
+  background: var(--color-income-soft);
+}
+
+.home-tile--expense {
+  background: var(--color-expense-soft);
+}
+
+.home-tile__label {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.home-tile--income .home-tile__value {
+  color: var(--color-income);
+}
+
+.home-tile--expense .home-tile__value {
+  color: var(--color-expense);
+}
+
+.home-tile__value {
+  overflow: hidden;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  text-overflow: ellipsis;
+}
+
+/* Saldo total ------------------------------------------------------------- */
+.home-balance {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.home-balance__value {
+  margin: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+}
+
+.home-balance__future {
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+  color: var(--color-text-muted);
+}
+
+.home-balance__help {
+  margin: 0;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+/* Budgets ----------------------------------------------------------------- */
+.home-budgets__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+/* Category bars ----------------------------------------------------------- */
+.home-categories__list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-category {
+  min-width: 0;
+}
+
+.home-category__button {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 44px;
+  padding: var(--space-2);
+  border: 0;
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--color-text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.home-category__button:hover:not(:disabled) {
+  background: var(--color-surface-2);
+}
+
+.home-category__button:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+.home-category__button:disabled {
+  cursor: default;
+}
+
+.home-category__row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.home-category__name {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.home-category__amount {
+  flex: 0 0 auto;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.home-category__percent {
+  flex: 0 0 auto;
+  min-width: 3.5ch;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+  text-align: right;
+}
+
+/* Desktop ----------------------------------------------------------------- */
+@media (min-width: 900px) {
+  .home__top {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+    grid-template-rows: auto auto;
+    align-items: stretch;
+  }
+
+  .home-hero {
+    grid-row: 1 / span 2;
+  }
+
+  .home-kpis {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .home__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

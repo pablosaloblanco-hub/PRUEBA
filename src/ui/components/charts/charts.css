@@ -1,0 +1,210 @@
+/* ---------------------------------------------------------------------------
+ * src/ui/components/charts/charts.css — chart frame, HTML legend, tooltip and
+ * donut centre label (F7, §7.5). Colours only through tokens; the series
+ * colours themselves are runtime values (chartColors.ts) so the SVG and the
+ * legend swatches share exactly the same slot.
+ * ------------------------------------------------------------------------- */
+.chart-frame {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.chart-frame .recharts-responsive-container {
+  width: 100%;
+  height: 100%;
+}
+
+.chart-frame svg:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: var(--radius-md);
+}
+
+.chart-frame .recharts-cartesian-axis-tick-value {
+  font-variant-numeric: tabular-nums;
+}
+
+.chart-frame__overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+/* Donut centre label (HTML overlay, not an SVG label) */
+.donut__center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  max-width: 45%;
+  text-align: center;
+}
+
+.donut__center-label {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.donut__center-total {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  color: var(--color-text);
+  white-space: nowrap;
+}
+
+/* Legend (HTML) */
+.chart-legend {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  margin: var(--space-3) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chart-legend--inline {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  justify-content: center;
+}
+
+.chart-legend__item {
+  min-width: 0;
+}
+
+.chart-legend__row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-md);
+  font: inherit;
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  text-align: left;
+}
+
+.chart-legend--inline .chart-legend__row {
+  width: auto;
+  min-height: 0;
+  padding: 0;
+  color: var(--color-text-secondary);
+}
+
+.chart-legend__row--button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.chart-legend__row--button:hover {
+  background: var(--color-surface-2);
+}
+
+.chart-legend__row--button:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+.chart-legend__swatch {
+  flex: 0 0 auto;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background: var(--series-other);
+}
+
+.chart-legend__icon {
+  flex: 0 0 auto;
+  font-size: var(--font-size-md);
+  line-height: 1;
+}
+
+.chart-legend__name {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.chart-legend__amount {
+  flex: 0 0 auto;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.chart-legend__percent {
+  flex: 0 0 3.25em;
+  text-align: right;
+  color: var(--color-text-secondary);
+  white-space: nowrap;
+}
+
+/* Tooltip (custom Recharts content) */
+.chart-tooltip {
+  min-width: 140px;
+  padding: var(--space-2) var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-md);
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+}
+
+.chart-tooltip p {
+  margin: 0;
+}
+
+.chart-tooltip__label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-1);
+  font-weight: 600;
+}
+
+.chart-tooltip__row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  justify-content: space-between;
+}
+
+.chart-tooltip__meta {
+  color: var(--color-text-secondary);
+}
+
+.chart-tooltip__value {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* Table twin under the bars */
+.bars .table-wrap {
+  margin-top: var(--space-3);
+}
+
+.trend-table th[scope='row'] {
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .chart-legend__row--button {
+    transition: none;
+  }
+}

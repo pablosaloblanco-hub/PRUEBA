@@ -178,6 +178,14 @@ export const copy = {
       `Gastos de ${monthLabel}: ${expense}; ingresos: ${income}`,
     loadError: 'No se ha podido cargar el informe',
     showTable: 'Ver tabla',
+    /** Suspense fallback while the lazy chart bundle loads. */
+    loading: 'Cargando informe…',
+    /** aria-label of the donut chart wrapper. */
+    byCategoryAriaLabel: (monthLabel: string, total: string) => `Gastos por categoría de ${monthLabel}: ${total}`,
+    /** «71 %» (es-ES keeps a space before the percent sign). */
+    percent: (n: number) => `${n} %`,
+    /** Accessible name of the total shown in the donut centre. */
+    total: 'Total',
   },
 
   categories: {
