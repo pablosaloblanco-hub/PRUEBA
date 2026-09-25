@@ -32,6 +32,8 @@ export const copy = {
     back: 'Volver',
     /** aria-label of the ⚙ header button (mobile). */
     settingsIcon: 'Ajustes',
+    /** aria-label of the <nav> (tab bar and sidebar). */
+    mainNavLabel: 'Navegación principal',
   },
 
   month: {
@@ -51,6 +53,8 @@ export const copy = {
     notApplicable: '—',
     seeAll: 'Ver todos',
     yes: 'Sí',
+    /** Label of the keyword input of a destructive ConfirmDialog (e.g. «Escribe BORRAR»). */
+    typeToConfirm: (keyword: string) => `Escribe ${keyword}`,
   },
 
   transactionSheet: {

@@ -1,0 +1,395 @@
+/*
+ * layout.css — the shell: header, content, tab bar + FAB (mobile), sidebar
+ * (≥ 900 px), month selector, .screen/.section and grid helpers. Toast, banner,
+ * dialog and button styles live in components.css. Mobile-first; nothing here
+ * may overflow 360 px horizontally.
+ */
+
+/* Shell ------------------------------------------------------------------- */
+.shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+  width: 100%;
+}
+
+.shell__main {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  min-width: 0;
+}
+
+/* Header ------------------------------------------------------------------ */
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 56px;
+  padding: var(--space-2) var(--gutter);
+  padding-top: calc(var(--space-2) + env(safe-area-inset-top));
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.app-header__title {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: var(--font-size-lg);
+}
+
+.app-header__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-xl);
+  color: var(--color-text-secondary);
+  transition: background var(--transition-fast);
+}
+
+.app-header__btn:hover {
+  background: var(--color-surface-2);
+}
+
+/* Month selector ---------------------------------------------------------- */
+.month-selector {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.month-selector__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-xl);
+  color: var(--color-text-secondary);
+  transition: background var(--transition-fast);
+}
+
+.month-selector__btn:hover:not(:disabled) {
+  background: var(--color-surface-2);
+}
+
+.month-selector__label {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.month-selector__today {
+  min-height: 32px;
+  padding: 0 var(--space-3);
+  border-radius: var(--radius-pill);
+  background: var(--color-accent-soft);
+  color: var(--color-accent);
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+}
+
+/* Content ----------------------------------------------------------------- */
+.content {
+  flex: 1 1 auto;
+  width: 100%;
+  max-width: var(--layout-max-width);
+  min-width: 0;
+  margin: 0 auto;
+  padding: var(--space-4) var(--gutter);
+  padding-bottom: calc(var(--tabbar-height) + var(--space-6) + env(safe-area-inset-bottom));
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  min-width: 0;
+}
+
+.screen__toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.section {
+  min-width: 0;
+  padding: var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.section__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  margin-bottom: var(--space-3);
+}
+
+.section__title {
+  font-size: var(--font-size-md);
+  font-weight: 600;
+}
+
+.grid-2,
+.grid-3 {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-4);
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.row--between {
+  justify-content: space-between;
+}
+
+.row--wrap {
+  flex-wrap: wrap;
+}
+
+/* Banners ----------------------------------------------------------------- */
+.banners {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+
+/* Recovery card ----------------------------------------------------------- */
+.recovery {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  max-width: 560px;
+}
+
+.recovery__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.recovery__note {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+}
+
+.recovery__confirm {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--color-border);
+}
+
+/* Tab bar + FAB (mobile) -------------------------------------------------- */
+.tabbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 30;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  align-items: end;
+  height: calc(var(--tabbar-height) + env(safe-area-inset-bottom));
+  padding-bottom: env(safe-area-inset-bottom);
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+}
+
+.tabbar__slot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  min-width: 0;
+  height: var(--tabbar-height);
+  padding: 0 var(--space-1);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-xs);
+  transition: color var(--transition-fast);
+}
+
+.tabbar__slot[aria-current='page'] {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.tabbar__icon {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.tabbar__label {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tabbar__fab-slot {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: var(--tabbar-height);
+}
+
+.fab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+  font-size: 30px;
+  line-height: 1;
+  box-shadow: var(--shadow-md);
+  transition: background var(--transition-fast), transform var(--transition-fast);
+}
+
+.fab:hover {
+  background: var(--color-accent-hover);
+}
+
+.fab:active {
+  transform: scale(0.96);
+}
+
+/* Sidebar (desktop) ------------------------------------------------------- */
+.sidebar {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .shell {
+    flex-direction: row;
+  }
+
+  .sidebar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex: 0 0 var(--sidebar-width);
+    flex-direction: column;
+    gap: var(--space-4);
+    width: var(--sidebar-width);
+    height: 100svh;
+    padding: var(--space-6) var(--space-4);
+    background: var(--color-surface);
+    border-right: 1px solid var(--color-border);
+  }
+
+  .sidebar__title {
+    padding: 0 var(--space-2);
+  }
+
+  .sidebar__new {
+    width: 100%;
+  }
+
+  .sidebar__nav {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+  }
+
+  .sidebar__link {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    min-height: 44px;
+    padding: 0 var(--space-3);
+    border-radius: var(--radius-md);
+    color: var(--color-text-secondary);
+    font-weight: 500;
+    text-align: left;
+    transition: background var(--transition-fast), color var(--transition-fast);
+  }
+
+  .sidebar__link:hover {
+    background: var(--color-surface-2);
+  }
+
+  .sidebar__link[aria-current='page'] {
+    background: var(--color-accent-soft);
+    color: var(--color-accent);
+    font-weight: 600;
+  }
+
+  .sidebar__icon {
+    width: 24px;
+    text-align: center;
+  }
+
+  .app-header {
+    padding: var(--space-3) var(--space-6);
+  }
+
+  .app-header__title {
+    font-size: var(--font-size-xl);
+  }
+
+  .month-selector {
+    margin-left: auto;
+  }
+
+  .content {
+    padding: var(--space-6);
+  }
+
+  .grid-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  /* Bottom-right on desktop (§7.0); .shell--desktop beats the base rule in components.css. */
+  .shell--desktop .toast-region {
+    left: auto;
+    right: var(--space-6);
+    bottom: var(--space-6);
+    justify-content: flex-end;
+  }
+}
