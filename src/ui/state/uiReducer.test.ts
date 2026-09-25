@@ -37,8 +37,22 @@ describe('uiReducer', () => {
       const s2 = uiReducer(uiReducer(s1, { type: 'filter/set', patch: { query: 'x' } }), { type: 'nav', screen: 'settings' })
       expect(s2.previousScreen).toBe('home')
       expect(s2.filter).toEqual(EMPTY_FILTER)
-      const s3 = uiReducer(s2, { type: 'nav', screen: 'categories' })
+      const s3 = uiReducer(s2, { type: 'nav', screen: 'transactions' })
       expect(s3.previousScreen).toBe('settings')
+    })
+
+    it('keeps previousScreen when moving between Ajustes and Categorías, so «Volver» returns to the origin', () => {
+      const settings = uiReducer(uiReducer(base(), { type: 'nav', screen: 'transactions' }), { type: 'nav', screen: 'settings' })
+      expect(settings.previousScreen).toBe('transactions')
+      const categories = uiReducer(settings, { type: 'nav', screen: 'categories' })
+      expect(categories.screen).toBe('categories')
+      expect(categories.previousScreen).toBe('transactions')
+      const back = uiReducer(categories, { type: 'nav', screen: 'settings' })
+      expect(back.screen).toBe('settings')
+      expect(back.previousScreen).toBe('transactions')
+      // Leaving the pair through the tab bar records the screen being left as usual.
+      const home = uiReducer(categories, { type: 'nav', screen: 'home' })
+      expect(home.previousScreen).toBe('categories')
     })
   })
 

@@ -22,6 +22,14 @@ export type DialogProps = {
 }
 
 /**
+ * Selector of the element that receives focus once the dialog is open. React's
+ * `autoFocus` runs while the <dialog> is still closed (a no-op), so children mark
+ * their first field with `data-autofocus` instead; without one, `showModal()`
+ * focuses the first focusable element (the «×» button).
+ */
+export const AUTOFOCUS_SELECTOR = '[data-autofocus]'
+
+/**
  * Accessible <dialog> opened with `showModal()` (native focus trap and Escape).
  * Closes through `onClose` on Escape, backdrop click or the «Cerrar» button and
  * returns focus to the element that was focused before it opened.
@@ -47,7 +55,10 @@ function OpenDialog({ title, onClose, children, footer, labelledBy, variant }: O
     const dialog = ref.current
     if (dialog === null) return
     const previouslyFocused = document.activeElement
-    if (!dialog.open) dialog.showModal()
+    if (!dialog.open) {
+      dialog.showModal()
+      dialog.querySelector<HTMLElement>(AUTOFOCUS_SELECTOR)?.focus()
+    }
     return () => {
       if (dialog.open) dialog.close()
       if (previouslyFocused instanceof HTMLElement && previouslyFocused.isConnected) {
@@ -57,6 +68,10 @@ function OpenDialog({ title, onClose, children, footer, labelledBy, variant }: O
   }, [])
 
   const handleCancel = (event: SyntheticEvent<HTMLDialogElement>) => {
+    // The native `cancel` event does not bubble, but React re-dispatches it through the
+    // component tree: a nested dialog (e.g. a ConfirmDialog inside a sheet) must not close
+    // this one, so only events fired on this element count.
+    if (event.target !== event.currentTarget) return
     // Keep the element in sync with React state: the parent decides when it closes.
     event.preventDefault()
     onClose()

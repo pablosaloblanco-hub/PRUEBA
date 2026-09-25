@@ -1,4 +1,5 @@
-/* src/ui/views/budgets.css — Presupuestos screen, BudgetSheet and BudgetCard (§7.4). */
+/* src/ui/views/budgets.css — Presupuestos screen and BudgetSheet (§7.4). The
+   BudgetCard styles live in src/styles/components.css (shared with Inicio). */
 
 .budgets__toolbar {
   align-items: flex-start;
@@ -14,69 +15,6 @@
   align-items: start;
 }
 
-.budget-card {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-2);
-}
-
-.budget-card__title {
-  margin: 0;
-}
-
-.budget-card__name {
-  display: flex;
-  align-items: center;
-  gap: var(--space-2);
-  min-width: 0;
-}
-
-.budget-card__total-icon {
-  font-weight: 700;
-}
-
-.budget-card__spent {
-  margin: 0;
-  color: var(--color-text-secondary);
-  font-size: var(--font-size-sm);
-  white-space: nowrap;
-}
-
-.budget-card__status {
-  margin: 0;
-  font-weight: 600;
-  font-size: var(--font-size-sm);
-  white-space: nowrap;
-}
-
-.budget-card__status--ok {
-  color: var(--color-accent);
-}
-
-.budget-card__status--warning {
-  color: var(--color-warning);
-}
-
-.budget-card__status--over {
-  color: var(--color-critical);
-}
-
-.budget-card__actions {
-  display: flex;
-  justify-content: flex-end;
-  gap: var(--space-1);
-  margin-top: var(--space-1);
-}
-
-.budget-card__delete {
-  color: var(--color-critical);
-}
-
-.budget-card--compact {
-  padding: var(--space-3);
-  gap: var(--space-1);
-}
-
 .budget-sheet {
   display: flex;
   flex-direction: column;
@@ -86,18 +24,6 @@
 .budget-sheet__select {
   width: 100%;
   min-height: 44px;
-}
-
-/* «Has superado el presupuesto en 10,00 €» does not fit a compact card at 360 px:
-   let the sentence wrap (the amount itself keeps its NBSP and never splits). */
-.budget-card__status {
-  white-space: normal;
-}
-
-/* --color-warning is a bar colour (≈ 1.8:1 on the light surface); derive a text
-   colour from it that keeps the hue and reaches ≥ 4.5:1 in both themes (§8.2). */
-.budget-card__status--warning {
-  color: color-mix(in srgb, var(--color-warning) 55%, var(--color-text));
 }
 
 .budgets__toolbar {

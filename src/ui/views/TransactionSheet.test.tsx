@@ -288,7 +288,7 @@ describe('Flujo alta (F1)', () => {
     await user.click(within(screen.getByRole('navigation', { name: 'Navegación principal' })).getByRole('button', { name: 'Movimientos' }))
     const row = screen.getByRole('button', { name: /Alimentación/ })
     expect(norm(row.textContent)).toContain('−12,50 €')
-    expect(screen.getByRole('heading', { level: 4, name: /Hoy/ })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { level: 3, name: /Hoy/ })).toBeInTheDocument()
     expect(norm(screen.getByText(/^Ingresos /).textContent)).toBe('Ingresos 0,00 € · Gastos 12,50 € · Balance −12,50 €')
 
     act(() => {

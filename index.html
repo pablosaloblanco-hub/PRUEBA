@@ -3,8 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <title>Mis Finanzas</title>
+    <script>
+      // Apply a forced theme before the first paint (no flash when the OS scheme
+      // differs from settings.theme); useTheme keeps it in sync afterwards.
+      try {
+        var theme = JSON.parse(window.localStorage.getItem('mis-finanzas')).data.settings.theme
+        if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>

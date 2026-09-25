@@ -27,10 +27,10 @@ export function TransactionList({ transactions, categories, currency, today, onS
     <div className="transaction-list">
       {groups.map((group) => (
         <section key={group.date} className="transaction-list__day" aria-label={formatDayHeader(group.date, today)}>
-          <h4 className="list-header">
+          <h3 className="list-header">
             <span className="list-header__label">{formatDayHeader(group.date, today)}</span>
             <Money cents={group.netCents} currency={currency} signDisplay="exceptZero" className="list-header__net" />
-          </h4>
+          </h3>
           <ul className="list">
             {group.transactions.map((transaction) => (
               <TransactionRow

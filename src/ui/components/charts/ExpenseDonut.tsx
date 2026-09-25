@@ -5,7 +5,9 @@
 // --series-other; CategoryTotal.color is NOT used here), the total as an HTML
 // centre label, an es-ES tooltip and an HTML legend (swatch, emoji, name,
 // amount, percent) whose rows are buttons that drill down to Movimientos
-// (the «Otras» row is not interactive). No Recharts <Legend>.
+// (the «Otras» row is not interactive). No Recharts <Legend>. The SVG is inert
+// (`accessibilityLayer={false}`): the role="img" wrapper + the HTML legend are
+// the accessible representation (§8.2), so keyboard users get no unnamed stops.
 // ============================================================================
 import { useMemo } from 'react'
 import { Cell, Pie, PieChart, Tooltip } from 'recharts'
@@ -74,7 +76,8 @@ export function ExpenseDonut({ rows, totalCents, currency, ariaLabel, onSelect, 
     () =>
       rows.map((row, i) => {
         const slot = seriesSlot(i, row.isOthers)
-        return { name: row.name, value: row.amountCents, percent: row.percent, slot, color: slotColor(colors, slot) }
+        const name = row.isOthers ? copy.reports.others : row.name
+        return { name, value: row.amountCents, percent: row.percent, slot, color: slotColor(colors, slot) }
       }),
     [rows, colors],
   )
@@ -90,7 +93,12 @@ export function ExpenseDonut({ rows, totalCents, currency, ariaLabel, onSelect, 
     <div className="donut">
       <ChartFrame height={height} size={size} ariaLabel={ariaLabel} overlay={centre} className="donut__chart">
         {(dims) => (
-          <PieChart width={dims?.width} height={dims?.height} margin={{ top: 4, right: 4, bottom: 4, left: 4 }}>
+          <PieChart
+            width={dims?.width}
+            height={dims?.height}
+            margin={{ top: 4, right: 4, bottom: 4, left: 4 }}
+            accessibilityLayer={false}
+          >
             <Pie
               data={data}
               dataKey="value"
@@ -100,6 +108,7 @@ export function ExpenseDonut({ rows, totalCents, currency, ariaLabel, onSelect, 
               paddingAngle={2}
               stroke="none"
               isAnimationActive={animate}
+              rootTabIndex={-1}
             >
               {data.map((d) => (
                 <Cell key={d.slot} fill={d.color} data-slot={d.slot} />
@@ -118,13 +127,14 @@ export function ExpenseDonut({ rows, totalCents, currency, ariaLabel, onSelect, 
           const datum = data[i]
           const slot = datum?.slot ?? seriesSlot(i, row.isOthers)
           const color = datum?.color ?? slotColor(colors, slot)
+          const name = datum?.name ?? row.name
           const content = (
             <>
               <span className="chart-legend__swatch" data-slot={slot} style={{ background: color }} aria-hidden="true" />
               <span className="chart-legend__icon" aria-hidden="true">
                 {row.icon}
               </span>
-              <span className="chart-legend__name truncate">{row.name}</span>
+              <span className="chart-legend__name truncate">{name}</span>
               <Money cents={row.amountCents} currency={currency} className="chart-legend__amount" />
               <span className="chart-legend__percent tabular-nums">{copy.reports.percent(row.percent)}</span>
             </>

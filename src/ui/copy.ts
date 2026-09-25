@@ -1,8 +1,11 @@
 /**
  * All user-facing text of Mis Finanzas (es-ES), centralised so the UI never
  * hard-codes strings and a future locale is a mechanical change.
- * Keys mirror docs/SPEC.md §7 (screens) and §5.5 (persistence errors).
+ * Keys mirror docs/SPEC.md §7 (screens) and §5.5 (persistence errors). The
+ * §4.4 validation messages are owned by src/domain/validate.ts (the validators
+ * return them directly) and re-exposed here, so there is a single source.
  */
+import { VALIDATION_MESSAGES } from '../domain/validate'
 
 /** "1 movimiento" / "3 movimientos" style pluralisation. */
 export function plural(n: number, singular: string, pluralForm: string): string {
@@ -46,13 +49,9 @@ export const copy = {
     close: 'Cerrar',
     cancel: 'Cancelar',
     save: 'Guardar',
-    edit: 'Editar',
-    delete: 'Eliminar',
     retry: 'Reintentar',
     /** Shown when a KPI does not apply. */
     notApplicable: '—',
-    seeAll: 'Ver todos',
-    yes: 'Sí',
     /** Label of the keyword input of a destructive ConfirmDialog (e.g. «Escribe BORRAR»). */
     typeToConfirm: (keyword: string) => `Escribe ${keyword}`,
   },
@@ -96,11 +95,6 @@ export const copy = {
     clearFilters: 'Limpiar filtros',
     totals: (income: string, expense: string, balance: string) =>
       `Ingresos ${income} · Gastos ${expense} · Balance ${balance}`,
-    totalsIncome: 'Ingresos',
-    totalsExpense: 'Gastos',
-    totalsBalance: 'Balance',
-    today: 'Hoy',
-    yesterday: 'Ayer',
     emptyMonth: (monthLabel: string) => `No hay movimientos en ${monthLabel}`,
     emptyMonthCta: 'Añadir movimiento',
     emptyFiltered: 'Ningún movimiento coincide con los filtros',
@@ -156,7 +150,7 @@ export const copy = {
     emptyTitle: 'Aún no tienes presupuestos',
     emptyText: 'Fija un límite mensual por categoría y verás cuánto te queda',
     emptyCta: 'Crear presupuesto',
-    duplicate: 'Ya existe un presupuesto para esta categoría',
+    duplicate: VALIDATION_MESSAGES.budgetDuplicate,
     toastSaved: 'Presupuesto guardado',
     toastDeleted: 'Presupuesto eliminado',
   },
@@ -177,7 +171,6 @@ export const copy = {
     chartAriaLabel: (monthLabel: string, expense: string, income: string) =>
       `Gastos de ${monthLabel}: ${expense}; ingresos: ${income}`,
     loadError: 'No se ha podido cargar el informe',
-    showTable: 'Ver tabla',
     /** Suspense fallback while the lazy chart bundle loads. */
     loading: 'Cargando informe…',
     /** aria-label of the donut chart wrapper. */
@@ -207,9 +200,8 @@ export const copy = {
     confirmDeleteWithTransactions: (n: number, othersName: string) =>
       `Sus ${n} movimientos pasarán a "${othersName}". Se eliminará también su presupuesto.`,
     cannotDelete: 'Esta categoría no se puede eliminar',
-    nameRequired: 'El nombre es obligatorio',
-    nameTooLong: 'Máximo 30 caracteres',
-    nameDuplicate: 'Ya existe una categoría con ese nombre',
+    nameRequired: VALIDATION_MESSAGES.categoryNameRequired,
+    nameDuplicate: VALIDATION_MESSAGES.categoryNameDuplicate,
     toastSaved: 'Categoría guardada',
     toastDeleted: 'Categoría eliminada',
     colorNames: {
@@ -275,20 +267,9 @@ export const copy = {
       'Estos datos son de una versión más reciente de Mis Finanzas. Actualiza la app o descarga los datos.',
   },
 
-  /** Form validation messages (docs/SPEC.md §4.4). */
+  /** Form validation messages (docs/SPEC.md §4.4): the domain's own strings plus the generic fallback. */
   validation: {
-    amountEmptyOrZero: 'Introduce un importe mayor que 0',
-    amountTooManyDecimals: 'Máximo dos decimales',
-    amountInvalid: 'Importe no válido. Ejemplos: 12,50 · 1.234,56',
-    amountTooLarge: 'Importe demasiado grande (máx. 999.999.999,99)',
-    amountNegative: 'El importe no puede ser negativo',
-    dateInvalid: 'Fecha no válida',
-    categoryRequired: 'Elige una categoría',
-    noteTooLong: 'La nota no puede superar 140 caracteres',
-    categoryNameRequired: 'El nombre es obligatorio',
-    categoryNameDuplicate: 'Ya existe una categoría con ese nombre',
-    categoryNameTooLong: 'Máximo 30 caracteres',
-    budgetDuplicate: 'Ya existe un presupuesto para esta categoría',
+    ...VALIDATION_MESSAGES,
     /** Generic inline message when the reducer rejects an action the form could not predict. */
     saveFailed: 'No se ha podido guardar. Revisa los datos e inténtalo de nuevo',
   },

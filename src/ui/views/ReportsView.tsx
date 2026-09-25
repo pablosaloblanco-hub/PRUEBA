@@ -3,7 +3,9 @@
 // statically; the Recharts-dependent body (ReportsContent) is loaded with
 // React.lazy inside an ErrorBoundary + Suspense, so a failed chunk shows
 // «No se ha podido cargar el informe» with «Reintentar» (which creates a fresh
-// lazy component: React caches a rejected import otherwise).
+// lazy component: React caches a rejected import otherwise). The lazy component
+// lives at module scope so revisiting Informes reuses the resolved chunk instead
+// of showing «Cargando informe…» again on every mount.
 // ============================================================================
 import { Suspense, lazy, useState } from 'react'
 import type { ComponentType, LazyExoticComponent } from 'react'
@@ -17,6 +19,9 @@ function loadContent(): LazyContent {
   return lazy(() => import('./ReportsContent'))
 }
 
+/** Shared by every mount; replaced only when a failed load is retried. */
+let Content: LazyContent = loadContent()
+
 function LoadingFallback() {
   return (
     <div className="screen screen--reports" data-screen={copy.nav.reports}>
@@ -28,7 +33,8 @@ function LoadingFallback() {
 }
 
 export function ReportsView() {
-  const [Content, setContent] = useState<LazyContent>(loadContent)
+  // Bumped on retry so React remounts the (new) lazy component.
+  const [generation, setGeneration] = useState(0)
 
   return (
     <ErrorBoundary
@@ -38,7 +44,8 @@ export function ReportsView() {
             title={copy.reports.loadError}
             actionLabel={copy.common.retry}
             onAction={() => {
-              setContent(loadContent())
+              Content = loadContent()
+              setGeneration((g) => g + 1)
               retry()
             }}
           />
@@ -46,7 +53,7 @@ export function ReportsView() {
       )}
     >
       <Suspense fallback={<LoadingFallback />}>
-        <Content />
+        <Content key={generation} />
       </Suspense>
     </ErrorBoundary>
   )

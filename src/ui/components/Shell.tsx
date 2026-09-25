@@ -4,6 +4,7 @@
 // sidebar (≥ 900 px) or tab bar + FAB (mobile), persistence banners, the
 // recovery card, the current view, the toast region and the sheet host.
 // ============================================================================
+import { useEffect } from 'react'
 import { exportJson } from '../../domain/storage/jsonio'
 import { copy } from '../copy'
 import { backupFilename, downloadText, JSON_MIME } from '../hooks/useDownload'
@@ -58,6 +59,14 @@ function CurrentView({ screen }: { screen: Screen }) {
 /** Renders the sheet component matching `ui.sheet.kind` (one slot, §3.6). */
 function SheetHost() {
   const { sheet } = useUi()
+  const { closeSheet } = useUiActions()
+  const persistence = usePersistence()
+  // While the recovery card is up nothing can be saved (§5.5, store readonly): never show a sheet.
+  const needsRecovery = persistence.load?.kind === 'corrupt' || persistence.load?.kind === 'newer'
+  useEffect(() => {
+    if (needsRecovery && sheet.kind !== 'none') closeSheet()
+  }, [needsRecovery, sheet.kind, closeSheet])
+  if (needsRecovery) return null
   switch (sheet.kind) {
     case 'none':
       return null
@@ -104,13 +113,15 @@ export function Shell() {
   const { nav } = useUiActions()
   const persistence = usePersistence()
 
+  // §5.5: the recovery card replaces the content and the store is readonly, so the
+  // add-transaction entry points and the month selector are disabled until resolved.
   const needsRecovery = persistence.load?.kind === 'corrupt' || persistence.load?.kind === 'newer'
   const showBack = !isDesktop && (screen === 'settings' || screen === 'categories')
   const goBack = () => nav(screen === 'categories' ? 'settings' : (previousScreen ?? 'home'))
 
   return (
     <div className={`shell ${isDesktop ? 'shell--desktop' : 'shell--mobile'}`}>
-      {isDesktop ? <Sidebar /> : null}
+      {isDesktop ? <Sidebar canAddTransaction={!needsRecovery} /> : null}
       <div className="shell__main">
         <header className="app-header">
           {!isDesktop ? <h1 className="visually-hidden">{copy.app.title}</h1> : null}
@@ -120,7 +131,7 @@ export function Shell() {
             </button>
           ) : null}
           <h2 className="app-header__title">{SCREEN_TITLES[screen]}</h2>
-          {isMonthlyScreen(screen) ? <MonthSelector /> : null}
+          {isMonthlyScreen(screen) && !needsRecovery ? <MonthSelector /> : null}
           {!isDesktop && screen !== 'settings' ? (
             <button
               type="button"
@@ -137,7 +148,7 @@ export function Shell() {
           {needsRecovery ? <RecoveryView /> : <CurrentView screen={screen} />}
         </main>
       </div>
-      {!isDesktop ? <TabBar /> : null}
+      {!isDesktop ? <TabBar canAddTransaction={!needsRecovery} /> : null}
       <ToastRegion />
       <SheetHost />
     </div>

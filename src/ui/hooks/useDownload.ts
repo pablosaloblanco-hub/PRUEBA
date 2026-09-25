@@ -28,8 +28,3 @@ export function downloadText(filename: string, text: string, mime: string = TEXT
   anchor.remove()
   setTimeout(() => URL.revokeObjectURL(url), 1000)
 }
-
-/** Hook form for components that prefer injecting the helper. */
-export function useDownload(): typeof downloadText {
-  return downloadText
-}

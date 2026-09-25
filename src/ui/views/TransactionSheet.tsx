@@ -10,7 +10,8 @@ import type { ReducerError, TransactionInput } from '../../domain/actions'
 import { addDays } from '../../domain/dates'
 import { newId } from '../../domain/ids'
 import { formatAmountInput } from '../../domain/money'
-import type { AppData, Category, Id, LocalDate, Transaction, TransactionType } from '../../domain/types'
+import { categoriesOfType } from '../../domain/queries'
+import type { AppData, Id, LocalDate, Transaction, TransactionType } from '../../domain/types'
 import { MAX_NOTE_LENGTH } from '../../domain/types'
 import { validateTransactionForm } from '../../domain/validate'
 import { AmountInput } from '../components/AmountInput'
@@ -27,11 +28,6 @@ const TYPE_OPTIONS = [
   { value: 'expense', label: copy.transactionSheet.expense },
   { value: 'income', label: copy.transactionSheet.income },
 ] as const satisfies readonly { value: TransactionType; label: string }[]
-
-/** Categories of one type, ordered by sortOrder. */
-function categoriesOfType(categories: readonly Category[], type: TransactionType): Category[] {
-  return categories.filter((c) => c.type === type).sort((a, b) => a.sortOrder - b.sortOrder)
-}
 
 /** F1 default: the last used category of the type if it still exists, else the first by sortOrder. */
 function defaultCategoryId(data: AppData, type: TransactionType): Id | null {
@@ -121,11 +117,6 @@ function TransactionForm({ existing, presetType }: TransactionFormProps) {
   const categories = useMemo(() => categoriesOfType(data.categories, form.type), [data.categories, form.type])
   const validation = validateTransactionForm(form, data.categories)
   const errors = validation.ok ? {} : validation.errors
-
-  // Focus «Importe» once the dialog is open (showModal would otherwise focus the first control, the «×»).
-  useEffect(() => {
-    document.getElementById(amountId)?.focus()
-  }, [amountId])
 
   const patch = (changes: Partial<FormState>) => {
     setSubmitError(null)
@@ -227,7 +218,7 @@ function TransactionForm({ existing, presetType }: TransactionFormProps) {
           value={form.amountText}
           onChange={(amountText) => patch({ amountText })}
           currency={data.settings.currency}
-          autoFocus
+          autoFocus // «Importe» receives focus once the dialog is open (Dialog's data-autofocus, §7.2)
           onSubmit={submit}
         />
 

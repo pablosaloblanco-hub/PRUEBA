@@ -84,6 +84,28 @@ describe('Shell (mobile)', () => {
     expect(screen.getByRole('heading', { level: 2, name: 'Inicio' })).toBeInTheDocument()
   })
 
+  it('Movimientos → Ajustes → Categorías → Volver → Volver returns to Movimientos (no ping-pong)', async () => {
+    const { user } = renderApp()
+    await user.click(within(mainNav()).getByRole('button', { name: 'Movimientos' }))
+    await user.click(screen.getByRole('button', { name: 'Ajustes' }))
+    await user.click(within(screen.getByRole('main')).getByRole('button', { name: 'Categorías' }))
+    expect(screen.getByRole('heading', { level: 2, name: 'Categorías' })).toBeInTheDocument()
+    await user.click(screen.getByRole('button', { name: 'Volver' }))
+    expect(screen.getByRole('heading', { level: 2, name: 'Ajustes' })).toBeInTheDocument()
+    await user.click(screen.getByRole('button', { name: 'Volver' }))
+    expect(screen.getByRole('heading', { level: 2, name: 'Movimientos' })).toBeInTheDocument()
+    expect(within(mainNav()).getByRole('button', { name: 'Movimientos' })).toHaveAttribute('aria-current', 'page')
+  })
+
+  it('Inicio → Ajustes → Categorías → Volver → Volver returns to Inicio', async () => {
+    const { user } = renderApp()
+    await user.click(screen.getByRole('button', { name: 'Ajustes' }))
+    await user.click(within(screen.getByRole('main')).getByRole('button', { name: 'Categorías' }))
+    await user.click(screen.getByRole('button', { name: 'Volver' }))
+    await user.click(screen.getByRole('button', { name: 'Volver' }))
+    expect(screen.getByRole('heading', { level: 2, name: 'Inicio' })).toBeInTheDocument()
+  })
+
   it('«Volver» from Categorías goes to Ajustes and Categorías marks no tab', async () => {
     const { user } = renderApp({ ui: { screen: 'categories' } })
     expect(screen.getByRole('heading', { level: 2, name: 'Categorías' })).toBeInTheDocument()

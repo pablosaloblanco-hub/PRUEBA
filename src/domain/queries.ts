@@ -61,6 +61,8 @@ export type MonthKpis = {
   daysElapsed: number
   /** Gasto del mes con date > today (0 en meses pasados). Se excluye de la media y la proyección. */
   futureExpenseCents: Cents
+  /** Número de gastos del mes con date > today (el sufijo «(sin contar n futuros)» cuenta movimientos, no céntimos). */
+  futureExpenseCount: number
   /** Math.round(expensePastCents / daysElapsed); null si daysElapsed === 0. (expensePastCents = gasto con date <= today.) */
   avgDailyExpenseCents: Cents | null
   /** pasado: expenseCents; actual: Math.round(expensePastCents * daysInMonth / daysElapsed); futuro: null. */
@@ -120,6 +122,16 @@ function sumExpenses(txs: readonly Transaction[]): Cents {
 
 export function transactionsInMonth(txs: readonly Transaction[], month: MonthKey): Transaction[] {
   return txs.filter((t) => monthKeyOf(t.date) === month)
+}
+
+/** Categories of one type in display order (sortOrder asc). Never mutates the input. */
+export function categoriesOfType(cats: readonly Category[], type: TransactionType): Category[] {
+  return cats.filter((c) => c.type === type).sort((a, b) => a.sortOrder - b.sortOrder)
+}
+
+/** id → category lookup shared by the views and the aggregations. */
+export function categoriesById(cats: readonly Category[]): ReadonlyMap<Id, Category> {
+  return new Map(cats.map((c) => [c.id, c] as const))
 }
 
 /** Orden canónico: date desc, createdAt desc, id asc. Never mutates the input. */
@@ -206,8 +218,7 @@ export function expensesByCategory(
   cats: readonly Category[],
   month: MonthKey,
 ): CategoryTotal[] {
-  const byId = new Map<Id, Category>()
-  for (const c of cats) byId.set(c.id, c)
+  const byId = categoriesById(cats)
 
   const totals = new Map<Id, { amountCents: Cents; count: number }>()
   for (const t of transactionsInMonth(txs, month)) {
@@ -317,7 +328,8 @@ export function monthKpis(txs: readonly Transaction[], month: MonthKey, today: L
   const days = daysInMonth(month)
   const daysElapsed = daysElapsedIn(month, today)
   const expenseCents = sumExpenses(monthTxs)
-  const futureExpenseCents = sumExpenses(monthTxs.filter((t) => t.date > today))
+  const futureExpenses = monthTxs.filter((t) => isExpense(t) && t.date > today)
+  const futureExpenseCents = sumExpenses(futureExpenses)
   const expensePastCents = expenseCents - futureExpenseCents
 
   let avgDailyExpenseCents: Cents | null = null
@@ -334,6 +346,7 @@ export function monthKpis(txs: readonly Transaction[], month: MonthKey, today: L
     daysInMonth: days,
     daysElapsed,
     futureExpenseCents,
+    futureExpenseCount: futureExpenses.length,
     avgDailyExpenseCents,
     projectedExpenseCents,
     topDay: topExpenseDay(monthTxs),
@@ -353,8 +366,7 @@ function budgetStatusOf(spentCents: Cents, limitCents: Cents, ratio: number, war
 /** One entry per budget: the total (categoryId null) first, then by ratio desc. */
 export function budgetProgress(data: AppData, month: MonthKey): BudgetProgress[] {
   const monthTxs = transactionsInMonth(data.transactions, month)
-  const byId = new Map<Id, Category>()
-  for (const c of data.categories) byId.set(c.id, c)
+  const byId = categoriesById(data.categories)
   const warnRatio = data.settings.budgetWarnRatio
 
   const rows = data.budgets.map((budget): BudgetProgress => {

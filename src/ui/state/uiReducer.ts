@@ -43,7 +43,10 @@ export type UiState = {
 }
 
 export type UiAction =
-  /** Sets `previousScreen = state.screen` (when the screen changes), resets `filter` and applies `filter` when given. */
+  /**
+   * Sets `previousScreen = state.screen` (when the screen changes; moving between Ajustes and
+   * Categorías keeps it, see `navPreviousScreen`), resets `filter` and applies `filter` when given.
+   */
   | { type: 'nav'; screen: Screen; filter?: Partial<UiFilter> }
   | { type: 'month/set'; month: MonthKey }
   /** Clamped to MIN_MONTH..MAX_MONTH (§3.1); at the edge the same state is returned. */
@@ -60,9 +63,6 @@ export const EMPTY_FILTER: UiFilter = { query: '', type: 'all', categoryId: null
 
 /** Screens governed by the shared month selector (§1, §7.0). */
 export const MONTHLY_SCREENS: readonly Screen[] = ['home', 'transactions', 'budgets', 'reports']
-/** Screens with a slot in the mobile tab bar (§7.0); Ajustes/Categorías mark no slot. */
-export const TAB_SCREENS: readonly Screen[] = ['home', 'transactions', 'budgets', 'reports']
-
 export function isMonthlyScreen(screen: Screen): boolean {
   return MONTHLY_SCREENS.includes(screen)
 }
@@ -79,10 +79,24 @@ export function initialUiState(today: LocalDate, overrides: Partial<UiState> = {
   }
 }
 
+/**
+ * `previousScreen` after navigating to `target`: the screen being left, except
+ * when the screen does not change, and except between Ajustes and Categorías.
+ * Categorías is a sub-screen of Ajustes (§7.0: its «Volver» always goes to
+ * Ajustes), so hopping between the two keeps the screen that originally led
+ * into Ajustes; otherwise «Volver» on Ajustes would ping-pong back to Categorías.
+ */
+function navPreviousScreen(state: UiState, target: Screen): Screen | null {
+  if (target === state.screen) return state.previousScreen
+  const settingsPair = (a: Screen, b: Screen) => a === 'settings' && b === 'categories'
+  if (settingsPair(state.screen, target) || settingsPair(target, state.screen)) return state.previousScreen
+  return state.screen
+}
+
 export function uiReducer(state: UiState, action: UiAction): UiState {
   switch (action.type) {
     case 'nav': {
-      const previousScreen = action.screen === state.screen ? state.previousScreen : state.screen
+      const previousScreen = navPreviousScreen(state, action.screen)
       return {
         ...state,
         screen: action.screen,

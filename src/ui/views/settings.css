@@ -45,10 +45,14 @@
   border-color: var(--color-critical);
 }
 
+/* F10: «Mis Finanzas v1 · Tus datos se guardan solo en este navegador · Uso: …»
+   on one line (wrapping at 360 px), the «·» drawn by CSS so the DOM keeps three
+   plain sentences. */
 .settings-footer {
   display: flex;
-  flex-direction: column;
-  gap: var(--space-1);
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0 var(--space-2);
   padding: var(--space-2) 0 var(--space-4);
   color: var(--color-text-muted);
   font-size: var(--font-size-xs);
@@ -57,6 +61,11 @@
 
 .settings-footer p {
   margin: 0;
+}
+
+.settings-footer p + p::before {
+  content: '·';
+  margin-right: var(--space-2);
 }
 
 .settings-import-preview {

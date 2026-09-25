@@ -5,7 +5,7 @@
 // ============================================================================
 import { useState } from 'react'
 import { todayLocal } from './domain/dates'
-import { createLocalStorageRepository } from './domain/storage/localStorageRepository'
+import { createLocalStorageRepository, safeLocalStorage } from './domain/storage/localStorageRepository'
 import { createMemoryRepository } from './domain/storage/memoryRepository'
 import { createStore } from './domain/storage/store'
 import type { Store, StoreDeps } from './domain/storage/store'
@@ -22,17 +22,8 @@ export type AppProps = {
   initialUi?: Partial<UiState>
 }
 
-/** `window.localStorage` itself can throw (SecurityError in locked-down browsers). */
-function readLocalStorage(): Storage | undefined {
-  try {
-    return window.localStorage
-  } catch {
-    return undefined
-  }
-}
-
 function createDefaultStore(deps: StoreDeps): Store {
-  const local = createStore(createLocalStorageRepository(readLocalStorage()), deps)
+  const local = createStore(createLocalStorageRepository(safeLocalStorage()), deps)
   const load = local.getPersistence().load
   if (load !== null && load.kind === 'unavailable') {
     // Nothing can be written: run in memory and keep the original LoadResult for the banner.

@@ -7,8 +7,8 @@
 import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import { formatMonthLabel } from '../../domain/dates'
 import { formatCents } from '../../domain/money'
-import { filterTransactions, sortTransactions, summarize } from '../../domain/queries'
-import type { Category, Id, TransactionType } from '../../domain/types'
+import { categoriesById, filterTransactions, sortTransactions, summarize } from '../../domain/queries'
+import type { TransactionType } from '../../domain/types'
 import { Chip, ChipRow } from '../components/Chips'
 import { EmptyState } from '../components/EmptyState'
 import { TransactionList } from '../components/TransactionList'
@@ -33,8 +33,12 @@ export function TransactionsView() {
   const { setFilter, clearFilter, openSheet } = useUiActions()
   const searchId = useId()
 
-  // Raw search text lives here; `filter.query` is dispatched after the debounce.
-  const [rawQuery, setRawQuery] = useState(filter.query)
+  // The search box shows `filter.query` (the reducer's state, reset by `nav` even when the
+  // active tab is tapped again) except while a debounce is pending: the text typed in the
+  // last 150 ms lives in `pending` until it is dispatched, so the input and the list never
+  // disagree once the timer fires.
+  const [pending, setPending] = useState<string | null>(null)
+  const rawQuery = pending ?? filter.query
   const timer = useRef<number | null>(null)
   const cancelPending = () => {
     if (timer.current !== null) {
@@ -45,29 +49,31 @@ export function TransactionsView() {
   useEffect(() => cancelPending, [])
 
   const changeQuery = (value: string) => {
-    setRawQuery(value)
+    setPending(value)
     cancelPending()
     timer.current = window.setTimeout(() => {
       timer.current = null
       setFilter({ query: value })
+      setPending(null)
     }, SEARCH_DEBOUNCE_MS)
   }
 
   const clearSearch = () => {
     cancelPending()
-    setRawQuery('')
+    setPending(null)
     setFilter({ query: '' })
   }
 
   const clearAll = () => {
     cancelPending()
-    setRawQuery('')
+    setPending(null)
     clearFilter()
   }
 
-  const categoryMap = useMemo(() => new Map<Id, Category>(data.categories.map((c) => [c.id, c])), [data.categories])
+  const categoryMap = useMemo(() => categoriesById(data.categories), [data.categories])
+  // Filter first (month + chips + query), then sort the much smaller visible set.
   const visible = useMemo(
-    () => filterTransactions(sortTransactions(data.transactions), categoryMap, { month, ...filter }),
+    () => sortTransactions(filterTransactions(data.transactions, categoryMap, { month, ...filter })),
     [data.transactions, categoryMap, month, filter],
   )
   const totals = useMemo(() => summarize(visible), [visible])

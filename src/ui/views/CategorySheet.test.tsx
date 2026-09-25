@@ -167,6 +167,26 @@ describe('CategorySheet (edit)', () => {
     })
   })
 
+  it('Escape inside the delete confirmation closes only the confirmation and keeps the edits', async () => {
+    const { user, store } = renderApp({ ui: { screen: 'categories', sheet: { kind: 'category/edit', id: 'cat-ocio' } } })
+    await user.clear(nameInput())
+    await user.type(nameInput(), 'Ocio editado')
+    await user.click(within(dialog()).getByRole('button', { name: 'Eliminar' }))
+    const confirm = screen.getByRole('dialog', { name: '¿Eliminar la categoría Ocio?' })
+    act(() => {
+      confirm.dispatchEvent(new Event('cancel', { cancelable: true }))
+    })
+    expect(screen.queryByRole('dialog', { name: '¿Eliminar la categoría Ocio?' })).not.toBeInTheDocument()
+    const sheet = screen.getByRole('dialog', { name: 'Editar categoría' })
+    expect(within(sheet).getByRole('textbox', { name: 'Nombre' })).toHaveValue('Ocio editado')
+    expect(store.getSnapshot().categories.some((c) => c.id === 'cat-ocio')).toBe(true)
+  })
+
+  it('opens with focus on «Nombre»', () => {
+    renderApp({ ui: { screen: 'categories', sheet: { kind: 'category/new', type: 'expense' } } })
+    expect(nameInput()).toHaveFocus()
+  })
+
   it('Escape closes without saving', async () => {
     const { user, store } = renderApp({ ui: { screen: 'categories', sheet: { kind: 'category/edit', id: 'cat-ocio' } } })
     await user.type(nameInput(), 'X')

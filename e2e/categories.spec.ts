@@ -20,6 +20,7 @@ test('create «Mascotas», use it and delete it: the movement goes to «Otros ga
   await page.getByRole('button', { name: '+ Nueva categoría' }).click()
   const sheet = page.getByRole('dialog', { name: 'Nueva categoría' })
   await expect(sheet).toBeVisible()
+  await expect(sheet.getByLabel('Nombre')).toBeFocused()
   await sheet.getByLabel('Nombre').fill('Mascotas')
   await sheet.getByRole('group', { name: 'Icono' }).getByRole('button', { name: '🐶' }).click()
   await sheet.getByRole('group', { name: 'Color' }).getByRole('button', { name: 'Ámbar' }).click()

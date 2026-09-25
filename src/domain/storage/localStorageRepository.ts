@@ -171,9 +171,20 @@ function createUnavailableRepository(error: string): StorageRepository {
 }
 
 /**
- * `storage` is `window.localStorage` in the app; pass `undefined` (or a fake
- * that throws) in tests. Reading `window.localStorage` can itself throw a
- * `SecurityError`; callers wrap that access and pass `undefined`.
+ * `window.localStorage` of the current page, or `undefined` when reading it
+ * throws (SecurityError in locked-down browsers) or there is no `window`.
+ */
+export function safeLocalStorage(): Storage | undefined {
+  try {
+    return typeof window === 'undefined' ? undefined : window.localStorage
+  } catch {
+    return undefined
+  }
+}
+
+/**
+ * `storage` is `window.localStorage` in the app (`safeLocalStorage()`); pass
+ * `undefined` (or a fake that throws) in tests.
  */
 export function createLocalStorageRepository(storage: Storage | undefined): StorageRepository {
   if (storage === undefined) return createUnavailableRepository('localStorage is not available')

@@ -8,13 +8,14 @@
 // Storage usage: the Store does not expose its repository, so the footer
 // estimates the bytes with a throw-away `createLocalStorageRepository` over
 // `window.localStorage` (`estimateBytes` = STORAGE_KEY + BACKUP_STORAGE_KEY,
-// length × 2 each). When localStorage is unavailable the estimate is 0.
+// length × 2 each), re-read only after a save (`persistence.lastSavedAt`)
+// instead of on every render. When localStorage is unavailable the estimate is 0.
 // ============================================================================
 import { useId, useRef, useState } from 'react'
 import type { ChangeEvent } from 'react'
 import { formatBytes, formatCentsPlain } from '../../domain/money'
 import { exportJson, parseImport } from '../../domain/storage/jsonio'
-import { createLocalStorageRepository } from '../../domain/storage/localStorageRepository'
+import { createLocalStorageRepository, safeLocalStorage } from '../../domain/storage/localStorageRepository'
 import type { ImportError, ImportPreview } from '../../domain/storage/schema'
 import { SUPPORTED_CURRENCIES, Theme } from '../../domain/types'
 import type { AppData, Cents } from '../../domain/types'
@@ -26,7 +27,7 @@ import { SegmentedControl } from '../components/SegmentedControl'
 import { copy } from '../copy'
 import { backupFilename, downloadText, JSON_MIME } from '../hooks/useDownload'
 import { useIsDesktop } from '../hooks/useMediaQuery'
-import { useAppData, useDispatch } from '../state/useStore'
+import { useAppData, useDispatch, usePersistence } from '../state/useStore'
 import { useToday, useUiActions } from '../state/useUi'
 import './settings.css'
 
@@ -59,17 +60,8 @@ type ImportState =
   | { kind: 'error'; message: string }
   | { kind: 'preview'; data: AppData; preview: ImportPreview }
 
-/** `window.localStorage` can throw on access (SecurityError); the estimate is then 0. */
-function readLocalStorage(): Storage | undefined {
-  try {
-    return window.localStorage
-  } catch {
-    return undefined
-  }
-}
-
 function estimateStorageBytes(): number {
-  return createLocalStorageRepository(readLocalStorage()).estimateBytes()
+  return createLocalStorageRepository(safeLocalStorage()).estimateBytes()
 }
 
 /** Raw text for the initial-balance field: '-1234,56' style, round-trips through parseAmount. */
@@ -83,6 +75,7 @@ export function SettingsView() {
   const today = useToday()
   const { nav, showToast } = useUiActions()
   const isDesktop = useIsDesktop()
+  const { lastSavedAt } = usePersistence()
   const currencyId = useId()
   const currencyHelpId = useId()
   const fileId = useId()
@@ -102,8 +95,11 @@ export function SettingsView() {
   const [importState, setImportState] = useState<ImportState>({ kind: 'idle' })
   const [confirmingDelete, setConfirmingDelete] = useState(false)
 
-  // Recomputed per render: two getItem calls, and every accepted action changes `data` anyway.
-  const usageBytes = estimateStorageBytes()
+  // Storage only changes when the store saves: re-read it per save (render-time state
+  // adjustment, like the balance text above), not on every keystroke.
+  const [usage, setUsage] = useState(() => ({ savedAt: lastSavedAt, bytes: estimateStorageBytes() }))
+  if (usage.savedAt !== lastSavedAt) setUsage({ savedAt: lastSavedAt, bytes: estimateStorageBytes() })
+  const usageBytes = usage.bytes
 
   const updateCurrency = (event: ChangeEvent<HTMLSelectElement>) => {
     dispatch({ type: 'settings/update', patch: { currency: event.target.value } })

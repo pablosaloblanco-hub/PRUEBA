@@ -7,6 +7,8 @@ import { FIXTURE_TODAY, budget, cat, fixtureData, tx } from '../test/fixtures'
 import {
   BudgetStatus,
   budgetProgress,
+  categoriesById,
+  categoriesOfType,
   categoriesWithoutBudget,
   countTransactionsByCategory,
   expensesByCategory,
@@ -153,6 +155,28 @@ describe('monthlyTrend', () => {
   it('a 12-month window before the first movement is all zeros', () => {
     const trend = monthlyTrend(txs, '2026-06', 12)
     expect(trend.every((r) => r.incomeCents === 0 && r.expenseCents === 0)).toBe(true)
+  })
+})
+
+describe('categoriesOfType / categoriesById', () => {
+  it('filters one type and orders by sortOrder without mutating the input', () => {
+    const list = [
+      cat({ id: 'b', type: 'expense', sortOrder: 2 }),
+      cat({ id: 'i', type: 'income', sortOrder: 0 }),
+      cat({ id: 'a', type: 'expense', sortOrder: 1 }),
+    ]
+    const before = [...list]
+    expect(categoriesOfType(list, 'expense').map((c) => c.id)).toEqual(['a', 'b'])
+    expect(categoriesOfType(list, 'income').map((c) => c.id)).toEqual(['i'])
+    expect(categoriesOfType([], 'expense')).toEqual([])
+    expect(list).toEqual(before)
+  })
+
+  it('categoriesById maps every category by id (fixture: 15 entries)', () => {
+    const map = categoriesById(data.categories)
+    expect(map.size).toBe(15)
+    expect(map.get('cat-ocio')?.name).toBe('Ocio')
+    expect(map.get('missing')).toBeUndefined()
   })
 })
 
@@ -441,6 +465,7 @@ describe('monthKpis (§4.6)', () => {
       daysInMonth: 30,
       daysElapsed: 25,
       futureExpenseCents: 5000,
+      futureExpenseCount: 1,
       avgDailyExpenseCents: 3173,
       projectedExpenseCents: 95184,
       topDay: { date: '2026-09-05', expenseCents: 60000 },
@@ -453,6 +478,7 @@ describe('monthKpis (§4.6)', () => {
       daysInMonth: 31,
       daysElapsed: 31,
       futureExpenseCents: 0,
+      futureExpenseCount: 0,
       avgDailyExpenseCents: Math.round(67750 / 31),
       projectedExpenseCents: 67750,
       topDay: { date: '2026-08-05', expenseCents: 60000 },
@@ -468,6 +494,7 @@ describe('monthKpis (§4.6)', () => {
       daysInMonth: 31,
       daysElapsed: 0,
       futureExpenseCents: 500,
+      futureExpenseCount: 1,
       avgDailyExpenseCents: null,
       projectedExpenseCents: null,
       topDay: { date: '2026-10-03', expenseCents: 500 },

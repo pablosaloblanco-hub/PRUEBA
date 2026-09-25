@@ -14,6 +14,11 @@ export type AmountInputProps = {
   currency: string
   allowZero?: boolean
   allowNegative?: boolean
+  /**
+   * Focus on mount. Also marks the input with `data-autofocus` so an enclosing
+   * Dialog focuses it once open (React's own autoFocus runs while the <dialog>
+   * is still closed, where it is a no-op).
+   */
   autoFocus?: boolean
   /** Enter inside the field. */
   onSubmit?: () => void
@@ -76,6 +81,7 @@ export function AmountInput({
           inputMode="decimal"
           autoComplete="off"
           autoFocus={autoFocus}
+          data-autofocus={autoFocus ? '' : undefined}
           placeholder={placeholder ?? copy.transactionSheet.amountPlaceholder}
           value={value}
           disabled={disabled}

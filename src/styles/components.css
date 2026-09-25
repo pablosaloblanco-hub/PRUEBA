@@ -59,14 +59,14 @@
 }
 
 .btn--primary {
-  background: var(--color-accent);
-  border-color: var(--color-accent);
+  background: var(--color-accent-fill);
+  border-color: var(--color-accent-fill);
   color: var(--color-on-accent);
 }
 
 .btn--primary:hover:not(:disabled) {
-  background: var(--color-accent-hover);
-  border-color: var(--color-accent-hover);
+  background: var(--color-accent-fill-hover);
+  border-color: var(--color-accent-fill-hover);
 }
 
 .btn--ghost {
@@ -85,13 +85,13 @@
 }
 
 .btn--danger.btn--primary {
-  background: var(--color-critical);
-  border-color: var(--color-critical);
+  background: var(--color-critical-fill);
+  border-color: var(--color-critical-fill);
   color: var(--color-on-accent);
 }
 
 .btn--danger.btn--primary:hover:not(:disabled) {
-  background: var(--color-critical);
+  background: var(--color-critical-fill);
   filter: brightness(0.92);
 }
 
@@ -110,15 +110,16 @@
 }
 
 .btn--sm {
-  min-height: 36px;
+  min-height: 44px;
   padding: 0 var(--space-3);
   font-size: var(--font-size-sm);
 }
 
-/* Touch targets stay ≥ 44 px on mobile (§8.2); the compact height is a desktop-only refinement. */
-@media (max-width: 899.98px) {
+/* Compact height only for wide viewports driven by a mouse (§8.2: touch targets
+   stay ≥ 44 px, also on tablets and touch laptops above 900 px). */
+@media (min-width: 900px) and (pointer: fine) {
   .btn--sm {
-    min-height: 44px;
+    min-height: 36px;
   }
 }
 
@@ -348,6 +349,106 @@ button.list-row:hover {
 }
 
 /* ---------------------------------------------------------------------------
+ * Transaction list (TransactionList / TransactionRow): day groups
+ * ------------------------------------------------------------------------- */
+.transaction-list {
+  min-width: 0;
+}
+
+.transaction-list__day:first-child .list-header {
+  margin-top: 0;
+}
+
+.list-header__label {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.list-header__net {
+  flex: 0 0 auto;
+}
+
+.transaction-row .list-row__amount {
+  font-variant-numeric: tabular-nums;
+}
+
+.transaction-row:last-child .list-row {
+  border-bottom: 0;
+}
+
+/* ---------------------------------------------------------------------------
+ * Budget card (BudgetCard, §7.4; compact variant on Inicio)
+ * ------------------------------------------------------------------------- */
+.budget-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.budget-card__title {
+  margin: 0;
+}
+
+.budget-card__name {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.budget-card__total-icon {
+  font-weight: 700;
+}
+
+.budget-card__spent {
+  margin: 0;
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  white-space: nowrap;
+}
+
+/* «Has superado el presupuesto en 10,00 €» does not fit a compact card at 360 px:
+   let the sentence wrap (the amount itself keeps its NBSP and never splits). */
+.budget-card__status {
+  margin: 0;
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  white-space: normal;
+}
+
+.budget-card__status--ok {
+  color: var(--color-accent);
+}
+
+/* --color-warning is a bar colour (≈ 1.8:1 on the light surface); derive a text
+   colour from it that keeps the hue and reaches ≥ 4.5:1 in both themes (§8.2). */
+.budget-card__status--warning {
+  color: color-mix(in srgb, var(--color-warning) 55%, var(--color-text));
+}
+
+.budget-card__status--over {
+  color: var(--color-critical);
+}
+
+.budget-card__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-1);
+  margin-top: var(--space-1);
+}
+
+.budget-card__delete {
+  color: var(--color-critical);
+}
+
+.budget-card--compact {
+  padding: var(--space-3);
+  gap: var(--space-1);
+}
+
+/* ---------------------------------------------------------------------------
  * KPI tiles
  * ------------------------------------------------------------------------- */
 .kpi-grid {
@@ -385,6 +486,26 @@ button.list-row:hover {
 .kpi__hint {
   font-size: var(--font-size-xs);
   color: var(--color-text-muted);
+}
+
+/* Long amounts step down instead of being cut with an ellipsis (HomeView sets
+   data-size on the grid from the character count, §11.5). */
+.kpi-grid[data-size='md'] .kpi__value {
+  font-size: var(--font-size-lg);
+}
+
+.kpi-grid[data-size='sm'] .kpi__value {
+  font-size: 0.9375rem;
+}
+
+.kpi-grid[data-size='xs'] .kpi__value {
+  font-size: var(--font-size-lg);
+}
+
+@media (max-width: 899.98px) {
+  .kpi-grid[data-size='xs'] {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 /* ---------------------------------------------------------------------------
@@ -434,7 +555,7 @@ button.list-row:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 38px;
+  min-height: 44px;
   padding: 0 var(--space-3);
   border-radius: var(--radius-pill);
   font-weight: 600;
@@ -461,6 +582,13 @@ button.list-row:hover {
 
 .segmented:disabled .segmented__input {
   cursor: not-allowed;
+}
+
+/* Same desktop-with-mouse refinement as .btn--sm; 44 px everywhere else. */
+@media (min-width: 900px) and (pointer: fine) {
+  .segmented__label {
+    min-height: 38px;
+  }
 }
 
 /* ---------------------------------------------------------------------------
@@ -507,8 +635,8 @@ button.list-row:hover {
 }
 
 .chip[aria-pressed='true'] {
-  background: var(--color-accent);
-  border-color: var(--color-accent);
+  background: var(--color-accent-fill);
+  border-color: var(--color-accent-fill);
   color: var(--color-on-accent);
 }
 
@@ -543,8 +671,8 @@ button.list-row:hover {
 }
 
 .chip[aria-pressed='true'] + .chip__remove {
-  background: var(--color-accent);
-  border-color: var(--color-accent);
+  background: var(--color-accent-fill);
+  border-color: var(--color-accent-fill);
   color: var(--color-on-accent);
 }
 
@@ -1018,10 +1146,6 @@ button.list-row:hover {
  * Desktop (≥ 900px)
  * ------------------------------------------------------------------------- */
 @media (min-width: 900px) {
-  .tile-grid {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-  }
-
   .dialog__footer {
     flex-direction: row;
     justify-content: flex-end;
@@ -1045,8 +1169,10 @@ button.list-row:hover {
   }
 }
 
-/* Category tiles: 4 columns at 360 px leave ~68 px per name; hyphenate long
-   names («Alimenta-ción») before falling back to an arbitrary break. */
+/* Category tiles: the longest default names («Suscripciones», «Restaurantes»)
+   need ~74 px at this size, so the grid drops to 3 columns below 400 px (≈ 96 px
+   per name) and uses 5 columns in the 480 px desktop dialog (≈ 75 px); a word is
+   only broken (hyphenated when the browser can) when it is longer than the tile. */
 .tile {
   padding-right: 2px;
   padding-left: 2px;
@@ -1057,4 +1183,16 @@ button.list-row:hover {
   letter-spacing: -0.01em;
   hyphens: auto;
   overflow-wrap: break-word;
+}
+
+@media (max-width: 399.98px) {
+  .tile-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 900px) {
+  .tile-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
 }

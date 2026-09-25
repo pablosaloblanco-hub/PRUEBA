@@ -15,7 +15,12 @@ const ENTRIES: readonly { screen: Screen; label: string; icon: string }[] = [
   { screen: 'settings', label: copy.nav.settings, icon: '⚙️' },
 ]
 
-export function Sidebar() {
+export type SidebarProps = {
+  /** false while the recovery card is shown (§5.5): «+ Nuevo movimiento» is disabled because nothing can be saved. */
+  canAddTransaction?: boolean
+}
+
+export function Sidebar({ canAddTransaction = true }: SidebarProps) {
   const { screen } = useUi()
   const { nav, openSheet } = useUiActions()
 
@@ -25,6 +30,7 @@ export function Sidebar() {
       <button
         type="button"
         className="btn btn--primary sidebar__new"
+        disabled={!canAddTransaction}
         onClick={() => openSheet({ kind: 'transaction/new' })}
       >
         {copy.nav.newTransaction}

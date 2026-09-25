@@ -97,6 +97,36 @@ describe('Dialog', () => {
     expect(notPrevented).toBe(false)
   })
 
+  it('a cancel event on a nested dialog closes only the nested one', () => {
+    const onCloseOuter = vi.fn()
+    const onCloseInner = vi.fn()
+    render(
+      <Dialog open title="Hoja" onClose={onCloseOuter}>
+        <p>contenido</p>
+        <Dialog open title="Confirmación" onClose={onCloseInner}>
+          <p>¿Seguro?</p>
+        </Dialog>
+      </Dialog>,
+    )
+    const inner = screen.getByRole('dialog', { name: 'Confirmación' })
+    inner.dispatchEvent(new Event('cancel', { cancelable: true }))
+    expect(onCloseInner).toHaveBeenCalledTimes(1)
+    expect(onCloseOuter).not.toHaveBeenCalled()
+    screen.getByRole('dialog', { name: 'Hoja' }).dispatchEvent(new Event('cancel', { cancelable: true }))
+    expect(onCloseOuter).toHaveBeenCalledTimes(1)
+    expect(onCloseInner).toHaveBeenCalledTimes(1)
+  })
+
+  it('focuses the [data-autofocus] descendant once open', () => {
+    render(
+      <Dialog open title="Título" onClose={() => {}}>
+        <button type="button">primero</button>
+        <input aria-label="campo" data-autofocus="" />
+      </Dialog>,
+    )
+    expect(screen.getByLabelText('campo')).toHaveFocus()
+  })
+
   it('closes on backdrop click but not on clicks inside the panel', () => {
     const onClose = vi.fn()
     render(

@@ -4,10 +4,11 @@
 // exists, expense categories without a budget; disabled in edit), «Límite
 // mensual» with the §4.4 messages and the duplicate error from the reducer.
 // ============================================================================
-import { useId, useMemo, useState } from 'react'
+import { useEffect, useId, useMemo, useState } from 'react'
 import { newId } from '../../domain/ids'
 import { formatAmountInput } from '../../domain/money'
-import type { Budget, Category, Id } from '../../domain/types'
+import { categoriesOfType } from '../../domain/queries'
+import type { Budget, Id } from '../../domain/types'
 import { validateBudgetInput } from '../../domain/validate'
 import type { BudgetFormErrors } from '../../domain/validate'
 import { AmountInput } from '../components/AmountInput'
@@ -34,8 +35,17 @@ function fromValue(value: string): Id | null {
 export function BudgetSheet() {
   const { sheet } = useUi()
   const data = useAppData()
+  const { closeSheet } = useUiActions()
   const editing = sheet.kind === 'budget/edit' ? (data.budgets.find((b) => b.id === sheet.id) ?? null) : null
   const preset = sheet.kind === 'budget/new' ? sheet.presetCategoryId : undefined
+
+  // The edited budget disappeared (removed elsewhere, data/reset): close without saving (§9).
+  const missing = sheet.kind === 'budget/edit' && editing === null
+  useEffect(() => {
+    if (missing) closeSheet()
+  }, [missing, closeSheet])
+
+  if (missing) return null
   return <BudgetForm key={editing?.id ?? 'new'} editing={editing} preset={preset} />
 }
 
@@ -68,10 +78,9 @@ function BudgetForm({ editing, preset }: BudgetFormProps) {
     const taken = new Set(data.budgets.map((b) => b.categoryId))
     const list: CategoryOption[] = []
     if (!taken.has(null)) list.push({ value: TOTAL_VALUE, label: copy.budgets.totalOption })
-    const free = data.categories
-      .filter((c: Category) => c.type === 'expense' && !taken.has(c.id))
-      .sort((a, b) => a.sortOrder - b.sortOrder)
-    for (const c of free) list.push({ value: c.id, label: c.name })
+    for (const c of categoriesOfType(data.categories, 'expense')) {
+      if (!taken.has(c.id)) list.push({ value: c.id, label: c.name })
+    }
     // Keep the current choice visible even when another budget took it meanwhile: saving then reports the duplicate.
     if (categoryValue !== '' && !list.some((o) => o.value === categoryValue)) {
       const current = data.categories.find((c) => c.id === categoryValue)
@@ -138,6 +147,7 @@ function BudgetForm({ editing, preset }: BudgetFormProps) {
             className="field__input budget-sheet__select"
             value={selectedValue}
             disabled={editing !== null}
+            data-autofocus={editing === null && preset === undefined ? '' : undefined}
             aria-invalid={errors.category !== undefined ? true : undefined}
             aria-describedby={errors.category !== undefined ? errorId : undefined}
             onChange={(event) => {

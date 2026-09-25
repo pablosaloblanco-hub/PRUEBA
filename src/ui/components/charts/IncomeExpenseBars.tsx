@@ -141,6 +141,7 @@ export function IncomeExpenseBars({ rows, currency, ariaLabel, size, height = 24
             barGap={2}
             barCategoryGap="20%"
             margin={{ top: 8, right: 8, bottom: 0, left: 0 }}
+            accessibilityLayer={false}
           >
             <CartesianGrid vertical={false} stroke={colors.grid} strokeDasharray={undefined} />
             <XAxis

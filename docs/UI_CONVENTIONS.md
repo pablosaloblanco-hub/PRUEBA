@@ -16,8 +16,12 @@ identifiers and comments are English; every user-facing string comes from
 The stub views/sheets currently in `src/ui/views/` are placeholders: replace the
 whole file, keep the exported name and the prop contract below.
 
-Per-view CSS goes in a co-located file (`src/ui/views/HomeView.css`, imported by
-the view). Do not edit `base.css`/`layout.css`; ask for a class instead.
+Per-view CSS goes in a co-located file (`src/ui/views/home.css`, `budgets.css`,
+`transactions.css`, `categories.css`, `reports.css`, `settings.css`, imported by
+the view). Styles of shared components (`BudgetCard`, `TransactionList`,
+`TransactionRow`, …) live in `src/styles/components.css`, never in a view sheet,
+so a view never imports another view's CSS. Do not edit `base.css`/`layout.css`;
+ask for a class instead.
 
 ## 2. Component contracts
 
@@ -68,15 +72,23 @@ const uiDispatch = useUiDispatch()   // raw UiAction dispatch, rarely needed
 ```
 - `openSheet({ kind: 'transaction/new' })`, `openSheet({ kind: 'transaction/edit', id })`,
   `openSheet({ kind: 'budget/new', presetCategoryId })`, `openSheet({ kind: 'category/new', type })` …
-  Opening while a sheet is open is ignored (single slot).
+  Opening while a sheet is open is ignored (single slot). While the recovery card
+  is shown (§5.5) `SheetHost` renders nothing and the FAB / «+ Nuevo movimiento»
+  are disabled.
+- Initial focus inside a `Dialog`: mark the first field with `data-autofocus`
+  (`AmountInput` does it through its `autoFocus` prop). React's `autoFocus`
+  alone runs while the `<dialog>` is still closed and is a no-op there.
 - `nav('transactions', { categoryId })` — sets `previousScreen`, resets the
   filter and applies the given patch (drilldown from Informes/Inicio).
 - `showToast('Gasto guardado')` — replaces the current toast; hidden after 4 s
   by `UiProvider`. Only one toast at a time.
 - `setFilter({ query })` for the debounced search (150 ms; local input state,
   dispatch after the debounce), `clearFilter()` for «Limpiar filtros».
-- Helper constants: `MONTHLY_SCREENS`, `TAB_SCREENS`, `isMonthlyScreen()`,
-  `EMPTY_FILTER`, `NO_SHEET`, `initialUiState(today, overrides)`.
+- Helper constants: `MONTHLY_SCREENS`, `isMonthlyScreen()`, `EMPTY_FILTER`,
+  `NO_SHEET`, `initialUiState(today, overrides)`.
+- `previousScreen`: set by `nav` to the screen being left, except that moving
+  between Ajustes and Categorías keeps it (Categorías is a sub-screen of Ajustes),
+  so «Volver» on Ajustes returns to where the user came from.
 
 ### Other hooks
 - `useIsDesktop()` / `useMediaQuery(query)` — `src/ui/hooks/useMediaQuery.ts`
@@ -107,14 +119,14 @@ the app (the authoritative list is the file itself):
 
 | Class | Use |
 |---|---|
-| `.btn`, `.btn--primary`, `.btn--ghost`, `.btn--danger`, `.btn--icon`, `.btn--block`, `.btn--sm` | buttons (min 44 px targets; `.btn--icon` is 44×44 with `aria-label`) |
+| `.btn`, `.btn--primary`, `.btn--ghost`, `.btn--danger`, `.btn--icon`, `.btn--block`, `.btn--sm` | buttons (min 44 px targets; `.btn--sm` and the segmented labels are compact only at `(min-width: 900px) and (pointer: fine)`; `.btn--icon` is 44×44 with `aria-label`) |
 | `.field`, `.field__label`, `.field__input`, `.field__help`, `.field__error`, `.field__preview` | labelled inputs/selects (`aria-describedby` → help/error, `aria-invalid`) |
 | `.amount`, `.amount__input`, `.amount__suffix` | `AmountInput` |
 | `.segmented`, `.segmented__legend`, `.segmented__option`, `.segmented__input`, `.segmented__label` | `SegmentedControl` (`fieldset` + radios) |
 | `.chip`, `.chip__remove`, `.chip-row`, `.chip-group` | `Chips` (`button aria-pressed`, horizontal scroll row) |
-| `.tile`, `.tile__name`, `.tile-grid` | `CategoryPicker` (4 columns mobile / 6 desktop) |
+| `.tile`, `.tile__name`, `.tile-grid` | `CategoryPicker` (3 columns below 400 px, 4 on mobile, 5 in the desktop dialog) |
 | `.card`, `.card__title`, `.card__body`, `.card__footer`, `.kpi`, `.kpi-grid`, `.kpi__label`, `.kpi__value`, `.kpi__hint` | Home/Budgets cards and KPI tiles |
-| `.list`, `.list-header`, `.list-row`, `.list-row__main`, `.list-row__title`, `.list-row__subtitle`, `.list-row__amount`, `.list-row__trailing`, `.list-row__actions` | `TransactionList`/`TransactionRow`, Categories rows |
+| `.list`, `.list-header`, `.list-row`, `.list-row__main`, `.list-row__title`, `.list-row__subtitle`, `.list-row__amount`, `.list-row__trailing`, `.list-row__actions`, `.transaction-list*`, `.transaction-row`, `.list-header__*`, `.budget-card*` | `TransactionList`/`TransactionRow`, `BudgetCard`, Categories rows |
 | `.badge`, `.badge--sm`, `.badge--lg` | `CategoryBadge` (`ColorKey` → `--series-N`/`--series-other`) |
 | `.money`, `.money--income`, `.money--expense`, `.money--neutral` | `Money` |
 | `.progress`, `.progress__fill`, `.progress-row`, `.progress-row__meta` | `ProgressBar` |

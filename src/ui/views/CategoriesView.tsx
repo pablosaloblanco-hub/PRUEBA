@@ -4,7 +4,7 @@
 // icon button «Editar {nombre}») and «+ Nueva categoría». Rows are NOT buttons.
 // ============================================================================
 import { useMemo, useState } from 'react'
-import { countTransactionsByCategory } from '../../domain/queries'
+import { categoriesOfType, countTransactionsByCategory } from '../../domain/queries'
 import type { TransactionType } from '../../domain/types'
 import { CategoryBadge } from '../components/CategoryBadge'
 import { SegmentedControl } from '../components/SegmentedControl'
@@ -24,10 +24,7 @@ export function CategoriesView() {
   const [type, setType] = useState<TransactionType>('expense')
 
   const counts = useMemo(() => countTransactionsByCategory(data.transactions), [data])
-  const rows = useMemo(
-    () => data.categories.filter((c) => c.type === type).sort((a, b) => a.sortOrder - b.sortOrder),
-    [data, type],
-  )
+  const rows = useMemo(() => categoriesOfType(data.categories, type), [data, type])
 
   return (
     <div className="screen screen--categories" data-screen={copy.nav.categories}>

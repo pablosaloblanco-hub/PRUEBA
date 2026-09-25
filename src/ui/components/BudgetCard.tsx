@@ -45,7 +45,7 @@ export function BudgetCard({ progress, currency, onEdit, onDelete, compact }: Bu
 
   return (
     <article className={`card budget-card${compact ? ' budget-card--compact' : ''}`} data-status={progress.status}>
-      <h4 className="card__title budget-card__title">
+      <h3 className="card__title budget-card__title">
         <span className="budget-card__name">
           {progress.category !== null ? (
             <CategoryBadge icon={progress.category.icon} color={progress.category.color} size={compact ? 'sm' : 'md'} />
@@ -56,7 +56,7 @@ export function BudgetCard({ progress, currency, onEdit, onDelete, compact }: Bu
           )}
           <span className="truncate">{name}</span>
         </span>
-      </h4>
+      </h3>
       <p className="budget-card__spent tabular-nums">{spentText}</p>
       <ProgressBar value={progress.ratio} status={progress.status} label={`${name}: ${spentText}`} />
       <p className={`budget-card__status budget-card__status--${progress.status} tabular-nums`}>

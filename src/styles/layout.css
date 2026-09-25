@@ -93,23 +93,22 @@
   white-space: nowrap;
   font-size: var(--font-size-sm);
   font-weight: 600;
-  text-transform: capitalize;
 }
 
 .month-selector__today {
-  min-height: 32px;
+  min-height: 44px;
   padding: 0 var(--space-3);
   border-radius: var(--radius-pill);
   background: var(--color-accent-soft);
-  color: var(--color-accent);
+  color: var(--color-on-accent-soft);
   font-size: var(--font-size-sm);
   font-weight: 600;
 }
 
-/* Touch target ≥ 44 px on mobile (§8.2); the header buttons around it are 44 px already. */
-@media (max-width: 899.98px) {
+/* Compact pill only with a mouse on a wide viewport (§8.2: ≥ 44 px targets elsewhere). */
+@media (min-width: 900px) and (pointer: fine) {
   .month-selector__today {
-    min-height: 44px;
+    min-height: 32px;
   }
 }
 
@@ -286,7 +285,7 @@
   height: 56px;
   margin-bottom: 20px;
   border-radius: 50%;
-  background: var(--color-accent);
+  background: var(--color-accent-fill);
   color: var(--color-on-accent);
   font-size: 30px;
   line-height: 1;
@@ -294,8 +293,8 @@
   transition: background var(--transition-fast), transform var(--transition-fast);
 }
 
-.fab:hover {
-  background: var(--color-accent-hover);
+.fab:hover:not(:disabled) {
+  background: var(--color-accent-fill-hover);
 }
 
 .fab:active {
@@ -359,7 +358,7 @@
 
   .sidebar__link[aria-current='page'] {
     background: var(--color-accent-soft);
-    color: var(--color-accent);
+    color: var(--color-on-accent-soft);
     font-weight: 600;
   }
 
@@ -446,19 +445,21 @@
     font-size: var(--font-size-md);
   }
 
+  /* 72 px slots at 360 px: «Presupuestos» needs the full slot at 10 px. */
   .tabbar__slot {
-    padding: 0 2px;
+    padding: 0;
   }
 
   .tabbar__label {
-    font-size: calc(var(--font-size-xs) * 0.92);
-    letter-spacing: -0.01em;
+    font-size: 10px;
+    letter-spacing: -0.02em;
   }
 }
 
 @media (min-width: 900px) {
-  /* 220 px sidebar: the primary button needs the compact size to fit its label. */
-  .sidebar__new {
+  /* 220 px sidebar: the primary button needs the compact size to fit its label
+     (.sidebar prefix so it beats the base .btn padding in components.css). */
+  .sidebar .sidebar__new {
     padding: 0 var(--space-2);
     font-size: var(--font-size-sm);
   }

@@ -15,7 +15,7 @@ const norm = (s: string | null) => (s ?? '').replace(/\s/g, ' ')
 const totals = () => norm(screen.getByText(/^Ingresos /).textContent)
 const list = () => screen.getByRole('main').querySelector('.transaction-list')
 const rows = () => within(screen.getByRole('main')).queryAllByRole('listitem')
-const dayHeaders = () => within(screen.getByRole('main')).queryAllByRole('heading', { level: 4 })
+const dayHeaders = () => within(screen.getByRole('main')).queryAllByRole('heading', { level: 3 })
 const search = () => screen.getByRole('searchbox', { name: 'Buscar por nota o categoría' })
 
 const open = (ui: Partial<UiState> = {}, options: Parameters<typeof renderApp>[0] = {}) =>
@@ -127,6 +127,35 @@ describe('TransactionsView — search (debounced)', () => {
     expect(search()).toHaveValue('')
     expect(rows()).toHaveLength(5)
     expect(screen.queryByRole('button', { name: 'Limpiar búsqueda' })).not.toBeInTheDocument()
+  })
+
+  it('tapping the active «Movimientos» tab clears the search text together with the filter', async () => {
+    const { user } = openWithTimers()
+    await user.type(search(), 'cafe')
+    act(() => {
+      vi.advanceTimersByTime(150)
+    })
+    expect(rows()).toHaveLength(1)
+    const nav = screen.getByRole('navigation', { name: 'Navegación principal' })
+    await user.click(within(nav).getByRole('button', { name: 'Movimientos' }))
+    expect(rows()).toHaveLength(5)
+    expect(search()).toHaveValue('')
+    expect(screen.queryByRole('button', { name: 'Limpiar búsqueda' })).not.toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: 'Limpiar filtros' })).not.toBeInTheDocument()
+  })
+
+  it('text typed within the debounce before tapping the active tab is still applied consistently', async () => {
+    const { user } = openWithTimers()
+    await user.type(search(), 'cafe')
+    const nav = screen.getByRole('navigation', { name: 'Navegación principal' })
+    await user.click(within(nav).getByRole('button', { name: 'Movimientos' }))
+    expect(search()).toHaveValue('cafe')
+    act(() => {
+      vi.advanceTimersByTime(150)
+    })
+    expect(search()).toHaveValue('cafe')
+    expect(rows()).toHaveLength(1)
+    expect(screen.getByRole('button', { name: 'Limpiar filtros' })).toBeInTheDocument()
   })
 
   it('only the last value of a fast typing burst is dispatched', async () => {

@@ -4,8 +4,8 @@
 // Kept out of AmountInput.tsx so that file only exports components.
 // ============================================================================
 import type { Cents } from '../../domain/types'
-import { formatCents, parseAmount } from '../../domain/money'
-import { amountErrorMessage } from '../../domain/validate'
+import { formatCents } from '../../domain/money'
+import { validateAmountInput } from '../../domain/validate'
 
 export type AmountFieldOptions = { allowZero?: boolean; allowNegative?: boolean }
 
@@ -16,8 +16,8 @@ export type AmountFieldResult = { cents: Cents; error?: undefined } | { cents?: 
  * Pure: parents use it to derive the disabled state of «Guardar».
  */
 export function parseAmountField(raw: string, opts?: AmountFieldOptions): AmountFieldResult {
-  const parsed = parseAmount(raw, opts)
-  return parsed.ok ? { cents: parsed.value } : { error: amountErrorMessage(parsed.error) }
+  const checked = validateAmountInput(raw, opts)
+  return checked.ok ? { cents: checked.value } : { error: checked.message }
 }
 
 /** Currency symbol as es-ES renders it («€», «US$», «£»), derived from the formatter itself. */

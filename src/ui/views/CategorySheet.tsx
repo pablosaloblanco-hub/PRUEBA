@@ -4,9 +4,9 @@
 // aria-pressed buttons), Color (9 swatches), Tipo (disabled in edit) and
 // Eliminar with the reassignment confirmation (hidden for builtIn).
 // ============================================================================
-import { useId, useMemo, useState } from 'react'
+import { useEffect, useId, useMemo, useState } from 'react'
 import { newId } from '../../domain/ids'
-import { countTransactionsByCategory } from '../../domain/queries'
+import { categoriesById, countTransactionsByCategory } from '../../domain/queries'
 import { EMOJI_CHOICES } from '../../domain/seed'
 import type { Category, ColorKey, TransactionType } from '../../domain/types'
 import { ColorKey as COLOR_KEYS } from '../../domain/types'
@@ -30,8 +30,17 @@ const DEFAULT_ICON = '📦'
 export function CategorySheet() {
   const { sheet } = useUi()
   const data = useAppData()
+  const { closeSheet } = useUiActions()
   const editing = sheet.kind === 'category/edit' ? (data.categories.find((c) => c.id === sheet.id) ?? null) : null
   const presetType: TransactionType = sheet.kind === 'category/new' ? sheet.type : 'expense'
+
+  // The edited category disappeared (removed elsewhere, data/reset): close without saving (§9).
+  const missing = sheet.kind === 'category/edit' && editing === null
+  useEffect(() => {
+    if (missing) closeSheet()
+  }, [missing, closeSheet])
+
+  if (missing) return null
   return <CategoryForm key={editing?.id ?? 'new'} editing={editing} presetType={presetType} />
 }
 
@@ -62,7 +71,7 @@ function CategoryForm({ editing, presetType }: CategoryFormProps) {
   )
   const othersName = useMemo(() => {
     if (editing === null) return ''
-    return data.categories.find((c) => c.id === wellKnownIdOf(editing.type))?.name ?? ''
+    return categoriesById(data.categories).get(wellKnownIdOf(editing.type))?.name ?? ''
   }, [data, editing])
 
   const submit = () => {
@@ -76,13 +85,7 @@ function CategoryForm({ editing, presetType }: CategoryFormProps) {
         ? dispatch({ type: 'category/add', id: newId(), input: { name: checked.value, type, icon, color } })
         : dispatch({ type: 'category/update', id: editing.id, patch: { name: checked.value, icon, color } })
     if (!result.ok) {
-      setNameError(
-        result.error === 'duplicate-category-name'
-          ? copy.categories.nameDuplicate
-          : result.error === 'invalid-category-name'
-            ? copy.categories.nameRequired
-            : copy.categories.nameRequired,
-      )
+      setNameError(result.error === 'duplicate-category-name' ? copy.categories.nameDuplicate : copy.categories.nameRequired)
       return
     }
     showToast(copy.categories.toastSaved)
@@ -135,7 +138,7 @@ function CategoryForm({ editing, presetType }: CategoryFormProps) {
             className="field__input"
             type="text"
             autoComplete="off"
-            autoFocus
+            data-autofocus=""
             value={name}
             aria-invalid={nameError !== null ? true : undefined}
             aria-describedby={nameError !== null ? nameErrorId : undefined}

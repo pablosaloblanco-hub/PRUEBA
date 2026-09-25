@@ -53,7 +53,7 @@ export const CHART_COLOR_FALLBACKS: ChartColors = {
   expense: '#e34948',
   grid: '#e1e0d9',
   axis: '#c3c2b7',
-  tick: '#898781',
+  tick: '#6b6a65',
   surface: '#fcfcfb',
   border: 'rgba(11, 11, 11, 0.1)',
   text: '#0b0b0b',

@@ -1,6 +1,8 @@
 /*
  * transactions.css — Movimientos screen and the transaction sheet (§7.2, §7.3).
- * Tokens only; mobile-first; nothing may overflow 360 px.
+ * The day-group list styles (TransactionList/TransactionRow, shared with Inicio)
+ * live in src/styles/components.css. Tokens only; mobile-first; nothing may
+ * overflow 360 px.
  */
 
 /* Search field ------------------------------------------------------------ */
@@ -52,34 +54,6 @@
   font-size: var(--font-size-sm);
   font-variant-numeric: tabular-nums;
   overflow-wrap: anywhere;
-}
-
-/* Day groups -------------------------------------------------------------- */
-.transaction-list {
-  min-width: 0;
-}
-
-.transaction-list__day:first-child .list-header {
-  margin-top: 0;
-}
-
-.list-header__label {
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.list-header__net {
-  flex: 0 0 auto;
-}
-
-.transaction-row .list-row__amount {
-  font-variant-numeric: tabular-nums;
-}
-
-.transaction-row:last-child .list-row {
-  border-bottom: 0;
 }
 
 /* Sheet ------------------------------------------------------------------- */

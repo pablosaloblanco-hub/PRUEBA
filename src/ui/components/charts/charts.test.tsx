@@ -98,6 +98,11 @@ describe('ExpenseDonut (fixture, septiembre 2026)', () => {
     expect(screen.getAllByRole('button')).toHaveLength(4)
   })
 
+  it('exposes no keyboard stops inside the role="img" frame (the legend is the accessible twin)', () => {
+    const { container } = renderDonut()
+    expect(container.querySelectorAll('.chart-frame [tabindex="0"], .chart-frame [role="application"]')).toHaveLength(0)
+  })
+
   it('renders no buttons when onSelect is missing', () => {
     renderDonut(breakdown)
     expect(screen.queryAllByRole('button')).toHaveLength(0)
@@ -129,6 +134,11 @@ describe('IncomeExpenseBars (fixture, 6 months to septiembre 2026)', () => {
     const swatches = legend.querySelectorAll('.chart-legend__swatch')
     expect(swatches[0]?.getAttribute('data-slot')).toBe('--series-income')
     expect(swatches[1]?.getAttribute('data-slot')).toBe('--series-expense')
+  })
+
+  it('exposes no keyboard stops inside the bar chart frame', () => {
+    const { container } = render(<IncomeExpenseBars rows={trend} currency="EUR" ariaLabel="x" size={SIZE} />)
+    expect(container.querySelectorAll('.chart-frame [tabindex="0"], .chart-frame [role="application"]')).toHaveLength(0)
   })
 
   it('draws two bar series coloured with the income/expense tokens', () => {

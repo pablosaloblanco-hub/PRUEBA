@@ -13,17 +13,24 @@
   --color-surface-2: #f0efec;
   --color-text: #0b0b0b;
   --color-text-secondary: #52514e;
-  --color-text-muted: #898781;
+  /* 5.3:1 on --color-surface (WCAG AA for body text, §8.2); the old #898781 was 3.5:1. */
+  --color-text-muted: #6b6a65;
   --color-border: rgba(11, 11, 11, 0.1);
   --color-border-strong: #c3c2b7;
   --color-grid: #e1e0d9;
   --color-overlay: rgba(11, 11, 11, 0.45);
 
-  /* Brand / actions */
-  --color-accent: #2a78d6;
-  --color-accent-hover: #256abf;
+  /* Brand / actions. --color-accent is the text/outline blue (≥ 4.5:1 on the
+     surfaces); the *-fill pair is the background of filled controls (primary
+     buttons, pressed chips, FAB) with --color-on-accent on top (≥ 4.5:1);
+     --color-on-accent-soft is text over --color-accent-soft. */
+  --color-accent: #256abf;
+  --color-accent-hover: #1f5aa3;
+  --color-accent-fill: #256abf;
+  --color-accent-fill-hover: #1f5aa3;
   --color-accent-soft: #cde2fb;
   --color-on-accent: #ffffff;
+  --color-on-accent-soft: #1f5aa3;
 
   /* Money semantics (text) */
   --color-income: #006300;
@@ -40,6 +47,8 @@
   --color-warning: #fab219;
   --color-serious: #ec835a;
   --color-critical: #d03b3b;
+  /* Background of filled destructive buttons (white text ≥ 4.5:1). */
+  --color-critical-fill: #d03b3b;
 
   /* Categorical chart slots: fixed order, never cycled; >8 fold into "Otros" */
   --series-1: #2a78d6;
@@ -110,8 +119,13 @@
 
     --color-accent: #3987e5;
     --color-accent-hover: #5598e7;
+    --color-accent-fill: #2266c4;
+    --color-accent-fill-hover: #1a5fb4;
     --color-accent-soft: #184f95;
     --color-on-accent: #ffffff;
+    --color-on-accent-soft: #cde2fb;
+    --color-critical: #e66767;
+    --color-critical-fill: #c43a3a;
 
     --color-income: #0ca30c;
     --color-income-soft: #123d12;
@@ -152,8 +166,13 @@
 
   --color-accent: #3987e5;
   --color-accent-hover: #5598e7;
+  --color-accent-fill: #2266c4;
+  --color-accent-fill-hover: #1a5fb4;
   --color-accent-soft: #184f95;
   --color-on-accent: #ffffff;
+  --color-on-accent-soft: #cde2fb;
+  --color-critical: #e66767;
+  --color-critical-fill: #c43a3a;
 
   --color-income: #0ca30c;
   --color-income-soft: #123d12;

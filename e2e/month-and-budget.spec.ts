@@ -100,6 +100,7 @@ test('budgets of September and creating «Alimentación 200 €»', async ({ pag
   const dialog = page.getByRole('dialog', { name: 'Nuevo presupuesto' })
   await expect(dialog).toBeVisible()
   const select = dialog.getByLabel('Categoría')
+  await expect(select).toBeFocused()
   // The total already exists, so «Total mensual» is not offered; Ocio already has a budget.
   await expect(select.locator('option', { hasText: 'Total mensual' })).toHaveCount(0)
   await expect(select.locator('option', { hasText: 'Ocio' })).toHaveCount(0)

@@ -18,12 +18,6 @@
   height: 100%;
 }
 
-.chart-frame svg:focus-visible {
-  outline: none;
-  box-shadow: var(--focus-ring);
-  border-radius: var(--radius-md);
-}
-
 .chart-frame .recharts-cartesian-axis-tick-value {
   font-variant-numeric: tabular-nums;
 }

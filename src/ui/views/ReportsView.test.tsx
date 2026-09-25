@@ -61,6 +61,18 @@ describe('ReportsView — F7 criterion on the fixture (septiembre 2026)', () => 
     expect(within(rows[0]!).getAllByRole('cell').map((td) => norm(td.textContent))).toEqual(['0,00 €', '0,00 €', '0,00 €'])
   })
 
+  it('revisiting Informes reuses the loaded chunk without showing «Cargando informe…» again', async () => {
+    const { user } = open()
+    expect(await screen.findByText('Gastos por categoría')).toBeInTheDocument()
+    const nav = screen.getByRole('navigation', { name: 'Navegación principal' })
+    await user.click(within(nav).getByRole('button', { name: 'Inicio' }))
+    expect(screen.getByRole('heading', { level: 2, name: 'Inicio' })).toBeInTheDocument()
+    await user.click(within(nav).getByRole('button', { name: 'Informes' }))
+    expect(screen.queryByText('Cargando informe…')).not.toBeInTheDocument()
+    expect(screen.getByText('Gastos por categoría')).toBeInTheDocument()
+    expect(trendTable()).toBeInTheDocument()
+  })
+
   it('tapping «Ocio» in the legend opens Movimientos filtered by Ocio with one row', async () => {
     const { user } = open()
     await user.click(await screen.findByRole('button', { name: /Ocio/ }))

@@ -38,7 +38,7 @@ test('adds an expense in three interactions and persists it', async ({ page }, t
   await goTo(page, testInfo, 'Movimientos')
   await expect(transactionRows(page)).toHaveCount(1)
   await expect(transactionRows(page).first()).toContainText(moneyRe('−12,50 €'))
-  await expect(page.getByRole('heading', { level: 4, name: /Hoy/ })).toBeVisible()
+  await expect(page.getByRole('heading', { level: 3, name: /Hoy/ })).toBeVisible()
   await expectTotals(page, '0,00 €', '12,50 €', '−12,50 €')
 
   // Inicio: hero tile «Gastos 12,50 €»

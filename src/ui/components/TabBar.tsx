@@ -17,7 +17,12 @@ const RIGHT: readonly Slot[] = [
   { screen: 'reports', label: copy.nav.reports, icon: '📊' },
 ]
 
-export function TabBar() {
+export type TabBarProps = {
+  /** false while the recovery card is shown (§5.5): the FAB is disabled because nothing can be saved. */
+  canAddTransaction?: boolean
+}
+
+export function TabBar({ canAddTransaction = true }: TabBarProps) {
   const { screen } = useUi()
   const { nav, openSheet } = useUiActions()
 
@@ -44,6 +49,7 @@ export function TabBar() {
           type="button"
           className="fab"
           aria-label={copy.nav.addTransaction}
+          disabled={!canAddTransaction}
           onClick={() => openSheet({ kind: 'transaction/new' })}
         >
           <span aria-hidden="true">+</span>

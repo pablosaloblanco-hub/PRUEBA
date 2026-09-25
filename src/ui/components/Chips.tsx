@@ -5,8 +5,6 @@ export type ChipProps = {
   pressed: boolean
   onClick: () => void
   children: ReactNode
-  /** Accessible name when the visible content is not descriptive enough. */
-  ariaLabel?: string
   /**
    * When set, a separate «×» button is rendered next to the chip (never nested
    * inside it) with `removeLabel` as its aria-label.
@@ -16,9 +14,9 @@ export type ChipProps = {
 }
 
 /** Toggle chip: a <button aria-pressed>. With `onRemove`, a sibling remove button is added. */
-export function Chip({ pressed, onClick, children, ariaLabel, onRemove, removeLabel }: ChipProps) {
+export function Chip({ pressed, onClick, children, onRemove, removeLabel }: ChipProps) {
   const button = (
-    <button type="button" className="chip" aria-pressed={pressed} aria-label={ariaLabel} onClick={onClick}>
+    <button type="button" className="chip" aria-pressed={pressed} onClick={onClick}>
       {children}
     </button>
   )

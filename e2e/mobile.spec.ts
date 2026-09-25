@@ -152,13 +152,15 @@ test('«Volver» from Ajustes returns to the previous screen; no tab is current 
   await expect(screenHeading(page, 'Movimientos')).toBeVisible()
   await expect(mainNav(page).getByRole('button', { name: 'Movimientos', exact: true })).toHaveAttribute('aria-current', 'page')
 
-  // Ajustes → Categorías → Volver → Ajustes
+  // Ajustes → Categorías → Volver → Ajustes → Volver → Movimientos (never back to Categorías)
   await page.getByRole('banner').getByRole('button', { name: 'Ajustes' }).click()
   await page.getByRole('main').getByRole('button', { name: 'Categorías' }).click()
   await expect(screenHeading(page, 'Categorías')).toBeVisible()
   await expect(mainNav(page).locator('[aria-current="page"]')).toHaveCount(0)
   await page.getByRole('button', { name: 'Volver' }).click()
   await expect(screenHeading(page, 'Ajustes')).toBeVisible()
+  await page.getByRole('button', { name: 'Volver' }).click()
+  await expect(screenHeading(page, 'Movimientos')).toBeVisible()
 })
 
 test('a movement can be added with the keyboard only', async ({ page }, testInfo) => {

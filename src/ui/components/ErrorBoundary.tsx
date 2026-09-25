@@ -7,25 +7,26 @@ export type ErrorBoundaryProps = {
   children: ReactNode
 }
 
-type ErrorBoundaryState = { error: unknown | null }
+/** A flag rather than the thrown value: a component may throw `null`/`undefined` and must still get the fallback. */
+type ErrorBoundaryState = { hasError: boolean }
 
 /**
  * Class error boundary (React has no hook equivalent). No parameter
  * properties and no decorators, as required by `erasableSyntaxOnly`.
  */
 export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
-  state: ErrorBoundaryState = { error: null }
+  state: ErrorBoundaryState = { hasError: false }
 
-  static getDerivedStateFromError(error: unknown): ErrorBoundaryState {
-    return { error }
+  static getDerivedStateFromError(): ErrorBoundaryState {
+    return { hasError: true }
   }
 
   retry = (): void => {
-    this.setState({ error: null })
+    this.setState({ hasError: false })
   }
 
   render(): ReactNode {
-    if (this.state.error !== null) return this.props.fallback(this.retry)
+    if (this.state.hasError) return this.props.fallback(this.retry)
     return this.props.children
   }
 }

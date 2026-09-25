@@ -161,6 +161,39 @@ describe('HomeView — fixture numbers (September 2026, today 2026-09-25)', () =
   })
 })
 
+describe('HomeView — long amounts step down a size tier instead of being cut (§11.5)', () => {
+  const heroValue = () => document.querySelector('.home-hero__value')
+  const tiles = () => document.querySelector('.home-hero__tiles')
+  const kpis = () => document.querySelector('.home-kpis')
+
+  it('fixture amounts use the largest tier', () => {
+    renderApp()
+    expect(heroValue()).toHaveAttribute('data-size', 'lg')
+    expect(tiles()).toHaveAttribute('data-size', 'lg')
+    expect(kpis()).toHaveAttribute('data-size', 'lg')
+  })
+
+  it('a seven-digit expense drops the hero, the tiles and the KPIs to smaller tiers', () => {
+    const data = fixtureData()
+    data.transactions.push(tx({ id: 't-99', amountCents: 123456789, date: '2026-09-22', categoryId: 'cat-ocio' }))
+    renderApp({ data })
+    expect(norm(heroValue()?.textContent)).toBe('−1.234.211,09 €')
+    expect(heroValue()).toHaveAttribute('data-size', 'md')
+    expect(tiles()).toHaveAttribute('data-size', 'sm')
+    expect(kpis()).toHaveAttribute('data-size', 'sm')
+  })
+
+  it('a nine-digit balance uses the smallest tiers', () => {
+    const data = fixtureData()
+    data.transactions.push(tx({ id: 't-98', amountCents: 99999999999, date: '2026-09-22', categoryId: 'cat-ocio' }))
+    renderApp({ data })
+    expect(norm(heroValue()?.textContent)).toBe('−999.999.643,19 €')
+    expect(heroValue()).toHaveAttribute('data-size', 'sm')
+    expect(tiles()).toHaveAttribute('data-size', 'sm')
+    expect(kpis()).toHaveAttribute('data-size', 'xs')
+  })
+})
+
 describe('HomeView — empty states', () => {
   it('first use (no movements at all) shows the onboarding card with both actions', async () => {
     const { user } = renderApp({ data: seedData(FIXTURE_NOW) })

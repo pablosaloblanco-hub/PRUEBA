@@ -1,4 +1,4 @@
-import { useSyncExternalStore } from 'react'
+import { useCallback, useSyncExternalStore } from 'react'
 
 /** Breakpoint at which the layout switches from tab bar to sidebar (docs/SPEC.md §7.0). */
 export const DESKTOP_QUERY = '(min-width: 900px)'
@@ -20,11 +20,9 @@ function matches(query: string): boolean {
  * Returns false when matchMedia is unavailable (tests stub it in setup.ts).
  */
 export function useMediaQuery(query: string): boolean {
-  return useSyncExternalStore(
-    (onChange) => subscribe(query, onChange),
-    () => matches(query),
-    () => false,
-  )
+  // Stable per query: useSyncExternalStore re-subscribes whenever the subscribe function changes.
+  const subscribeTo = useCallback((onChange: () => void) => subscribe(query, onChange), [query])
+  return useSyncExternalStore(subscribeTo, () => matches(query), () => false)
 }
 
 export function useIsDesktop(): boolean {

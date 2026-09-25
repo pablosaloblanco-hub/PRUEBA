@@ -39,6 +39,17 @@
   text-overflow: ellipsis;
 }
 
+/* Seven-digit balances step down instead of being cut (data-size from the
+   character count, HomeView; §11.5 «importes sin salto de línea»). */
+.home-hero__value[data-size='md'] {
+  font-size: var(--font-size-2xl);
+}
+
+.home-hero__value[data-size='sm'],
+.home-hero__value[data-size='xs'] {
+  font-size: var(--font-size-xl);
+}
+
 .home-hero__tiles {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -82,6 +93,18 @@
   font-size: var(--font-size-lg);
   font-weight: 600;
   text-overflow: ellipsis;
+}
+
+.home-hero__tiles[data-size='md'] .home-tile__value {
+  font-size: var(--font-size-md);
+}
+
+/* Longer amounts get one tile per row on mobile instead of a smaller figure. */
+@media (max-width: 899.98px) {
+  .home-hero__tiles[data-size='sm'],
+  .home-hero__tiles[data-size='xs'] {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 
 /* Saldo total ------------------------------------------------------------- */
@@ -194,7 +217,8 @@
     display: grid;
     grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
     grid-template-rows: auto auto;
-    align-items: stretch;
+    /* The hero hugs its content instead of stretching to the height of the right column. */
+    align-items: start;
   }
 
   .home-hero {
