@@ -1,24 +1,37 @@
+import { existsSync } from 'node:fs'
 import { defineConfig, devices } from '@playwright/test'
 
 const PORT = 4173
-const executablePath = process.env.PLAYWRIGHT_CHROMIUM_PATH ?? '/opt/pw-browsers/chromium'
+// The cloud dev container ships a preinstalled Chromium; elsewhere (CI, laptops)
+// fall back to the browser Playwright installs itself with `npx playwright install chromium`.
+const candidate = process.env.PLAYWRIGHT_CHROMIUM_PATH ?? '/opt/pw-browsers/chromium'
+const executablePath = existsSync(candidate) ? candidate : undefined
 
 export default defineConfig({
   testDir: './e2e',
   timeout: 30_000,
   fullyParallel: false,
-  retries: 0,
+  retries: process.env.CI ? 1 : 0,
   reporter: 'list',
   use: {
     baseURL: `http://localhost:${PORT}`,
     trace: 'retain-on-failure',
+    locale: 'es-ES',
+    timezoneId: 'Europe/Madrid',
   },
   projects: [
     {
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
-        launchOptions: { executablePath },
+        launchOptions: executablePath ? { executablePath } : {},
+      },
+    },
+    {
+      name: 'mobile',
+      use: {
+        ...devices['Pixel 7'],
+        launchOptions: executablePath ? { executablePath } : {},
       },
     },
   ],

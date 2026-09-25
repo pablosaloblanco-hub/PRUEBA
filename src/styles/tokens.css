@@ -1,0 +1,186 @@
+/*
+ * Design tokens for "Mis Finanzas".
+ * Light values live on :root; dark values are declared twice: once under
+ * prefers-color-scheme (guarded so an explicit light choice wins) and once
+ * under an explicit data-theme="dark" choice. Charts and UI both read these.
+ */
+:root {
+  color-scheme: light;
+
+  /* Surfaces & ink */
+  --color-page: #f9f9f7;
+  --color-surface: #fcfcfb;
+  --color-surface-2: #f0efec;
+  --color-text: #0b0b0b;
+  --color-text-secondary: #52514e;
+  --color-text-muted: #898781;
+  --color-border: rgba(11, 11, 11, 0.1);
+  --color-border-strong: #c3c2b7;
+  --color-grid: #e1e0d9;
+  --color-overlay: rgba(11, 11, 11, 0.45);
+
+  /* Brand / actions */
+  --color-accent: #2a78d6;
+  --color-accent-hover: #256abf;
+  --color-accent-soft: #cde2fb;
+  --color-on-accent: #ffffff;
+
+  /* Money semantics (text) */
+  --color-income: #006300;
+  --color-income-soft: #dcefdc;
+  --color-expense: #d03b3b;
+  --color-expense-soft: #f9dede;
+
+  /* Money semantics (chart series) */
+  --series-income: #008300;
+  --series-expense: #e34948;
+
+  /* Status (never used as series colours) */
+  --color-good: #0ca30c;
+  --color-warning: #fab219;
+  --color-serious: #ec835a;
+  --color-critical: #d03b3b;
+
+  /* Categorical chart slots: fixed order, never cycled; >8 fold into "Otros" */
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --series-4: #eda100;
+  --series-5: #e87ba4;
+  --series-6: #008300;
+  --series-7: #4a3aa7;
+  --series-8: #e34948;
+  --series-other: #898781;
+
+  /* Typography */
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.375rem;
+  --font-size-2xl: 1.75rem;
+  --font-size-3xl: 2.25rem;
+  --line-height: 1.5;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  /* Shape & elevation */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-pill: 999px;
+  --shadow-sm: 0 1px 2px rgba(11, 11, 11, 0.06);
+  --shadow-md: 0 4px 16px rgba(11, 11, 11, 0.1);
+  --shadow-lg: 0 12px 40px rgba(11, 11, 11, 0.18);
+
+  /* Focus & motion */
+  --focus-ring: 0 0 0 3px rgba(42, 120, 214, 0.45);
+  --transition-fast: 120ms ease;
+  --transition-base: 200ms ease;
+
+  /* Layout */
+  --layout-max-width: 1080px;
+  --sidebar-width: 220px;
+  --tabbar-height: 64px;
+  --gutter: 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --color-page: #0d0d0d;
+    --color-surface: #1a1a19;
+    --color-surface-2: #262625;
+    --color-text: #ffffff;
+    --color-text-secondary: #c3c2b7;
+    --color-text-muted: #898781;
+    --color-border: rgba(255, 255, 255, 0.1);
+    --color-border-strong: #383835;
+    --color-grid: #2c2c2a;
+    --color-overlay: rgba(0, 0, 0, 0.6);
+
+    --color-accent: #3987e5;
+    --color-accent-hover: #5598e7;
+    --color-accent-soft: #184f95;
+    --color-on-accent: #ffffff;
+
+    --color-income: #0ca30c;
+    --color-income-soft: #123d12;
+    --color-expense: #e66767;
+    --color-expense-soft: #4a1d1d;
+
+    --series-income: #008300;
+    --series-expense: #e66767;
+
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --series-3: #199e70;
+    --series-4: #c98500;
+    --series-5: #d55181;
+    --series-6: #008300;
+    --series-7: #9085e9;
+    --series-8: #e66767;
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
+    --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.6);
+    --focus-ring: 0 0 0 3px rgba(57, 135, 229, 0.55);
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-page: #0d0d0d;
+  --color-surface: #1a1a19;
+  --color-surface-2: #262625;
+  --color-text: #ffffff;
+  --color-text-secondary: #c3c2b7;
+  --color-text-muted: #898781;
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-border-strong: #383835;
+  --color-grid: #2c2c2a;
+  --color-overlay: rgba(0, 0, 0, 0.6);
+
+  --color-accent: #3987e5;
+  --color-accent-hover: #5598e7;
+  --color-accent-soft: #184f95;
+  --color-on-accent: #ffffff;
+
+  --color-income: #0ca30c;
+  --color-income-soft: #123d12;
+  --color-expense: #e66767;
+  --color-expense-soft: #4a1d1d;
+
+  --series-income: #008300;
+  --series-expense: #e66767;
+
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --series-4: #c98500;
+  --series-5: #d55181;
+  --series-6: #008300;
+  --series-7: #9085e9;
+  --series-8: #e66767;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.6);
+  --focus-ring: 0 0 0 3px rgba(57, 135, 229, 0.55);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition-fast: 0ms;
+    --transition-base: 0ms;
+  }
+}
