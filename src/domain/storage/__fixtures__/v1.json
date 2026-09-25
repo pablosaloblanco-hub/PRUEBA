@@ -1,0 +1,289 @@
+{
+  "app": "mis-finanzas",
+  "schemaVersion": 1,
+  "savedAt": 1783900800000,
+  "data": {
+    "transactions": [
+      {
+        "id": "t-01",
+        "type": "income",
+        "amountCents": 120000,
+        "date": "2026-07-01",
+        "categoryId": "cat-nomina",
+        "note": "Nómina julio",
+        "createdAt": 1782950400000,
+        "updatedAt": 1782950400000
+      },
+      {
+        "id": "t-02",
+        "type": "expense",
+        "amountCents": 60000,
+        "date": "2026-07-05",
+        "categoryId": "cat-vivienda",
+        "note": "Alquiler",
+        "createdAt": 1783036800000,
+        "updatedAt": 1783036800000
+      },
+      {
+        "id": "t-03",
+        "type": "expense",
+        "amountCents": 15000,
+        "date": "2026-07-18",
+        "categoryId": "cat-alimentacion",
+        "note": "Compra mensual",
+        "createdAt": 1783123200000,
+        "updatedAt": 1783123200000
+      },
+      {
+        "id": "t-04",
+        "type": "income",
+        "amountCents": 120000,
+        "date": "2026-08-01",
+        "categoryId": "cat-nomina",
+        "note": "Nómina agosto",
+        "createdAt": 1783209600000,
+        "updatedAt": 1783209600000
+      },
+      {
+        "id": "t-05",
+        "type": "expense",
+        "amountCents": 60000,
+        "date": "2026-08-05",
+        "categoryId": "cat-vivienda",
+        "note": "Alquiler",
+        "createdAt": 1783296000000,
+        "updatedAt": 1783296000000
+      },
+      {
+        "id": "t-06",
+        "type": "expense",
+        "amountCents": 3250,
+        "date": "2026-08-12",
+        "categoryId": "cat-restaurantes",
+        "note": "Cena con Ana",
+        "createdAt": 1783382400000,
+        "updatedAt": 1783382400000
+      },
+      {
+        "id": "t-07",
+        "type": "expense",
+        "amountCents": 4500,
+        "date": "2026-08-22",
+        "categoryId": "cat-ocio",
+        "note": "Cine",
+        "createdAt": 1783468800000,
+        "updatedAt": 1783468800000
+      },
+      {
+        "id": "t-08",
+        "type": "income",
+        "amountCents": 120000,
+        "date": "2026-09-01",
+        "categoryId": "cat-nomina",
+        "note": "Nómina septiembre",
+        "createdAt": 1783555200000,
+        "updatedAt": 1783555200000
+      },
+      {
+        "id": "t-09",
+        "type": "expense",
+        "amountCents": 60000,
+        "date": "2026-09-05",
+        "categoryId": "cat-vivienda",
+        "note": "Alquiler",
+        "createdAt": 1783641600000,
+        "updatedAt": 1783641600000
+      },
+      {
+        "id": "t-10",
+        "type": "expense",
+        "amountCents": 8320,
+        "date": "2026-09-12",
+        "categoryId": "cat-alimentacion",
+        "note": "Café y compra semanal",
+        "createdAt": 1783728000000,
+        "updatedAt": 1783728000000
+      },
+      {
+        "id": "t-11",
+        "type": "expense",
+        "amountCents": 11000,
+        "date": "2026-09-20",
+        "categoryId": "cat-ocio",
+        "note": "Entradas concierto",
+        "createdAt": 1783814400000,
+        "updatedAt": 1783814400000
+      },
+      {
+        "id": "t-12",
+        "type": "expense",
+        "amountCents": 5000,
+        "date": "2026-09-28",
+        "categoryId": "cat-suscripciones",
+        "note": "Gimnasio (futuro)",
+        "createdAt": 1783900800000,
+        "updatedAt": 1783900800000
+      }
+    ],
+    "categories": [
+      {
+        "id": "cat-alimentacion",
+        "name": "Alimentación",
+        "type": "expense",
+        "icon": "🛒",
+        "color": "blue",
+        "sortOrder": 0,
+        "builtIn": false
+      },
+      {
+        "id": "cat-restaurantes",
+        "name": "Restaurantes",
+        "type": "expense",
+        "icon": "🍽️",
+        "color": "orange",
+        "sortOrder": 1,
+        "builtIn": false
+      },
+      {
+        "id": "cat-transporte",
+        "name": "Transporte",
+        "type": "expense",
+        "icon": "🚌",
+        "color": "teal",
+        "sortOrder": 2,
+        "builtIn": false
+      },
+      {
+        "id": "cat-vivienda",
+        "name": "Vivienda",
+        "type": "expense",
+        "icon": "🏠",
+        "color": "violet",
+        "sortOrder": 3,
+        "builtIn": false
+      },
+      {
+        "id": "cat-suministros",
+        "name": "Suministros",
+        "type": "expense",
+        "icon": "💡",
+        "color": "amber",
+        "sortOrder": 4,
+        "builtIn": false
+      },
+      {
+        "id": "cat-ocio",
+        "name": "Ocio",
+        "type": "expense",
+        "icon": "🎬",
+        "color": "pink",
+        "sortOrder": 5,
+        "builtIn": false
+      },
+      {
+        "id": "cat-salud",
+        "name": "Salud",
+        "type": "expense",
+        "icon": "💊",
+        "color": "red",
+        "sortOrder": 6,
+        "builtIn": false
+      },
+      {
+        "id": "cat-compras",
+        "name": "Compras",
+        "type": "expense",
+        "icon": "👕",
+        "color": "green",
+        "sortOrder": 7,
+        "builtIn": false
+      },
+      {
+        "id": "cat-suscripciones",
+        "name": "Suscripciones",
+        "type": "expense",
+        "icon": "📱",
+        "color": "violet",
+        "sortOrder": 8,
+        "builtIn": false
+      },
+      {
+        "id": "cat-educacion",
+        "name": "Educación",
+        "type": "expense",
+        "icon": "📚",
+        "color": "blue",
+        "sortOrder": 9,
+        "builtIn": false
+      },
+      {
+        "id": "cat-otros-gastos",
+        "name": "Otros gastos",
+        "type": "expense",
+        "icon": "📦",
+        "color": "gray",
+        "sortOrder": 10,
+        "builtIn": true
+      },
+      {
+        "id": "cat-nomina",
+        "name": "Nómina",
+        "type": "income",
+        "icon": "💼",
+        "color": "green",
+        "sortOrder": 0,
+        "builtIn": false
+      },
+      {
+        "id": "cat-extras",
+        "name": "Extras",
+        "type": "income",
+        "icon": "💶",
+        "color": "teal",
+        "sortOrder": 1,
+        "builtIn": false
+      },
+      {
+        "id": "cat-devoluciones",
+        "name": "Devoluciones",
+        "type": "income",
+        "icon": "↩️",
+        "color": "blue",
+        "sortOrder": 2,
+        "builtIn": false
+      },
+      {
+        "id": "cat-otros-ingresos",
+        "name": "Otros ingresos",
+        "type": "income",
+        "icon": "➕",
+        "color": "gray",
+        "sortOrder": 3,
+        "builtIn": true
+      }
+    ],
+    "budgets": [
+      {
+        "id": "b-ocio",
+        "categoryId": "cat-ocio",
+        "limitCents": 10000
+      },
+      {
+        "id": "b-total",
+        "categoryId": null,
+        "limitCents": 100000
+      }
+    ],
+    "settings": {
+      "currency": "EUR",
+      "locale": "es-ES",
+      "theme": "system",
+      "initialBalanceCents": 10000,
+      "lastUsedCategoryId": {
+        "expense": "cat-suscripciones",
+        "income": "cat-nomina"
+      },
+      "budgetWarnRatio": 0.8
+    }
+  }
+}
