@@ -13,5 +13,11 @@ export default defineConfig({
     include: ['src/**/*.{test,spec}.{ts,tsx}'],
     exclude: ['e2e/**', 'node_modules/**', 'dist/**'],
     css: false,
+    coverage: {
+      provider: 'v8',
+      include: ['src/domain/**'],
+      exclude: ['src/domain/**/*.test.ts', 'src/domain/**/__fixtures__/**'],
+      thresholds: { lines: 95 },
+    },
   },
 })
