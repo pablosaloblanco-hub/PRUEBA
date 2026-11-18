@@ -3,21 +3,35 @@ titulo: Historia personajes de Leonida
 formato: historia
 redes:
 - instagram
-estado: idea
+estado: redactada
 fecha: 2026-11-23 13:00
 tema_hashtag: '#GTA6Personajes'
-objetivo: ''
-datos_usados: []
-capturas: []
+objetivo: comentar (votar al favorito y llevar al carrusel N23nov)
+datos_usados:
+- Personajes presentados por Rockstar (además de Lucia y Jason)
+capturas:
+- People/DreQuan Priest/DreQuan_Priest_02.jpg
 textos: {}
 titulo_tiktok: ''
 medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: |-
+  Historia de Instagram 1080x1920: archivo NH-23nov.jpg.
+  Guion: título «¿QUIÉN ES TU FAVORITO?». 1) Boobie Ike, leyenda de Vice City. 2) Dre'Quan Priest, más buscavidas que gánster. 3) Brian Heder, contrabandista veterano de los Keys. + «NUEVO POST EN EL PERFIL».
+  Pegatina (Pablo): encuesta de 3 opciones con esos tres nombres + mención al carrusel N23nov.
+  Captura: DreQuan_Priest_02 (fiesta en la piscina de noche, al fondo y pequeña).
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
   quien: Claude
   nota: creada
+- fecha: 2026-11-18 16:13
+  estado: aprobada
+  quien: Claude
+  nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'
+- fecha: 2026-11-18 16:13
+  estado: redactada
+  quien: Claude
+  nota: guion de la historia en notas

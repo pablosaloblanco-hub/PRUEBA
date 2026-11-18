@@ -3,21 +3,35 @@ titulo: Historia graba tu clip
 formato: historia
 redes:
 - instagram
-estado: idea
+estado: redactada
 fecha: 2026-11-21 13:00
 tema_hashtag: '#PS5'
-objetivo: ''
-datos_usados: []
-capturas: []
+objetivo: compartir (llevar a la guía N21nov y pedir clips por DM)
+datos_usados:
+- Capturas en PS5
+capturas:
+- Places/Grassrivers/Grassrivers_02.jpg
 textos: {}
 titulo_tiktok: ''
 medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: |-
+  Historia de Instagram 1080x1920: archivo NH-21nov.jpg.
+  Guion: título «GRABA TU MEJOR MOMENTO». 1) Doble pulsación de Crear: últimos 30 s. 2) Guardar partida reciente: hasta 1 h. 3) Mándanos tu clip por DM. + «NUEVO POST EN EL PERFIL».
+  Pegatina (Pablo): pegatina de preguntas «Cuéntanos tu mejor momento (sin spoilers)» + mención a la publicación N21nov.
+  Captura: Grassrivers_02 (pueblo sobre el agua).
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
   quien: Claude
   nota: creada
+- fecha: 2026-11-18 16:13
+  estado: aprobada
+  quien: Claude
+  nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'
+- fecha: 2026-11-18 16:13
+  estado: redactada
+  quien: Claude
+  nota: guion de la historia en notas

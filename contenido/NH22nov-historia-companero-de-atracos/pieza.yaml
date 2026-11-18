@@ -3,21 +3,35 @@ titulo: Historia compañero de atracos
 formato: historia
 redes:
 - instagram
-estado: idea
+estado: redactada
 fecha: 2026-11-22 13:00
 tema_hashtag: '#GTA6Atracos'
-objetivo: ''
-datos_usados: []
-capturas: []
+objetivo: etiquetar (llevar a la publicación N22nov)
+datos_usados:
+- Personajes presentados por Rockstar (además de Lucia y Jason)
+capturas:
+- Places/Ambrosia/Ambrosia_01.jpg
 textos: {}
 titulo_tiktok: ''
 medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: |-
+  Historia de Instagram 1080x1920: archivo NH-22nov.jpg.
+  Guion: título «¿QUIÉN ES TU SOCIO?». 1) El que conduce. 2) El que vigila. 3) El que lo lía todo. + «NUEVO POST EN EL PERFIL».
+  Pegatina (Pablo): encuesta «¿Qué eres tú?» con 2 opciones (conductor / el que lo lía) y pegatina de mención para que se etiqueten.
+  Captura: Ambrosia_01 (grupo de moteros en carretera; encaja con «la banda»).
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
   quien: Claude
   nota: creada
+- fecha: 2026-11-18 16:13
+  estado: aprobada
+  quien: Claude
+  nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'
+- fecha: 2026-11-18 16:13
+  estado: redactada
+  quien: Claude
+  nota: guion de la historia en notas

@@ -3,12 +3,22 @@ titulo: 5 excusas para no ir a trabajar hoy
 formato: carrusel
 redes:
 - tiktok
-estado: idea
+estado: aprobada
 fecha: 2026-11-19 10:00
 tema_hashtag: '#HumorGamer'
-objetivo: ''
-datos_usados: []
-capturas: []
+objetivo: comentar (el número de la excusa) y etiquetar a quien la necesita hoy
+datos_usados:
+- Lanzamiento
+- Hora en España
+- Zonas de Leonida (6, presentadas por Rockstar)
+capturas:
+- Places/Vice City/Vice_City_16.jpg
+- People/Cal Hampton/Cal_Hampton_03.jpg
+- People/Brian Heder/Brian_Heder_01.jpg
+- People/Raul Bautista/Raul_Bautista_01.jpg
+- Places/Leonida Keys/Leonida_Keys_03.jpg
+- Places/Port Gellhorn/Port_Gellhorn_01.jpg
+- Places/Vice City/Vice_City_22.jpg
 textos:
   tiktok: ''
 titulo_tiktok: ''
@@ -16,9 +26,18 @@ medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: |-
+  Solo TikTok (carrusel de fotos). 7 diapositivas: archivos N19novb-1.jpg … N19novb-7.jpg.
+  Ángulo: humor del día del estreno, recuperado del plan retirado (carrusel 10). Gancho de portada: «HOY MEDIA ESPAÑA TIENE FIEBRE» + «5 excusas para no ir a trabajar».
+  1 portada (Vice_City_16: «no me lo creo»). 2 «Tengo fiebre… de Vice City» (Cal_Hampton_03, flotador en la piscina). 3 «Se me ha roto el coche» (Brian_Heder_01, al volante). 4 «Llamada urgente: me mudo a Leonida» (Raul_Bautista_01, al teléfono). 5 «No he dormido: salió a las 00:00 en la Península» (Leonida_Keys_03, el del bar tirado en la mesa). 6 «Me voy de escapada a un motel de Port Gellhorn» (Port_Gellhorn_01, motel). 7 cierre: «¿Cuál vas a usar? Comenta el número» + comenta / guarda / comparte (Vice_City_22, gasolinera de neón).
+  Nada de fingir bajas reales con datos médicos: tono claramente de broma.
+  Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite entre el 19 y el 26/11.
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
   quien: Claude
   nota: creada
+- fecha: 2026-11-18 16:13
+  estado: aprobada
+  quien: Claude
+  nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'

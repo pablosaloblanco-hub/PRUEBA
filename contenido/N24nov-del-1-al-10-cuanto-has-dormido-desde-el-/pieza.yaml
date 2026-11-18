@@ -4,12 +4,15 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: idea
+estado: aprobada
 fecha: 2026-11-24 10:00
 tema_hashtag: '#HumorGamer'
-objetivo: ''
-datos_usados: []
-capturas: []
+objetivo: comentar (un número del 1 al 10)
+datos_usados:
+- Lanzamiento
+- Hora en España
+capturas:
+- Places/Ambrosia/Ambrosia_04.jpg
 textos:
   instagram: ''
   tiktok: ''
@@ -18,9 +21,17 @@ medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: |-
+  Publicación suelta, 1 imagen: archivo N24nov-1.jpg.
+  Ángulo: humor del quinto día; nadie duerme desde las 00:00 del jueves. Gancho: «DEL 1 AL 10: ¿CUÁNTO HAS DORMIDO DESDE EL JUEVES?». Escala: 1 = «¿dormir? ¿qué es eso?» … 10 = «como un bebé (no he jugado)». CTA: «Comenta tu número».
+  Captura: Ambrosia_04 (amanecer con torres eléctricas: «otra vez viendo amanecer»).
+  Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite entre el 19 y el 26/11.
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
   quien: Claude
   nota: creada
+- fecha: 2026-11-18 16:13
+  estado: aprobada
+  quien: Claude
+  nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'

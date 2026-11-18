@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: publicada
 fecha: 2026-11-19 00:05
 tema_hashtag: '#GTA6YaEstaAqui'
 objetivo: 'comentar (¿desde qué consola juegas esta noche: PS5 o Xbox Series X/S?)'
@@ -28,10 +28,13 @@ textos:
     de GTA V. Comenta A (PS5), B (Xbox Series X/S) o C (aún no lo tengo) 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida
     #GTA6YaEstaAqui #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
 titulo_tiktok: ¡YA ESTÁ AQUÍ! GTA 6 ya se puede jugar en PS5 y Xbox Series X/S 🔥
-medios: []
+medios:
+- N19nov-1.jpg
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  instagram: https://www.instagram.com/p/Df5pT7iCJxZ/
+  tiktok: https://www.tiktok.com/@gta6espa/video/7709651555812789536
 notas: |-
   Publicación suelta de lanzamiento, 1 imagen 1080x1350. Archivo: N19nov-1.jpg (no reutilizar «5-x» ni imágenes antiguas de Drive).
   Ángulo: celebración del momento, sin nada de la historia. Gancho de portada: «YA ESTÁ AQUÍ» + «13 años, 2 meses y 2 días después».
@@ -66,3 +69,23 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de la suelta en notas
+- fecha: 2026-11-18 16:09
+  estado: disenada
+  quien: Claude
+  nota: N19nov-1.jpg con single(); subtítulo línea 3 acortada a «· antes del 20/11»
+- fecha: 2026-11-18 16:10
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok'
+- fecha: 2026-11-18 16:12
+  estado: subida
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-18 16:12
+  estado: programada
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-18 23:24
+  estado: publicada
+  quien: Claude
+  nota: 'analista: publicada 19/11 (Instagram con aviso de restricción de actividad)'

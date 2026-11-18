@@ -3,21 +3,35 @@ titulo: Historia tu primera hora en Vice City
 formato: historia
 redes:
 - instagram
-estado: idea
+estado: redactada
 fecha: 2026-11-20 13:00
 tema_hashtag: '#GTA6Mapa'
-objetivo: ''
-datos_usados: []
-capturas: []
+objetivo: comentar (votar en la encuesta y llevar a la publicación N20nov)
+datos_usados:
+- Zonas de Leonida (6, presentadas por Rockstar)
+capturas:
+- Places/Vice City/Vice_City_03.jpg
 textos: {}
 titulo_tiktok: ''
 medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: |-
+  Historia de Instagram 1080x1920, la única del día: archivo NH-20nov.jpg.
+  Guion: título «TU PRIMERA HORA EN VICE CITY». 1) Ocean Beach. 2) Little Cuba. 3) Mercadillo Tisha-Wocka. + «NUEVO POST EN EL PERFIL».
+  Pegatina (Pablo): encuesta de 3 opciones (A / B / C) + mención o enlace a la publicación N20nov.
+  Captura: Vice_City_03 (vista aérea de la ciudad, encuadre vertical sobre los edificios).
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
   quien: Claude
   nota: creada
+- fecha: 2026-11-18 16:13
+  estado: aprobada
+  quien: Claude
+  nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'
+- fecha: 2026-11-18 16:13
+  estado: redactada
+  quien: Claude
+  nota: guion de la historia en notas

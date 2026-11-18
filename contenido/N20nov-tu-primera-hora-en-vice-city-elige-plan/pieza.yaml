@@ -4,12 +4,14 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: idea
+estado: aprobada
 fecha: 2026-11-20 10:00
 tema_hashtag: '#GTA6Mapa'
-objetivo: ''
-datos_usados: []
-capturas: []
+objetivo: comentar (A, B o C)
+datos_usados:
+- Zonas de Leonida (6, presentadas por Rockstar)
+capturas:
+- Places/Vice City/Vice_City_09.jpg
 textos:
   instagram: ''
   tiktok: ''
@@ -18,9 +20,19 @@ medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: |-
+  Publicación suelta, 1 imagen: archivo N20nov-1.jpg. Viene de «Ideas guardadas» («Tu plan para la primera hora en Vice City»).
+  Ángulo: primer fin de semana de juego; solo Vice City, para no pisar el Black Friday del 27/11 (Leonida Keys, Ambrosia, Mount Kalaga) ni el diccionario del 2/12. Gancho: «TIENES UNA HORA EN VICE CITY. ¿QUÉ HACES?».
+  Bloque de 3 opciones: A · Paseo por Ocean Beach / B · Café en Little Cuba / C · Mercadillo Tisha-Wocka. CTA: «Comenta A, B o C».
+  Nada de misiones ni de cómo se desbloquea nada (no está verificado).
+  Captura: Vice_City_09 (calle con murales y coche clásico).
+  Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite entre el 19 y el 26/11.
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
   quien: Claude
   nota: creada
+- fecha: 2026-11-18 16:13
+  estado: aprobada
+  quien: Claude
+  nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'

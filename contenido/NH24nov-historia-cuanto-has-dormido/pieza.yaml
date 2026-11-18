@@ -3,21 +3,35 @@ titulo: Historia cuánto has dormido
 formato: historia
 redes:
 - instagram
-estado: idea
+estado: redactada
 fecha: 2026-11-24 13:00
 tema_hashtag: '#HumorGamer'
-objetivo: ''
-datos_usados: []
-capturas: []
+objetivo: comentar (deslizador de la historia y llevar a la publicación N24nov)
+datos_usados:
+- Lanzamiento
+capturas:
+- Places/Vice City/Vice_City_27.jpg
 textos: {}
 titulo_tiktok: ''
 medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: |-
+  Historia de Instagram 1080x1920: archivo NH-24nov.jpg.
+  Guion: título «¿CUÁNTO HAS DORMIDO?». 1) Salió el jueves a las 00:00. 2) Llevamos 5 días en Leonida. 3) Cuéntanos tu nota de sueño del 1 al 10. + «NUEVO POST EN EL PERFIL».
+  Pegatina (Pablo): deslizador con emoji de dormir (😴) + mención a la publicación N24nov.
+  Captura: Vice_City_27 (Vice City de noche). Se repite con el carrusel del 30/11 (otra semana; el director lo permite).
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
   quien: Claude
   nota: creada
+- fecha: 2026-11-18 16:13
+  estado: aprobada
+  quien: Claude
+  nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'
+- fecha: 2026-11-18 16:13
+  estado: redactada
+  quien: Claude
+  nota: guion de la historia en notas

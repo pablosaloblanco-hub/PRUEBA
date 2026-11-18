@@ -3,7 +3,7 @@ titulo: 'Historia lanzamiento: ya está aquí'
 formato: historia
 redes:
 - instagram
-estado: redactada
+estado: publicada
 fecha: 2026-11-19 00:06
 tema_hashtag: '#GTA6YaEstaAqui'
 objetivo: compartir (empujar a la publicación de lanzamiento N19nov y votar en la encuesta)
@@ -16,10 +16,12 @@ capturas:
 - Places/Vice City/Vice_City_08.jpg
 textos: {}
 titulo_tiktok: ''
-medios: []
+medios:
+- NH-19nov.jpg
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  instagram: https://www.instagram.com/stories/gta6espa/4033437038698700230
 notas: |-
   Historia 1080x1920 de Instagram, la única del 19/11 (la de las 13:00 de ese día NO se hace por el límite de 1 historia al día). Archivo: NH-19nov.jpg (no confundir con el antiguo «H-19nov» de Drive: nombre nuevo para no chocar).
   Guion: título «YA ESTÁ AQUÍ». 3 puntos numerados: 1) Ya se juega en PS5 y Xbox Series X/S. 2) 13 años, 2 meses y 2 días desde GTA V. 3) Bonus Vintage Vice City Pack solo comprando antes del 20/11. + «NUEVO POST EN EL PERFIL».
@@ -52,3 +54,23 @@ historial:
   estado: redactada
   quien: Claude
   nota: guion de la historia en notas
+- fecha: 2026-11-18 16:09
+  estado: disenada
+  quien: Claude
+  nota: NH-19nov.jpg con story(); punto 3 cabe en una línea, sin acortar
+- fecha: 2026-11-18 16:10
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok'
+- fecha: 2026-11-18 16:12
+  estado: subida
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-18 16:12
+  estado: programada
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-18 23:24
+  estado: publicada
+  quien: Claude
+  nota: publicada 19/11 00:06

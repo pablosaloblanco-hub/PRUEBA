@@ -4,12 +4,20 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: idea
+estado: aprobada
 fecha: 2026-11-21 10:00
 tema_hashtag: '#PS5'
-objetivo: ''
-datos_usados: []
-capturas: []
+objetivo: guardar (guía útil) y, de paso, que manden su clip por DM
+datos_usados:
+- Capturas en PS5
+- Plataformas
+capturas:
+- Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_01.jpg
+- Places/Leonida Keys/Leonida_Keys_01.jpg
+- Places/Grassrivers/Grassrivers_03.jpg
+- Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_06.jpg
+- Places/Leonida Keys/Leonida_Keys_07.jpg
+- Places/Vice City/Vice_City_19.jpg
 textos:
   instagram: ''
   tiktok: ''
@@ -18,9 +26,19 @@ medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: |-
+  Carrusel útil, 6 diapositivas: archivos N21nov-1.jpg … N21nov-6.jpg. Recuperado del plan retirado («Mándanos tu clip + cómo grabar»).
+  Ángulo: primer sábado de juego; que nadie pierda su mejor momento. Gancho de portada: «NO PIERDAS TU MEJOR MOMENTO EN LEONIDA».
+  1 portada (Mount_Kalaga_01, motos de cross). 2 Doble pulsación del botón Crear = guarda los últimos 30 s (Leonida_Keys_01, hidroavión). 3 Menú Crear › Guardar partida reciente: de 15 s a 1 h (Grassrivers_03, hidrodeslizador). 4 Grabación nueva: hasta 1 h (Mount_Kalaga_06, kayak). 5 Cambiar el atajo: Ajustes › Capturas y emisiones › Accesos directos del botón Crear (Leonida_Keys_07, bajo el agua). 6 cierre: «Mándanos tu clip por DM (sin spoilers) y compartimos los mejores mencionándote» (Vice_City_19).
+  PENDIENTE DE INVESTIGADOR: cómo grabar en Xbox Series X/S (no está en «Datos verificados»). Si no se verifica antes de redactar, la guía va solo de PS5 y se dice «guía de PS5».
+  Pablo: revisar los DM del 21 al 23/11 y pasar los clips que valgan (sin spoilers); se comparten siempre mencionando al autor.
+  Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite entre el 19 y el 26/11.
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
   quien: Claude
   nota: creada
+- fecha: 2026-11-18 16:13
+  estado: aprobada
+  quien: Claude
+  nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'

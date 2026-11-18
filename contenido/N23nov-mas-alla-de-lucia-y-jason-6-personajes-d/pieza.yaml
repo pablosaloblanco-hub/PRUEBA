@@ -4,12 +4,21 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: idea
+estado: aprobada
 fecha: 2026-11-23 10:00
 tema_hashtag: '#GTA6Personajes'
-objetivo: ''
-datos_usados: []
-capturas: []
+objetivo: guardar (ficha de personajes) y comentar (tu favorito)
+datos_usados:
+- Personajes presentados por Rockstar (además de Lucia y Jason)
+capturas:
+- People/DreQuan Priest/DreQuan_Priest_03.jpg
+- People/Cal Hampton/Cal_Hampton_01.jpg
+- People/Boobie Ike/Boobie_Ike_03.jpg
+- People/DreQuan Priest/DreQuan_Priest_04.jpg
+- People/Real Dimez/Real_Dimez_03.jpg
+- People/Raul Bautista/Raul_Bautista_03.jpg
+- People/Brian Heder/Brian_Heder_02.jpg
+- Places/Vice City/Vice_City_11.jpg
 textos:
   instagram: ''
   tiktok: ''
@@ -18,9 +27,20 @@ medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: |-
+  Carrusel útil, 8 diapositivas: archivos N23nov-1.jpg … N23nov-8.jpg. Recuperado del plan retirado (carrusel 16).
+  Ángulo: los 6 personajes tal y como los presentó Rockstar antes del estreno. Gancho de portada: «MÁS ALLÁ DE LUCIA Y JASON» + «6 nombres que ya conoces».
+  1 portada (DreQuan_Priest_03). 2 Cal Hampton (Cal_Hampton_01). 3 Boobie Ike (Boobie_Ike_03). 4 Dre'Quan Priest (DreQuan_Priest_04, estudio de Only Raw Records). 5 Real Dimez, Bae-Luxe y Roxy (Real_Dimez_03). 6 Raul Bautista (Raul_Bautista_03). 7 Brian Heder (Brian_Heder_02). 8 cierre: «¿Tu favorito? Sin spoilers en comentarios» (Vice_City_11).
+  RIESGO SPOILER: solo las descripciones oficiales de «Datos verificados» (quién es cada uno), nada de qué les pasa en el juego. El revisor debe leerlo con lupa. No se nombra ni se muestra a Lucia ni a Jason más que en el título.
+  Real Dimez sale también el 1/12 («Etiqueta a tu dúo»): aquí solo media diapositiva.
+  Real_Dimez_03 se repite con la historia del 1/12 (otra semana; el director lo permite).
+  Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite entre el 19 y el 26/11.
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
   quien: Claude
   nota: creada
+- fecha: 2026-11-18 16:13
+  estado: aprobada
+  quien: Claude
+  nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'

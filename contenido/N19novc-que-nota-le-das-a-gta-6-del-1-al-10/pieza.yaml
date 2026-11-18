@@ -3,12 +3,15 @@ titulo: Qué nota le das a GTA 6 del 1 al 10
 formato: suelta
 redes:
 - tiktok
-estado: idea
+estado: aprobada
 fecha: 2026-11-19 18:00
 tema_hashtag: '#GTA6Nota'
-objetivo: ''
-datos_usados: []
-capturas: []
+objetivo: comentar (una nota del 1 al 10, sin spoilers)
+datos_usados:
+- Lanzamiento
+- Espera desde GTA V
+capturas:
+- Places/Vice City/Vice_City_04.jpg
 textos:
   tiktok: ''
 titulo_tiktok: ''
@@ -16,9 +19,18 @@ medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: |-
+  Solo TikTok. Publicación suelta, 1 imagen: archivo N19novc-1.jpg.
+  Ángulo: primeras 18 horas en Leonida tras 13 años, 2 meses y 2 días de espera. Gancho: «¿APRUEBA O SUSPENDE?». Bloque interactivo: escala 1–10. CTA: «Comenta tu nota (sin spoilers)».
+  Franja 18:00: preferente de los Shorts de ChatGPT. No hay ningún Short programado el 19/11 en Metricool; el coordinador debe avisar a ChatGPT para que, si publica a esa hora, no haga el mismo tema de la nota.
+  Captura: Vice_City_04 (dos personajes posando con gestos, encaja con «un 10»).
+  Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite entre el 19 y el 26/11.
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
   quien: Claude
   nota: creada
+- fecha: 2026-11-18 16:13
+  estado: aprobada
+  quien: Claude
+  nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'

@@ -3,21 +3,37 @@ titulo: Historia récords de GTA 6
 formato: historia
 redes:
 - instagram
-estado: idea
+estado: redactada
 fecha: 2026-11-25 13:00
 tema_hashtag: '#RockstarGames'
-objetivo: ''
-datos_usados: []
-capturas: []
+objetivo: compartir (llevar al carrusel N25nov)
+datos_usados:
+- Tráiler 1
+- Tráiler 2
+- Guinness
+capturas:
+- Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_05.jpg
 textos: {}
 titulo_tiktok: ''
 medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: |-
+  Historia de Instagram 1080x1920: archivo NH-25nov.jpg.
+  Guion: título «LOS RÉCORDS DE GTA 6». 1) 93 M en 24 h: tráiler 1. 2) Más de 475 M en 24 h: tráiler 2. 3) Récord Guinness. + «NUEVO POST EN EL PERFIL».
+  Pegatina (Pablo): cuestionario «¿Cuántas visitas tuvo el tráiler 2 en 24 h?» (93 M / 365 M / 475 M; correcta 475 M) + mención al carrusel N25nov.
+  Captura: Mount_Kalaga_05 (animales junto al río).
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
   quien: Claude
   nota: creada
+- fecha: 2026-11-18 16:13
+  estado: aprobada
+  quien: Claude
+  nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'
+- fecha: 2026-11-18 16:13
+  estado: redactada
+  quien: Claude
+  nota: guion de la historia en notas
