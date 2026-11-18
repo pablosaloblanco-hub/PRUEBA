@@ -3,7 +3,7 @@ titulo: Historia compañero de atracos
 formato: historia
 redes:
 - instagram
-estado: subida
+estado: programada
 fecha: 2026-11-22 13:00
 tema_hashtag: '#GTA6Atracos'
 objetivo: etiquetar (llevar a la publicación N22nov)
@@ -46,5 +46,9 @@ historial:
   nota: 'revisor: ok'
 - fecha: 2026-11-18 23:31
   estado: subida
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-18 23:32
+  estado: programada
   quien: Claude
   nota: ''

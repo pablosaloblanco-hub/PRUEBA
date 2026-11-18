@@ -20,3 +20,4 @@ Places/Vice City/Vice_City_25.jpg # club, contenido sexualizado
 Places/Ambrosia/Ambrosia_05.jpg # sale Jason y contenido sexualizado
 Places/Port Gellhorn/Port_Gellhorn_04.jpg # cartel del club de striptease
 Places/Port Gellhorn/Port_Gellhorn_07.jpg # club de striptease
+People/Brian Heder/Brian_Heder_01.jpg # probablemente sale Jason (conductor joven con gorra roja del revés)

@@ -3,7 +3,7 @@ titulo: Historia récords de GTA 6
 formato: historia
 redes:
 - instagram
-estado: subida
+estado: programada
 fecha: 2026-11-25 13:00
 tema_hashtag: '#RockstarGames'
 objetivo: compartir (llevar al carrusel N25nov)
@@ -48,5 +48,9 @@ historial:
   nota: 'revisor: ok'
 - fecha: 2026-11-18 23:31
   estado: subida
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-18 23:32
+  estado: programada
   quien: Claude
   nota: ''

@@ -3,7 +3,7 @@ titulo: 5 excusas para no ir a trabajar hoy
 formato: carrusel
 redes:
 - tiktok
-estado: disenada
+estado: redactada
 fecha: 2026-11-19 10:00
 tema_hashtag: '#HumorGamer'
 objetivo: comentar (el número de la excusa) y etiquetar a quien la necesita hoy
@@ -117,3 +117,9 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'diseñador: medios renderizados, hoja de contacto revisada a ojo'
+- fecha: 2026-11-18 23:31
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: devuelta. Diapositiva 3/7 usa People/Brian Heder/Brian_Heder_01.jpg, donde probablemente sale
+    Jason al volante (bloqueada). Cambiar por Places/Leonida Keys/Leonida_Keys_02.jpg (señora en scooter) u otra
+    libre sin armas, actualizar capturas y diseno.py, re-render y hoja.'
