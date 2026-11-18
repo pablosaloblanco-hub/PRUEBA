@@ -19,6 +19,8 @@ def test_ciclo_completo(espacio):
         piezas.avanzar(p["id"], "disenada")
     img = piezas.carpeta_trabajo(p["id"]) / "19-1.jpg"
     Image.new("RGB", (1080, 1350), "#12061f").save(img, "JPEG")
+    (piezas.TRABAJO / "capturas" / "Places").mkdir(parents=True)
+    (piezas.TRABAJO / "capturas" / "Places" / "vice.jpg").write_bytes(b"x")
     piezas.actualizar(p["id"], medios=["19-1.jpg"], capturas=["Places/vice.jpg"], datos_usados=["Zonas de Leonida"])
     piezas.avanzar(p["id"], "disenada")
 

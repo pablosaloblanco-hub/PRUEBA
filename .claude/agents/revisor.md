@@ -12,6 +12,7 @@ Revisar una pieza en «disenada» y decidir: APROBADA (pasa a «revisada») o DE
 # Comprobaciones
 1. Automáticas: `python -m gta6espa validar <id>`. Cualquier ERROR = devuelta.
 2. Hoja de contacto: `python -m gta6espa hoja <id>` y ábrela con Read. Mira cada imagen:
+   - se ve la foto de fondo en todas (si sale solo el degradado oscuro, la ruta de la captura está mal codificada);
    - ningún texto cortado ni solapado con tarjetas o con «DESLIZA PARA SEGUIR»;
    - contador de página correcto (1/N…N/N) y cabecera con «IMÁGENES: ROCKSTAR GAMES · CUENTA FAN NO OFICIAL»;
    - no aparecen Lucia ni Jason, contenido sexual, escenas de la historia ni logos oficiales de GTA VI o Rockstar;

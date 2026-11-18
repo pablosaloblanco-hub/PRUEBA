@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-11-29 10:00
 tema_hashtag: '#GTAV'
 objetivo: comentar (Michael, Franklin o Trevor)
@@ -25,7 +25,8 @@ textos:
     V antes de volver a Leonida en GTA 6 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTAV #parati · Imágenes:
     Rockstar Games · Cuenta fan · No oficial'
 titulo_tiktok: 'Michael, Franklin o Trevor: ¿quién era tu favorito de GTA V? 🎮'
-medios: []
+medios:
+- 21-1.jpg
 drive: {}
 metricool: {}
 enlaces: {}
@@ -60,3 +61,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de diseño
+- fecha: 2026-11-18 15:48
+  estado: disenada
+  quien: Claude
+  nota: suelta 1080x1350 con single()+mini(); hoja revisada

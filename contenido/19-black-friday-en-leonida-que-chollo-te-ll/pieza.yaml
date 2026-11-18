@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-11-27 10:00
 tema_hashtag: '#BlackFriday'
 objetivo: comentar (A, B o C)
@@ -12,9 +12,6 @@ datos_usados:
 - Zonas de Leonida (6, presentadas por Rockstar)
 capturas:
 - Places/Vice City/Vice_City_22.jpg
-- Places/Leonida Keys/Leonida_Keys_01.jpg
-- Places/Ambrosia/Ambrosia_01.jpg
-- Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_01.jpg
 textos:
   instagram: |-
     BLACK FRIDAY EN LEONIDA: solo puedes llevarte uno 🛒
@@ -27,7 +24,8 @@ textos:
     o C (todoterreno por Mount Kalaga) 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #BlackFriday #parati · Imágenes:
     Rockstar Games · Cuenta fan · No oficial'
 titulo_tiktok: 'Black Friday en Leonida: ¿qué plan te llevas en GTA 6? 🛒'
-medios: []
+medios:
+- 19-1.jpg
 drive: {}
 metricool: {}
 enlaces: {}
@@ -63,3 +61,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de diseño
+- fecha: 2026-11-18 15:48
+  estado: disenada
+  quien: Claude
+  nota: suelta 1080x1350 con single()+mini(); hoja revisada

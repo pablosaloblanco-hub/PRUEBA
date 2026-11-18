@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-12-03 10:00
 tema_hashtag: '#GTAOnline'
 objetivo: comentar (A, B o C)
@@ -47,6 +47,8 @@ notas: |-
       ("palm", "C · MÁS TARDE", "Mientras, a la playa"),
     ])
   - cta (píldora magenta): COMENTA A, B O C 👇
+
+  DISEÑO (18/11): la opción B del mini se ha acortado a «B · 1.ª MITAD DE 2027» (en vez de «B · PRIMERA MITAD DE 2027») porque partía en dos líneas («PRIMERA MITAD DE / 2027») y descuadraba el bloque. El texto de IG/TikTok no cambia.
 historial:
 - fecha: 2026-11-18 15:41
   estado: idea
@@ -60,3 +62,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de la suelta
+- fecha: 2026-11-18 15:48
+  estado: disenada
+  quien: Claude
+  nota: 1 JPG 1080x1350; opción B acortada a «1.ª MITAD DE 2027»; hoja revisada

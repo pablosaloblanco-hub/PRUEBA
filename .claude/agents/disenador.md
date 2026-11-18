@@ -13,6 +13,7 @@ Para una pieza en «redactada», escribir `contenido/<id>/diseno.py`, generar la
 - `trabajo/plantilla_gta6.py` debe existir. Si no, el director lo descarga de Drive («03 · Plantilla de diseño (plantilla_gta6.py)») con download_file_content.
 - `trabajo/capturas/` debe tener las capturas oficiales filtradas (`python -m gta6espa capturas` las lista). Si está vacía, pide al director que ejecute `scripts/preparar_sesion.sh`.
 - Toma como modelo `contenido/_ejemplo/diseno.py`. Usa siempre `salida("nombre.jpg")`: la plantilla necesita rutas absolutas.
+- Pasa SIEMPRE cada captura por `foto("Places/Vice City/...")` (codifica con `urllib.parse.quote`). La plantilla mete la ruta en `url()` sin comillas y una ruta con espacios sale sin foto y sin error. En `capturas` de `pieza.yaml` va la ruta real, sin codificar.
 
 # Funciones de la plantilla
 - `cover(img, kicker, título_html, subtítulo, chips, n, total)`: portada con 3–4 chips `(icono, texto)`.
@@ -35,7 +36,7 @@ Para una pieza en «redactada», escribir `contenido/<id>/diseno.py`, generar la
 python -m gta6espa render <id>
 python -m gta6espa hoja <id>
 ```
-Abre `trabajo/<id>/hoja_contacto.jpg` con Read y míralo. Si un texto se corta, se solapa con «DESLIZA PARA SEGUIR» o una foto rompe las prohibiciones, corrige y repite. Luego `python -m gta6espa avanzar <id> disenada`.
+Abre `trabajo/<id>/hoja_contacto.jpg` con Read y míralo. Comprueba que en TODAS se ve la foto de fondo. Si un texto se corta, se solapa con «DESLIZA PARA SEGUIR» o una foto rompe las prohibiciones, corrige y repite. Luego `python -m gta6espa avanzar <id> disenada`.
 
 # Condición de fin
 Pieza en «disenada», con medios generados, capturas apuntadas y hoja de contacto revisada a ojo. Devuelve la ruta de la hoja de contacto.

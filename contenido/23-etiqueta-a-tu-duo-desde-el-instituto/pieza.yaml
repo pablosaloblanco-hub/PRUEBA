@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-12-01 10:00
 tema_hashtag: '#RealDimez'
 objetivo: etiquetar
@@ -23,7 +23,8 @@ textos:
   tiktok: 'Real Dimez en GTA 6: Bae-Luxe y Roxy, dúo de rap y amigas desde el instituto 🎤 Etiqueta a tu dúo 👇 #GTA6
     #GTAVI #GTA6Español #ViceCity #Leonida #RealDimez #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
 titulo_tiktok: 'Etiqueta a tu dúo desde el instituto: Real Dimez en GTA 6 🎤'
-medios: []
+medios:
+- 23-1.jpg
 drive: {}
 metricool: {}
 enlaces: {}
@@ -54,3 +55,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de la suelta en notas
+- fecha: 2026-11-18 15:48
+  estado: disenada
+  quien: Claude
+  nota: suelta 1080x1350 con single()+mini(); hoja revisada

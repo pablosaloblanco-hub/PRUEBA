@@ -62,7 +62,14 @@ def test_imagen_tamano_y_formato(tmp_path):
     assert any("JPG" in m for m in e) and any("1080×1350" in m for m in e)
 
 
-def test_capturas_prohibidas_y_carpeta():
-    e = errores(validar.validar_capturas(["People/Lucia Caminos/x.jpg", "Jason Duval/y.jpg", "Places/vice.jpg"]))
-    assert len(e) == 2
-    assert errores(validar.validar_capturas(["Trailer/z.jpg"]))
+def test_capturas_prohibidas_y_carpeta(tmp_path):
+    (tmp_path / "Places").mkdir()
+    (tmp_path / "Places" / "vice.jpg").write_bytes(b"x")
+    e = errores(validar.validar_capturas(["People/Lucia Caminos/x.jpg", "Jason Duval/y.jpg", "Places/vice.jpg"], tmp_path))
+    assert sum("prohibida" in m for m in e) == 2 and not any("vice.jpg" in m for m in e)
+    assert errores(validar.validar_capturas(["Trailer/z.jpg"], tmp_path))
+
+
+def test_captura_inexistente(tmp_path):
+    e = errores(validar.validar_capturas(["Places/Vice City/no_existe.jpg"], tmp_path))
+    assert any("no existe" in m for m in e)

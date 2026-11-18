@@ -1,6 +1,6 @@
 import pytest
 
-from gta6espa import piezas
+from gta6espa import piezas, reglas
 
 
 @pytest.fixture
@@ -10,6 +10,7 @@ def espacio(tmp_path, monkeypatch):
     contenido.mkdir(); trabajo.mkdir()
     monkeypatch.setattr(piezas, "CONTENIDO", contenido)
     monkeypatch.setattr(piezas, "TRABAJO", trabajo)
+    monkeypatch.setattr(reglas, "TRABAJO", trabajo)
     return tmp_path
 
 

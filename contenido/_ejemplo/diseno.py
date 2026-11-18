@@ -5,10 +5,13 @@ Se ejecuta con «python -m gta6espa render <id>», que:
   - apunta GTA6_ASSETS a trabajo/capturas/ (capturas oficiales ya filtradas);
   - ejecuta este archivo con trabajo/<id>/ como carpeta actual.
 La plantilla necesita rutas de salida ABSOLUTAS: usa siempre salida("nombre.jpg").
+La plantilla mete la foto en url() sin comillas: una ruta con espacios («Places/Vice City/...»)
+sale SIN FOTO y sin dar error. Pasa siempre las capturas por foto(), que las codifica.
 Las rutas de las capturas son relativas a GTA6_ASSETS y deben estar apuntadas en
 «capturas» de pieza.yaml para que el revisor las compruebe.
 """
 from pathlib import Path
+from urllib.parse import quote
 
 from plantilla_gta6 import close, cover, info, render
 
@@ -17,8 +20,12 @@ def salida(nombre: str) -> str:
     return str(Path.cwd() / nombre)
 
 
-FOTO_PORTADA = "Places/Vice_City_01.jpg"
-FOTO_DATOS = "Places/Vice_City_01.jpg"
+def foto(ruta: str) -> str:
+    return quote(ruta)
+
+
+FOTO_PORTADA = foto("Places/Vice City/Vice_City_01.jpg")
+FOTO_DATOS = foto("Places/Vice City/Vice_City_10.jpg")
 TOTAL = 3
 
 render([

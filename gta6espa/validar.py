@@ -145,7 +145,9 @@ def validar_video(ruta: Path) -> list[Hallazgo]:
     return h
 
 
-def validar_capturas(capturas: list[str]) -> list[Hallazgo]:
+def validar_capturas(capturas: list[str], carpeta_capturas: Path | None = None) -> list[Hallazgo]:
+    from .reglas import TRABAJO
+    carpeta_capturas = carpeta_capturas or (TRABAJO / "capturas")
     c = reglas()["capturas"]
     bloqueadas = capturas_bloqueadas()
     h = []
@@ -158,6 +160,8 @@ def validar_capturas(capturas: list[str]) -> list[Hallazgo]:
             h.append(Hallazgo("ERROR", cap, f"solo se usan capturas de {', '.join(c['carpetas_permitidas'])}"))
         if cap in bloqueadas:
             h.append(Hallazgo("ERROR", cap, "captura en la lista negra (config/capturas_bloqueadas.txt)"))
+        if carpeta_capturas.exists() and not (carpeta_capturas / cap).exists():
+            h.append(Hallazgo("ERROR", cap, "no existe en trabajo/capturas: revisa la ruta"))
     return h
 
 

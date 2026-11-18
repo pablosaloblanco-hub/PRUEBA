@@ -1,5 +1,6 @@
 """Diccionario de Leonida: 12 nombres que vas a oír (carrusel, 6 diapositivas)."""
 from pathlib import Path
+from urllib.parse import quote
 
 from plantilla_gta6 import close, cover, info, render
 
@@ -8,13 +9,19 @@ def salida(nombre: str) -> str:
     return str(Path.cwd() / nombre)
 
 
+def foto(ruta: str) -> str:
+    # La plantilla mete la ruta en url(...) sin comillas: los espacios de las
+    # subcarpetas («Vice City», «Leonida Keys»…) se codifican para que cargue.
+    return quote(ruta)
+
+
 TOTAL = 6
-F1 = "Places/Vice City/Vice_City_09.jpg"
-F2 = "Places/Vice City/Vice_City_15.jpg"
-F3 = "Places/Leonida Keys/Leonida_Keys_02.jpg"
-F4 = "Places/Port Gellhorn/Port_Gellhorn_01.jpg"
-F5 = "Places/Ambrosia/Ambrosia_04.jpg"
-F6 = "Places/Vice City/Vice_City_27.jpg"
+F1 = foto("Places/Vice City/Vice_City_09.jpg")
+F2 = foto("Places/Vice City/Vice_City_01.jpg")
+F3 = foto("Places/Leonida Keys/Leonida_Keys_02.jpg")
+F4 = foto("Places/Port Gellhorn/Port_Gellhorn_01.jpg")
+F5 = foto("Places/Ambrosia/Ambrosia_01.jpg")
+F6 = foto("Places/Vice City/Vice_City_19.jpg")
 
 render([
     (cover(F1, "GUÍA PARA NO PERDERSE",

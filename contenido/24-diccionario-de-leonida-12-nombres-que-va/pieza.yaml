@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-12-02 10:00
 tema_hashtag: '#GuiaGTA6'
 objetivo: guardar
@@ -14,11 +14,11 @@ datos_usados:
 - Personajes presentados por Rockstar (además de Lucia y Jason)
 capturas:
 - Places/Vice City/Vice_City_09.jpg
-- Places/Vice City/Vice_City_15.jpg
+- Places/Vice City/Vice_City_01.jpg
 - Places/Leonida Keys/Leonida_Keys_02.jpg
 - Places/Port Gellhorn/Port_Gellhorn_01.jpg
-- Places/Ambrosia/Ambrosia_04.jpg
-- Places/Vice City/Vice_City_27.jpg
+- Places/Ambrosia/Ambrosia_01.jpg
+- Places/Vice City/Vice_City_19.jpg
 textos:
   instagram: |-
     ¿Tisha-Wocka? ¿Allied Crystal? Si en GTA 6 no pillas la mitad de los nombres, esto es para ti 📖
@@ -79,6 +79,8 @@ notas: |-
   - título (brocha): ¿Qué nombre te costó más?
   - subtítulo: Comenta su número (01–12) y guarda el diccionario 👇
   - acciones: ("chat", "COMENTA") · ("save", "GUARDA") · ("send", "COMPARTE")
+
+  DISEÑO (18/11): para no repetir fotos en la semana 27/11-3/12 se cambian tres capturas del guion: 2/6 Vice_City_15 → Vice_City_01 (ya en piezas 20 y 22); 5/6 Ambrosia_04 → Ambrosia_01 (ya en pieza 20); 6/6 Vice_City_27 → Vice_City_19 (ya en pieza 22). Textos sin cambios.
 historial:
 - fecha: 2026-11-18 15:41
   estado: idea
@@ -92,3 +94,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de 6 diapositivas
+- fecha: 2026-11-18 15:48
+  estado: disenada
+  quien: Claude
+  nota: 6 JPG 1080x1350 con plantilla; hoja revisada

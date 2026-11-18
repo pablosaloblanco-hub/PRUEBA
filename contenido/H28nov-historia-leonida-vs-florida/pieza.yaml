@@ -3,7 +3,7 @@ titulo: Historia Leonida vs Florida
 formato: historia
 redes:
 - instagram
-estado: redactada
+estado: disenada
 fecha: 2026-11-28 13:00
 tema_hashtag: '#Florida'
 objetivo: compartir la publicación 20 (y votar en el cuestionario)
@@ -20,8 +20,9 @@ drive: {}
 metricool: {}
 enlaces: {}
 notas: 'Empuja la 20. Título: «Leonida existe (casi)». 3 puntos: 1) Vice City = Miami, 2) Leonida Keys = Cayos de
-  Florida, 3) Grassrivers = Everglades + «NUEVO POST EN EL PERFIL». Pegatina para Pablo: cuestionario «¿En qué se
-  inspira Grassrivers?» (Everglades / Cayos / Miami). Captura: Grassrivers_05.'
+  Florida, 3) Grassrivers = Everglades + «NUEVO POST EN EL PERFIL». Pegatina para Pablo: encuesta «¿Has estado en
+  Florida?» (Sí / Todavía no). (Cambiada el 18/11: el cuestionario anterior tenía la respuesta escrita en la imagen.)
+  Captura: Grassrivers_05.'
 historial:
 - fecha: 2026-11-18 15:41
   estado: idea
@@ -35,3 +36,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: guion de la historia en notas
+- fecha: 2026-11-18 15:47
+  estado: disenada
+  quien: Claude
+  nota: 'diseñador: historia 1080x1920 con story(); hoja revisada'

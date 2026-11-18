@@ -17,13 +17,13 @@ datos_usados:
 - Bonus de reserva
 capturas:
 - Places/Vice City/Vice_City_10.jpg
-- Places/Vice City/Vice_City_03.jpg
-- Places/Leonida Keys/Leonida_Keys_01.jpg
-- Places/Vice City/Vice_City_15.jpg
-- Places/Port Gellhorn/Port_Gellhorn_06.jpg
-- Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_03.jpg
+- Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_04.jpg
+- Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_06.jpg
+- Places/Leonida Keys/Leonida_Keys_04.jpg
+- Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_05.jpg
+- Places/Leonida Keys/Leonida_Keys_07.jpg
 - Places/Grassrivers/Grassrivers_02.jpg
-- Places/Vice City/Vice_City_27.jpg
+- Places/Vice City/Vice_City_01.jpg
 textos:
   instagram: |-
     ¿Vas a regalar GTA 6 estas Navidades? 🎁 Mira esto antes de pagar.
@@ -36,7 +36,15 @@ textos:
     guárdalo 📌 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RegalosNavidad #parati · Imágenes: Rockstar Games ·
     Cuenta fan · No oficial'
 titulo_tiktok: ¿Vas a regalar GTA 6? 6 cosas que mirar antes de comprarlo 🎁
-medios: []
+medios:
+- 22-1.jpg
+- 22-2.jpg
+- 22-3.jpg
+- 22-4.jpg
+- 22-5.jpg
+- 22-6.jpg
+- 22-7.jpg
+- 22-8.jpg
 drive: {}
 metricool: {}
 enlaces: {}
