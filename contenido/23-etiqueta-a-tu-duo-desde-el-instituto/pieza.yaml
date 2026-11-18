@@ -13,17 +13,13 @@ datos_usados:
 capturas:
 - People/Real Dimez/Real_Dimez_04.jpg
 textos:
-  instagram: '¿Tienes un dúo desde el instituto? 🎤 En GTA 6 también hay uno.
+  instagram: |-
+    ¿Tienes un dúo desde el instituto? 🎤 En GTA 6 también hay uno.
 
-
-    Bae-Luxe y Roxy son Real Dimez, el dúo de rap que Rockstar ha presentado en GTA VI: amigas desde el instituto
-    y fichadas por Dre''Quan en Only Raw Records. Etiqueta a tu dúo de toda la vida 👇 y decidid ya quién pone la
-    música en el coche de Vice City al resto de Leonida 🌴
-
+    Bae-Luxe y Roxy son Real Dimez, el dúo de rap que Rockstar ha presentado en GTA VI: amigas desde el instituto y fichadas por Dre'Quan en Only Raw Records. Etiqueta a tu dúo de toda la vida 👇 y decidid ya quién pone la música en el coche por Vice City 🌴
 
     Imágenes: Rockstar Games · Cuenta fan · No oficial.
-
-    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RealDimez'
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RealDimez
   tiktok: 'Real Dimez en GTA 6: Bae-Luxe y Roxy, dúo de rap y amigas desde el instituto 🎤 Etiqueta a tu dúo 👇 #GTA6
     #GTAVI #GTA6Español #ViceCity #Leonida #RealDimez #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
 titulo_tiktok: 'Etiqueta a tu dúo desde el instituto: Real Dimez en GTA 6 🎤'
@@ -31,20 +27,20 @@ medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: "Ángulo: amistad, el gancho de etiquetado más natural que da el dato: Real Dimez (Bae-Luxe y Roxy), dúo de\
-  \ rap y amigas desde el instituto. Gancho: «ETIQUETA A TU DÚO DESDE EL INSTITUTO». Formato suelta: foto completa\
-  \ + píldora «Etiqueta a tu dúo \U0001F447» y línea de dato: «Bae-Luxe y Roxy: dúo de rap, amigas desde el instituto\
-  \ · fichadas por Dre'Quan en Only Raw Records». 1 imagen. Captura: Real_Dimez_04 (las dos en el estudio con micro).\
-  \ Alternativa: Real_Dimez_03. No usar Real_Dimez_01 (ropa sugerente: riesgo con la regla de contenido sexual).\
-  \ Solo lo que Rockstar contó al presentarlas: nada de su papel en la historia ni de misiones.\n\nGUION DISEÑO:\n\
-  1 imagen · single(\"People/Real Dimez/Real_Dimez_04.jpg\", ...) — size=120 (título largo). Alternativa: Real_Dimez_03.\
-  \ Nunca Real_Dimez_01 ni Real_Dimez_02.\n  kicker: REAL DIMEZ\n  título: ETIQUETA A TU <span class=\"mag\">DÚO</span>\
-  \ DESDE EL <span class=\"ye\">INSTITUTO</span>\n  subtítulo: Bae-Luxe y Roxy: dúo de rap, amigas desde el instituto\
-  \ · fichadas por Dre'Quan en Only Raw Records\n  bloque interactivo (mini con 3 tarjetas de dato, porque la pieza\
-  \ pide etiquetar, no votar):\n    mini([(\"users\", \"BAE-LUXE Y ROXY\", \"Son Real Dimez\"),\n          (\"heart\"\
-  , \"AMIGAS\", \"Desde el instituto\"),\n          (\"disc\", \"ONLY RAW RECORDS\", \"Fichadas por Dre'Quan\")])\n\
-  \  píldora magenta (cta): ETIQUETA A TU DÚO \U0001F447\n  (Solo lo que contó Rockstar al presentarlas: nada de\
-  \ su papel en la historia ni de misiones.)"
+notas: |-
+  Ángulo: amistad, el gancho de etiquetado más natural que da el dato: Real Dimez (Bae-Luxe y Roxy), dúo de rap y amigas desde el instituto. Gancho: «ETIQUETA A TU DÚO DESDE EL INSTITUTO». Formato suelta: foto completa + píldora «Etiqueta a tu dúo 👇» y línea de dato: «Bae-Luxe y Roxy: dúo de rap, amigas desde el instituto · fichadas por Dre'Quan en Only Raw Records». 1 imagen. Captura: Real_Dimez_04 (las dos en el estudio con micro). Alternativa: Real_Dimez_03. No usar Real_Dimez_01 (ropa sugerente: riesgo con la regla de contenido sexual). Solo lo que Rockstar contó al presentarlas: nada de su papel en la historia ni de misiones.
+
+  GUION DISEÑO:
+  1 imagen · single("People/Real Dimez/Real_Dimez_04.jpg", ...) — size=120 (título largo). Alternativa: Real_Dimez_03. Nunca Real_Dimez_01 ni Real_Dimez_02.
+    kicker: REAL DIMEZ
+    título: ETIQUETA A TU <span class="mag">DÚO</span> DESDE EL <span class="ye">INSTITUTO</span>
+    subtítulo: Bae-Luxe y Roxy: dúo de rap, amigas desde el instituto · fichadas por Dre'Quan en Only Raw Records
+    bloque interactivo (mini con 3 tarjetas de dato, porque la pieza pide etiquetar, no votar):
+      mini([("users", "BAE-LUXE Y ROXY", "Son Real Dimez"),
+            ("heart", "AMIGAS", "Desde el instituto"),
+            ("disc", "ONLY RAW RECORDS", "Fichadas por Dre'Quan")])
+    píldora magenta (cta): ETIQUETA A TU DÚO 👇
+    (Solo lo que contó Rockstar al presentarlas: nada de su papel en la historia ni de misiones.)
 historial:
 - fecha: 2026-11-18 15:41
   estado: idea

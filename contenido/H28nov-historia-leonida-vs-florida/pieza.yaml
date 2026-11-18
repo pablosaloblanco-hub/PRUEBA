@@ -11,10 +11,11 @@ datos_usados:
 - Historia
 - Zonas de Leonida (6, presentadas por Rockstar)
 capturas:
-- Places/Grassrivers/Grassrivers_05.jpg
+- Places/Grassrivers/Grassrivers_03.jpg
 textos: {}
 titulo_tiktok: ''
-medios: []
+medios:
+- H-28nov.jpg
 drive: {}
 metricool: {}
 enlaces: {}

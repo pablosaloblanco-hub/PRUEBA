@@ -18,6 +18,6 @@ render([
            '¿REGALAS <span class="ye">GTA 6</span>?',
            '3 cosas clave antes de comprarlo',
            ['Solo PS5 y Xbox Series X/S', 'Caja con código, sin disco', 'Hasta 212 GB de espacio'],
-           size=130, pos='55% center'),
+           size=130, pos='62% center'),
      salida('H-30nov.jpg'), 1080, 1920),
 ])

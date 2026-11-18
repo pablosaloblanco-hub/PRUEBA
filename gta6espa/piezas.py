@@ -25,6 +25,18 @@ class ErrorPieza(Exception):
     pass
 
 
+class _Dumper(yaml.SafeDumper):
+    """Guarda los textos de varias líneas como bloques «|», legibles en el repositorio."""
+
+
+def _str_bloque(dumper, dato):
+    estilo = "|" if "\n" in dato else None
+    return dumper.represent_scalar("tag:yaml.org,2002:str", dato, style=estilo)
+
+
+_Dumper.add_representer(str, _str_bloque)
+
+
 def _ahora() -> str:
     return dt.datetime.now().strftime("%Y-%m-%d %H:%M")
 
@@ -73,7 +85,7 @@ def guardar(p: dict) -> Path:
     ruta.parent.mkdir(parents=True, exist_ok=True)
     publica = {k: ({} if k in PRIVADOS else v) for k, v in p.items()}
     with open(ruta, "w", encoding="utf-8") as f:
-        yaml.safe_dump(publica, f, allow_unicode=True, sort_keys=False, width=110)
+        yaml.dump(publica, f, Dumper=_Dumper, allow_unicode=True, sort_keys=False, width=110)
     privados = {k: p.get(k) or {} for k in PRIVADOS}
     if any(privados.values()):
         priv = ruta_privada(p["id"])

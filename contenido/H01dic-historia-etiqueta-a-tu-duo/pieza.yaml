@@ -3,7 +3,7 @@ titulo: Historia etiqueta a tu dúo
 formato: historia
 redes:
 - instagram
-estado: redactada
+estado: disenada
 fecha: 2026-12-01 13:00
 tema_hashtag: '#RealDimez'
 objetivo: etiquetar (mencionar a su dúo y llevar a la publicación 23)
@@ -13,7 +13,8 @@ capturas:
 - People/Real Dimez/Real_Dimez_03.jpg
 textos: {}
 titulo_tiktok: ''
-medios: []
+medios:
+- H-01dic.jpg
 drive: {}
 metricool: {}
 enlaces: {}
@@ -33,3 +34,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: guion de la historia en notas
+- fecha: 2026-11-18 15:47
+  estado: disenada
+  quien: Claude
+  nota: 'diseñador: historia 1080x1920 con story(); hoja revisada'

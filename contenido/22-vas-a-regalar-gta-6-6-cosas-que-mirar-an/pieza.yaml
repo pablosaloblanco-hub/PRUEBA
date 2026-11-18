@@ -25,17 +25,13 @@ capturas:
 - Places/Grassrivers/Grassrivers_02.jpg
 - Places/Vice City/Vice_City_27.jpg
 textos:
-  instagram: '¿Vas a regalar GTA 6 estas Navidades? 🎁 Mira esto antes de pagar.
+  instagram: |-
+    ¿Vas a regalar GTA 6 estas Navidades? 🎁 Mira esto antes de pagar.
 
-
-    Consola, caja sin disco, espacio, ediciones, GTA Online y bonus de reserva: las 6 cosas de GTA VI que conviene
-    tener claras para que el regalo no falle y el primer viaje a Vice City (y al resto de Leonida) empiece sin sustos.
-    Guarda el post para tenerlo a mano cuando vayas a comprarlo 📌 y comenta: ¿lo regalas tú o te lo regalan? 👇
-
+    Consola, caja sin disco, espacio, ediciones, GTA Online y bonus de reserva: las 6 cosas de GTA VI que conviene tener claras para que el regalo no falle y el primer viaje a Vice City (y al resto de Leonida) empiece sin sustos. Guarda el post para tenerlo a mano cuando vayas a comprarlo 📌 y comenta: ¿lo regalas tú o te lo regalan? 👇
 
     Imágenes: Rockstar Games · Cuenta fan · No oficial.
-
-    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RegalosNavidad'
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RegalosNavidad
   tiktok: '¿Regalas GTA 6 estas Navidades? 🎁 6 cosas de GTA VI que mirar antes de pagar el billete a Vice City:
     guárdalo 📌 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RegalosNavidad #parati · Imágenes: Rockstar Games ·
     Cuenta fan · No oficial'
@@ -44,44 +40,68 @@ medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: "Ángulo: guía de compra para regalar en Navidad, publicada en Cyber Monday (30/11) sin depender de ofertas.\
-  \ Gancho portada: «¿VAS A REGALAR GTA 6? Mira esto antes de pagar». 8 diapositivas: 1) portada (Vice_City_10);\
-  \ 2) Consola: solo PS5 (mejorado para PS5 Pro) y Xbox Series X/S; no hay versión anunciada para PC, PS4 ni Xbox\
-  \ One (Vice_City_03); 3) Edición física sin disco: la caja trae un código (Leonida_Keys_01); 4) Espacio: hasta\
-  \ 212 GB según dispositivo (Vice_City_15); 5) Ediciones: Standard 79,99 € y Ultimate 99,99 €, PVP oficial en PS\
-  \ Store y Microsoft Store (Port_Gellhorn_06); 6) GTA Online no viene de salida, llegará más adelante (Mount_Kalaga_National_Park_03);\
-  \ 7) El bonus de reserva (Vintage Vice City Pack) era para compras antes del 20/11 (Grassrivers_02); 8) cierre\
-  \ (Vice_City_27): «Guárdalo para cuando vayas a comprarlo». Pendiente de investigador: precio de Cyber Monday\
-  \ / Black Friday en PS Store y Microsoft Store España; si hay rebaja real, la diapositiva 5 dice «PVP oficial»\
-  \ y se añade la oferta con su fuente; si no, se deja el PVP como «precio oficial». También pendiente de investigador\
-  \ si se quiere: si el código de la caja necesita conexión a internet y la clasificación PEGI (no están en «Datos\
-  \ verificados»: no ponerlos hasta entonces). Evitar capturas con armas (público familiar que regala).\n\nGUION\
-  \ DISEÑO:\nTOTAL = 8. Fotos sin armas (público familiar). Clases de color en títulos: ye / cy / mag.\n\n1/8 ·\
-  \ cover(\"Places/Vice City/Vice_City_10.jpg\", ...)\n  kicker: GUÍA DE REGALO\n  título: ¿VAS A <span class=\"\
-  mag\">REGALAR</span> <span class=\"ye\">GTA 6</span>?\n  subtítulo: Mira esto antes de pagar: 6 cosas en un solo\
-  \ post\n  chips: (pad, PS5 Y XBOX SERIES) · (disc, CAJA CON CÓDIGO) · (save, HASTA 212 GB) · (star, 2 EDICIONES)\n\
-  \n2/8 · info(\"Places/Vice City/Vice_City_03.jpg\", ...)\n  etiqueta: 01 · CONSOLA\n  subetiqueta: SOLO PS5 Y\
-  \ XBOX SERIES\n  tarjetas:\n    (pad, PLAYSTATION, PS5, Mejorado para PS5 Pro, ye)\n    (pad, XBOX, SERIES X/S,\
-  \ Vale para Series X y para Series S, cy)\n    (x, SIN VERSIÓN ANUNCIADA, PC · PS4 · XBOX ONE, Mira qué consola\
-  \ tiene antes de comprarlo, mag)\n\n3/8 · info(\"Places/Leonida Keys/Leonida_Keys_01.jpg\", ...)\n  etiqueta:\
-  \ 02 · LA CAJA\n  subetiqueta: EDICIÓN FÍSICA SIN DISCO\n  tarjetas:\n    (disc, DENTRO DE LA CAJA, UN CÓDIGO,\
-  \ No trae disco: la caja trae el código del juego, ye)\n    (alert, OJO SI, QUIERES DISCO, Si lo buscas para la\
-  \ estantería, no hay disco, cy)\n    (pin, EN TIENDAS, DESDE EL 12/11, La edición física ya está a la venta, mag)\n\
-  \n4/8 · info(\"Places/Vice City/Vice_City_15.jpg\", ...)\n  etiqueta: 03 · ESPACIO\n  subetiqueta: HAZLE SITIO\
-  \ EN LA CONSOLA\n  tarjetas:\n    (save, TAMAÑO, HASTA 212 GB, Según el dispositivo, ye)\n    (check, ANTES DEL\
-  \ DÍA, LIBERA ESPACIO, Mira cuánto sitio libre le queda a la consola, cy)\n\n5/8 · info(\"Places/Port Gellhorn/Port_Gellhorn_06.jpg\"\
-  , ...)\n  etiqueta: 04 · EDICIONES\n  subetiqueta: PRECIO OFICIAL EN ESPAÑA\n  tarjetas:\n    (star, STANDARD,\
-  \ 79,99 €, Precio oficial en PS Store y Microsoft Store, ye)\n    (trophy, ULTIMATE, 99,99 €, Precio oficial en\
-  \ PS Store y Microsoft Store, cy)\n    (check, ANTES DE PAGAR, SU CONSOLA, Que sea la versión de PS5 o la de Xbox\
-  \ Series X/S, mag)\n  (Sin ofertas ni rebajas: solo «precio oficial».)\n\n6/8 · info(\"Places/Mount Kalaga National\
-  \ Park/Mount_Kalaga_National_Park_03.jpg\", ...)\n  etiqueta: 05 · GTA ONLINE\n  subetiqueta: NO VIENE DE SALIDA\n\
-  \  tarjetas:\n    (globe, GTA ONLINE, MÁS ADELANTE, No llega en el lanzamiento: llegará más adelante, ye)\n  \
-  \  (alert, SI LO QUIERE PARA ONLINE, AÚN NO, Avísale antes de regalárselo, cy)\n\n7/8 · info(\"Places/Grassrivers/Grassrivers_02.jpg\"\
-  , ...)\n  etiqueta: 06 · BONUS DE RESERVA\n  subetiqueta: YA NO ESTÁ DISPONIBLE\n  tarjetas:\n    (clock, ERA\
-  \ EL BONUS, VINTAGE VICE CITY PACK, Venía en las dos ediciones, ye)\n    (x, SOLO HASTA, EL 20/11, Era para compras\
-  \ antes del 20/11: no cuentes con él, cy)\n\n8/8 · close(\"Places/Vice City/Vice_City_27.jpg\", ...)\n  título\
-  \ (brocha): ¿Lo regalas o te lo regalan?\n  subtítulo: Guárdalo para cuando vayas a comprarlo \U0001F4CC\n  botones:\
-  \ (chat, COMENTA) · (save, GUARDA) · (send, COMPARTE)"
+notas: |-
+  Ángulo: guía de compra para regalar en Navidad, publicada en Cyber Monday (30/11) sin depender de ofertas. Gancho portada: «¿VAS A REGALAR GTA 6? Mira esto antes de pagar». 8 diapositivas: 1) portada (Vice_City_10); 2) Consola: solo PS5 (mejorado para PS5 Pro) y Xbox Series X/S; no hay versión anunciada para PC, PS4 ni Xbox One (Vice_City_03); 3) Edición física sin disco: la caja trae un código (Leonida_Keys_01); 4) Espacio: hasta 212 GB según dispositivo (Vice_City_15); 5) Ediciones: Standard 79,99 € y Ultimate 99,99 €, PVP oficial en PS Store y Microsoft Store (Port_Gellhorn_06); 6) GTA Online no viene de salida, llegará más adelante (Mount_Kalaga_National_Park_03); 7) El bonus de reserva (Vintage Vice City Pack) era para compras antes del 20/11 (Grassrivers_02); 8) cierre (Vice_City_27): «Guárdalo para cuando vayas a comprarlo». Pendiente de investigador: precio de Cyber Monday / Black Friday en PS Store y Microsoft Store España; si hay rebaja real, la diapositiva 5 dice «PVP oficial» y se añade la oferta con su fuente; si no, se deja el PVP como «precio oficial». También pendiente de investigador si se quiere: si el código de la caja necesita conexión a internet y la clasificación PEGI (no están en «Datos verificados»: no ponerlos hasta entonces). Evitar capturas con armas (público familiar que regala).
+
+  GUION DISEÑO:
+  TOTAL = 8. Fotos sin armas (público familiar). Clases de color en títulos: ye / cy / mag.
+
+  1/8 · cover("Places/Vice City/Vice_City_10.jpg", ...)
+    kicker: GUÍA DE REGALO
+    título: ¿VAS A <span class="mag">REGALAR</span> <span class="ye">GTA 6</span>?
+    subtítulo: Mira esto antes de pagar: 6 cosas en un solo post
+    chips: (pad, PS5 Y XBOX SERIES) · (disc, CAJA CON CÓDIGO) · (save, HASTA 212 GB) · (star, 2 EDICIONES)
+
+  2/8 · info("Places/Vice City/Vice_City_03.jpg", ...)
+    etiqueta: 01 · CONSOLA
+    subetiqueta: SOLO PS5 Y XBOX SERIES
+    tarjetas:
+      (pad, PLAYSTATION, PS5, Mejorado para PS5 Pro, ye)
+      (pad, XBOX, SERIES X/S, Vale para Series X y para Series S, cy)
+      (x, SIN VERSIÓN ANUNCIADA, PC · PS4 · XBOX ONE, Mira qué consola tiene antes de comprarlo, mag)
+
+  3/8 · info("Places/Leonida Keys/Leonida_Keys_01.jpg", ...)
+    etiqueta: 02 · LA CAJA
+    subetiqueta: EDICIÓN FÍSICA SIN DISCO
+    tarjetas:
+      (disc, DENTRO DE LA CAJA, UN CÓDIGO, No trae disco: la caja trae el código del juego, ye)
+      (alert, OJO SI, QUIERES DISCO, Si lo buscas para la estantería, no hay disco, cy)
+      (pin, EN TIENDAS, DESDE EL 12/11, La edición física ya está a la venta, mag)
+
+  4/8 · info("Places/Vice City/Vice_City_15.jpg", ...)
+    etiqueta: 03 · ESPACIO
+    subetiqueta: HAZLE SITIO EN LA CONSOLA
+    tarjetas:
+      (save, TAMAÑO, HASTA 212 GB, Según el dispositivo, ye)
+      (check, ANTES DEL DÍA, LIBERA ESPACIO, Mira cuánto sitio libre le queda a la consola, cy)
+
+  5/8 · info("Places/Port Gellhorn/Port_Gellhorn_06.jpg", ...)
+    etiqueta: 04 · EDICIONES
+    subetiqueta: PRECIO OFICIAL EN ESPAÑA
+    tarjetas:
+      (star, STANDARD, 79,99 €, Precio oficial en PS Store y Microsoft Store, ye)
+      (trophy, ULTIMATE, 99,99 €, Precio oficial en PS Store y Microsoft Store, cy)
+      (check, ANTES DE PAGAR, SU CONSOLA, Que sea la versión de PS5 o la de Xbox Series X/S, mag)
+    (Sin ofertas ni rebajas: solo «precio oficial».)
+
+  6/8 · info("Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_03.jpg", ...)
+    etiqueta: 05 · GTA ONLINE
+    subetiqueta: NO VIENE DE SALIDA
+    tarjetas:
+      (globe, GTA ONLINE, MÁS ADELANTE, No llega en el lanzamiento: llegará más adelante, ye)
+      (alert, SI LO QUIERE PARA ONLINE, AÚN NO, Avísale antes de regalárselo, cy)
+
+  7/8 · info("Places/Grassrivers/Grassrivers_02.jpg", ...)
+    etiqueta: 06 · BONUS DE RESERVA
+    subetiqueta: YA NO ESTÁ DISPONIBLE
+    tarjetas:
+      (clock, ERA EL BONUS, VINTAGE VICE CITY PACK, Venía en las dos ediciones, ye)
+      (x, SOLO HASTA, EL 20/11, Era para compras antes del 20/11: no cuentes con él, cy)
+
+  8/8 · close("Places/Vice City/Vice_City_27.jpg", ...)
+    título (brocha): ¿Lo regalas o te lo regalan?
+    subtítulo: Guárdalo para cuando vayas a comprarlo 📌
+    botones: (chat, COMENTA) · (save, GUARDA) · (send, COMPARTE)
 historial:
 - fecha: 2026-11-18 15:41
   estado: idea
