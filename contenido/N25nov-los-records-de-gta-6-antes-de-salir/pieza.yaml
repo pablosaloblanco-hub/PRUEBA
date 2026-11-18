@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-11-25 10:00
 tema_hashtag: '#RockstarGames'
 objetivo: guardar y compartir (datos de récords)
@@ -22,13 +22,13 @@ textos:
   instagram: |-
     GTA 6 batió récords antes de salir 🏆
 
-    El tráiler 1 se fue a 93 millones de visitas en YouTube en 24 horas, y el tráiler 2 pasó de los 475 millones en 24 horas sumando plataformas (según Rockstar a The Hollywood Reporter), por encima de los 365 millones del tráiler de Deadpool y Lobezno. El Guinness World Records Gamer's Edition 2027 lo deja por escrito: tráiler de videojuego más visto en 24 horas. Guarda el carrusel 📌 para la próxima discusión en el grupo y comenta qué récord crees que batirá ahora GTA VI 👇
+    El tráiler 1 se fue a 93 millones de visitas en YouTube en 24 horas, y el tráiler 2 pasó de los 475 millones en 24 horas sumando plataformas (según Rockstar a The Hollywood Reporter), por encima de los 365 millones del tráiler de Deadpool y Lobezno. Y GTA VI aparece en el Guinness World Records Gamer's Edition 2027 con el récord de tráiler de videojuego más visto en 24 horas. Guarda el carrusel 📌 para la próxima discusión en el grupo y comenta qué récord crees que batirá ahora GTA VI 👇
 
     Imágenes: Rockstar Games · Cuenta fan · No oficial.
     #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RockstarGames
-  tiktok: 'GTA 6 batió récords antes de salir: 93 M de visitas en 24 h con el tráiler 1 y más de 475 M con el tráiler
-    2 🏆 Guárdalo y comenta qué récord batirá ahora 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RockstarGames
-    #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
+  tiktok: 'GTA 6 batió récords antes de salir: 93 M de visitas en YouTube en 24 h con el tráiler 1 y más de 475
+    M con el tráiler 2 🏆 Guárdalo y comenta qué récord batirá ahora 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida
+    #RockstarGames #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
 titulo_tiktok: 'Los récords de GTA 6 antes de salir: 93 M, más de 475 M y un Guinness 🏆'
 medios:
 - N25nov-1.jpg
@@ -110,3 +110,7 @@ historial:
   quien: Claude
   nota: 'revisor: devuelta. Texto IG: ''El Guinness ... lo deja por escrito'' va justo tras la frase del trailer
     2 y le atribuye el Guinness; reescribir sin ligarlo a ningun trailer. JPG y capturas ok.'
+- fecha: 2026-11-18 23:30
+  estado: disenada
+  quien: Claude
+  nota: 'director: frase del Guinness reescrita sin ligarla a un tráiler; imágenes sin cambios'
