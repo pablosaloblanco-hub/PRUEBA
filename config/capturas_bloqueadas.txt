@@ -1,3 +1,22 @@
 # Una captura por línea, con la ruta relativa dentro del pack (por ejemplo: People/archivo.jpg).
 # Motivo opcional tras « # ». El agente revisor añade aquí cada foto que rompa las prohibiciones
 # (salen Lucia o Jason, contenido sexual, escenas de la historia).
+# Auditoría visual del pack oficial, 18/11/2026 (85 fotos de Places y People revisadas)
+People/Boobie Ike/Boobie_Ike_02.jpg # exterior del club de striptease
+People/Boobie Ike/Boobie_Ike_04.jpg # bailarinas del club de striptease
+People/Brian Heder/Brian_Heder_03.jpg # probablemente sale Lucia
+People/Brian Heder/Brian_Heder_04.jpg # sale Jason
+People/Cal Hampton/Cal_Hampton_02.jpg # sale Jason
+People/Cal Hampton/Cal_Hampton_04.jpg # sale Jason
+People/DreQuan Priest/DreQuan_Priest_01.jpg # contenido sexualizado
+People/Real Dimez/Real_Dimez_02.jpg # baile sexualizado
+Places/Vice City/Vice_City_05.jpg # primer plano sexualizado en la playa
+Places/Vice City/Vice_City_06.jpg # posados sexualizados
+Places/Vice City/Vice_City_07.jpg # club de striptease
+Places/Vice City/Vice_City_18.jpg # posado sexualizado
+Places/Vice City/Vice_City_23.jpg # contenido sexualizado
+Places/Vice City/Vice_City_24.jpg # sale Lucia
+Places/Vice City/Vice_City_25.jpg # club, contenido sexualizado
+Places/Ambrosia/Ambrosia_05.jpg # sale Jason y contenido sexualizado
+Places/Port Gellhorn/Port_Gellhorn_04.jpg # cartel del club de striptease
+Places/Port Gellhorn/Port_Gellhorn_07.jpg # club de striptease
