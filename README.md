@@ -50,4 +50,4 @@ idea → aprobada → redactada → disenada → revisada → subida → program
 Viven en la cuenta de Claude, no en este repositorio:
 - **Informe semanal GTA 6 Español**: lunes a las 8:59.
 - **Limpieza semanal Drive GTA 6**: domingos a las 21:31.
-- Falta una comprobación diaria de que lo programado sale. Hasta que exista, usa `/comprobar`.
+- Falta crear la comprobación diaria: el texto está en `docs/tarea-comprobacion-diaria.md`. Hasta entonces, usa `/comprobar`.
