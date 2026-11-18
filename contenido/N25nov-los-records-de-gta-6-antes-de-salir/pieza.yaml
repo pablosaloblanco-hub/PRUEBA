@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-11-25 10:00
 tema_hashtag: '#RockstarGames'
 objetivo: guardar y compartir (datos de récords)
@@ -30,7 +30,12 @@ textos:
     2 🏆 Guárdalo y comenta qué récord batirá ahora 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RockstarGames
     #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
 titulo_tiktok: 'Los récords de GTA 6 antes de salir: 93 M, más de 475 M y un Guinness 🏆'
-medios: []
+medios:
+- N25nov-1.jpg
+- N25nov-2.jpg
+- N25nov-3.jpg
+- N25nov-4.jpg
+- N25nov-5.jpg
 drive: {}
 metricool: {}
 enlaces: {}
@@ -81,6 +86,8 @@ notas: |-
   - title (brocha): «¿Qué récord batirá ahora?»
   - sub: «Comenta tu apuesta y guarda el carrusel para tenerlo a mano»
   - actions: [("chat", "COMENTA"), ("save", "GUARDA"), ("send", "COMPARTE")]
+
+  DISEÑO (18/11): en 3/5, texto de la tarjeta «EN 24 HORAS» acortado a «Sumando plataformas, según Rockstar a The Hollywood Reporter.» (iba en dos líneas y la tercera tarjeta pisaba «DESLIZA PARA SEGUIR»). Resto del guion sin cambios.
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
@@ -94,3 +101,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de diseño (5 diapositivas)
+- fecha: 2026-11-18 23:28
+  estado: disenada
+  quien: Claude
+  nota: JPG generados con la plantilla; hoja de contacto revisada a ojo

@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-11-26 10:00
 tema_hashtag: '#GTA6Opinion'
 objetivo: comentar (lo mejor y lo peor, sin spoilers)
@@ -23,7 +23,8 @@ textos:
   tiktok: 'Una semana en Leonida 🌴 Comenta lo mejor 👍 y lo peor 👎 de GTA 6 hasta ahora, sin spoilers. #GTA6 #GTAVI
     #GTA6Español #ViceCity #Leonida #GTA6Opinion #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
 titulo_tiktok: 'Una semana en Leonida: lo mejor y lo peor de GTA 6 (sin spoilers) 🌴'
-medios: []
+medios:
+- N26nov-1.jpg
 drive: {}
 metricool: {}
 enlaces: {}
@@ -49,6 +50,8 @@ notas: |-
     ])
     (si los emojis no salen bien con la fuente, quitarlos: los iconos ya hacen de 👍 y 👎)
   - cta (píldora magenta): COMENTA LO MEJOR Y LO PEOR 👇
+
+  DISEÑO (18/11): los emojis 👍/👎/👇 se ven bien con la fuente; se mantienen. Guion sin cambios de texto.
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
@@ -62,3 +65,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de diseño (suelta)
+- fecha: 2026-11-18 23:28
+  estado: disenada
+  quien: Claude
+  nota: JPG generados con la plantilla; hoja de contacto revisada a ojo
