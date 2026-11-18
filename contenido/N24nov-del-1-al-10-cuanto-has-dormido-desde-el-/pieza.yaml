@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: revisada
+estado: programada
 fecha: 2026-11-24 10:00
 tema_hashtag: '#HumorGamer'
 objetivo: comentar (un número del 1 al 10)
@@ -68,3 +68,11 @@ historial:
   estado: revisada
   quien: Claude
   nota: 'revisor: ok'
+- fecha: 2026-11-18 23:35
+  estado: subida
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-18 23:36
+  estado: programada
+  quien: Claude
+  nota: ''

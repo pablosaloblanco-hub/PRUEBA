@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: revisada
+estado: programada
 fecha: 2026-11-21 10:00
 tema_hashtag: '#PS5'
 objetivo: guardar (guía útil) y, de paso, que manden su clip por DM
@@ -118,3 +118,11 @@ historial:
   nota: 'revisor: ok. Ojo publicador: siguen PENDIENTES (no borrador) en TikTok los posts del plan antiguo 432691348
     (21/11 10:00, compañero de atracos) y 432691890 (23/11 10:00, cómo grabar clips): retirarlos o se repite tema
     y hora; borrador IG 433046320 del 21/11 también fuera'
+- fecha: 2026-11-18 23:35
+  estado: subida
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-18 23:36
+  estado: programada
+  quien: Claude
+  nota: ''

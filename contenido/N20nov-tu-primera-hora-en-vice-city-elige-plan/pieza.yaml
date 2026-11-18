@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: revisada
+estado: programada
 fecha: 2026-11-20 10:00
 tema_hashtag: '#GTA6Mapa'
 objetivo: comentar (A, B o C)
@@ -72,3 +72,11 @@ historial:
   quien: Claude
   nota: 'revisor: ok. Ojo publicador: el 20/11 10:00 hay borradores del plan antiguo (IG 433046238, TikTok 433045501)
     y DRONEFLOW (432102354); retirar los del plan antiguo antes de programar'
+- fecha: 2026-11-18 23:35
+  estado: subida
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-18 23:36
+  estado: programada
+  quien: Claude
+  nota: ''
