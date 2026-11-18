@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-11-29 10:00
 tema_hashtag: '#GTAV'
 objetivo: comentar (Michael, Franklin o Trevor)
@@ -14,19 +14,39 @@ datos_usados:
 capturas:
 - Places/Vice City/Vice_City_17.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    13 años después, la pregunta sigue en pie: ¿Michael, Franklin o Trevor? 🎮
+
+    GTA V salió el 17/09/2013 con tres protagonistas en Los Santos, y 13 años, 2 meses y 2 días después ya estamos en Vice City con GTA VI. Pero ni GTA 6 cierra algunos debates, ni en Los Santos ni en Leonida 😂 Comenta M, F o T 👇 y etiqueta a quien siempre elegía al otro.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTAV
+  tiktok: '13 años después, la pregunta sigue en pie: ¿Michael, Franklin o Trevor? 🎮 Comenta tu favorito de GTA
+    V antes de volver a Leonida en GTA 6 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTAV #parati · Imágenes:
+    Rockstar Games · Cuenta fan · No oficial'
+titulo_tiktok: 'Michael, Franklin o Trevor: ¿quién era tu favorito de GTA V? 🎮'
 medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'Ángulo: nostalgia de domingo y debate clásico. Gancho: «13 años después, la pregunta sigue en pie: ¿Michael,
-  Franklin o Trevor?». Formato suelta: foto completa + bloque de 3 opciones (M / F / T) + píldora «Comenta tu favorito».
-  1 imagen. Captura: Vice_City_17 (atardecer, puente, yates y luces de policía: ambiente de acción). No hay pack
-  oficial de GTA V permitido: no usar imágenes de GTA V, solo el nombre de los 3 protagonistas en texto. Sin spoilers
-  de GTA V tampoco: nada del final ni de qué le pasa a cada uno; solo nombres, Los Santos y 2013. Dato de apoyo
-  en un chip: «GTA V: 17/09/2013 · 3 protagonistas» y «13 años, 2 meses y 2 días de espera».'
+notas: |-
+  Ángulo: nostalgia de domingo y debate clásico. Gancho: «13 años después, la pregunta sigue en pie: ¿Michael, Franklin o Trevor?». Formato suelta: foto completa + bloque de 3 opciones (M / F / T) + píldora «Comenta tu favorito». 1 imagen. Captura: Vice_City_17 (atardecer, puente, yates y luces de policía: ambiente de acción). No hay pack oficial de GTA V permitido: no usar imágenes de GTA V, solo el nombre de los 3 protagonistas en texto. Sin spoilers de GTA V tampoco: nada del final ni de qué le pasa a cada uno; solo nombres, Los Santos y 2013. Dato de apoyo en un chip: «GTA V: 17/09/2013 · 3 protagonistas» y «13 años, 2 meses y 2 días de espera».
+
+  GUION DISEÑO:
+  Diapositiva única · single(img, kicker, title, sub, middle, cta, size=120)
+  - img: Places/Vice City/Vice_City_17.jpg (atardecer, puente, yates y luces de policía)
+  - kicker: «DEBATE DE DOMINGO»
+  - title: '¿<span class="gl-mag">MICHAEL</span>, <span class="gl-cy">FRANKLIN</span> O <span class="gl-ye">TREVOR</span>?'
+  - sub: «13 años después, la pregunta sigue en pie»
+  - chips de apoyo (opcionales, encima del bloque, estilo chip de la portada):
+    ("clock", "GTA V: 17/09/2013 · 3 protagonistas"), ("star", "13 años, 2 meses y 2 días de espera")
+  - middle: mini([
+      ("users", "M · MICHAEL", "Protagonista de GTA V"),
+      ("users", "F · FRANKLIN", "Protagonista de GTA V"),
+      ("users", "T · TREVOR", "Protagonista de GTA V"),
+    ])  (colores automáticos mag / cy / ye, a juego con el título)
+  - cta (píldora magenta): «COMENTA M, F O T»
+  - Sin imágenes de GTA V (solo los nombres en texto) y sin nada del final ni de qué le pasa a cada uno.
 historial:
 - fecha: 2026-11-18 15:41
   estado: idea
@@ -36,3 +56,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan semana 27/11-3/12 aprobado'
+- fecha: 2026-11-18 15:46
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de diseño

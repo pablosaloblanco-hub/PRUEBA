@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-12-02 10:00
 tema_hashtag: '#GuiaGTA6'
 objetivo: guardar
@@ -22,9 +22,21 @@ capturas:
 - People/DreQuan Priest/DreQuan_Priest_04.jpg
 - Places/Vice City/Vice_City_27.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: '¿Tisha-Wocka? ¿Allied Crystal? Si en GTA 6 no pillas la mitad de los nombres, esto es para ti 📖
+
+
+    Hemos juntado 12 nombres de Leonida que vas a oír sin parar en GTA VI, de Vice City a Only Raw Records, solo
+    con lo que ha presentado Rockstar y cero historia 🌴 Guarda el diccionario para tenerlo a mano y comenta el número
+    (del 01 al 12) del que más te costó 👇
+
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GuiaGTA6'
+  tiktok: 'Diccionario de Leonida: 12 nombres de GTA 6 que vas a oír sin parar en Vice City y alrededores 📖 Guárdalo
+    y comenta el número del que más te costó 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GuiaGTA6 #parati ·
+    Imágenes: Rockstar Games · Cuenta fan · No oficial'
+titulo_tiktok: 'Diccionario de Leonida: 12 nombres de GTA 6 que vas a oír sin parar 📖'
 medios: []
 drive: {}
 metricool: {}
@@ -38,7 +50,74 @@ notas: 'Ángulo: glosario de referencia para quien empieza a jugar o lee comenta
   Crystal (refinería de azúcar) · Only Raw Records (sello de Dre''Quan, socio de Boobie Ike) (Ambrosia_04 / DreQuan_Priest_04);
   6) cierre (Vice_City_27): «¿Qué nombre te costó más? Guarda el diccionario». No rotular una foto con un barrio
   concreto (Ocean Beach, Little Cuba…) si no sabemos que es ese sitio: rotular con la zona. Nada de misiones ni
-  papeles en la historia.'
+  papeles en la historia.
+
+
+  GUION DISEÑO:
+
+  (6 diapositivas, TOTAL = 6. Archivos 24-1.jpg … 24-6.jpg. Todas las tarjetas salen tal cual de «Datos verificados»:
+  filas «Historia», «Zonas de Leonida» y «Personajes presentados por Rockstar». La etiqueta grande encima de cada
+  foto es siempre la ZONA de la carpeta de la captura, nunca un barrio.)
+
+
+  1/6 · cover(Places/Vice City/Vice_City_09.jpg)
+
+  - kicker: GUÍA PARA NO PERDERSE
+
+  - título: DICCIONARIO DE <span class="ye">LEONIDA</span>
+
+  - subtítulo: <span class="cy">12 nombres</span> de GTA 6 que vas a oír sin parar
+
+  - chips: ("disc", "12 NOMBRES") · ("map", "6 ZONAS") · ("save", "GUÁRDALO")
+
+
+  2/6 · info(Places/Vice City/Vice_City_15.jpg, "VICE CITY", "DICCIONARIO · 01–03")
+
+  - ("map", "01 · EL ESTADO", "LEONIDA", "El estado de GTA 6, inspirado en Florida", "ye")
+
+  - ("pin", "02 · LA CIUDAD", "VICE CITY", "La ciudad de Leonida inspirada en Miami", "cy")
+
+  - ("palm", "03 · EN VICE CITY", "OCEAN BEACH", "Uno de los nombres de Vice City que ha enseñado Rockstar", "mag")
+
+
+  3/6 · info(Places/Leonida Keys/Leonida_Keys_02.jpg, "LEONIDA KEYS", "DICCIONARIO · 04–06")
+
+  - ("pin", "04 · EN VICE CITY", "LITTLE CUBA", "Otro de los nombres de Vice City presentados por Rockstar", "ye")
+
+  - ("star", "05 · EN VICE CITY", "TISHA-WOCKA", "El mercadillo de Vice City", "cy")
+
+  - ("palm", "06 · ZONA", "LEONIDA KEYS", "Islas unidas por puentes, como los Cayos de Florida", "mag")
+
+
+  4/6 · info(Places/Port Gellhorn/Port_Gellhorn_01.jpg, "PORT GELLHORN", "DICCIONARIO · 07–09")
+
+  (alternativa si el motel no se ve bien: Places/Grassrivers/Grassrivers_02.jpg con etiqueta "GRASSRIVERS")
+
+  - ("map", "07 · ZONA", "GRASSRIVERS", "Pantanos y manglares, como los Everglades", "ye")
+
+  - ("pin", "08 · ZONA", "PORT GELLHORN", "«La costa olvidada»: moteles baratos y atracciones cerradas", "cy")
+
+  - ("globe", "09 · ZONA", "MOUNT KALAGA", "Parque nacional en la frontera norte: caza, pesca y todoterreno", "mag")
+
+
+  5/6 · info(Places/Ambrosia/Ambrosia_04.jpg, "AMBROSIA", "DICCIONARIO · 10–12")
+
+  (DreQuan_Priest_04 queda como reserva; si se usa, etiqueta "DRE''QUAN PRIEST" y subetiqueta "DICCIONARIO · 10–12")
+
+  - ("fire", "10 · ZONA", "AMBROSIA", "Industria, refinería de azúcar y moteros", "ye")
+
+  - ("bolt", "11 · EN AMBROSIA", "ALLIED CRYSTAL", "La refinería de azúcar de Ambrosia", "cy")
+
+  - ("disc", "12 · SELLO", "ONLY RAW RECORDS", "El sello de Dre''Quan Priest, socio de Boobie Ike", "mag")
+
+
+  6/6 · close(Places/Vice City/Vice_City_27.jpg)
+
+  - título (brocha): ¿Qué nombre te costó más?
+
+  - subtítulo: Comenta su número (01–12) y guarda el diccionario 👇
+
+  - acciones: ("chat", "COMENTA") · ("save", "GUARDA") · ("send", "COMPARTE")'
 historial:
 - fecha: 2026-11-18 15:41
   estado: idea
@@ -48,3 +127,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan semana 27/11-3/12 aprobado'
+- fecha: 2026-11-18 15:45
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de 6 diapositivas

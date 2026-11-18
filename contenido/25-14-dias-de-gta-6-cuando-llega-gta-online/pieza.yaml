@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-12-03 10:00
 tema_hashtag: '#GTAOnline'
 objetivo: comentar (A, B o C)
@@ -15,21 +15,41 @@ datos_usados:
 capturas:
 - Places/Vice City/Vice_City_08.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: 'Hoy hace 14 días que salió GTA 6… y en GTA V, a estas alturas, ya había Online 👀
+
+
+    GTA V salió el 17/09/2013 y GTA Online llegó el 01/10/2013, justo 14 días después. De GTA VI, Rockstar solo
+    ha dicho que Online «llegará más adelante», así que te lo preguntamos a ti: ¿cuándo crees que llega a Vice City
+    y al resto de Leonida? Comenta A (antes de Navidad), B (en la primera mitad de 2027) o C (más tarde) 👇
+
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTAOnline'
+  tiktok: '14 días de GTA 6 y en GTA V, a estas alturas, ya había Online 👀 ¿Cuándo crees que llega a GTA VI? Comenta
+    A, B o C 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTAOnline #parati · Imágenes: Rockstar Games · Cuenta
+    fan · No oficial'
+titulo_tiktok: '14 días de GTA 6: ¿cuándo llega GTA Online? Comenta A, B o C 👀'
 medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'Ángulo: efeméride con dato propio. GTA V salió el 17/09/2013 y GTA Online llegó el 01/10/2013: 14 días después.
-  GTA VI salió el 19/11/2026: el 3/12 se cumplen esos mismos 14 días, y Rockstar solo ha dicho que Online «llegará
-  más adelante». Gancho: «HOY HACE 14 DÍAS. En GTA V, a estas alturas ya había Online». Formato suelta: foto completa
-  + bloque de 3 opciones: A) Antes de Navidad, B) En la primera mitad de 2027, C) Más tarde. Píldora «Comenta A,
-  B o C». 1 imagen. Captura: Vice_City_08 (Vice City de noche con la noria). Es una pregunta, no una predicción:
-  no dar fechas ni rumores. Los 14 días son cálculo propio a partir de filas verificadas (como «Espera desde GTA
-  V»). Riesgo: si Rockstar anuncia la fecha de GTA Online antes del 3/12, la pieza cambia: pendiente de investigador
-  comprobarlo el 2/12. Para el coordinador: tema que puede coincidir con un Short de ChatGPT.'
+notas: "Ángulo: efeméride con dato propio. GTA V salió el 17/09/2013 y GTA Online llegó el 01/10/2013: 14 días después.\
+  \ GTA VI salió el 19/11/2026: el 3/12 se cumplen esos mismos 14 días, y Rockstar solo ha dicho que Online «llegará\
+  \ más adelante». Gancho: «HOY HACE 14 DÍAS. En GTA V, a estas alturas ya había Online». Formato suelta: foto completa\
+  \ + bloque de 3 opciones: A) Antes de Navidad, B) En la primera mitad de 2027, C) Más tarde. Píldora «Comenta\
+  \ A, B o C». 1 imagen. Captura: Vice_City_08 (Vice City de noche con la noria). Es una pregunta, no una predicción:\
+  \ no dar fechas ni rumores. Los 14 días son cálculo propio a partir de filas verificadas (como «Espera desde GTA\
+  \ V»). Riesgo: si Rockstar anuncia la fecha de GTA Online antes del 3/12, la pieza cambia: pendiente de investigador\
+  \ comprobarlo el 2/12. Para el coordinador: tema que puede coincidir con un Short de ChatGPT.\n\nGUION DISEÑO:\n\
+  (1 imagen, archivo 25-1.jpg. Datos: filas «GTA V» (17/09/2013 y GTA Online el 01/10/2013), «Lanzamiento» (19/11/2026)\
+  \ y «GTA Online» («llegará más adelante»); los 14 días son cálculo propio. Las tres opciones son respuestas para\
+  \ votar, no fechas que demos nosotros.)\n\nsingle(Places/Vice City/Vice_City_08.jpg, kicker, título, subtítulo,\
+  \ mini([...]), cta, size=120)\n- kicker: HOY HACE 14 DÍAS\n- título: ¿CUÁNDO LLEGA <span class=\"cy\">GTA ONLINE</span>?\n\
+  - subtítulo: En GTA V, a estas alturas <span class=\"ye\">ya había Online</span>. De GTA VI, Rockstar solo ha\
+  \ dicho que «llegará más adelante».\n- bloque interactivo: mini([\n    (\"star\", \"A · ANTES DE NAVIDAD\", \"\
+  Me lo pido de regalo\"),\n    (\"clock\", \"B · PRIMERA MITAD DE 2027\", \"Toca esperar un poco\"),\n    (\"palm\"\
+  , \"C · MÁS TARDE\", \"Mientras, a la playa\"),\n  ])\n- cta (píldora magenta): COMENTA A, B O C \U0001F447"
 historial:
 - fecha: 2026-11-18 15:41
   estado: idea
@@ -39,3 +59,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan semana 27/11-3/12 aprobado'
+- fecha: 2026-11-18 15:45
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de la suelta

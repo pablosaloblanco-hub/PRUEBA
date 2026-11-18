@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-11-27 10:00
 tema_hashtag: '#BlackFriday'
 objetivo: comentar (A, B o C)
@@ -16,23 +16,40 @@ capturas:
 - Places/Ambrosia/Ambrosia_01.jpg
 - Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_01.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    BLACK FRIDAY EN LEONIDA: solo puedes llevarte uno 🛒
+
+    Hoy todo el mundo va de compras, pero en GTA VI el chollo de verdad es el plan: A) escapada a Leonida Keys, islas unidas por puentes; B) ruta con los moteros de Ambrosia; o C) todoterreno por Mount Kalaga, en la frontera norte. Vice City puede esperar un rato, que GTA 6 tiene mucho más mapa 🌴 Comenta A, B o C 👇 y etiqueta a quien se viene contigo.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #BlackFriday
+  tiktok: 'Black Friday en GTA 6: en Leonida solo te llevas un plan 🛒 Comenta A (Leonida Keys), B (moteros de Ambrosia)
+    o C (todoterreno por Mount Kalaga) 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #BlackFriday #parati · Imágenes:
+    Rockstar Games · Cuenta fan · No oficial'
+titulo_tiktok: 'Black Friday en Leonida: ¿qué plan te llevas en GTA 6? 🛒'
 medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'Ángulo: humor de Black Friday sin precios. «Hoy todo el mundo va de compras; en Leonida, el chollo es el
-  plan». Gancho: «BLACK FRIDAY EN LEONIDA: solo puedes llevarte uno». Formato suelta: foto completa + bloque de
-  3 opciones: A) Escapada a Leonida Keys (islas unidas por puentes), B) Ruta con los moteros de Ambrosia, C) Todoterreno
-  por Mount Kalaga. CTA en píldora magenta: «Comenta A, B o C». 1 imagen. Capturas: fondo Vice_City_22 (gasolinera
-  de neón de noche, ambiente de compras); miniaturas opcionales de las 3 opciones: Leonida_Keys_01, Ambrosia_01,
-  Mount_Kalaga_National_Park_01. Ofertas: NO hay precio de Black Friday en «Datos verificados» (solo el PVP oficial
-  79,99 € / 99,99 €). Precio rebajado en PS Store o Microsoft Store España el 27/11: pendiente de investigador.
-  Esta pieza no depende de ello: no poner precios, ni «oferta», ni «descuento» del juego. Si el investigador verifica
-  una rebaja real, se puede añadir una historia extra (no tocar esta). No presentar las opciones como objetos que
-  se compran en el juego: son planes.'
+notas: |-
+  Ángulo: humor de Black Friday sin precios. «Hoy todo el mundo va de compras; en Leonida, el chollo es el plan». Gancho: «BLACK FRIDAY EN LEONIDA: solo puedes llevarte uno». Formato suelta: foto completa + bloque de 3 opciones: A) Escapada a Leonida Keys (islas unidas por puentes), B) Ruta con los moteros de Ambrosia, C) Todoterreno por Mount Kalaga. CTA en píldora magenta: «Comenta A, B o C». 1 imagen. Capturas: fondo Vice_City_22 (gasolinera de neón de noche, ambiente de compras); miniaturas opcionales de las 3 opciones: Leonida_Keys_01, Ambrosia_01, Mount_Kalaga_National_Park_01. Ofertas: NO hay precio de Black Friday en «Datos verificados» (solo el PVP oficial 79,99 € / 99,99 €). Precio rebajado en PS Store o Microsoft Store España el 27/11: pendiente de investigador. Esta pieza no depende de ello: no poner precios, ni «oferta», ni «descuento» del juego. Si el investigador verifica una rebaja real, se puede añadir una historia extra (no tocar esta). No presentar las opciones como objetos que se compran en el juego: son planes.
+
+  GUION DISEÑO:
+  Diapositiva única · single(img, kicker, title, sub, middle, cta)
+  - img: Places/Vice City/Vice_City_22.jpg (gasolinera de neón de noche), pos="center".
+  - kicker: «BLACK FRIDAY EN LEONIDA»
+  - title: 'SOLO TE LLEVAS <span class="gl-ye">UNO</span>'
+  - sub: «Hoy todo el mundo va de compras. En Leonida, el chollo es el plan.»
+  - middle: mini([
+      ("palm", "A · LEONIDA KEYS", "Islas unidas por puentes"),
+      ("bolt", "B · AMBROSIA", "Ruta con los moteros"),
+      ("car", "C · MOUNT KALAGA", "Rutas todoterreno"),
+    ])  (colores automáticos: mag / cy / ye)
+  - cta (píldora magenta): «COMENTA A, B O C»
+  - Miniaturas: mini() no lleva fotos; Leonida_Keys_01, Ambrosia_01 y Mount_Kalaga_National_Park_01 solo si se
+    añaden encima de cada opción. Si no, basta el fondo.
+  - Nada de precios, «oferta» ni «descuento», ni etiquetas de precio dibujadas: las opciones son planes, no
+    objetos que se compran en el juego.
 historial:
 - fecha: 2026-11-18 15:41
   estado: idea
@@ -42,3 +59,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan semana 27/11-3/12 aprobado'
+- fecha: 2026-11-18 15:46
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de diseño

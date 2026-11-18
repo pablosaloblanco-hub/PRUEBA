@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-11-28 10:00
 tema_hashtag: '#Florida'
 objetivo: guardar
@@ -21,25 +21,72 @@ capturas:
 - Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_03.jpg
 - Places/Vice City/Vice_City_11.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    LEONIDA EXISTE (CASI): los sitios reales que inspiran GTA 6 🌴
+
+    Rockstar se ha inspirado en Florida para crear Leonida, y tres de sus zonas tienen un modelo real muy claro: Vice City se inspira en Miami, Leonida Keys en los Cayos de Florida y Grassrivers en los Everglades. Port Gellhorn, Ambrosia y Mount Kalaga completan el mapa de GTA VI con su propio carácter. Guarda el carrusel 📌 para tu próximo paseo por Leonida y comenta si has estado en Miami o en los Cayos 👇
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #Florida
+  tiktok: 'Vice City (Miami), Leonida Keys (Cayos de Florida) y Grassrivers (Everglades): los sitios reales que
+    inspiran GTA 6 🌴 Guárdalo y comenta si has estado 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #Florida #parati
+    · Imágenes: Rockstar Games · Cuenta fan · No oficial'
+titulo_tiktok: 'Leonida vs Florida: los sitios reales que inspiran GTA 6 🌴'
 medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'Ángulo: comparativa útil (formato que funciona según el Plan de crecimiento): qué sitio real de Florida
-  hay detrás de cada zona. Gancho portada: «LEONIDA EXISTE (CASI): los sitios reales que inspiran GTA 6». 6 diapositivas:
-  1) portada (Grassrivers_05: pantano con la ciudad al fondo; chips «Florida», «Miami», «Cayos», «Everglades»);
-  2) Vice City = Miami (Vice_City_15; Ocean Beach, Little Cuba, mercadillo Tisha-Wocka, puerto); 3) Leonida Keys
-  = Cayos de Florida (Leonida_Keys_01, islas unidas por puentes); 4) Grassrivers = Everglades (Grassrivers_04, pantanos
-  y manglares); 5) «Las otras 3 zonas» con lo que cuenta Rockstar, sin equivalente real: Port Gellhorn (Port_Gellhorn_06),
-  Ambrosia (Ambrosia_04), Mount Kalaga (Mount_Kalaga_National_Park_03); 6) cierre (Vice_City_11): «¿Has estado en
-  Miami o en los Cayos? Comenta / guarda / comparte». Solo las 3 equivalencias que da el dato (Miami, Cayos, Everglades)
-  y Leonida = Florida. Equivalentes reales de Port Gellhorn, Ambrosia, Mount Kalaga o de barrios (Little Cuba, Ocean
-  Beach): pendiente de investigador; si no llegan, la diapositiva 5 se queda como está. Nada de fotos reales de
-  Florida (solo capturas oficiales). Nada de la historia: la fila «Historia» se usa solo por «Leonida (inspirado
-  en Florida)».'
+notas: |-
+  Ángulo: comparativa útil (formato que funciona según el Plan de crecimiento): qué sitio real de Florida hay detrás de cada zona. Gancho portada: «LEONIDA EXISTE (CASI): los sitios reales que inspiran GTA 6». 6 diapositivas: 1) portada (Grassrivers_05: pantano con la ciudad al fondo; chips «Florida», «Miami», «Cayos», «Everglades»); 2) Vice City = Miami (Vice_City_15; Ocean Beach, Little Cuba, mercadillo Tisha-Wocka, puerto); 3) Leonida Keys = Cayos de Florida (Leonida_Keys_01, islas unidas por puentes); 4) Grassrivers = Everglades (Grassrivers_04, pantanos y manglares); 5) «Las otras 3 zonas» con lo que cuenta Rockstar, sin equivalente real: Port Gellhorn (Port_Gellhorn_06), Ambrosia (Ambrosia_04), Mount Kalaga (Mount_Kalaga_National_Park_03); 6) cierre (Vice_City_11): «¿Has estado en Miami o en los Cayos? Comenta / guarda / comparte». Solo las 3 equivalencias que da el dato (Miami, Cayos, Everglades) y Leonida = Florida. Equivalentes reales de Port Gellhorn, Ambrosia, Mount Kalaga o de barrios (Little Cuba, Ocean Beach): pendiente de investigador; si no llegan, la diapositiva 5 se queda como está. Nada de fotos reales de Florida (solo capturas oficiales). Nada de la historia: la fila «Historia» se usa solo por «Leonida (inspirado en Florida)».
+
+  GUION DISEÑO:
+  1/6 · cover(img, kicker, title, sub, chips, 1, 6)
+  - img: Places/Grassrivers/Grassrivers_05.jpg (pantano con la ciudad al fondo)
+  - kicker: «LEONIDA VS FLORIDA»
+  - title: 'LEONIDA <span class="gl-ye">EXISTE</span><br><span class="gl-cy">(CASI)</span>'
+  - sub: «Los sitios reales que inspiran GTA 6»
+  - chips: [("globe", "Florida"), ("pin", "Miami"), ("palm", "Cayos"), ("map", "Everglades")]
+
+  2/6 · info(img, label, sublabel, cards, 2, 6)
+  - img: Places/Vice City/Vice_City_15.jpg
+  - label: «VICE CITY» · sublabel: «INSPIRADA EN MIAMI»
+  - cards:
+    ("pin", "EQUIVALENTE REAL", "Miami", "La gran ciudad de Leonida se inspira en Miami.", "ye")
+    ("palm", "ZONAS DE LA CIUDAD", "Ocean Beach · Little Cuba", "Dos de los sitios de Vice City que ha enseñado Rockstar.", "cy")
+    ("map", "Y ADEMÁS", "Tisha-Wocka y el puerto", "El mercadillo Tisha-Wocka y la zona del puerto.", "mag")
+
+  3/6 · info(img, label, sublabel, cards, 3, 6)
+  - img: Places/Leonida Keys/Leonida_Keys_01.jpg
+  - label: «LEONIDA KEYS» · sublabel: «COMO LOS CAYOS DE FLORIDA»
+  - cards:
+    ("pin", "EQUIVALENTE REAL", "Cayos de Florida", "La versión de Leonida de los famosos cayos.", "ye")
+    ("car", "CÓMO ES", "Islas + puentes", "Rockstar la presenta como islas unidas por puentes.", "cy")
+    ("info", "DATO", "1 de 6 zonas", "Una de las 6 zonas de Leonida que ha presentado Rockstar.", "mag")
+
+  4/6 · info(img, label, sublabel, cards, 4, 6)
+  - img: Places/Grassrivers/Grassrivers_04.jpg
+  - label: «GRASSRIVERS» · sublabel: «COMO LOS EVERGLADES»
+  - cards:
+    ("pin", "EQUIVALENTE REAL", "Everglades", "El gran pantano de Florida, en versión Leonida.", "ye")
+    ("palm", "PAISAJE", "Pantanos y manglares", "Así describe Rockstar esta zona.", "cy")
+    ("globe", "ESTADO", "Leonida = Florida", "Grassrivers forma parte de Leonida, el estado inspirado en Florida.", "mag")
+
+  5/6 · info(img, label, sublabel, cards, 5, 6)
+  - img: Places/Port Gellhorn/Port_Gellhorn_06.jpg (si se compone collage en 3 franjas, añadir
+    Places/Ambrosia/Ambrosia_04.jpg y Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_03.jpg)
+  - label: «LAS OTRAS 3» · sublabel: «LO QUE CUENTA ROCKSTAR»
+  - cards (sin equivalente real: no añadir ninguno):
+    ("pin", "PORT GELLHORN", "«La costa olvidada»", "Moteles baratos y atracciones cerradas.", "ye")
+    ("fire", "AMBROSIA", "Industria y moteros", "Con la refinería de azúcar Allied Crystal.", "cy")
+    ("map", "MOUNT KALAGA", "Frontera norte", "Parque nacional: caza, pesca y rutas todoterreno.", "mag")
+
+  6/6 · close(img, title, sub, actions, 6, 6, size=110)
+  - img: Places/Vice City/Vice_City_11.jpg
+  - title (brocha): «¿Has estado en Miami o en los Cayos?»
+  - sub: «Cuéntanos qué sitio real de Florida reconoces en Leonida»
+  - actions: [("chat", "COMENTA"), ("save", "GUARDA"), ("send", "COMPARTE")]
+
+  Nada de fotos reales de Florida ni de la historia del juego.
 historial:
 - fecha: 2026-11-18 15:41
   estado: idea
@@ -49,3 +96,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan semana 27/11-3/12 aprobado'
+- fecha: 2026-11-18 15:46
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de diseño
