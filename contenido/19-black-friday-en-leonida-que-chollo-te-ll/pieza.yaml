@@ -1,0 +1,44 @@
+id: 19-black-friday-en-leonida-que-chollo-te-ll
+titulo: 'Black Friday en Leonida: ¿qué chollo te llevas?'
+formato: suelta
+redes:
+- instagram
+- tiktok
+estado: aprobada
+fecha: 2026-11-27 10:00
+tema_hashtag: '#BlackFriday'
+objetivo: comentar (A, B o C)
+datos_usados:
+- Zonas de Leonida (6, presentadas por Rockstar)
+capturas:
+- Places/Vice City/Vice_City_22.jpg
+- Places/Leonida Keys/Leonida_Keys_01.jpg
+- Places/Ambrosia/Ambrosia_01.jpg
+- Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_01.jpg
+textos:
+  instagram: ''
+  tiktok: ''
+titulo_tiktok: ''
+medios: []
+drive: {}
+metricool: {}
+enlaces: {}
+notas: 'Ángulo: humor de Black Friday sin precios. «Hoy todo el mundo va de compras; en Leonida, el chollo es el
+  plan». Gancho: «BLACK FRIDAY EN LEONIDA: solo puedes llevarte uno». Formato suelta: foto completa + bloque de
+  3 opciones: A) Escapada a Leonida Keys (islas unidas por puentes), B) Ruta con los moteros de Ambrosia, C) Todoterreno
+  por Mount Kalaga. CTA en píldora magenta: «Comenta A, B o C». 1 imagen. Capturas: fondo Vice_City_22 (gasolinera
+  de neón de noche, ambiente de compras); miniaturas opcionales de las 3 opciones: Leonida_Keys_01, Ambrosia_01,
+  Mount_Kalaga_National_Park_01. Ofertas: NO hay precio de Black Friday en «Datos verificados» (solo el PVP oficial
+  79,99 € / 99,99 €). Precio rebajado en PS Store o Microsoft Store España el 27/11: pendiente de investigador.
+  Esta pieza no depende de ello: no poner precios, ni «oferta», ni «descuento» del juego. Si el investigador verifica
+  una rebaja real, se puede añadir una historia extra (no tocar esta). No presentar las opciones como objetos que
+  se compran en el juego: son planes.'
+historial:
+- fecha: 2026-11-18 15:41
+  estado: idea
+  quien: Claude
+  nota: creada
+- fecha: 2026-11-18 15:43
+  estado: aprobada
+  quien: Claude
+  nota: 'director: plan semana 27/11-3/12 aprobado'
