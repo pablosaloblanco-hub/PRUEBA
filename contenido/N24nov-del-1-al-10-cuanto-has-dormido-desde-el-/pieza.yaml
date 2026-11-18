@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-11-24 10:00
 tema_hashtag: '#HumorGamer'
 objetivo: comentar (un número del 1 al 10)
@@ -14,9 +14,16 @@ datos_usados:
 capturas:
 - Places/Ambrosia/Ambrosia_04.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    Del 1 al 10: ¿cuánto has dormido desde el jueves? 😴
+
+    GTA 6 salió el jueves a las 00:00 y desde entonces hay gente que ha visto más amaneceres en Leonida que por su ventana. El 1 es «¿dormir? ¿qué es eso?» y el 10, «como un bebé (no he jugado)». Comenta tu número 👇 y etiqueta a quien no ha salido de Vice City desde el jueves 🌴
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #HumorGamer
+  tiktok: 'Del 1 al 10, ¿cuánto has dormido desde que salió GTA 6 el jueves a las 00:00? 😴 Comenta tu número 👇 #GTA6
+    #GTAVI #GTA6Español #ViceCity #Leonida #HumorGamer #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
+titulo_tiktok: 'Del 1 al 10: ¿cuánto has dormido desde que salió GTA 6? 😴'
 medios: []
 drive: {}
 metricool: {}
@@ -26,6 +33,17 @@ notas: |-
   Ángulo: humor del quinto día; nadie duerme desde las 00:00 del jueves. Gancho: «DEL 1 AL 10: ¿CUÁNTO HAS DORMIDO DESDE EL JUEVES?». Escala: 1 = «¿dormir? ¿qué es eso?» … 10 = «como un bebé (no he jugado)». CTA: «Comenta tu número».
   Captura: Ambrosia_04 (amanecer con torres eléctricas: «otra vez viendo amanecer»).
   Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite entre el 19 y el 26/11.
+
+  GUION DISEÑO:
+  1 imagen 1080x1350 · archivo N24nov-1.jpg · single("Places/Ambrosia/Ambrosia_04.jpg", kicker, título_html, subtítulo, bloque, cta, size=110). Si el título pasa de tres líneas, bajar a size=100.
+    kicker: DESDE EL JUEVES A LAS 00:00
+    título_html: DEL <span class="ye">1</span> AL <span class="cy">10</span>: ¿CUÁNTO HAS <span class="mag">DORMIDO</span> DESDE EL JUEVES?
+    subtítulo: Otra vez viendo amanecer en Leonida…
+    bloque (escala 1–10 + leyenda debajo de los extremos):
+      scale()
+      leyenda bajo la escala, en una fila: izquierda «<span class="mag">1</span> = ¿DORMIR? ¿QUÉ ES ESO?» · derecha «<span class="cy">10</span> = COMO UN BEBÉ (NO HE JUGADO)»
+    cta (píldora magenta): COMENTA TU NÚMERO 👇
+    (Sin nada de la historia del juego. Sin contar días ni noches exactos en la imagen.)
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
@@ -35,3 +53,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'
+- fecha: 2026-11-18 23:26
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de la suelta con scale() en notas

@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-11-21 10:00
 tema_hashtag: '#PS5'
 objetivo: guardar (guía útil) y, de paso, que manden su clip por DM
@@ -19,9 +19,17 @@ capturas:
 - Places/Leonida Keys/Leonida_Keys_07.jpg
 - Places/Vice City/Vice_City_19.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    No pierdas tu mejor momento en Leonida 🎮 Guía rápida de PS5 para grabar tus clips de GTA 6.
+
+    Doble pulsación del botón Crear y guardas los últimos 30 s; desde el menú Crear puedes guardar de 15 s a 1 h de partida reciente o empezar una grabación nueva de hasta 1 h. Guarda el post para tenerlo a mano 📌 y mándanos tu clip por DM (sin spoilers): compartimos los mejores mencionándote 🎬 ¿Juegas en Xbox Series X/S? Tu clip también vale.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #PS5
+  tiktok: 'Guía de PS5 para grabar tus clips de GTA 6: doble pulsación del botón Crear y guardas los últimos 30
+    s 🎮 Guárdalo y mándanos tu clip por DM, sin spoilers 📌 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #PS5 #parati
+    · Imágenes: Rockstar Games · Cuenta fan · No oficial'
+titulo_tiktok: Cómo grabar tus clips de GTA 6 en PS5 (y mándanos el tuyo) 🎮
 medios: []
 drive: {}
 metricool: {}
@@ -33,6 +41,52 @@ notas: |-
   PENDIENTE DE INVESTIGADOR: cómo grabar en Xbox Series X/S (no está en «Datos verificados»). Si no se verifica antes de redactar, la guía va solo de PS5 y se dice «guía de PS5».
   Pablo: revisar los DM del 21 al 23/11 y pasar los clips que valgan (sin spoilers); se comparten siempre mencionando al autor.
   Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite entre el 19 y el 26/11.
+
+  GUION DISEÑO:
+  TOTAL = 6. Guía SOLO de PS5 (lo de Xbox no está verificado: no se explica cómo se graba en Xbox). Clases de color: ye / cy / mag.
+
+  1/6 · cover("Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_01.jpg", ...) (motos de cross)
+    kicker: GUÍA DE PS5
+    título: NO PIERDAS TU <span class="ye">MEJOR MOMENTO</span> EN <span class="mag">LEONIDA</span>
+    subtítulo: Cómo grabar tus clips de GTA 6 en PS5, en 4 pasos
+    chips: (bolt, ÚLTIMOS 30 S) · (clock, DE 15 S A 1 H) · (cam, GRABACIÓN NUEVA) · (send, MÁNDANOS TU CLIP)
+
+  2/6 · info("Places/Leonida Keys/Leonida_Keys_01.jpg", ...) (hidroavión)
+    etiqueta: 01 · EL ATAJO
+    subetiqueta: DOBLE PULSACIÓN
+    tarjetas:
+      (bolt, PULSA DOS VECES, BOTÓN CREAR, El botón Crear del mando de PS5, ye)
+      (save, SE GUARDAN, LOS ÚLTIMOS 30 S, Es lo que hace por defecto, cy)
+      (check, CUÁNDO, AL MOMENTO, Justo después de la jugada que quieres guardar, mag)
+
+  3/6 · info("Places/Grassrivers/Grassrivers_03.jpg", ...) (hidrodeslizador)
+    etiqueta: 02 · PARTIDA RECIENTE
+    subetiqueta: MENÚ CREAR
+    tarjetas:
+      (pad, EN EL MENÚ CREAR, GUARDAR PARTIDA RECIENTE, Elige esta opción, ye)
+      (clock, DURACIÓN, DE 15 S A 1 H, Tú decides cuánto tiempo guardar, cy)
+      (save, PARA, UN RATO LARGO, Cuando el momento ha durado más de 30 s, mag)
+
+  4/6 · info("Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_06.jpg", ...) (kayak)
+    etiqueta: 03 · GRABACIÓN NUEVA
+    subetiqueta: GRABA LO QUE VIENE
+    tarjetas:
+      (cam, OPCIÓN, GRABACIÓN NUEVA, Empieza a grabar desde ese momento, ye)
+      (clock, MÁXIMO, HASTA 1 H, De partida seguida en un solo clip, cy)
+      (eye, IDEAL PARA, RUTAS Y PASEOS, Una vuelta en kayak o en coche por Leonida, mag)
+
+  5/6 · info("Places/Leonida Keys/Leonida_Keys_07.jpg", ...) (bajo el agua)
+    etiqueta: 04 · CAMBIA EL ATAJO
+    subetiqueta: AJUSTES DE PS5
+    tarjetas:
+      (info, EN AJUSTES, CAPTURAS Y EMISIONES, Entra en los Ajustes de la consola, ye)
+      (pad, Y LUEGO, ACCESOS DIRECTOS, Del botón Crear: ahí cambias qué hace la doble pulsación, cy)
+      (bolt, SI NO LO TOCAS, 30 S, Es lo que guarda la doble pulsación por defecto, mag)
+
+  6/6 · close("Places/Vice City/Vice_City_19.jpg", ...)
+    título (brocha): ¡Mándanos tu clip!
+    subtítulo: Por DM y sin spoilers: compartimos los mejores mencionándote 🎬 · ¿Juegas en Xbox Series X/S? También vale
+    botones: (send, MANDA TU CLIP) · (save, GUARDA) · (users, COMPARTE)
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
@@ -42,3 +96,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'
+- fecha: 2026-11-18 23:26
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de 6 diapositivas en notas (guía solo de PS5)

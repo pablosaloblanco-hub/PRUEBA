@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-11-22 10:00
 tema_hashtag: '#GTA6Atracos'
 objetivo: etiquetar (a tu compañero de atracos)
@@ -13,9 +13,16 @@ datos_usados:
 capturas:
 - People/Raul Bautista/Raul_Bautista_04.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    Raul Bautista, atracador veterano, busca socio. ¿Te apuntas? 😎
+
+    Es uno de los personajes que Rockstar ha presentado en GTA 6 y su carta de presentación no deja dudas: atracador veterano. Domingo de partida en Vice City, así que dinos con quién te la jugarías tú: etiqueta a tu compañero de atracos 👇 El que conduce sin perder los nervios y nunca te deja tirado 🚗
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Atracos
+  tiktok: 'Raul Bautista, atracador veterano de GTA 6, busca socio 😎 Etiqueta a tu compañero de atracos 👇 #GTA6
+    #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Atracos #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
+titulo_tiktok: 'Etiqueta a tu compañero de atracos: Raul Bautista busca socio en GTA 6 😎'
 medios: []
 drive: {}
 metricool: {}
@@ -27,6 +34,18 @@ notas: |-
   Choque de mecánica: el 1/12 ya hay «Etiqueta a tu dúo» (Real Dimez). Están separadas 9 días y el ángulo es distinto, pero el director debe confirmar que no cansa.
   Captura: Raul_Bautista_04 (americana blanca y luces de neón).
   Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite entre el 19 y el 26/11.
+
+  GUION DISEÑO:
+  1 imagen · single("People/Raul Bautista/Raul_Bautista_04.jpg", ...) (americana blanca y luces de neón; sin armas)
+    kicker: ATRACADOR VETERANO
+    título: <span class="ye">RAUL BAUTISTA</span> BUSCA <span class="mag">SOCIO</span>
+    subtítulo: ¿Con quién te la jugarías tú?
+    bloque interactivo (mini con 3 tarjetas, porque la pieza pide etiquetar):
+      mini([("star", "RAUL BAUTISTA", "Atracador veterano"),
+            ("users", "¿Y TU SOCIO?", "El que nunca te deja tirado"),
+            ("car", "AL VOLANTE", "Conduce sin perder los nervios")])
+    píldora magenta (cta): ETIQUETA A TU COMPAÑERO DE ATRACOS 👇
+    (Solo la presentación oficial de Rockstar: «atracador veterano». Nada de lo que hace en la historia, ni armas, ni la frase «Lucia tiene a Jason». No se dice que se juegue en cooperativo.)
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
@@ -36,3 +55,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'
+- fecha: 2026-11-18 23:26
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de la suelta en notas

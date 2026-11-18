@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-11-25 10:00
 tema_hashtag: '#RockstarGames'
 objetivo: guardar y compartir (datos de récords)
@@ -19,9 +19,17 @@ capturas:
 - Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_04.jpg
 - Places/Grassrivers/Grassrivers_05.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    GTA 6 batió récords antes de salir 🏆
+
+    El tráiler 1 se fue a 93 millones de visitas en YouTube en 24 horas, y el tráiler 2 pasó de los 475 millones en 24 horas sumando plataformas (según Rockstar a The Hollywood Reporter), por encima de los 365 millones del tráiler de Deadpool y Lobezno. El Guinness World Records Gamer's Edition 2027 lo deja por escrito: tráiler de videojuego más visto en 24 horas. Guarda el carrusel 📌 para la próxima discusión en el grupo y comenta qué récord crees que batirá ahora GTA VI 👇
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RockstarGames
+  tiktok: 'GTA 6 batió récords antes de salir: 93 M de visitas en 24 h con el tráiler 1 y más de 475 M con el tráiler
+    2 🏆 Guárdalo y comenta qué récord batirá ahora 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RockstarGames
+    #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
+titulo_tiktok: 'Los récords de GTA 6 antes de salir: 93 M, más de 475 M y un Guinness 🏆'
 medios: []
 drive: {}
 metricool: {}
@@ -33,6 +41,46 @@ notas: |-
   No se repite con «13 años esperando» del 18/11: aquí van las cifras, no la cronología.
   Si se quiere añadir algún récord de ventas o de jugadores del estreno: PENDIENTE DE INVESTIGADOR, no se publica sin verificar.
   Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite entre el 19 y el 26/11.
+
+  GUION DISEÑO:
+  (5 imágenes, archivos N25nov-1.jpg … N25nov-5.jpg. Datos: filas «Tráiler 1», «Tráiler 2» y «Guinness». Nada de ventas, jugadores ni récords del estreno. El Guinness no se atribuye a un tráiler concreto: el dato solo dice «tráiler de videojuego más visto en 24 h».)
+
+  1/5 · cover(img, kicker, title, sub, chips, 1, 5, size=130)
+  - img: Places/Vice City/Vice_City_10.jpg
+  - kicker: «LOS NÚMEROS DE LOS TRÁILERES»
+  - title: 'GTA 6 BATIÓ <span class="ye">RÉCORDS</span><br>ANTES DE <span class="cy">SALIR</span>'
+  - sub: «Dos tráileres, un Guinness y cifras de locos»
+  - chips: [("eye", "93 M"), ("fire", "+475 M"), ("trophy", "Guinness")]
+
+  2/5 · info(img, label, sublabel, cards, 2, 5)
+  - img: Places/Vice City/Vice_City_26.jpg
+  - label: «TRÁILER 1» · sublabel: «4 DE DICIEMBRE DE 2023»
+  - cards:
+    ("clock", "FECHA", "4/12/2023", "Iba a salir el día 5 y se adelantó por una filtración.", "ye")
+    ("eye", "YOUTUBE · 24 H", "93 millones", "Visitas en YouTube en sus primeras 24 horas.", "cy")
+    ("trophy", "RÉCORD", "N.º 1 no musical", "El vídeo no musical más visto en su primer día en YouTube.", "mag")
+
+  3/5 · info(img, label, sublabel, cards, 3, 5)
+  - img: Places/Leonida Keys/Leonida_Keys_06.jpg
+  - label: «TRÁILER 2» · sublabel: «6 DE MAYO DE 2025»
+  - cards:
+    ("bolt", "POR SORPRESA", "6/5/2025", "Rockstar lo lanzó por sorpresa.", "ye")
+    ("globe", "EN 24 HORAS", "+475 millones", "Visitas sumando plataformas, según Rockstar a The Hollywood Reporter.", "cy")
+    ("fire", "SUPERÓ A", "365 M", "Las visitas del tráiler de Deadpool y Lobezno, que se quedó por detrás.", "mag")
+
+  4/5 · info(img, label, sublabel, cards, 4, 5)
+  - img: Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_04.jpg
+  - label: «GUINNESS» · sublabel: «GAMER'S EDITION 2027»
+  - cards:
+    ("trophy", "RÉCORD MUNDIAL", "Más visto en 24 h", "Tráiler de videojuego más visto en 24 horas.", "ye")
+    ("star", "DÓNDE", "Gamer's Edition 2027", "La edición de videojuegos de Guinness World Records.", "cy")
+    ("info", "OJO", "Récord de tráiler", "Es un récord de visitas, no de ventas ni de jugadores.", "mag")
+
+  5/5 · close(img, title, sub, actions, 5, 5, size=120)
+  - img: Places/Grassrivers/Grassrivers_05.jpg
+  - title (brocha): «¿Qué récord batirá ahora?»
+  - sub: «Comenta tu apuesta y guarda el carrusel para tenerlo a mano»
+  - actions: [("chat", "COMENTA"), ("save", "GUARDA"), ("send", "COMPARTE")]
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
@@ -42,3 +90,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'
+- fecha: 2026-11-18 23:26
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de diseño (5 diapositivas)

@@ -3,7 +3,7 @@ titulo: Historia una semana en Leonida
 formato: historia
 redes:
 - instagram
-estado: redactada
+estado: disenada
 fecha: 2026-11-26 13:00
 tema_hashtag: '#GTA6Opinion'
 objetivo: comentar (pegatina de preguntas y llevar a la publicación N26nov)
@@ -13,7 +13,8 @@ capturas:
 - Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_02.jpg
 textos: {}
 titulo_tiktok: ''
-medios: []
+medios:
+- NH-26nov.jpg
 drive: {}
 metricool: {}
 enlaces: {}
@@ -35,3 +36,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: guion de la historia en notas
+- fecha: 2026-11-18 23:27
+  estado: disenada
+  quien: Claude
+  nota: historia 1080x1920 con story(); hueco para pegatina arriba

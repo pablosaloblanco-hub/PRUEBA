@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-11-26 10:00
 tema_hashtag: '#GTA6Opinion'
 objetivo: comentar (lo mejor y lo peor, sin spoilers)
@@ -13,9 +13,16 @@ datos_usados:
 capturas:
 - Places/Vice City/Vice_City_15.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    Una semana en Leonida 🌴 ¿Cómo te está yendo?
+
+    Llevamos siete días con GTA 6 desde el estreno del 19 de noviembre y queremos tu balance sincero. Comenta lo mejor 👍 y lo peor 👎 de tu primera semana: lo que más te ha enganchado y lo que más te ha desesperado. Eso sí, sin spoilers: nada de misiones ni de la historia, que hay gente que va con calma.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Opinion
+  tiktok: 'Una semana en Leonida 🌴 Comenta lo mejor 👍 y lo peor 👎 de GTA 6 hasta ahora, sin spoilers. #GTA6 #GTAVI
+    #GTA6Español #ViceCity #Leonida #GTA6Opinion #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
+titulo_tiktok: 'Una semana en Leonida: lo mejor y lo peor de GTA 6 (sin spoilers) 🌴'
 medios: []
 drive: {}
 metricool: {}
@@ -27,6 +34,21 @@ notas: |-
   Al día siguiente (27/11) sale el Black Friday con A/B/C: no repetir el formato de 3 opciones aquí.
   Captura: Vice_City_15 (puerto deportivo con el skyline).
   Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite entre el 19 y el 26/11.
+
+  GUION DISEÑO:
+  (1 imagen, archivo N26nov-1.jpg. Dato: fila «Lanzamiento» (19/11/2026; del 19 al 26 van 7 días, cálculo propio). Es una pregunta a la comunidad: no se afirma nada del juego. Bloque de 2 opciones (lo mejor / lo peor) + una tercera casilla que es la norma, no una opción, para no repetir el A/B/C del 27/11.)
+
+  single(Places/Vice City/Vice_City_15.jpg, kicker, título, subtítulo, mini([...]), cta, size=130)
+  - kicker: BALANCE DE LA PRIMERA SEMANA
+  - título: UNA SEMANA EN <span class="cy">LEONIDA</span>
+  - subtítulo: ¿Qué te ha <span class="ye">enganchado</span> y qué te ha <span class="mag">desesperado</span>?
+  - bloque interactivo: mini([
+      ("heart", "LO MEJOR 👍", "Lo que más te ha enganchado"),
+      ("x", "LO PEOR 👎", "Lo que te saca de quicio"),
+      ("eye", "SIN SPOILERS", "Nada de la historia"),
+    ])
+    (si los emojis no salen bien con la fuente, quitarlos: los iconos ya hacen de 👍 y 👎)
+  - cta (píldora magenta): COMENTA LO MEJOR Y LO PEOR 👇
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
@@ -36,3 +58,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'
+- fecha: 2026-11-18 23:26
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de diseño (suelta)

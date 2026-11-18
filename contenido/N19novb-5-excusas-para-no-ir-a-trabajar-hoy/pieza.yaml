@@ -3,7 +3,7 @@ titulo: 5 excusas para no ir a trabajar hoy
 formato: carrusel
 redes:
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-11-19 10:00
 tema_hashtag: '#HumorGamer'
 objetivo: comentar (el número de la excusa) y etiquetar a quien la necesita hoy
@@ -20,8 +20,10 @@ capturas:
 - Places/Port Gellhorn/Port_Gellhorn_01.jpg
 - Places/Vice City/Vice_City_22.jpg
 textos:
-  tiktok: ''
-titulo_tiktok: ''
+  tiktok: 'Hoy media España tiene fiebre… de Vice City 😂 5 excusas (de broma, ¿eh?) para no ir a trabajar el día
+    que sale GTA 6 y escaparte a Leonida 🌴 Comenta el número de la tuya y etiqueta a quien la necesita hoy 👇 #GTA6
+    #GTAVI #GTA6Español #ViceCity #Leonida #HumorGamer #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
+titulo_tiktok: 5 excusas para no ir a trabajar hoy que sale GTA VI 😂
 medios: []
 drive: {}
 metricool: {}
@@ -32,6 +34,65 @@ notas: |-
   1 portada (Vice_City_16: «no me lo creo»). 2 «Tengo fiebre… de Vice City» (Cal_Hampton_03, flotador en la piscina). 3 «Se me ha roto el coche» (Brian_Heder_01, al volante). 4 «Llamada urgente: me mudo a Leonida» (Raul_Bautista_01, al teléfono). 5 «No he dormido: salió a las 00:00 en la Península» (Leonida_Keys_03, el del bar tirado en la mesa). 6 «Me voy de escapada a un motel de Port Gellhorn» (Port_Gellhorn_01, motel). 7 cierre: «¿Cuál vas a usar? Comenta el número» + comenta / guarda / comparte (Vice_City_22, gasolinera de neón).
   Nada de fingir bajas reales con datos médicos: tono claramente de broma.
   Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite entre el 19 y el 26/11.
+
+  GUION DISEÑO:
+  7 imágenes 1080x1350 · archivos N19novb-1.jpg … N19novb-7.jpg. Tono de broma evidente en todas: nada de bajas, médicos ni partes.
+  En las info(), si la etiqueta grande no cabe en una línea, partirla con <br> (no recortar el texto). Subetiquetas cortas para no chocar con la marca de agua.
+
+  1/7 · cover(img, kicker, title, sub, chips, 1, 7, size=130)
+  - img: Places/Vice City/Vice_City_16.jpg (retrato «no me lo creo»)
+  - kicker: «HOY MEDIA ESPAÑA TIENE FIEBRE»
+  - title: '5 EXCUSAS PARA <span class="ye">NO IR</span><br>A <span class="mag">TRABAJAR</span>'
+  - sub: 'Hoy es el día de <span class="cy">GTA 6</span> y el cuerpo te pide Vice City'
+  - chips: [("clock", "Ya se juega desde las 00:00"), ("map", "Leonida te espera"), ("chat", "Comenta tu número"), ("star", "100 % de broma")]
+
+  2/7 · info(img, label, sublabel, cards, 2, 7)
+  - img: People/Cal Hampton/Cal_Hampton_03.jpg (flotador en la piscina)
+  - label: «TENGO FIEBRE…» · sublabel: «EXCUSA 1 · DE VICE CITY»
+  - cards:
+    ("fire", "LO QUE LE DICES AL JEFE", "«Tengo fiebre»", "Y no mientes: fiebre de Vice City desde las 00:00.", "ye")
+    ("star", "CREDIBILIDAD", "3/10", "Cuesta colarla desde un flotador.", "cy")
+    ("palm", "PLAN REAL", "Flotador y neón", "Reposo absoluto en Vice City, mando en mano.", "mag")
+
+  3/7 · info(img, label, sublabel, cards, 3, 7)
+  - img: People/Brian Heder/Brian_Heder_01.jpg (al volante)
+  - label: «SE ME HA ROTO EL COCHE» · sublabel: «EXCUSA 2 · UN CLÁSICO»
+  - cards:
+    ("car", "LO QUE LE DICES AL JEFE", "«No me arranca»", "El de la vida real. El de Leonida va como un tiro.", "ye")
+    ("star", "CREDIBILIDAD", "5/10", "La excusa más vieja del mundo, pero sigue funcionando.", "cy")
+    ("map", "PLAN REAL", "Ruta por Leonida", "De Vice City a los Keys por los puentes, ventanilla bajada.", "mag")
+
+  4/7 · info(img, label, sublabel, cards, 4, 7)
+  - img: People/Raul Bautista/Raul_Bautista_01.jpg (al teléfono)
+  - label: «ME MUDO A LEONIDA» · sublabel: «EXCUSA 3 · LLAMADA URGENTE»
+  - cards:
+    ("chat", "LO QUE LE DICES AL JEFE", "«Es una mudanza»", "Urgente, de hoy para hoy… y con destino a Leonida.", "ye")
+    ("pin", "BARRIOS PARA ELEGIR", "6 zonas", "Vice City, Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia o Mount Kalaga.", "cy")
+    ("star", "CREDIBILIDAD", "1/10", "Tu jefe sabe perfectamente qué sale hoy.", "mag")
+
+  5/7 · info(img, label, sublabel, cards, 5, 7)
+  - img: Places/Leonida Keys/Leonida_Keys_03.jpg (el del bar tirado en la mesa)
+  - label: «NO HE DORMIDO» · sublabel: «EXCUSA 4 · LA MÁS SINCERA»
+  - cards:
+    ("clock", "LO QUE LE DICES AL JEFE", "«Salió a las 00:00»", "En la Península y Baleares; en Canarias, una hora más tarde.", "ye")
+    ("star", "CREDIBILIDAD", "10/10", "La única que es verdad. Tus ojeras lo confirman.", "cy")
+    ("save", "CONSEJO", "Guarda partida", "Y duerme algo esta semana, que Leonida no se va a ir.", "mag")
+
+  6/7 · info(img, label, sublabel, cards, 6, 7)
+  - img: Places/Port Gellhorn/Port_Gellhorn_01.jpg (motel)
+  - label: «ME VOY DE ESCAPADA» · sublabel: «EXCUSA 5 · PORT GELLHORN»
+  - cards:
+    ("pin", "LO QUE LE DICES AL JEFE", "«Asuntos personales»", "Una escapada a «la costa olvidada» de Leonida.", "ye")
+    ("star", "CREDIBILIDAD", "4/10", "Nadie se coge un motel un jueves por la mañana.", "cy")
+    ("info", "LO QUE CUENTA ROCKSTAR", "Moteles baratos", "Port Gellhorn: moteles baratos y atracciones cerradas.", "mag")
+
+  7/7 · close(img, title, sub, actions, 7, 7, size=120)
+  - img: Places/Vice City/Vice_City_22.jpg (gasolinera de neón)
+  - title (brocha): «¿Cuál vas a usar?»
+  - sub: 'Comenta el número (del 1 al 5) y etiqueta a quien la necesita hoy<br><span class="ye">Todas de broma: el jefe también quiere jugar</span>'
+  - actions: [("chat", "COMENTA"), ("save", "GUARDA"), ("send", "COMPARTE")]
+
+  Nada de la historia del juego: los personajes de las fotos no se nombran ni se describen. Nada de PC, PS4 ni Xbox One.
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
@@ -41,3 +102,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'
+- fecha: 2026-11-18 23:26
+  estado: redactada
+  quien: Claude
+  nota: 'redactor: texto TikTok, título y guion de 7 diapositivas'

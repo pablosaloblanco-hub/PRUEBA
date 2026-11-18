@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-11-20 10:00
 tema_hashtag: '#GTA6Mapa'
 objetivo: comentar (A, B o C)
@@ -13,9 +13,17 @@ datos_usados:
 capturas:
 - Places/Vice City/Vice_City_09.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    Tienes una hora en Vice City. ¿Qué haces? 🌴
+
+    Llega el primer finde con GTA 6 y toca elegir plan: A) paseo por Ocean Beach, B) perderte por Little Cuba o C) curiosear en el mercadillo Tisha-Wocka 🛍️ Comenta A, B o C 👇 y etiqueta a quien se vendría contigo.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Mapa
+  tiktok: 'Tienes una hora en Vice City: ¿Ocean Beach (A), Little Cuba (B) o el mercadillo Tisha-Wocka (C)? 🌴 Comenta
+    tu letra 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Mapa #parati · Imágenes: Rockstar Games · Cuenta
+    fan · No oficial'
+titulo_tiktok: 'Tu primera hora en Vice City en GTA 6: ¿A, B o C? 🌴'
 medios: []
 drive: {}
 metricool: {}
@@ -27,6 +35,18 @@ notas: |-
   Nada de misiones ni de cómo se desbloquea nada (no está verificado).
   Captura: Vice_City_09 (calle con murales y coche clásico).
   Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite entre el 19 y el 26/11.
+
+  GUION DISEÑO:
+  1 imagen · single("Places/Vice City/Vice_City_09.jpg", ...) (calle con murales y coche clásico)
+    kicker: PRIMER FINDE EN VICE CITY
+    título: TIENES <span class="ye">UNA HORA</span> EN <span class="mag">VICE CITY</span>. ¿QUÉ HACES?
+    subtítulo: Elige plan para tu primera hora en Leonida
+    bloque interactivo (3 opciones):
+      mini([("palm", "A · OCEAN BEACH", "Un paseo junto al mar"),
+            ("map", "B · LITTLE CUBA", "Perderte por sus calles"),
+            ("pin", "C · TISHA-WOCKA", "Curiosear en el mercadillo")])
+    píldora magenta (cta): COMENTA A, B O C 👇
+    (Redactor: «Café en Little Cuba» pasa a «Perderte por sus calles» para no dar por hecho una actividad del juego que no está verificada. Solo nombres de barrios de «Zonas de Leonida»; nada de misiones ni de desbloqueos.)
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
@@ -36,3 +56,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'
+- fecha: 2026-11-18 23:26
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de la suelta en notas

@@ -4,12 +4,13 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-11-23 10:00
 tema_hashtag: '#GTA6Personajes'
 objetivo: guardar (ficha de personajes) y comentar (tu favorito)
 datos_usados:
 - Personajes presentados por Rockstar (además de Lucia y Jason)
+- Zonas de Leonida (6, presentadas por Rockstar)
 capturas:
 - People/DreQuan Priest/DreQuan_Priest_03.jpg
 - People/Cal Hampton/Cal_Hampton_01.jpg
@@ -20,9 +21,17 @@ capturas:
 - People/Brian Heder/Brian_Heder_02.jpg
 - Places/Vice City/Vice_City_11.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    No todo en GTA 6 es Lucia y Jason 👀 Estos son 6 personajes de Leonida tal y como los presentó Rockstar.
+
+    Cal Hampton, Boobie Ike, Dre'Quan Priest, Real Dimez, Raul Bautista y Brian Heder: solo lo que contó Rockstar al presentarlos, sin nada de lo que les pasa en el juego. Guarda el carrusel 📌 y comenta quién es tu favorito de GTA VI, pero sin spoilers, que aún hay mucha gente descubriendo Vice City 🌴
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Personajes
+  tiktok: '6 personajes de GTA 6 más allá de Lucia y Jason, tal y como los presentó Rockstar 👀 ¿Tu favorito? Coméntalo
+    sin spoilers 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Personajes #parati · Imágenes: Rockstar Games
+    · Cuenta fan · No oficial'
+titulo_tiktok: 'Más allá de Lucia y Jason: 6 personajes de GTA 6 👀'
 medios: []
 drive: {}
 metricool: {}
@@ -35,6 +44,67 @@ notas: |-
   Real Dimez sale también el 1/12 («Etiqueta a tu dúo»): aquí solo media diapositiva.
   Real_Dimez_03 se repite con la historia del 1/12 (otra semana; el director lo permite).
   Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite entre el 19 y el 26/11.
+
+  GUION DISEÑO:
+  Solo las descripciones oficiales de «Datos verificados». Fuera de las diapositivas: «amigo de Jason» (Cal) y «casero de Jason» (Brian), para no nombrar a Jason fuera del título. Nada de su papel en la historia ni de misiones.
+
+  1/8 · cover(img, kicker, title, sub, chips, 1, 8) — archivo N23nov-1.jpg
+  - img: People/DreQuan Priest/DreQuan_Priest_03.jpg
+  - kicker: «6 PERSONAJES DE LEONIDA»
+  - title: 'MÁS ALLÁ DE <span class="ye">LUCIA</span><br>Y <span class="cy">JASON</span>'
+  - sub: «6 nombres que ya conoces, tal y como los presentó Rockstar»
+  - chips: [("users", "6 personajes"), ("info", "Descripción oficial"), ("eye", "Cero spoilers"), ("save", "Guárdalo")]
+
+  2/8 · info(img, label, sublabel, cards, 2, 8) — N23nov-2.jpg
+  - img: People/Cal Hampton/Cal_Hampton_01.jpg
+  - label: «CAL HAMPTON» · sublabel: «SOCIO DE BRIAN HEDER»
+  - cards:
+    ("users", "SU SOCIO", "Brian Heder", "Trabaja con Brian, el contrabandista veterano de los Keys.", "ye")
+    ("eye", "QUÉ HACE", "Oído a la Guardia Costera", "Escucha las comunicaciones de la Guardia Costera.", "cy")
+
+  3/8 · info(img, label, sublabel, cards, 3, 8) — N23nov-3.jpg
+  - img: People/Boobie Ike/Boobie_Ike_03.jpg
+  - label: «BOOBIE IKE» · sublabel: «LEYENDA DE VICE CITY»
+  - cards:
+    ("star", "QUIÉN ES", "Leyenda de Vice City", "Así lo presenta Rockstar.", "ye")
+    ("map", "SUS NEGOCIOS", "Inmobiliaria, club y estudio", "Tres negocios en plena Vice City.", "cy")
+    ("disc", "ONLY RAW RECORDS", "Socio de Dre'Quan", "Comparte el sello con Dre'Quan Priest.", "mag")
+
+  4/8 · info(img, label, sublabel, cards, 4, 8) — N23nov-4.jpg
+  - img: People/DreQuan Priest/DreQuan_Priest_04.jpg (estudio de Only Raw Records)
+  - label: «DRE'QUAN PRIEST» · sublabel: «MÁS BUSCAVIDAS QUE GÁNSTER»
+  - cards:
+    ("bolt", "CÓMO ES", "Más buscavidas que gánster", "La definición que da Rockstar.", "ye")
+    ("disc", "SU SELLO", "Only Raw Records", "El sello que comparte con Boobie Ike.", "cy")
+    ("star", "SU FICHAJE", "Real Dimez", "Ha fichado al dúo de rap de Bae-Luxe y Roxy.", "mag")
+
+  5/8 · info(img, label, sublabel, cards, 5, 8) — N23nov-5.jpg (media diapositiva: el 1/12 sale entera)
+  - img: People/Real Dimez/Real_Dimez_03.jpg
+  - label: «REAL DIMEZ» · sublabel: «BAE-LUXE Y ROXY»
+  - cards:
+    ("users", "QUIÉNES SON", "Dúo de rap", "Bae-Luxe y Roxy forman Real Dimez.", "ye")
+    ("heart", "AMIGAS", "Desde el instituto", "Y fichadas por Dre'Quan en Only Raw Records.", "cy")
+
+  6/8 · info(img, label, sublabel, cards, 6, 8) — N23nov-6.jpg
+  - img: People/Raul Bautista/Raul_Bautista_03.jpg
+  - label: «RAUL BAUTISTA» · sublabel: «ATRACADOR VETERANO»
+  - cards:
+    ("star", "QUIÉN ES", "Atracador veterano", "Así lo presenta Rockstar: un veterano de los atracos.", "ye")
+    ("eye", "LO DEMÁS", "Sin spoilers", "Lo que haga en Leonida lo descubres tú jugando.", "cy")
+
+  7/8 · info(img, label, sublabel, cards, 7, 8) — N23nov-7.jpg
+  - img: People/Brian Heder/Brian_Heder_02.jpg
+  - label: «BRIAN HEDER» · sublabel: «CONTRABANDISTA DE LOS KEYS»
+  - cards:
+    ("palm", "QUIÉN ES", "Contrabandista veterano", "Así lo presenta Rockstar, con base en los Keys.", "ye")
+    ("pin", "SU ZONA", "Leonida Keys", "Islas unidas por puentes, como los Cayos de Florida.", "cy")
+    ("users", "SU SOCIO", "Cal Hampton", "Cal trabaja con él.", "mag")
+
+  8/8 · close(img, title, sub, actions, 8, 8)
+  - img: Places/Vice City/Vice_City_11.jpg
+  - title (brocha): «¿Tu favorito?»
+  - sub: «Comenta su nombre… y sin spoilers, por favor»
+  - actions: [("chat", "COMENTA"), ("save", "GUARDA"), ("send", "COMPARTE")]
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
@@ -44,3 +114,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan nuevo 19-26/11 aprobado (máx. 1 post + 1 historia/día en IG)'
+- fecha: 2026-11-18 23:26
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de 8 diapositivas en notas
