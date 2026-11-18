@@ -62,6 +62,7 @@ idea → aprobada → redactada → disenada → revisada → subida → program
 Pruebas: `python3 -m pytest -q`.
 
 ## Reglas que no se negocian
+- Instagram: como máximo 1 publicación de feed y 1 historia al día (el 18/11 Instagram restringió la cuenta por exceso de publicaciones). TikTok, hasta 3.
 - Nada de la historia del juego ni spoilers, aunque ya se pueda jugar.
 - Solo datos de «Datos verificados». Un dato nuevo pasa por el `investigador` y se apunta en el LÉEME antes de publicarse.
 - Capturas solo de Places y People; nunca Lucia ni Jason, contenido sexual ni logos oficiales.

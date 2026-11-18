@@ -20,6 +20,10 @@ horarios:
   reel: ["11:30", "20:30"]
   youtube_chatgpt: ["18:00-20:00"]   # franja preferente de ChatGPT para Shorts
   separacion_minima_min: 60          # entre dos piezas distintas de la misma red
+  # Decisión de Pablo del 18/11 tras la restricción de Instagram por exceso de publicaciones:
+  maximo_diario:
+    instagram: {feed: 1, historia: 1}
+    tiktok: {feed: 3, historia: 0}
 
 formatos:
   carrusel: {ancho: 1080, alto: 1350, min: 2, max: 20}

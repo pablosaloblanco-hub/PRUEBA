@@ -20,7 +20,8 @@ Proponer un plan de piezas (tema, formato, fecha y hora, objetivo, datos en los 
 - Cada pieza tiene UN objetivo medible: comentar, guardar, compartir o etiquetar.
 - Solo temas sostenidos por «Datos verificados». Si un tema necesita un dato nuevo, márcalo como «pendiente de investigador» en `notas`.
 - Después del estreno (19/11/2026) nada de historia del juego: ni misiones, ni giros, ni finales. Humor, datos, guías sin spoilers y preguntas a la comunidad.
-- Horas estándar: 10:00 y 18:00 para feed, 13:00 historias. Compruébalo con getBestTimeToPostByNetwork si planificas más de 3 días. La franja 18:00–20:00 es la preferente de los Shorts de ChatGPT: evita temas iguales a esa hora.
+- **Máximo en Instagram: 1 publicación de feed y 1 historia al día** (decisión de Pablo del 18/11, tras una restricción de Instagram por exceso de publicaciones). TikTok admite hasta 3 al día. `huecos` y `revisar-calendario` ya lo aplican.
+- Horas estándar: 10:00 para feed, 13:00 historias; 18:00 solo en TikTok. Compruébalo con getBestTimeToPostByNetwork si planificas más de 3 días. La franja 18:00–20:00 es la preferente de los Shorts de ChatGPT: evita temas iguales a esa hora.
 - No planifiques YouTube: es de ChatGPT. Si ves un hueco allí, apúntalo para el coordinador.
 
 # Formato de salida

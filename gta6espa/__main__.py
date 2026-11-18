@@ -117,6 +117,10 @@ def cmd_revisar_calendario(a):
     print("Choques de hora:" if malos else "Choques de hora: ninguno")
     for x, y in malos:
         print(f"  {x.red} {x.fecha:%d/%m %H:%M} ({x.id}) y {y.fecha:%d/%m %H:%M} ({y.id})")
+    exc = calendario.excesos(prog)
+    print("Días por encima del máximo diario:" if exc else "Días por encima del máximo diario: ninguno")
+    for dia, red, grupo, n in exc:
+        print(f"  {dia:%d/%m} {red} {grupo}: {n}")
     por_red = {}
     for p in prog:
         por_red.setdefault(p.red, 0)

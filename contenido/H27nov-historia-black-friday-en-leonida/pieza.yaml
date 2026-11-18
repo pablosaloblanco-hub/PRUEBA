@@ -3,7 +3,7 @@ titulo: Historia Black Friday en Leonida
 formato: historia
 redes:
 - instagram
-estado: revisada
+estado: subida
 fecha: 2026-11-27 13:00
 tema_hashtag: '#BlackFriday'
 objetivo: comentar (votar A, B o C en la encuesta y llevar a la publicación 19)
@@ -42,3 +42,7 @@ historial:
   estado: revisada
   quien: Claude
   nota: 'revisor: ok'
+- fecha: 2026-11-18 16:05
+  estado: subida
+  quien: Claude
+  nota: ''

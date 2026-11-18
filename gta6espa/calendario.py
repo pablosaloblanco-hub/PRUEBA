@@ -69,9 +69,29 @@ def huecos(programado: list[Programada], desde: dt.date, dias: int, formato: str
                 continue
             choca = any(p.red in redes and p.grupo == grupo and abs(p.fecha - candidato) < sep
                         for p in programado)
-            if not choca:
+            lleno = any(_cuenta_dia(programado, red, grupo, dia) >= _maximo(red, grupo) for red in redes)
+            if not choca and not lleno:
                 libres.append(candidato)
     return libres
+
+
+def _maximo(red: str, grupo: str) -> int:
+    return (reglas()["horarios"].get("maximo_diario", {}).get(red, {}) or {}).get(grupo, 99)
+
+
+def _cuenta_dia(programado: list[Programada], red: str, grupo: str, dia: dt.date) -> int:
+    return sum(1 for p in programado if p.red == red and p.grupo == grupo and p.fecha.date() == dia)
+
+
+def excesos(programado: list[Programada]) -> list[tuple[dt.date, str, str, int]]:
+    """Días en que una red supera su máximo diario (fecha, red, grupo, cuántas)."""
+    vistos = {(p.fecha.date(), p.red, p.grupo) for p in programado}
+    salida = []
+    for dia, red, grupo in sorted(vistos):
+        n = _cuenta_dia(programado, red, grupo, dia)
+        if n > _maximo(red, grupo):
+            salida.append((dia, red, grupo, n))
+    return salida
 
 
 def dias_vacios(programado: list[Programada], desde: dt.date, dias: int) -> list[dt.date]:
