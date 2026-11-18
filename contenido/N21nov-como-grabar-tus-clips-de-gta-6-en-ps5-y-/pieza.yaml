@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-11-21 10:00
 tema_hashtag: '#PS5'
 objetivo: guardar (guía útil) y, de paso, que manden su clip por DM
@@ -93,6 +93,8 @@ notas: |-
     título (brocha): ¡Mándanos tu clip!
     subtítulo: Por DM y sin spoilers: compartimos los mejores mencionándote 🎬 · ¿Juegas en Xbox Series X/S? También vale
     botones: (send, MANDA TU CLIP) · (save, GUARDA) · (users, COMPARTE)
+
+  DISEÑO (diseñador): portada con title size=120 y foto desplazada (pos 25%) para que se vea el piloto entero. Cierre: subtítulo partido en 3 líneas con <br> («Por DM y sin spoilers 🎬 / Compartimos los mejores mencionándote / ¿Juegas en Xbox Series X/S? También vale»): se quitan los dos puntos y el « · », mismo contenido. Resto sin cambios.
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
@@ -106,3 +108,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de 6 diapositivas en notas (guía solo de PS5)
+- fecha: 2026-11-18 23:29
+  estado: disenada
+  quien: Claude
+  nota: JPG generados con la plantilla; hoja de contacto revisada

@@ -54,7 +54,7 @@ render([
            ("star", "CREDIBILIDAD", "4/10", "Nadie se coge un motel un jueves por la mañana.", "cy"),
            ("info", "LO QUE CUENTA ROCKSTAR", "Moteles baratos", "Port Gellhorn: moteles baratos y atracciones cerradas.", "mag")], 6, TOTAL),
      salida("N19novb-6.jpg"), 1080, 1350),
-    (close(F7, "¿Cuál vas a usar?",
+    (close(F7, "¿Cuál vas<br>a usar?",
            'Comenta el número (del 1 al 5) y etiqueta a quien la necesita hoy<br><span class="ye">Todas de broma: el jefe también quiere jugar</span>',
            [("chat", "COMENTA"), ("save", "GUARDA"), ("send", "COMPARTE")], 7, TOTAL, size=120),
      salida("N19novb-7.jpg"), 1080, 1350),

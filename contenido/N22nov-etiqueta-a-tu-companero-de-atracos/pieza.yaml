@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-11-22 10:00
 tema_hashtag: '#GTA6Atracos'
 objetivo: etiquetar (a tu compañero de atracos)
@@ -47,6 +47,8 @@ notas: |-
             ("car", "AL VOLANTE", "Conduce sin perder los nervios")])
     píldora magenta (cta): ETIQUETA A TU COMPAÑERO DE ATRACOS 👇
     (Solo la presentación oficial de Rockstar: «atracador veterano». Nada de lo que hace en la historia, ni armas, ni la frase «Lucia tiene a Jason». No se dice que se juegue en cooperativo.)
+
+  DISEÑO (diseñador): single() con título a size=130. Raul_Bautista_04 revisada: sin armas a la vista ni nada subido de tono. El título queda sobre la cara de Raul (la plantilla fija el título arriba y la cara está en el centro superior de la captura). Textos del guion sin cambios.
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
@@ -60,3 +62,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de la suelta en notas
+- fecha: 2026-11-18 23:29
+  estado: disenada
+  quien: Claude
+  nota: JPG generados con la plantilla; hoja de contacto revisada

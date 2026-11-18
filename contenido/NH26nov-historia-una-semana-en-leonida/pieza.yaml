@@ -3,7 +3,7 @@ titulo: Historia una semana en Leonida
 formato: historia
 redes:
 - instagram
-estado: disenada
+estado: revisada
 fecha: 2026-11-26 13:00
 tema_hashtag: '#GTA6Opinion'
 objetivo: comentar (pegatina de preguntas y llevar a la publicación N26nov)
@@ -40,3 +40,7 @@ historial:
   estado: disenada
   quien: Claude
   nota: historia 1080x1920 con story(); hueco para pegatina arriba
+- fecha: 2026-11-18 23:29
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok'

@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-11-20 10:00
 tema_hashtag: '#GTA6Mapa'
 objetivo: comentar (A, B o C)
@@ -48,6 +48,8 @@ notas: |-
             ("pin", "C · TISHA-WOCKA", "Curiosear en el mercadillo")])
     píldora magenta (cta): COMENTA A, B O C 👇
     (Redactor: «Café en Little Cuba» pasa a «Perderte por sus calles» para no dar por hecho una actividad del juego que no está verificada. Solo nombres de barrios de «Zonas de Leonida»; nada de misiones ni de desbloqueos.)
+
+  DISEÑO (diseñador): single() con título a size=120 para que quepa en 3 líneas sin tocar el bloque mini. Textos del guion sin cambios.
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
@@ -61,3 +63,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de la suelta en notas
+- fecha: 2026-11-18 23:29
+  estado: disenada
+  quien: Claude
+  nota: JPG generados con la plantilla; hoja de contacto revisada

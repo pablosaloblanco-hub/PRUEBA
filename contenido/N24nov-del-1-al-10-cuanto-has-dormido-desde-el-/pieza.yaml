@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-11-24 10:00
 tema_hashtag: '#HumorGamer'
 objetivo: comentar (un número del 1 al 10)
@@ -45,6 +45,8 @@ notas: |-
       leyenda bajo la escala, en una fila: izquierda «<span class="mag">1</span> = ¿DORMIR? ¿QUÉ ES ESO?» · derecha «<span class="cy">10</span> = COMO UN BEBÉ (NO HE JUGADO)»
     cta (píldora magenta): COMENTA TU NÚMERO 👇
     (Sin nada de la historia del juego. Sin contar días ni noches exactos en la imagen.)
+
+  DISEÑO (diseñador, 18/11): single(size=110): el título queda en 3 líneas, así que no hace falta bajarlo a 100. La leyenda va debajo de scale(), dentro de middle, en una fila (1 a la izquierda, 10 a la derecha, 26 px). No se cambia ningún texto.
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
@@ -58,3 +60,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de la suelta con scale() en notas
+- fecha: 2026-11-18 23:29
+  estado: disenada
+  quien: Claude
+  nota: N24nov-1.jpg con single+scale+leyenda; hoja revisada
