@@ -16,7 +16,7 @@ def foto(ruta: str) -> str:
 TOTAL = 7
 F1 = foto("Places/Vice City/Vice_City_16.jpg")
 F2 = foto("People/Cal Hampton/Cal_Hampton_03.jpg")
-F3 = foto("People/Brian Heder/Brian_Heder_01.jpg")
+F3 = foto("Places/Leonida Keys/Leonida_Keys_02.jpg")
 F4 = foto("People/Raul Bautista/Raul_Bautista_01.jpg")
 F5 = foto("Places/Leonida Keys/Leonida_Keys_03.jpg")
 F6 = foto("Places/Port Gellhorn/Port_Gellhorn_01.jpg")

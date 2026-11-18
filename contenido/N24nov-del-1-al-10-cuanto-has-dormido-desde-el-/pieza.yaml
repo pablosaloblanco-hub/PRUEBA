@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: revisada
 fecha: 2026-11-24 10:00
 tema_hashtag: '#HumorGamer'
 objetivo: comentar (un número del 1 al 10)
@@ -64,3 +64,7 @@ historial:
   estado: disenada
   quien: Claude
   nota: N24nov-1.jpg con single+scale+leyenda; hoja revisada
+- fecha: 2026-11-18 23:32
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok'

@@ -3,7 +3,7 @@ titulo: 5 excusas para no ir a trabajar hoy
 formato: carrusel
 redes:
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-11-19 10:00
 tema_hashtag: '#HumorGamer'
 objetivo: comentar (el número de la excusa) y etiquetar a quien la necesita hoy
@@ -14,7 +14,7 @@ datos_usados:
 capturas:
 - Places/Vice City/Vice_City_16.jpg
 - People/Cal Hampton/Cal_Hampton_03.jpg
-- People/Brian Heder/Brian_Heder_01.jpg
+- Places/Leonida Keys/Leonida_Keys_02.jpg
 - People/Raul Bautista/Raul_Bautista_01.jpg
 - Places/Leonida Keys/Leonida_Keys_03.jpg
 - Places/Port Gellhorn/Port_Gellhorn_01.jpg
@@ -62,7 +62,7 @@ notas: |-
     ("palm", "PLAN REAL", "Flotador y neón", "Reposo absoluto en Vice City, mando en mano.", "mag")
 
   3/7 · info(img, label, sublabel, cards, 3, 7)
-  - img: People/Brian Heder/Brian_Heder_01.jpg (al volante)
+  - img: Places/Leonida Keys/Leonida_Keys_02.jpg (en scooter; sustituye a Brian_Heder_01, bloqueada porque sale Jason)
   - label: «SE ME HA ROTO EL COCHE» · sublabel: «EXCUSA 2 · UN CLÁSICO»
   - cards:
     ("car", "LO QUE LE DICES AL JEFE", "«No me arranca»", "El de la vida real. El de Leonida va como un tiro.", "ye")
@@ -123,3 +123,7 @@ historial:
   nota: 'revisor: devuelta. Diapositiva 3/7 usa People/Brian Heder/Brian_Heder_01.jpg, donde probablemente sale
     Jason al volante (bloqueada). Cambiar por Places/Leonida Keys/Leonida_Keys_02.jpg (señora en scooter) u otra
     libre sin armas, actualizar capturas y diseno.py, re-render y hoja.'
+- fecha: 2026-11-18 23:32
+  estado: disenada
+  quien: Claude
+  nota: 'director: diapositiva 3 con Leonida_Keys_02'

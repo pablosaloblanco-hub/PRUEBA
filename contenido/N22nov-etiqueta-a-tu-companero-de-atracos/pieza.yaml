@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: redactada
 fecha: 2026-11-22 10:00
 tema_hashtag: '#GTA6Atracos'
 objetivo: etiquetar (a tu compañero de atracos)
@@ -66,3 +66,9 @@ historial:
   estado: disenada
   quien: Claude
   nota: JPG generados con la plantilla; hoja de contacto revisada
+- fecha: 2026-11-18 23:32
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: devuelta al diseñador. El título tapa la cara de Raul en una pieza que va de él: bajar el bloque
+    kicker+título+subtítulo bajo la cara (top ~570-580 px, título size ~100 en 2 líneas) sin tocar textos ni captura.
+    Ojo publicador: TikTok plan antiguo 432691520 (22/11 10:00) sigue PENDIENTE'
