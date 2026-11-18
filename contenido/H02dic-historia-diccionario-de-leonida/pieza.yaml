@@ -3,7 +3,7 @@ titulo: Historia diccionario de Leonida
 formato: historia
 redes:
 - instagram
-estado: subida
+estado: programada
 fecha: 2026-12-02 13:00
 tema_hashtag: '#GuiaGTA6'
 objetivo: guardar la publicación 24 (visitar el post)
@@ -47,3 +47,7 @@ historial:
   estado: subida
   quien: Claude
   nota: 'publicador: medios subidos a Drive'
+- fecha: 2026-11-18 16:06
+  estado: programada
+  quien: Claude
+  nota: 'publicador: programada en Metricool'

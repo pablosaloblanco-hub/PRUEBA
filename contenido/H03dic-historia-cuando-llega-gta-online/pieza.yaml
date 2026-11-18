@@ -3,7 +3,7 @@ titulo: Historia cuándo llega GTA Online
 formato: historia
 redes:
 - instagram
-estado: subida
+estado: programada
 fecha: 2026-12-03 13:00
 tema_hashtag: '#GTAOnline'
 objetivo: comentar (votar en la encuesta y llevar a la publicación 25)
@@ -48,3 +48,7 @@ historial:
   estado: subida
   quien: Claude
   nota: 'publicador: medios subidos a Drive'
+- fecha: 2026-11-18 16:06
+  estado: programada
+  quien: Claude
+  nota: 'publicador: programada en Metricool'

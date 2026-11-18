@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: subida
+estado: programada
 fecha: 2026-12-01 10:00
 tema_hashtag: '#RealDimez'
 objetivo: etiquetar
@@ -67,3 +67,7 @@ historial:
   estado: subida
   quien: Claude
   nota: 'publicador: medios subidos a Drive'
+- fecha: 2026-11-18 16:06
+  estado: programada
+  quien: Claude
+  nota: 'publicador: programada en Metricool'
