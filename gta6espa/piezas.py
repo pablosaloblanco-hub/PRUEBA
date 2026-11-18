@@ -41,6 +41,14 @@ def ruta_ficha(pid: str) -> Path:
     return carpeta(pid) / "pieza.yaml"
 
 
+# Campos con IDs privados: se guardan en trabajo/<id>/privado.yaml, nunca en el repo público.
+PRIVADOS = ("drive", "metricool")
+
+
+def ruta_privada(pid: str) -> Path:
+    return carpeta_trabajo(pid) / "privado.yaml"
+
+
 def slug(texto: str) -> str:
     from .reglas import normalizar
     s = re.sub(r"[^a-z0-9]+", "-", normalizar(texto)).strip("-")
@@ -52,14 +60,25 @@ def cargar(pid: str) -> dict:
     if not ruta.exists():
         raise ErrorPieza(f"No existe la pieza «{pid}» ({ruta})")
     with open(ruta, encoding="utf-8") as f:
-        return yaml.safe_load(f)
+        p = yaml.safe_load(f)
+    privada = ruta_privada(pid)
+    datos = yaml.safe_load(privada.read_text(encoding="utf-8")) if privada.exists() else {}
+    for campo in PRIVADOS:
+        p[campo] = {**(p.get(campo) or {}), **((datos or {}).get(campo) or {})}
+    return p
 
 
 def guardar(p: dict) -> Path:
     ruta = ruta_ficha(p["id"])
     ruta.parent.mkdir(parents=True, exist_ok=True)
+    publica = {k: ({} if k in PRIVADOS else v) for k, v in p.items()}
     with open(ruta, "w", encoding="utf-8") as f:
-        yaml.safe_dump(p, f, allow_unicode=True, sort_keys=False, width=110)
+        yaml.safe_dump(publica, f, allow_unicode=True, sort_keys=False, width=110)
+    privados = {k: p.get(k) or {} for k in PRIVADOS}
+    if any(privados.values()):
+        priv = ruta_privada(p["id"])
+        priv.parent.mkdir(parents=True, exist_ok=True)
+        priv.write_text(yaml.safe_dump(privados, allow_unicode=True, sort_keys=False), encoding="utf-8")
     return ruta
 
 

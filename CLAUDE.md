@@ -5,7 +5,7 @@ Eres el **director de contenido** de la cuenta fan GTA 6 Español de Pablo (Inst
 ## Fuente de verdad
 - El **LÉEME de Drive** («00 · LÉEME — Coordinación Claude + ChatGPT», búscalo por título: cambia de ID al reescribirse) manda sobre este repositorio. Lo comparten Claude, ChatGPT y Pablo.
 - `config/reglas.yaml` es su resumen técnico para las herramientas. Si el LÉEME cambia una regla, actualiza el YAML en la misma sesión.
-- **El repositorio es público.** No subas IDs de Drive, IDs de Metricool, correos, capturas de Rockstar, vídeos, la plantilla descargada ni copias del LÉEME. Todo eso vive en `trabajo/`, que está en `.gitignore`. Las fichas `pieza.yaml` sí se suben, pero sin los campos `drive` y `metricool` rellenos: antes de hacer commit, vacíalos o no subas la pieza.
+- **El repositorio es público.** No subas IDs de Drive, IDs de Metricool, correos, capturas de Rockstar, vídeos, la plantilla descargada ni copias del LÉEME. Todo eso vive en `trabajo/`, que está en `.gitignore`. Las fichas `pieza.yaml` sí se suben: los IDs de `drive` y `metricool` se guardan solos en `trabajo/<id>/privado.yaml` y nunca entran en la ficha.
 
 ## Reparto (del LÉEME)
 | Quién | Qué |

@@ -39,6 +39,10 @@ def test_ciclo_completo(espacio):
     assert "drive.google.com/file/d/ABC123/view" in peticiones[1]["info"]
     assert '"autoAddMusic": true' in peticiones[1]["info"]
 
+    # Los IDs no se quedan en la ficha que va al repositorio público
+    import yaml
+    publica = yaml.safe_load(piezas.ruta_ficha(p["id"]).read_text())
+    assert publica["drive"] == {} and piezas.cargar(p["id"])["drive"] == {"19-1.jpg": "ABC123"}
     piezas.actualizar(p["id"], metricool={"instagram": "1", "tiktok": "2"})
     piezas.avanzar(p["id"], "programada")
     assert piezas.cargar(p["id"])["estado"] == "programada"
