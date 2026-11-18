@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-11-28 10:00
 tema_hashtag: '#Florida'
 objetivo: guardar
@@ -91,6 +91,8 @@ notas: |-
   - actions: [("chat", "COMENTA"), ("save", "GUARDA"), ("send", "COMPARTE")]
 
   Nada de fotos reales de Florida ni de la historia del juego.
+
+  DISEÑO (18/11, diseñador): fotos con quote() en diseno.py (rutas con espacios). Diapositiva 2: Vice_City_15 cambiada por Vice_City_03 (Vice_City_15 sale también en la 24 de la misma semana). Diapositiva 5: una sola foto (Port_Gellhorn_06), sin collage; Ambrosia_04 y Mount_Kalaga_National_Park_03 no se usan y salen de «capturas». Subetiquetas acortadas porque chocaban con la marca de agua de la plantilla: 3/6 «COMO LOS CAYOS DE FLORIDA» → «COMO LOS CAYOS»; 5/6 «LO QUE CUENTA ROCKSTAR» → «SEGÚN ROCKSTAR». Leonida_Keys_01 se mantiene (es la foto de islas y puentes del guion), aunque también la tiene la 19 (27/11).
 historial:
 - fecha: 2026-11-18 15:41
   estado: idea
@@ -104,3 +106,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de diseño
+- fecha: 2026-11-18 15:50
+  estado: disenada
+  quien: Claude
+  nota: 6 JPG + hoja de contacto revisada

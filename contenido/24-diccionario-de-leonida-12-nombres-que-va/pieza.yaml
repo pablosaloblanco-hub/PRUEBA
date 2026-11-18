@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: revisada
 fecha: 2026-12-02 10:00
 tema_hashtag: '#GuiaGTA6'
 objetivo: guardar
@@ -98,3 +98,19 @@ historial:
   estado: disenada
   quien: Claude
   nota: 6 JPG 1080x1350 con plantilla; hoja revisada
+- fecha: 2026-11-18 15:51
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: devuelta al diseñador. 2/6 usa Places/Vice City/Vice_City_01.jpg (cartel VICE CITY), que también
+    es el fondo completo del cierre 8/8 de la pieza 22 (30/11): repetición evidente a 2 días. Cambiar F2 por Places/Vice
+    City/Vice_City_15.jpg (libre, sin problemas), volver a render y hoja, y actualizar capturas. Textos y resto
+    correctos.'
+- fecha: 2026-11-18 15:51
+  estado: disenada
+  quien: Claude
+  nota: 'revisor: anulo la devolución; la 22 ya volvió a Vice_City_27 (cambio del director a las 15:51), así que
+    Vice_City_01 ya no se repite. JPG sin cambios'
+- fecha: 2026-11-18 15:51
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok'

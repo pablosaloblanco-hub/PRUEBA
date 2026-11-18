@@ -3,7 +3,7 @@ titulo: Historia cuándo llega GTA Online
 formato: historia
 redes:
 - instagram
-estado: disenada
+estado: revisada
 fecha: 2026-12-03 13:00
 tema_hashtag: '#GTAOnline'
 objetivo: comentar (votar en la encuesta y llevar a la publicación 25)
@@ -41,3 +41,7 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'diseñador: historia 1080x1920 con story(); hoja revisada'
+- fecha: 2026-11-18 15:51
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok'

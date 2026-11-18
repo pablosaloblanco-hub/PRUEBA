@@ -12,7 +12,7 @@ datos_usados:
 - GTA V
 - Espera desde GTA V
 capturas:
-- Places/Vice City/Vice_City_17.jpg
+- Places/Vice City/Vice_City_15.jpg
 textos:
   instagram: |-
     13 años después, la pregunta sigue en pie: ¿Michael, Franklin o Trevor? 🎮
@@ -35,7 +35,7 @@ notas: |-
 
   GUION DISEÑO:
   Diapositiva única · single(img, kicker, title, sub, middle, cta, size=120)
-  - img: Places/Vice City/Vice_City_17.jpg (atardecer, puente, yates y luces de policía)
+  - img: Places/Vice City/Vice_City_15.jpg (skyline de día con puerto deportivo; sustituye a Vice_City_17, redada policial, por decisión del revisor)
   - kicker: «DEBATE DE DOMINGO»
   - title: '¿<span class="gl-mag">MICHAEL</span>, <span class="gl-cy">FRANKLIN</span> O <span class="gl-ye">TREVOR</span>?'
   - sub: «13 años después, la pregunta sigue en pie»
@@ -65,3 +65,14 @@ historial:
   estado: disenada
   quien: Claude
   nota: suelta 1080x1350 con single()+mini(); hoja revisada
+- fecha: 2026-11-18 15:51
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: devuelta al diseñador. Fondo Vice_City_17 = redada policial con armas y una figura tendida junto
+    a la piscina: no encaja en un debate de domingo y puede leerse como escena de misión. Vice_City_26 NO está libre
+    (la usa H29nov el mismo día). Cambiar a Places/Vice City/Vice_City_15.jpg (alternativa Vice_City_27), corregir
+    descripción de la captura en notas y volver a render + hoja. Textos OK.'
+- fecha: 2026-11-18 15:51
+  estado: disenada
+  quien: Claude
+  nota: 'director: fondo cambiado a Vice_City_15'

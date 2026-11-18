@@ -25,7 +25,7 @@ F4 = foto("Places/Leonida Keys/Leonida_Keys_04.jpg")
 F5 = foto("Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_05.jpg")
 F6 = foto("Places/Leonida Keys/Leonida_Keys_07.jpg")
 F7 = foto("Places/Grassrivers/Grassrivers_02.jpg")
-F8 = foto("Places/Vice City/Vice_City_01.jpg")
+F8 = foto("Places/Vice City/Vice_City_27.jpg")
 
 render([
     (cover(F1, "GUÍA DE REGALO",

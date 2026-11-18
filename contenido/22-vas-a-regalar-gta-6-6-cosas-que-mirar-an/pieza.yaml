@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-11-30 10:00
 tema_hashtag: '#RegalosNavidad'
 objetivo: guardar
@@ -23,7 +23,7 @@ capturas:
 - Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_05.jpg
 - Places/Leonida Keys/Leonida_Keys_07.jpg
 - Places/Grassrivers/Grassrivers_02.jpg
-- Places/Vice City/Vice_City_01.jpg
+- Places/Vice City/Vice_City_27.jpg
 textos:
   instagram: |-
     ¿Vas a regalar GTA 6 estas Navidades? 🎁 Mira esto antes de pagar.
@@ -110,6 +110,8 @@ notas: |-
     título (brocha): ¿Lo regalas o te lo regalan?
     subtítulo: Guárdalo para cuando vayas a comprarlo 📌
     botones: (chat, COMENTA) · (save, GUARDA) · (send, COMPARTE)
+
+  DISEÑO (18/11, diseñador): fotos con quote() en diseno.py (rutas con espacios). Capturas cambiadas para no repetir las de la 20, 19 y 24 de la misma semana y evitar armas (Mount_Kalaga_National_Park_03 tiene cazadores con rifle): 2/8 Vice_City_03 → Mount_Kalaga_National_Park_04; 3/8 Leonida_Keys_01 → Mount_Kalaga_National_Park_06; 4/8 Vice_City_15 → Leonida_Keys_04; 5/8 Port_Gellhorn_06 → Mount_Kalaga_National_Park_05; 6/8 Mount_Kalaga_National_Park_03 → Leonida_Keys_07; 8/8 se queda Vice_City_27 (el director deshizo el cambio a Vice_City_01, que ya sale en la 24). Subetiquetas acortadas porque chocaban con la marca de agua de la plantilla: 2/8 «SOLO PS5 Y XBOX SERIES» → «PS5 Y XBOX SERIES»; 3/8 «EDICIÓN FÍSICA SIN DISCO» → «FÍSICA, SIN DISCO»; 4/8 «HAZLE SITIO EN LA CONSOLA» → «HAZLE SITIO»; 5/8 «PRECIO OFICIAL EN ESPAÑA» → «PRECIO OFICIAL»; 7/8 «YA NO ESTÁ DISPONIBLE» → «FUERA DE PLAZO».
 historial:
 - fecha: 2026-11-18 15:41
   estado: idea
@@ -123,3 +125,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de 8 diapositivas en notas
+- fecha: 2026-11-18 15:50
+  estado: disenada
+  quien: Claude
+  nota: 8 JPG + hoja de contacto revisada

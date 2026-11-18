@@ -10,7 +10,7 @@ def salida(nombre: str) -> str:
 
 
 # url() de la plantilla va sin comillas: las rutas con espacios deben ir codificadas.
-FOTO = quote("Places/Vice City/Vice_City_17.jpg")
+FOTO = quote("Places/Vice City/Vice_City_15.jpg")
 
 render([
     (single(FOTO, "DEBATE DE DOMINGO",
