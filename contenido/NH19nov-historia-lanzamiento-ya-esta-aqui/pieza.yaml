@@ -3,7 +3,7 @@ titulo: 'Historia lanzamiento: ya está aquí'
 formato: historia
 redes:
 - instagram
-estado: aprobada
+estado: redactada
 fecha: 2026-11-19 00:06
 tema_hashtag: '#GTA6YaEstaAqui'
 objetivo: compartir (empujar a la publicación de lanzamiento N19nov y votar en la encuesta)
@@ -26,6 +26,19 @@ notas: |-
   Pegatina (la pone Pablo): encuesta «¿Ya estás dentro?» con «Sí, desde las 00:00» / «Mañana sin falta», y pegatina de mención/enlace a la publicación N19nov.
   Captura: Vice_City_16 (retrato con la mano en la cara: «no me lo creo»; encuadre vertical centrado, sin armas).
   CAPTURA (director, 18/11): Places/Vice City/Vice_City_08.jpg. Se descarta Vice_City_17 (redada policial con una figura tendida, rechazada por el revisor) y Vice_City_16 para la historia.
+
+  GUION DISEÑO:
+  1 historia 1080x1920 · archivo NH-19nov.jpg · sin texto de publicación · story("Places/Vice City/Vice_City_08.jpg", kicker, título, subtítulo, [3 puntos], size=150)
+    kicker: ¡POR FIN! · 19/11 · 00:00
+    título: YA ESTÁ <span class="mag">AQUÍ</span>
+    subtítulo: GTA VI ya se puede jugar: Vice City te espera
+    puntos:
+      01 En PS5 y Xbox Series X/S
+      02 13 años, 2 meses y 2 días
+      03 Bonus: compra antes del 20/11
+    (la plantilla añade sola «NUEVO POST EN EL PERFIL»)
+    Pegatinas (Pablo): encuesta «¿Ya estás dentro?» con «Sí, desde las 00:00» / «Mañana sin falta» y mención/enlace a la publicación N19nov. Dejar libre el hueco entre el título y los puntos o bajo los puntos para la encuesta.
+    (Nada de la historia del juego ni de PC, PS4 o Xbox One.)
 historial:
 - fecha: 2026-11-18 16:04
   estado: idea
@@ -35,3 +48,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: estreno aprobado, captura cambiada'
+- fecha: 2026-11-18 16:08
+  estado: redactada
+  quien: Claude
+  nota: guion de la historia en notas

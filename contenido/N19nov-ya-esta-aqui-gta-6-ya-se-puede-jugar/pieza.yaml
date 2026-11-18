@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-11-19 00:05
 tema_hashtag: '#GTA6YaEstaAqui'
 objetivo: 'comentar (¿desde qué consola juegas esta noche: PS5 o Xbox Series X/S?)'
@@ -17,9 +17,17 @@ datos_usados:
 capturas:
 - Places/Vice City/Vice_City_01.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    ¡YA ESTÁ AQUÍ! 🔥 GTA 6 ya se puede jugar en PS5 y Xbox Series X/S.
+
+    13 años, 2 meses y 2 días después de GTA V, GTA VI nos abre Vice City y Leonida desde las 00:00 (en Canarias, una hora más tarde) 🌴 Si aún no lo tienes, hoy es el último día para llevarte el bonus Vintage Vice City Pack, que es para compras antes del 20/11. Comenta A si juegas en PS5, B si es en Xbox Series X/S o C si aún no lo tienes, y dinos desde dónde juegas esta noche 👇
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6YaEstaAqui
+  tiktok: '¡Ya está aquí! 🔥 GTA 6 ya se puede jugar en PS5 y Xbox Series X/S, 13 años, 2 meses y 2 días después
+    de GTA V. Comenta A (PS5), B (Xbox Series X/S) o C (aún no lo tengo) 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida
+    #GTA6YaEstaAqui #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
+titulo_tiktok: ¡YA ESTÁ AQUÍ! GTA 6 ya se puede jugar en PS5 y Xbox Series X/S 🔥
 medios: []
 drive: {}
 metricool: {}
@@ -33,6 +41,18 @@ notas: |-
   Captura: Vice_City_17 (Vice City al atardecer con persecución en barco; sin armas ni personajes en primer plano).
   Riesgo: Instagram restringido el 18/11; es la única publicación de feed de Instagram del 19/11. Primera hora: Pablo responde comentarios.
   CAPTURA (director, 18/11): Places/Vice City/Vice_City_01.jpg. Se descarta Vice_City_17 (redada policial con una figura tendida, rechazada por el revisor) y Vice_City_16 para la historia.
+
+  GUION DISEÑO:
+  1 imagen 1080x1350 · archivo N19nov-1.jpg · single("Places/Vice City/Vice_City_01.jpg", kicker, título_html, subtítulo, bloque, cta, size=160). Si el título salta a tres líneas, bajar a size=140.
+    kicker: 13 AÑOS, 2 MESES Y 2 DÍAS DESPUÉS
+    título_html: ¡YA ESTÁ <span class="mag">AQUÍ</span>!
+    subtítulo: GTA 6 ya se juega en <span class="cy">PS5</span> y <span class="cy">Xbox Series X/S</span><br>00:00 en la Península y Baleares (Canarias, una hora más tarde)<br><span class="ye">Último día del bonus Vintage Vice City Pack</span> · compras antes del 20/11
+    bloque (3 opciones, sustituye al de 2 de arriba porque la plantilla pinta 3 casillas):
+      mini([("pad", "A · PS5", "Juego en PS5"),
+            ("pad", "B · XBOX", "Series X/S"),
+            ("clock", "C · AÚN NO", "Aún no lo tengo")])
+    cta (píldora magenta): COMENTA A, B O C Y DESDE DÓNDE JUEGAS 👇
+    (Nada de PC, PS4 ni Xbox One. Nada de la historia del juego. Sin icono «disc»: la edición física no trae disco.)
 historial:
 - fecha: 2026-11-18 16:04
   estado: idea
@@ -42,3 +62,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: estreno aprobado, captura cambiada'
+- fecha: 2026-11-18 16:08
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de la suelta en notas

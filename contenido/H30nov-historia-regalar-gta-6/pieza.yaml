@@ -3,7 +3,7 @@ titulo: Historia regalar GTA 6
 formato: historia
 redes:
 - instagram
-estado: subida
+estado: programada
 fecha: 2026-11-30 13:00
 tema_hashtag: '#RegalosNavidad'
 objetivo: guardar la publicación 22 (visitar el post)
@@ -46,5 +46,9 @@ historial:
   nota: 'revisor: ok'
 - fecha: 2026-11-18 16:07
   estado: subida
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-18 16:08
+  estado: programada
   quien: Claude
   nota: ''

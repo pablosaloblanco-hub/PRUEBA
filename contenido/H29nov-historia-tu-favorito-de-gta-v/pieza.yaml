@@ -3,7 +3,7 @@ titulo: Historia tu favorito de GTA V
 formato: historia
 redes:
 - instagram
-estado: subida
+estado: programada
 fecha: 2026-11-29 13:00
 tema_hashtag: '#GTAV'
 objetivo: comentar (votar en la encuesta y llevar a la publicación 21)
@@ -44,5 +44,9 @@ historial:
   nota: 'revisor: ok'
 - fecha: 2026-11-18 16:07
   estado: subida
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-18 16:08
+  estado: programada
   quien: Claude
   nota: ''
