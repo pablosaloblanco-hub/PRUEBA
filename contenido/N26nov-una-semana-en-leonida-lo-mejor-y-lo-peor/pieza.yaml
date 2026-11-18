@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: revisada
 fecha: 2026-11-26 10:00
 tema_hashtag: '#GTA6Opinion'
 objetivo: comentar (lo mejor y lo peor, sin spoilers)
@@ -69,3 +69,9 @@ historial:
   estado: disenada
   quien: Claude
   nota: JPG generados con la plantilla; hoja de contacto revisada a ojo
+- fecha: 2026-11-18 23:30
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok. Ojo publicador: en Metricool siguen PENDIENTES (no borrador) los posts del plan antiguo del
+    26/11 10:00 (IG 432692367 y TikTok 432692426); retirarlos antes de programar esta pieza o habra 2 feeds en IG
+    ese dia'

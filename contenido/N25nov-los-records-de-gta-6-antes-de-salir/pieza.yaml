@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: redactada
 fecha: 2026-11-25 10:00
 tema_hashtag: '#RockstarGames'
 objetivo: guardar y compartir (datos de récords)
@@ -105,3 +105,8 @@ historial:
   estado: disenada
   quien: Claude
   nota: JPG generados con la plantilla; hoja de contacto revisada a ojo
+- fecha: 2026-11-18 23:30
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: devuelta. Texto IG: ''El Guinness ... lo deja por escrito'' va justo tras la frase del trailer
+    2 y le atribuye el Guinness; reescribir sin ligarlo a ningun trailer. JPG y capturas ok.'
