@@ -1,0 +1,3 @@
+# Una captura por línea, con la ruta relativa dentro del pack (por ejemplo: People/archivo.jpg).
+# Motivo opcional tras « # ». El agente revisor añade aquí cada foto que rompa las prohibiciones
+# (salen Lucia o Jason, contenido sexual, escenas de la historia).

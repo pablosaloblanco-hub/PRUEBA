@@ -1,0 +1,28 @@
+# Ficha de ejemplo (las carpetas que empiezan por «_» no cuentan como piezas reales).
+id: _ejemplo
+titulo: Las 6 zonas de Leonida (ejemplo)
+formato: carrusel
+redes: [instagram, tiktok]
+estado: idea
+fecha: 2026-12-01 10:00
+tema_hashtag: "#ZonasLeonida"
+objetivo: comentar la zona favorita
+datos_usados: ["Zonas de Leonida (6, presentadas por Rockstar)"]
+capturas: [Places/Vice_City_01.jpg]
+textos:
+  instagram: |-
+    6 zonas, un solo estado: Leonida 🌴
+
+    De Vice City a Mount Kalaga, te resumimos cada zona que ha presentado Rockstar. ¿Cuál vas a explorar primero? Comenta 👇 y guarda el post para tenerlo a mano.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #ZonasLeonida
+  tiktok: |-
+    Las 6 zonas de Leonida 🌴 ¿Cuál exploras primero? Comenta 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial
+titulo_tiktok: Las 6 zonas de Leonida en GTA 6 🌴
+medios: [E-1.jpg, E-2.jpg, E-3.jpg]
+drive: {}
+metricool: {}
+enlaces: {}
+notas: ""
+historial: []
