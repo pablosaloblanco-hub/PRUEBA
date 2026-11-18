@@ -3,7 +3,7 @@ titulo: 5 excusas para no ir a trabajar hoy
 formato: carrusel
 redes:
 - tiktok
-estado: subida
+estado: programada
 fecha: 2026-11-19 10:00
 tema_hashtag: '#HumorGamer'
 objetivo: comentar (el número de la excusa) y etiquetar a quien la necesita hoy
@@ -133,5 +133,9 @@ historial:
   nota: 'revisor: ok'
 - fecha: 2026-11-18 23:34
   estado: subida
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-18 23:34
+  estado: programada
   quien: Claude
   nota: ''

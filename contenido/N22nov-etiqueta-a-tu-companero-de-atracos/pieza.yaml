@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: revisada
 fecha: 2026-11-22 10:00
 tema_hashtag: '#GTA6Atracos'
 objetivo: etiquetar (a tu compañero de atracos)
@@ -76,3 +76,7 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'director: título bajado para no tapar la cara de Raul'
+- fecha: 2026-11-18 23:34
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok (diseño corregido)'
