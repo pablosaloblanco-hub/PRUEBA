@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: revisada
+estado: programada
 fecha: 2026-11-28 10:00
 tema_hashtag: '#Florida'
 objetivo: guardar
@@ -114,3 +114,11 @@ historial:
   estado: revisada
   quien: Claude
   nota: 'revisor: ok'
+- fecha: 2026-11-18 16:05
+  estado: subida
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-18 16:06
+  estado: programada
+  quien: Claude
+  nota: ''

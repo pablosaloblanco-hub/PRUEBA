@@ -3,7 +3,7 @@ titulo: Historia Leonida vs Florida
 formato: historia
 redes:
 - instagram
-estado: revisada
+estado: programada
 fecha: 2026-11-28 13:00
 tema_hashtag: '#Florida'
 objetivo: compartir la publicación 20 (y votar en el cuestionario)
@@ -43,3 +43,11 @@ historial:
   estado: revisada
   quien: Claude
   nota: 'revisor: ok'
+- fecha: 2026-11-18 16:05
+  estado: subida
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-18 16:06
+  estado: programada
+  quien: Claude
+  nota: ''

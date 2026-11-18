@@ -4,12 +4,18 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: idea
+estado: aprobada
 fecha: 2026-11-19 00:05
 tema_hashtag: '#GTA6YaEstaAqui'
-objetivo: ''
-datos_usados: []
-capturas: []
+objetivo: 'comentar (¿desde qué consola juegas esta noche: PS5 o Xbox Series X/S?)'
+datos_usados:
+- Lanzamiento
+- Hora en España
+- Plataformas
+- Espera desde GTA V
+- Bonus de reserva
+capturas:
+- Places/Vice City/Vice_City_01.jpg
 textos:
   instagram: ''
   tiktok: ''
@@ -18,9 +24,21 @@ medios: []
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: |-
+  Publicación suelta de lanzamiento, 1 imagen 1080x1350. Archivo: N19nov-1.jpg (no reutilizar «5-x» ni imágenes antiguas de Drive).
+  Ángulo: celebración del momento, sin nada de la historia. Gancho de portada: «YA ESTÁ AQUÍ» + «13 años, 2 meses y 2 días después».
+  Chips: «PS5 · Xbox Series X/S» · «00:00 en la Península y Baleares (Canarias, 01:00)» · «Bonus Vintage Vice City Pack comprando antes del 20/11».
+  Bloque interactivo de 2 opciones: «A · PS5» / «B · Xbox Series X/S». CTA en píldora magenta: «Comenta A o B y desde dónde juegas».
+  Ojo: el bonus de reserva vale para compras antes del 20/11, así que es útil mencionarlo hoy (último día). No decir «disponible en PC».
+  Captura: Vice_City_17 (Vice City al atardecer con persecución en barco; sin armas ni personajes en primer plano).
+  Riesgo: Instagram restringido el 18/11; es la única publicación de feed de Instagram del 19/11. Primera hora: Pablo responde comentarios.
+  CAPTURA (director, 18/11): Places/Vice City/Vice_City_01.jpg. Se descarta Vice_City_17 (redada policial con una figura tendida, rechazada por el revisor) y Vice_City_16 para la historia.
 historial:
 - fecha: 2026-11-18 16:04
   estado: idea
   quien: Claude
   nota: creada
+- fecha: 2026-11-18 16:06
+  estado: aprobada
+  quien: Claude
+  nota: 'director: estreno aprobado, captura cambiada'

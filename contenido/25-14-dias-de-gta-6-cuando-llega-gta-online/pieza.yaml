@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: revisada
+estado: subida
 fecha: 2026-12-03 10:00
 tema_hashtag: '#GTAOnline'
 objetivo: comentar (A, B o C)
@@ -70,3 +70,7 @@ historial:
   estado: revisada
   quien: Claude
   nota: 'revisor: ok'
+- fecha: 2026-11-18 16:05
+  estado: subida
+  quien: Claude
+  nota: 'publicador: medios subidos a Drive'
