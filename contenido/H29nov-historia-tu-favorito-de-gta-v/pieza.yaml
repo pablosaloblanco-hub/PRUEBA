@@ -18,9 +18,9 @@ medios:
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'Empuja la 21. Título: «¿Tu favorito de GTA V?». 3 puntos: 1) Michael, 2) Franklin, 3) Trevor + «NUEVO POST
-  EN EL PERFIL». Pegatina para Pablo: encuesta de 3 opciones. Captura: Vice_City_17 (recortar a vertical por el
-  puente). Sin imágenes de GTA V y sin nada del final de GTA V.'
+notas: |-
+  Empuja la 21. Título: «¿Tu favorito de GTA V?». 3 puntos: 1) Michael, 2) Franklin, 3) Trevor + «NUEVO POST EN EL PERFIL». Pegatina para Pablo: encuesta de 3 opciones. Captura: Vice_City_17 (recortar a vertical por el puente). Sin imágenes de GTA V y sin nada del final de GTA V.
+  CAPTURA FINAL (diseñador, 18/11): Places/Vice City/Vice_City_26.jpg. Cambiada respecto a la sugerida para no repetir foto con el feed de la semana.
 historial:
 - fecha: 2026-11-18 15:41
   estado: idea
