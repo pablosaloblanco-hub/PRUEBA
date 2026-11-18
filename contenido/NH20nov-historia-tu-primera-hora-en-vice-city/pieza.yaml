@@ -3,7 +3,7 @@ titulo: Historia tu primera hora en Vice City
 formato: historia
 redes:
 - instagram
-estado: revisada
+estado: subida
 fecha: 2026-11-20 13:00
 tema_hashtag: '#GTA6Mapa'
 objetivo: comentar (votar en la encuesta y llevar a la publicación N20nov)
@@ -44,3 +44,7 @@ historial:
   estado: revisada
   quien: Claude
   nota: 'revisor: ok'
+- fecha: 2026-11-18 23:31
+  estado: subida
+  quien: Claude
+  nota: ''

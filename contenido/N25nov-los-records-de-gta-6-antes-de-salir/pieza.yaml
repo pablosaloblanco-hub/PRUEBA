@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: revisada
 fecha: 2026-11-25 10:00
 tema_hashtag: '#RockstarGames'
 objetivo: guardar y compartir (datos de récords)
@@ -27,8 +27,8 @@ textos:
     Imágenes: Rockstar Games · Cuenta fan · No oficial.
     #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RockstarGames
   tiktok: 'GTA 6 batió récords antes de salir: 93 M de visitas en YouTube en 24 h con el tráiler 1 y más de 475
-    M con el tráiler 2 🏆 Guárdalo y comenta qué récord batirá ahora 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida
-    #RockstarGames #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
+    M en 24 h sumando plataformas con el tráiler 2 🏆 Guárdalo y comenta qué récord batirá ahora 👇 #GTA6 #GTAVI #GTA6Español
+    #ViceCity #Leonida #RockstarGames #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
 titulo_tiktok: 'Los récords de GTA 6 antes de salir: 93 M, más de 475 M y un Guinness 🏆'
 medios:
 - N25nov-1.jpg
@@ -114,3 +114,17 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'director: frase del Guinness reescrita sin ligarla a un tráiler; imágenes sin cambios'
+- fecha: 2026-11-18 23:31
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: devuelta. IG y titulo_tiktok ok. textos.tiktok: ''93 M de visitas en YouTube en 24 h con el tráiler
+    1 y más de 475 M con el tráiler 2'' deja leer que los 475 M son de YouTube; el dato es sumando plataformas.
+    Cambiar a ''... y más de 475 M en 24 h sumando plataformas con el tráiler 2''. Imágenes sin cambios.'
+- fecha: 2026-11-18 23:31
+  estado: disenada
+  quien: Claude
+  nota: 'director: TikTok corregido (475 M sumando plataformas); imágenes sin cambios'
+- fecha: 2026-11-18 23:31
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok (texto corregido)'

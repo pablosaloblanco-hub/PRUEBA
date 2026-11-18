@@ -3,7 +3,7 @@ titulo: Historia graba tu clip
 formato: historia
 redes:
 - instagram
-estado: revisada
+estado: subida
 fecha: 2026-11-21 13:00
 tema_hashtag: '#PS5'
 objetivo: compartir (llevar a la guía N21nov y pedir clips por DM)
@@ -44,3 +44,7 @@ historial:
   estado: revisada
   quien: Claude
   nota: 'revisor: ok'
+- fecha: 2026-11-18 23:31
+  estado: subida
+  quien: Claude
+  nota: ''
