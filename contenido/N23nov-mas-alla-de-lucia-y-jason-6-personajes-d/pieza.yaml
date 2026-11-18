@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-11-23 10:00
 tema_hashtag: '#GTA6Personajes'
 objetivo: guardar (ficha de personajes) y comentar (tu favorito)
@@ -141,3 +141,7 @@ historial:
   nota: 'revisor: devuelta al diseñador. Diapositiva 3 (Boobie Ike): la foto de discoteca Vice_City_13 bajo su nombre
     y encima de la tarjeta ''Inmobiliaria, club y estudio'' da a entender que es su club. Cambiar foto o rotularla
     como ambiente genérico de Vice City. Textos y datos OK.'
+- fecha: 2026-11-18 23:33
+  estado: disenada
+  quien: Claude
+  nota: 'director: pie «FOTO: AMBIENTE DE VICE CITY» en la diapositiva 3'

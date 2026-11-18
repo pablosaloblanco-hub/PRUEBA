@@ -3,7 +3,7 @@ titulo: Qué nota le das a GTA 6 del 1 al 10
 formato: suelta
 redes:
 - tiktok
-estado: revisada
+estado: subida
 fecha: 2026-11-19 18:00
 tema_hashtag: '#GTA6Nota'
 objetivo: comentar (una nota del 1 al 10, sin spoilers)
@@ -60,3 +60,7 @@ historial:
   estado: revisada
   quien: Claude
   nota: 'revisor: ok'
+- fecha: 2026-11-18 23:34
+  estado: subida
+  quien: Claude
+  nota: ''

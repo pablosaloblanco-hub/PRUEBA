@@ -43,3 +43,11 @@ def test_maximo_diario_instagram(tmp_path):
     assert [(d.day, r, g, n) for d, r, g, n in calendario.excesos(prog)] == [(1, "instagram", "feed", 2)]
     libres = calendario.huecos(prog, dt.date(2030, 2, 2), 2, "carrusel", ["instagram"])
     assert all(h.date() != dt.date(2030, 2, 2) for h in libres)  # el 2 ya tiene su post
+
+
+def test_borradores_no_cuentan(tmp_path):
+    datos = [_post(1, "2030-03-01T10:00:00", "instagram", "POST"),
+             dict(_post(2, "2030-03-01T10:00:00", "instagram", "POST"), draft=True)]
+    ruta = tmp_path / "p.json"; ruta.write_text(json.dumps(datos))
+    prog = calendario.leer_programado(ruta)
+    assert len(prog) == 1 and calendario.choques(prog) == [] and calendario.excesos(prog) == []

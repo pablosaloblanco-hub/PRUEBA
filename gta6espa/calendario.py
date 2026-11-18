@@ -39,6 +39,8 @@ def leer_programado(ruta: Path) -> list[Programada]:
     posts = datos.get("data", datos) if isinstance(datos, dict) else datos
     salida = []
     for post in posts:
+        if post.get("draft"):
+            continue  # los borradores no se publican: no cuentan para choques ni máximos
         fecha = dt.datetime.fromisoformat(post["publicationDate"]["dateTime"])
         for prov in post.get("providers", []):
             red = prov["network"]

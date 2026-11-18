@@ -25,6 +25,10 @@ F_PORTADA = foto("People/DreQuan Priest/DreQuan_Priest_03.jpg")
 F_CAL = foto("People/Cal Hampton/Cal_Hampton_01.jpg")
 # Boobie_Ike_03 (bailarina de barra al fondo) y Boobie_Ike_01 (pistola en la mesa) descartadas.
 F_BOOBIE = foto("Places/Vice City/Vice_City_13.jpg")
+# Revisor 19/11: la discoteca no es su club. Pie visible para que se lea como foto de ambiente.
+PIE_AMBIENTE = ('<div style="position:absolute;right:60px;top:180px;z-index:12;font-family:Barlow Condensed;'
+                'font-weight:800;font-size:24px;letter-spacing:2px;color:#fff;background:rgba(11,6,18,.75);'
+                'padding:4px 12px;border-radius:8px">FOTO: AMBIENTE DE VICE CITY</div>')
 F_DREQUAN = foto("People/DreQuan Priest/DreQuan_Priest_04.jpg")
 F_DIMEZ = foto("People/Real Dimez/Real_Dimez_03.jpg")
 F_RAUL = foto("People/Raul Bautista/Raul_Bautista_03.jpg")
@@ -49,7 +53,7 @@ render([
           [("star", "QUIÉN ES", "Leyenda de Vice City", "Así lo presenta Rockstar.", "ye"),
            ("map", "SUS NEGOCIOS", "Inmobiliaria, club y estudio", "Tres negocios en plena Vice City.", "cy"),
            ("disc", "ONLY RAW RECORDS", "Socio de Dre'Quan", "Comparte el sello con Dre'Quan Priest.", "mag")],
-          3, TOTAL),
+          3, TOTAL).replace('<div class="border"></div>', PIE_AMBIENTE + '<div class="border"></div>', 1),
      salida("N23nov-3.jpg"), W, H),
 
     (info(F_DREQUAN, "DRE'QUAN PRIEST", sub_corto("MÁS BUSCAVIDAS QUE GÁNSTER"),
