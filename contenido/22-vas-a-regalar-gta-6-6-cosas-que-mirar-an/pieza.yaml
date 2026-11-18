@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: revisada
 fecha: 2026-11-30 10:00
 tema_hashtag: '#RegalosNavidad'
 objetivo: guardar
@@ -129,3 +129,7 @@ historial:
   estado: disenada
   quien: Claude
   nota: 8 JPG + hoja de contacto revisada
+- fecha: 2026-11-18 15:54
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok'

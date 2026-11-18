@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: revisada
 fecha: 2026-11-29 10:00
 tema_hashtag: '#GTAV'
 objetivo: comentar (Michael, Franklin o Trevor)
@@ -31,7 +31,7 @@ drive: {}
 metricool: {}
 enlaces: {}
 notas: |-
-  Ángulo: nostalgia de domingo y debate clásico. Gancho: «13 años después, la pregunta sigue en pie: ¿Michael, Franklin o Trevor?». Formato suelta: foto completa + bloque de 3 opciones (M / F / T) + píldora «Comenta tu favorito». 1 imagen. Captura: Vice_City_17 (atardecer, puente, yates y luces de policía: ambiente de acción). No hay pack oficial de GTA V permitido: no usar imágenes de GTA V, solo el nombre de los 3 protagonistas en texto. Sin spoilers de GTA V tampoco: nada del final ni de qué le pasa a cada uno; solo nombres, Los Santos y 2013. Dato de apoyo en un chip: «GTA V: 17/09/2013 · 3 protagonistas» y «13 años, 2 meses y 2 días de espera».
+  Ángulo: nostalgia de domingo y debate clásico. Gancho: «13 años después, la pregunta sigue en pie: ¿Michael, Franklin o Trevor?». Formato suelta: foto completa + bloque de 3 opciones (M / F / T) + píldora «Comenta tu favorito». 1 imagen. Captura: Vice_City_15 (puerto deportivo de día; sustituye a Vice_City_17). No hay pack oficial de GTA V permitido: no usar imágenes de GTA V, solo el nombre de los 3 protagonistas en texto. Sin spoilers de GTA V tampoco: nada del final ni de qué le pasa a cada uno; solo nombres, Los Santos y 2013. Dato de apoyo en un chip: «GTA V: 17/09/2013 · 3 protagonistas» y «13 años, 2 meses y 2 días de espera».
 
   GUION DISEÑO:
   Diapositiva única · single(img, kicker, title, sub, middle, cta, size=120)
@@ -76,3 +76,7 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'director: fondo cambiado a Vice_City_15'
+- fecha: 2026-11-18 15:54
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok (fondo Vice_City_15)'
