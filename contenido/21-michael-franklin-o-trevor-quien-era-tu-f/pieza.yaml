@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: revisada
+estado: subida
 fecha: 2026-11-29 10:00
 tema_hashtag: '#GTAV'
 objetivo: comentar (Michael, Franklin o Trevor)
@@ -80,3 +80,7 @@ historial:
   estado: revisada
   quien: Claude
   nota: 'revisor: ok (fondo Vice_City_15)'
+- fecha: 2026-11-18 16:07
+  estado: subida
+  quien: Claude
+  nota: ''
