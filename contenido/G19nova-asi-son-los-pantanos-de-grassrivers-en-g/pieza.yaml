@@ -4,7 +4,7 @@ formato: reel
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: descartada
 fecha: 2026-11-19 12:00
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (¿te perderías por aquí?) y guardar
@@ -52,3 +52,17 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'director: vídeo de gameplay extra pedido por Pablo'
+- fecha: 2026-11-19 10:05
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: DEVUELTA. Los 4 tramos son de misiones de la historia (subtítulos de diálogo de misión y marcador
+    rojo de objetivo en el original, aunque estén tapados): 0-8 s y 22-28 s lancha (22:12/22:26, diálogos «Tienen
+    a Donnie», «Que le den a Brian»); 8-15 s y 15-22 s a pie (29:10/29:34, amenaza «volarte la cabeza» y marcador
+    de objetivo). De 8 a 22 s sale en primer plano el protagonista jugable (gorra, barba: Jason) y es el mismo pasajero
+    de la lancha de 0-8 s y 22-28 s. Hacen falta planos de exploración libre sin protagonista reconocible; el texto
+    «sin spoilers, solo paisaje» y «lancha entre la vegetación» debe ajustarse a los planos nuevos.'
+- fecha: 2026-11-19 10:07
+  estado: descartada
+  quien: Claude
+  nota: 'director: descartada; el revisor confirmó que los tramos son escenas de misión con diálogo de la historia.
+    No hay más material neutro en la grabación'

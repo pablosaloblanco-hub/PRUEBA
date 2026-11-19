@@ -4,7 +4,7 @@ formato: reel
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: redactada
 fecha: 2026-11-19 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (¿de día o de noche?) y guardar
@@ -51,3 +51,10 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'director: vídeo de gameplay extra pedido por Pablo'
+- fecha: 2026-11-19 10:07
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: devuelta. Tramo c2 (46:28, 8,0-15,0 s del Reel): choques con otros coches en pleno tráfico, con
+    chispas y piezas volando a 9,0-9,5 s, 10,25 s y 11,0-11,5 s; parece conducción temeraria o persecución y contradice
+    ''solo conducir''. Sustituir c2 por un tramo tranquilo y volver a montar. Revisar también 21,0-22,0 s (c4):
+    se ven dos ocupantes en la cabina de la camioneta.'
