@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: redactada
+estado: disenada
 fecha: 2026-11-21 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -37,15 +37,17 @@ medios:
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'Concepto: la grabación b no da más choques limpios (los demás son de noche o con violencia), así que esta
+notas: 'v2 (tras la revisión): planos de noche aclarados con gamma 1,8 y #6 movido para que no salga el menú de
+  pesas. Concepto: la grabación b no da más choques limpios (los demás son de noche o con violencia), así que esta
   es de fails y chapuzas: «GTA 6 pero todo me sale mal». Gancho: el tablón tirado escaleras abajo con polvareda
   en el primer segundo; repetición a cámara lenta de la teja; cierre con pregunta. Tramos (gta6_20261119_b.mp4):
-  #1 32:28.5-32:30.0 tablón por la escalera; #2 18:29.1-18:30.9 teja al contenedor desde el tejado (+ repetición
-  18:29.4-18:30.6 a 0,4x); #3 36:43.0-36:45.3 derrape al aparcar; #4 46:09.4-46:12.4 pickup sin llave; #5 20:20.3-20:22.2
-  pesa rusa; #6 20:46.0-20:48.6 press de banca. Memes: ENTREGA EXPRÉS 📦, BRO 💀, TRIPLE DESDE EL TEJADO 🏀, PLAN PERFECTO,
-  EJECUCIÓN…, MODO DERRAPE 🏎️, APARCAMIENTO 10/10 🅿️, ME LLEVO ESTA PICKUP 😎, SIN LLAVE NO ARRANCA 🔑💀, CUIDADO CON
-  LA CABEZA 😬, YO EL LUNES: DÍA DE PECHO 💪; cierre ¿CUÁL TE HA PASADO A TI? 👇. Música propia (musica.py, 136 bpm,
-  tono +3). Sin audio original. Duración 19,2 s, 2,62 MB, 720x1280. Guion: trabajo/<id>/guion.json.'
+  #1 32:28.5-32:30.0 tablón por la escalera, gamma 1,8; #2 18:29.1-18:30.9 teja al contenedor desde el tejado (+
+  repetición 18:29.4-18:30.6 a 0,4x); #3 36:43.0-36:45.3 derrape al aparcar, gamma 1,8; #4 46:09.4-46:12.4 pickup
+  sin llave, gamma 1,8; #5 20:20.3-20:22.2 pesa rusa; #6 20:49.5-20:52.1 press de banca (desde 20:49.5, ya sin el
+  menú de pesas). Memes: ENTREGA EXPRÉS 📦, BRO 💀, TRIPLE DESDE EL TEJADO 🏀, PLAN PERFECTO, EJECUCIÓN…, MODO DERRAPE
+  🏎️, APARCAMIENTO 10/10 🅿️, ME LLEVO ESTA PICKUP 😎, SIN LLAVE NO ARRANCA 🔑💀, CUIDADO CON LA CABEZA 😬, YO EL LUNES:
+  DÍA DE PECHO 💪; cierre ¿CUÁL TE HA PASADO A TI? 👇. Música propia (musica.py, 136 bpm, tono +3). Sin audio original.
+  Duración 19,2 s, 2,54 MB, 720x1280. Guion: trabajo/<id>/guion.json.'
 historial:
 - fecha: 2026-11-19 10:37
   estado: idea
@@ -72,3 +74,7 @@ historial:
     ni que no arranca. Aclarar esos tramos (probado gamma 1,8 sobre la fuente: se entienden) o cambiarlos y volver
     a montar. Resto OK: sin violencia en la pickup, avisos CLONAR LA LLAVE y sin llave fuera de encuadre, audio
     sin original; el HUD de pesas de #6 (14,4-19,2 s) se acepta, mejor recortarlo.'
+- fecha: 2026-11-19 14:50
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v2 aclarado'
