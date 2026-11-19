@@ -16,11 +16,12 @@ textos:
   tiktok: ''
   youtube: ''
 titulo_tiktok: ''
-medios: []
+medios:
+- R20novd-las-fisicas-de-gta-6-1.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: 'Concepto: recopilatorio de físicas absurdas (caídas, saltos, vuelcos, derrapes y trompos) con memes, sonidos propios, zoom y temblor; repetición a cámara lenta de la caída del #1 y cierre con pregunta. Modo cuadrado, título «LAS FÍSICAS DE GTA 6 🤡». Fuente: gta6_20261119_c.mp4. Tramos: #1 17:24.35–17:27.35 (salta del coche en marcha y rueda por el puente; repetición 17:24.45–17:25.25 a 0,4x); #2 21:33.30–21:35.10 (salta una valla); #3 10:22.30–10:25.80 a 1,15x (camión volcado en la calzada); #4 10:47.20–10:50.20 (derrape y señal derribada); #5 18:27.90–18:29.40 (choque contra una furgoneta en el puente); #6 18:31.30–18:33.00 (segundo choque y trompo). Memes: BAJARSE EN MARCHA 🚗💨, 10/10 ATERRIZAJE, 💀, MODO PARKOUR 🤸, OLÍMPICO 🥇, TODO NORMAL EN VICE CITY 👍, ¿Y ESE CAMIÓN? 🚛, EL GPS: GIRE SUAVEMENTE, -1 SEÑAL 🚧, NO LO VI 😭, 2 SEGUNDOS DESPUÉS…, OTRA VEZ NO 💀; cierre «¿CUÁL TE HA DOLIDO MÁS? 👇». Música propia (musica.py, 128 bpm, tono +2). Sin audio original. Duración 18,0 s.'
 historial:
 - fecha: 2026-11-19 10:37
   estado: idea
