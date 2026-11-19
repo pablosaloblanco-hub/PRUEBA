@@ -30,6 +30,7 @@ Reels de gameplay con más gancho: recopilatorios de choques y caídas, memes po
 - `modo`: `cuadrado` pone el vídeo en el centro sobre su propio fondo desenfocado, con el título arriba y la marca abajo; `llenar` es vertical a pantalla completa.
 - `recorte` [x0, y0, x1, y1] en fracciones de la imagen original. Por defecto ya quita la brújula de arriba y la franja de subtítulos y objetivos de abajo. Muévelo en horizontal para seguir el coche.
 - `zoom` [t, duración, factor]: golpe de zoom. `temblor` [t, duración, fuerza en px]. `destello` [t]: flash breve.
+- `gamma`: aclara las sombras (1 = igual; 1,6–2,0 para planos de noche). También vale a nivel de guion para todos los tramos. **Regla del revisor:** un plano en el que no se entiende lo que pasa no vale; aclara o cámbialo.
 - `congelar`: segundos de imagen congelada al final del tramo (buen sitio para un meme).
 - `repeticion`: añade otra pasada a cámara lenta con el rótulo «REPETICIÓN 🔁» y un scratch.
 - Estilos de pegatina: `meme` (texto blanco con borde negro), `etiqueta` (caja de color), `bocadillo` (globo blanco), `emoji` (emoji grande), `contador`. Admiten `tam`, `color`, `giro`, `pos` [x, y] (0–1 de la pantalla), `animar` (sale con rebote; por defecto sí). Usa `\n` para partir líneas.
@@ -44,4 +45,5 @@ Reels de gameplay con más gancho: recopilatorios de choques y caídas, memes po
 
 ## Memes y textos que funcionan (en español de España)
 «BRO 💀», «ESTO VA BIEN 👍», «EL GPS: SIGA RECTO», «-1 COCHE», «MI SEGURO VIENDO ESTO», «NO LO VI 😭», «SKILL ISSUE», «MODO KAMIKAZE», «PLAN PERFECTO, EJECUCIÓN…», «YO CON EL CARNET RECIÉN SACADO», «POV: CONDUCES EN VICE CITY», «¿QUIÉN ME HA PUESTO ESA FAROLA?», «FÍSICAS DE GTA 6 🤡», «10/10 ATERRIZAJE».
+Evita los planos con letreros de la historia (p. ej. «Brian's»), marcadores de destino de misión y coches de policía persiguiendo.
 Nada de insultos ni de burlarse de colectivos. Los GIF de internet no se usan: tienen derechos. Si Pablo deja GIF propios en Drive, se pueden añadir como pegatina.

@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: redactada
 fecha: 2026-11-21 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -62,3 +62,12 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1'
+- fecha: 2026-11-19 14:39
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: DEVUELTA (montaje). 1) #5 (fuente 47:40.5-47:45.4; salida 14,37-22,17 s): de 17,5 s al final,
+    incluido el cierre congelado, sale casi negro (lum. 23/255) y no se ve el barco, que es el remate y lo que promete
+    el gancho ESPERA AL #5. Con gamma 2,0 sobre la fuente el barco en su remolque se distingue a partir de 47:44.3:
+    aclarar (gamma ~2) y zoom al barco, o cambiar el tramo (si se cambia, ajustar textos). 2) #4 (12,5-14,37 s;
+    lum. 19) y #2 (6,5-8,7 s; lum. 23) también muy oscuros: aclarar. Resto OK: sin policía ni violencia, RESTABLECER
+    y avisos GPS fuera de encuadre, audio sin original, memes OK.'

@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: redactada
 fecha: 2026-11-21 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -63,3 +63,12 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1'
+- fecha: 2026-11-19 14:38
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: DEVUELTA (solo montaje). Planos nocturnos ilegibles: 1) #1 gancho (salida 0,0-1,9 s; luminancia
+    media 31/255): el tablón cae en negro en 1,0-1,9 s y el gancho no se entiende. 2) #3 (6,7-9,0 s; lum. 37): en
+    8,0-9,0 s no se ve el coche, solo la pegatina. 3) #4 (9,0-12,5 s; lum. 33): en 10,5-12,5 s no se ve la pickup
+    ni que no arranca. Aclarar esos tramos (probado gamma 1,8 sobre la fuente: se entienden) o cambiarlos y volver
+    a montar. Resto OK: sin violencia en la pickup, avisos CLONAR LA LLAVE y sin llave fuera de encuadre, audio
+    sin original; el HUD de pesas de #6 (14,4-19,2 s) se acepta, mejor recortarlo.'

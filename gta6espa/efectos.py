@@ -288,7 +288,8 @@ def _filtro_tramo(tr: dict, modo: str, ancho_src: int, alto_src: int) -> str:
         cadena.append(f"scale={w + margen}:{_par(h * (w + margen) / w)}")
         cadena.append(f"crop={w}:{h}:x='(iw-ow)/2+({env})*sin(t*53)':y='(ih-oh)/2+({env})*cos(t*41)'")
     brillo = "+".join(f"0.32*exp(-pow((t-{t})*10,2))" for t in (tr.get("destello") or [])) or "0"
-    cadena.append(f"eq=saturation=1.18:contrast=1.06:brightness='{brillo}':eval=frame")
+    gamma = float(tr.get("gamma", 1.0))  # >1 aclara las sombras (planos de noche: 1,6–2,0)
+    cadena.append(f"eq=saturation=1.18:contrast=1.06:gamma={gamma}:brightness='{brillo}':eval=frame")
     congelar = float(tr.get("congelar", 0))
     if congelar > 0:
         cadena.append(f"tpad=stop_mode=clone:stop_duration={congelar}")
@@ -318,12 +319,14 @@ def _expandir(guion: dict) -> list[dict]:
     tramos = []
     for tr in guion["tramos"]:
         tr = dict(tr)
+        if "gamma" not in tr and guion.get("gamma"):
+            tr["gamma"] = guion["gamma"]
         rep = tr.pop("repeticion", None)
         tramos.append(tr)
         if rep:
             vel = rep.get("velocidad", 0.4)
             nuevo = {"inicio": tr["inicio"] + rep.get("desde", 0), "fin": tr["inicio"] + rep.get("hasta", tr["fin"] - tr["inicio"]),
-                     "fuente": tr.get("fuente"), "recorte": tr.get("recorte"), "velocidad": vel,
+                     "fuente": tr.get("fuente"), "recorte": tr.get("recorte"), "velocidad": vel, "gamma": tr.get("gamma", 1.0),
                      "zoom": [[0, 99, rep.get("zoom", 1.25)]], "congelar": rep.get("congelar", 0),
                      "pegatinas": [{"texto": rep.get("texto", "REPETICIÓN 🔁"), "t": 0, "dur": 99, "pos": [0.5, 0.31],
                                     "estilo": "etiqueta", "tam": 40, "color": "#ff2d55", "animar": False}]

@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: aprobada
 fecha: 2026-11-20 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -63,3 +63,12 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1'
+- fecha: 2026-11-19 14:35
+  estado: aprobada
+  quien: Claude
+  nota: 'revisor: DEVUELTA. 1) #1 (fuente 17:24.35-17:27.35; salida 0,0-5,0 s con la repetición): sangre en rodilla
+    y brazo (0,6-1,0 s, 1,6 s, 4,4-4,9 s) y salta de un coche del sheriff que conducía con búsqueda activa (librea
+    0,0-0,3 s, rótulo SHERIFF 2,8 s): quitar el tramo y su repetición. 2) #4 (fuente 10:47.2-10:47.6; salida 9,83-10,2
+    s): coche de policía con luces persiguiendo, búsqueda de 2 estrellas: cambiar el tramo por otro sin policía.
+    3) Reescribir IG/TikTok/YouTube/titulos y gancho del primer segundo sin «bajarse del coche en marcha»; reajustar
+    numeración y pregunta del cierre. #2, #3, #5, #6, audio y memes OK.'

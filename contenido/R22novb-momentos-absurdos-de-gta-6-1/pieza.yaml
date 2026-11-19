@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: aprobada
 fecha: 2026-11-22 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -60,3 +60,13 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1'
+- fecha: 2026-11-19 14:40
+  estado: aprobada
+  quien: Claude
+  nota: 'revisor: DEVUELTA. 1) #3 (fuente 29:44-29:51; salida 8,2-12,2 s): se lee BRIAN''S en el fuselaje del hidroavión
+    en 8,2, 10,8 y 11,4 s (la nota del editor dice lo contrario). 2) #1 y #2 (salida 0,0-8,2 s): marcador rosa de
+    destino de misión visible de 0,0 a 7,5 s. No es aceptable: #1-#3 son de la misión del hidroavión de Brian (objetivos
+    Sube al hidroavión / Aterriza cerca del muelle) y además #1-#2 apenas se ven por la tormenta. Quitar #1-#3 y
+    buscar otro gancho. 3) Nocturnos ilegibles: #4 12,0-13,0 s casi negro, #5 16,0-17,5 s, #6 21,0-23,0 s: aclarar
+    o cambiar. 4) Reescribir IG/TikTok/YouTube sin el hidroavión. OK: ROMPER LA VENTANA y Sube a tu coche fuera
+    de encuadre en #5, sin violencia ni atropellos, audio sin original.'

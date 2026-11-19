@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: aprobada
 fecha: 2026-11-20 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -62,3 +62,11 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1'
+- fecha: 2026-11-19 14:37
+  estado: aprobada
+  quien: Claude
+  nota: 'revisor: DEVUELTA. 1) #2 (fuente b 36:27.6-36:30.3 + repetición; salida 3,8-9,3 s): de noche casi negro,
+    el choque del cruce no se distingue (solo chispas en 7,2-7,8 s) y se lee el rótulo BRIAN''S MARINA de 4,0 a
+    9,3 s: sustituir por otro choque de día. 2) El gancho ESPERA AL #2 y el texto («una señal menos en el cruce»)
+    dependen de ese tramo: reescribir gancho, IG, TikTok, YouTube y orden. 3) #1 0,0-0,5 s muy oscuro: valorar empezar
+    en el golpe. #3, #4, #5, audio y memes OK; aviso de llamada de Brian de 50:02.9 fuera del encuadre.'
