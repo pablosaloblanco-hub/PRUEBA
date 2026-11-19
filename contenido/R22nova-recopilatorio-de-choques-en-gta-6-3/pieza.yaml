@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: redactada
 fecha: 2026-11-21 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -75,3 +75,12 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v2 aclarado'
+- fecha: 2026-11-19 14:52
+  estado: redactada
+  quien: Claude
+  nota: 'revisor v2: DEVUELTA. 1) ATROPELLO en #5: la camioneta sube a la acera y embiste a un peatón (fuente 47:43.2-47:43.8;
+    salida 17,0-17,57 s, con MODO KAMIKAZE encima) y el cuerpo sigue en el suelo al empezar #5b (17,57 s). Estaba
+    también en v1 y el revisor no lo vio por la oscuridad. Cortar #5a como muy tarde en 47:43.0 y empezar #5b no
+    antes de 47:44.1, comprobando fotograma a fotograma que no queda nadie en el suelo; si no se puede, quitar #5.
+    2) Si se corta, revisar que el meme MODO KAMIKAZE no quede sobre la acera. OK en v2: la gamma hace legibles
+    #1-#4, el barco se ve con el 👆 desde 18,2 s, sin policía, sangre ni HUD de misión en #1-#4; audio sin original.'
