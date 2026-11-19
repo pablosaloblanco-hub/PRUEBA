@@ -5,23 +5,46 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-20 11:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (pregunta del cierre) y etiquetar
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  instagram: ''
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
+  instagram: |-
+    Los choques más tontos de GTA 6 💀
+
+    Una farola que nadie vio venir, una señal menos en el cruce, un seto que se cruzó en mi camino y un bus que solo pedía respeto. Al camión lo esquivé por poco, que también cuenta. ¿Cuál ha sido el peor? Comenta el número 👇 y etiqueta a quien conduce así en Vice City.
+
+    Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+  tiktok: 'Los choques más tontos de GTA 6 💀 (solo en el juego, eh). ¿Cuál ha sido el peor? Comenta el número 👇
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan ·
+    No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    Los choques más tontos de GTA 6 💀 Una farola, una señal, un seto, un bus y un camión esquivado por poco en Vice City. ¿Cuál ha sido el peor? Comenta el número 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: Los choques más tontos de GTA 6 en Vice City 💀 ¿Cuál ha sido el peor?
+titulo_youtube: 'Los choques más tontos de GTA 6 💀 ¿Cuál ha sido el peor? #Shorts'
 medios:
 - R20novc-recopilatorio-de-choques-en-gta-6-1.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'Concepto: recopilatorio de 5 choques reales de la grabación b (19/11) con memes, zoom, temblor y sonidos propios; gancho: el golpe contra la farola en el primer segundo; repetición a cámara lenta del choque del cruce; cierre con pregunta. Tramos (gta6_20261119_b.mp4): #1 37:25.0-37:28.8 farola y cámara de choque; #2 36:27.6-36:30.3 señal y choque en el cruce (+ repetición 36:28.7-36:29.7 a 0,4x); #3 52:11.6-52:14.3 contra el seto; #4 52:14.3-52:15.8 roce con el bus; #5 50:02.9-50:04.7 por poco con el camión. Memes: ESPERA AL #2 💀, BRO 💀, ¿QUIÉN HA PUESTO ESA FAROLA?, -1 SEÑAL 🚧, MI SEGURO VIENDO ESTO 😭, MODO KAMIKAZE 🔥, EL GPS: SIGA RECTO, -1 SETO 🌳, EL BUS: 😐, PERDÓN 🙏, POV: CONDUCES EN VICE CITY, CASI 😳; cierre ¿CUÁL HA SIDO EL PEOR? 👇. Música propia (musica.py, 128 bpm, tono 0). Sin audio original. Duración 18,0 s, 2,68 MB, 720x1280. Guion: trabajo/<id>/guion.json.'
+notas: 'Concepto: recopilatorio de 5 choques reales de la grabación b (19/11) con memes, zoom, temblor y sonidos
+  propios; gancho: el golpe contra la farola en el primer segundo; repetición a cámara lenta del choque del cruce;
+  cierre con pregunta. Tramos (gta6_20261119_b.mp4): #1 37:25.0-37:28.8 farola y cámara de choque; #2 36:27.6-36:30.3
+  señal y choque en el cruce (+ repetición 36:28.7-36:29.7 a 0,4x); #3 52:11.6-52:14.3 contra el seto; #4 52:14.3-52:15.8
+  roce con el bus; #5 50:02.9-50:04.7 por poco con el camión. Memes: ESPERA AL #2 💀, BRO 💀, ¿QUIÉN HA PUESTO ESA
+  FAROLA?, -1 SEÑAL 🚧, MI SEGURO VIENDO ESTO 😭, MODO KAMIKAZE 🔥, EL GPS: SIGA RECTO, -1 SETO 🌳, EL BUS: 😐, PERDÓN
+  🙏, POV: CONDUCES EN VICE CITY, CASI 😳; cierre ¿CUÁL HA SIDO EL PEOR? 👇. Música propia (musica.py, 128 bpm, tono
+  0). Sin audio original. Duración 18,0 s, 2,68 MB, 720x1280. Guion: trabajo/<id>/guion.json.'
 historial:
 - fecha: 2026-11-19 10:37
   estado: idea
@@ -31,3 +54,11 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: Reel dinámico de choques y caídas con memes (Pablo, 19/11)'
+- fecha: 2026-11-19 14:30
+  estado: redactada
+  quien: Claude
+  nota: 'redactor: textos v1'
+- fecha: 2026-11-19 14:30
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1'

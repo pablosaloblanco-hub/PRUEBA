@@ -16,11 +16,17 @@ textos:
   tiktok: ''
   youtube: ''
 titulo_tiktok: ''
-medios: []
+medios:
+- R22novb-momentos-absurdos-de-gta-6-1.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: |-
+  Concepto: momentos absurdos de la partida (física y decisiones raras) con memes encima, zoom, temblor y sonidos propios. Montado con `efectos` (guion en trabajo/<id>/guion.json), modo cuadrado, título «LO MÁS ABSURDO DE MI PARTIDA 🤡».
+  Duración: 27,1 s (720×1280, 2,6 MB). Música propia (musica.py, 136 bpm, tono −3), sin audio original.
+  Tramos de la grabación gta6_20261119.mp4 (minuto): #1 32:00,6–32:03,6 hidroavión que aterriza con el ala casi en el agua (gancho, con repetición a cámara lenta 32:01,2–32:02,6) · #2 32:20,9–32:22,7 el hidroavión derrapa sobre el agua · #3 29:44,0–29:51,0 ir nadando hasta el hidroavión (×1,75) · #4 45:03,5–45:08,0 bajarse del coche y cruzar la carretera entre los faros (×1,25) · #5 45:40,0–45:45,9 deja la camioneta y va a por el coche rojo (×2,5) + 45:49,6–45:50,8 abre la puerta (se salta 45:46–45:49, aviso «Romper la ventana») · #6 46:59,0–47:14,0 se lleva un camión con tráiler (×3).
+  Memes: «PILOTO CON 0 HORAS DE VUELO ✈️», «10/10 ATERRIZAJE», «DERRAPE EN EL AGUA 💀», «POV: LLEGAS TARDE AL VUELO ✈️», «¡ESPERADME! 🏊», «BAJO UN MOMENTO… 🚶», «MODO FROGGER 🐸», «MIRA A LOS DOS LADOS 👀», «ESTE YA NO ME GUSTA», «EL DE AL LADO: 👀», «ME LO QUEDO 😎», «EL GPS: VE A CASA 🏠», «YO: 🚚💨», «CARNET DE CAMIÓN: NO TENGO». Cierre: «¿CUÁL ES EL MÁS ABSURDO? 👇».
+  Recorte sin brújula, distancia del GPS, avisos de pilotaje, subtítulos ni objetivos («Aterriza cerca del muelle», «Sube al hidroavión», «Sube a tu coche»). En el hidroavión no se ve el rótulo «Brian's». No se ven cinemáticas, diálogos, armas ni atropellos. Descartados de la grabación: la huida del atraco (10:15–11:08, historia), la lancha con disparos, 48:00 (pelea) y 48:13 (sacar a alguien del coche).
 historial:
 - fecha: 2026-11-19 10:37
   estado: idea

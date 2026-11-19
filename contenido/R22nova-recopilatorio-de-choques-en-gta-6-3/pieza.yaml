@@ -1,5 +1,5 @@
 id: R22nova-recopilatorio-de-choques-en-gta-6-3
-titulo: 'Recopilatorio de choques en GTA 6 #3'
+titulo: Conducir en GTA 6 como en la autoescuela
 formato: reel
 redes:
 - instagram
@@ -16,11 +16,18 @@ textos:
   tiktok: ''
   youtube: ''
 titulo_tiktok: ''
-medios: []
+medios:
+- R22nova-recopilatorio-de-choques-en-gta-6-3.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: |-
+  Concepto: recopilatorio de conducción nocturna «como en la autoescuela» (choques, roces y sustos al volante) con memes encima en el golpe, zoom, temblor, destellos y sonidos propios. Montado con `efectos` (guion en trabajo/<id>/guion.json), modo cuadrado, título «ASÍ CONDUZCO EN VICE CITY 🚗💀».
+  Duración: 22,2 s (720×1280, 2,6 MB). Música propia (musica.py, 128 bpm, tono +2), sin audio original.
+  Tramos de la grabación gta6_20261119.mp4 (minuto): #1 46:29,5–46:32,2 choque con chispas (gancho, con repetición a cámara lenta 46:30,0–46:31,4) · #2 45:59,6–46:01,8 por los pelos entre el tráfico · #3 46:13,9–46:15,6 roce con otro coche · #4 43:27,5–43:33,0 la camioneta se sale de la carretera (×1,5) · #5 47:40,5–47:45,4 la camioneta se lleva una señal y acaba contra unos barcos aparcados.
+  Memes: «ESPERA AL #5 💀», «-1 RETROVISOR», «MI SEGURO VIENDO ESTO 😭», «EL GPS: SIGA RECTO», «POR LOS PELOS 😰», «PERDÓN 🙏», «YO CON EL CARNET RECIÉN SACADO», «¿ESTO ES UN ATAJO? 🌿», «ESTO VA BIEN 👍», «-1 SEÑAL», «MODO KAMIKAZE», «¿QUIÉN HA APARCADO AQUÍ UN BARCO? 🚤». Cierre: «¿CUÁL HA SIDO EL PEOR? 👇».
+  Recorte con la franja superior por debajo de la distancia del GPS (y ≥ 0,10) y la inferior por encima de subtítulos y objetivos (y ≤ 0,80); minimapa y avisos de navegación fuera por los lados. Sin cinemáticas, diálogos, armas ni atropellos. El tramo 46:28 ya no repite: 46:16–46:24 y 46:38–46:44 (R20nov) quedan fuera.
+  Título cambiado (antes «Recopilatorio de choques en GTA 6 #3»): la grabación tiene pocos choques claros y casi todo es conducción nocturna con sustos.
 historial:
 - fecha: 2026-11-19 10:37
   estado: idea
