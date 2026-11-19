@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-20 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -13,25 +13,23 @@ datos_usados:
 - Plataformas
 capturas: []
 textos:
-  instagram: 'Los choques más tontos de GTA 6 💀
+  instagram: |-
+    Los choques más tontos de GTA 6 💀
 
-
-    Una farola que nadie vio venir, una señal menos en el cruce, un seto que se cruzó en mi camino y un bus que solo pedía respeto. Al camión lo esquivé por poco, que también cuenta. ¿Cuál ha sido el peor? Comenta el número 👇 y etiqueta a quien conduce así en Vice City.
-
+    Una farola que nadie vio venir, una caravana aparcada que no lo vio venir, un seto que se cruzó en mi camino y un bus que solo pedía respeto. Al camión lo esquivé por poco, que también cuenta. ¿Cuál ha sido el peor? Comenta el número 👇 y etiqueta a quien conduce así en Vice City.
 
     Solo en el juego: en la vida real, despacio y con cabeza.
 
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+  tiktok: 'Los choques más tontos de GTA 6 💀 (solo en el juego, eh). ¿Cuál ha sido el peor? Comenta el número 👇
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan ·
+    No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    Los choques más tontos de GTA 6 💀 Una farola, una caravana, un seto, un bus y un camión esquivado por poco en Vice City. ¿Cuál ha sido el peor? Comenta el número 👇 Solo en el juego: en la vida real, despacio y con cabeza.
 
     Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
-
-    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay'
-  tiktok: 'Los choques más tontos de GTA 6 💀 (solo en el juego, eh). ¿Cuál ha sido el peor? Comenta el número 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
-  youtube: 'Los choques más tontos de GTA 6 💀 Una farola, una señal, un seto, un bus y un camión esquivado por poco en Vice City. ¿Cuál ha sido el peor? Comenta el número 👇 Solo en el juego: en la vida real, despacio y con cabeza.
-
-
-    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
-
-    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts'
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
 titulo_tiktok: Los choques más tontos de GTA 6 en Vice City 💀 ¿Cuál ha sido el peor?
 titulo_youtube: 'Los choques más tontos de GTA 6 💀 ¿Cuál ha sido el peor? #Shorts'
 medios:
@@ -39,8 +37,18 @@ medios:
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'v2 (tras la revisión): el #2 antiguo (36:27.6-36:30.3, oscuro y con el rótulo «BRIAN''S MARINA») se ha quitado y el gancho ya no anuncia el #2. Concepto: recopilatorio de 5 choques reales de la grabación b (19/11) con memes, zoom, temblor y sonidos propios; gancho: el golpe contra la farola en el primer segundo con «YO CON EL CARNET RECIÉN SACADO 💀» y «BRO 💀»; repetición a cámara lenta del choque con la caravana; cierre con pregunta. Tramos (gta6_20261119_b.mp4): #1 37:25.15-37:28.8 farola y cámara de choque, gamma 1,5 (empieza en el golpe); #2 37:10.9-37:13.2 contra una caravana aparcada, gamma 1,8 (+ repetición 37:11.3-37:12.3 a 0,4x); #3 52:11.6-52:14.3 contra el seto; #4 52:14.3-52:15.8 roce con el bus; #5 50:02.9-50:04.7 por poco con el camión. Memes: YO CON EL CARNET RECIÉN SACADO 💀, BRO 💀, ¿QUIÉN HA PUESTO ESA FAROLA?, ESTO VA BIEN 👍, -1 CARAVANA 🚐, MI SEGURO VIENDO ESTO 😭, MODO KAMIKAZE 🔥, EL GPS: SIGA RECTO, -1 SETO 🌳, EL BUS: 😐, PERDÓN 🙏, POV: CONDUCES EN VICE CITY, CASI
-  😳; cierre ¿CUÁL HA SIDO EL PEOR? 👇. Música propia (musica.py, 128 bpm, tono 0). Sin audio original. Duración 17,5 s, 2,67 MB, 720x1280. Guion: trabajo/<id>/guion.json. Ojo, redactor: los textos v1 pueden citar la señal o el cruce; ahora el #2 es una caravana.'
+notas: 'v2 (tras la revisión): el #2 antiguo (36:27.6-36:30.3, oscuro y con el rótulo «BRIAN''S MARINA») se ha quitado
+  y el gancho ya no anuncia el #2. Concepto: recopilatorio de 5 choques reales de la grabación b (19/11) con memes,
+  zoom, temblor y sonidos propios; gancho: el golpe contra la farola en el primer segundo con «YO CON EL CARNET
+  RECIÉN SACADO 💀» y «BRO 💀»; repetición a cámara lenta del choque con la caravana; cierre con pregunta. Tramos
+  (gta6_20261119_b.mp4): #1 37:25.15-37:28.8 farola y cámara de choque, gamma 1,5 (empieza en el golpe); #2 37:10.9-37:13.2
+  contra una caravana aparcada, gamma 1,8 (+ repetición 37:11.3-37:12.3 a 0,4x); #3 52:11.6-52:14.3 contra el seto;
+  #4 52:14.3-52:15.8 roce con el bus; #5 50:02.9-50:04.7 por poco con el camión. Memes: YO CON EL CARNET RECIÉN
+  SACADO 💀, BRO 💀, ¿QUIÉN HA PUESTO ESA FAROLA?, ESTO VA BIEN 👍, -1 CARAVANA 🚐, MI SEGURO VIENDO ESTO 😭, MODO KAMIKAZE
+  🔥, EL GPS: SIGA RECTO, -1 SETO 🌳, EL BUS: 😐, PERDÓN 🙏, POV: CONDUCES EN VICE CITY, CASI 😳; cierre ¿CUÁL HA SIDO
+  EL PEOR? 👇. Música propia (musica.py, 128 bpm, tono 0). Sin audio original. Duración 17,5 s, 2,67 MB, 720x1280.
+  Guion: trabajo/<id>/guion.json. Ojo, redactor: los textos v1 pueden citar la señal o el cruce; ahora el #2 es
+  una caravana.'
 historial:
 - fecha: 2026-11-19 10:37
   estado: idea
@@ -61,4 +69,16 @@ historial:
 - fecha: 2026-11-19 14:37
   estado: aprobada
   quien: Claude
-  nota: 'revisor: DEVUELTA. 1) #2 (fuente b 36:27.6-36:30.3 + repetición; salida 3,8-9,3 s): de noche casi negro, el choque del cruce no se distingue (solo chispas en 7,2-7,8 s) y se lee el rótulo BRIAN''S MARINA de 4,0 a 9,3 s: sustituir por otro choque de día. 2) El gancho ESPERA AL #2 y el texto («una señal menos en el cruce») dependen de ese tramo: reescribir gancho, IG, TikTok, YouTube y orden. 3) #1 0,0-0,5 s muy oscuro: valorar empezar en el golpe. #3, #4, #5, audio y memes OK; aviso de llamada de Brian de 50:02.9 fuera del encuadre.'
+  nota: 'revisor: DEVUELTA. 1) #2 (fuente b 36:27.6-36:30.3 + repetición; salida 3,8-9,3 s): de noche casi negro,
+    el choque del cruce no se distingue (solo chispas en 7,2-7,8 s) y se lee el rótulo BRIAN''S MARINA de 4,0 a
+    9,3 s: sustituir por otro choque de día. 2) El gancho ESPERA AL #2 y el texto («una señal menos en el cruce»)
+    dependen de ese tramo: reescribir gancho, IG, TikTok, YouTube y orden. 3) #1 0,0-0,5 s muy oscuro: valorar empezar
+    en el golpe. #3, #4, #5, audio y memes OK; aviso de llamada de Brian de 50:02.9 fuera del encuadre.'
+- fecha: 2026-11-19 14:50
+  estado: redactada
+  quien: Claude
+  nota: 'director: textos ajustados (caravana en vez de señal)'
+- fecha: 2026-11-19 14:50
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v2 (nuevo #2 caravana, gancho farola)'
