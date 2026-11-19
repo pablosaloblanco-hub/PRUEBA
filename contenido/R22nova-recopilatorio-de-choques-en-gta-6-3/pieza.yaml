@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: redactada
+estado: disenada
 fecha: 2026-11-21 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -39,12 +39,13 @@ metricool: {}
 enlaces: {}
 notas: |-
   Concepto: recopilatorio de conducción nocturna «como en la autoescuela» (choques, roces y sustos al volante) con memes encima en el golpe, zoom, temblor, destellos y sonidos propios. Montado con `efectos` (guion en trabajo/<id>/guion.json), modo cuadrado, título «ASÍ CONDUZCO EN VICE CITY 🚗💀».
-  Duración: 23,2 s (720×1280, 2,7 MB). Música propia (musica.py, 128 bpm, tono +2), sin audio original.
-  Tramos de la grabación gta6_20261119.mp4 (minuto): #1 46:29,5–46:32,2 choque con chispas (gancho, con repetición a cámara lenta 46:30,0–46:31,4) · #2 45:59,6–46:01,8 por los pelos entre el tráfico · #3 46:13,9–46:15,6 roce con otro coche · #4 43:27,5–43:33,0 la camioneta se sale de la carretera (×1,5) · #5 47:40,5–47:43,7 la camioneta se lleva una señal + 47:43,7–47:46,4 plano abierto: acaba contra el barco de un remolque aparcado.
-  Memes: «ESPERA AL #5 💀», «-1 RETROVISOR», «MI SEGURO VIENDO ESTO 😭», «EL GPS: SIGA RECTO», «POR LOS PELOS 😰», «PERDÓN 🙏», «YO CON EL CARNET RECIÉN SACADO», «¿ESTO ES UN ATAJO? 🌿», «ESTO VA BIEN 👍», «-1 SEÑAL», «MODO KAMIKAZE», «¿QUIÉN HA APARCADO AQUÍ UN BARCO? 🚤» (con 👆 hacia el barco). Cierre: «¿CUÁL HA SIDO EL PEOR? 👇», sobre el plano del barco.
+  Duración: 21,6 s (720×1280, 2,6 MB). Música propia (musica.py, 128 bpm, tono +2), sin audio original.
+  Tramos de la grabación gta6_20261119.mp4 (minuto): #1 46:29,5–46:32,2 choque con chispas (gancho, con repetición a cámara lenta 46:30,0–46:31,4) · #2 45:59,6–46:01,8 por los pelos entre el tráfico · #3 46:13,9–46:15,6 roce con otro coche · #4 43:27,5–43:33,0 la camioneta se sale de la carretera (×1,5) · #5 47:40,5–47:42,8 la camioneta se lleva una señal y roza un coche + 47:44,2–47:46,2 plano abierto: acaba contra el barco de un remolque aparcado.
+  Memes: «ESPERA AL #5 💀», «-1 RETROVISOR», «MI SEGURO VIENDO ESTO 😭», «EL GPS: SIGA RECTO», «POR LOS PELOS 😰», «PERDÓN 🙏», «YO CON EL CARNET RECIÉN SACADO», «¿ESTO ES UN ATAJO? 🌿», «ESTO VA BIEN 👍», «-1 SEÑAL», «MODO KAMIKAZE» (sobre el roce con el coche, 47:42,3), «¿QUIÉN HA APARCADO AQUÍ UN BARCO? 🚤» (con 👆 hacia el barco). Cierre: «¿CUÁL HA SIDO EL PEOR? 👇», sobre el plano del barco.
   Recorte con la franja superior por debajo de la distancia del GPS (y ≥ 0,10) y la inferior por encima de subtítulos y objetivos (y ≤ 0,80); minimapa y avisos de navegación fuera por los lados. Sin cinemáticas, diálogos, armas ni atropellos. No repite los tramos de R20nov (46:16–46:24 y 46:38–46:44).
   V2 (19/11, editor): devuelta por el revisor por planos casi negros. Gamma por tramo: #1 1,5 · #2 1,9 · #3 1,6 · #4 1,9 · #5 1,5 en carretera y 2,0 en el choque. El #5 se parte en dos y el choque va en un plano abierto hacia la izquierda (recorte 0,10–0,52) para que se vea el barco en su remolque desde 47:44,3. Mismo remate (el barco): no hace falta reescribir los textos.
   Título cambiado (antes «Recopilatorio de choques en GTA 6 #3»): la grabación tiene pocos choques claros y casi todo es conducción nocturna con sustos.
+  V3 (19/11, editor): devuelta por el revisor por un atropello en 47:43,2–47:43,8 (la camioneta sube a la acera y golpea a un peatón; el cuerpo queda en el suelo). Se quita 47:42,8–47:44,2 entero: el #5a acaba en 47:42,8 y el #5b empieza en 47:44,2 y acaba en 47:46,2. Comprobado cada 0,1 s a resolución completa y con gamma 2,0–2,2 en el encuadre de cada tramo: no se ve ningún peatón, ni golpeado ni en el suelo. Los #1–#4, revisados cada 0,2 s: sin peatones. Mismo remate (el barco) y mismo gancho «ESPERA AL #5»: no hace falta reescribir los textos.
 historial:
 - fecha: 2026-11-19 10:37
   estado: idea
@@ -84,3 +85,7 @@ historial:
     antes de 47:44.1, comprobando fotograma a fotograma que no queda nadie en el suelo; si no se puede, quitar #5.
     2) Si se corta, revisar que el meme MODO KAMIKAZE no quede sobre la acera. OK en v2: la gamma hace legibles
     #1-#4, el barco se ve con el 👆 desde 18,2 s, sin policía, sangre ni HUD de misión en #1-#4; audio sin original.'
+- fecha: 2026-11-19 19:51
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v3 sin atropello'
