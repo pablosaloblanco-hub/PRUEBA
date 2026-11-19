@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: revisada
 fecha: 2026-12-05 10:00
 tema_hashtag: '#GTA6Vehiculos'
 objetivo: 'comentar (T, M o A: cómo te mueves por Leonida)'
@@ -67,3 +67,7 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'diseñador: JPG generados con la plantilla, hoja de contacto revisada a ojo'
+- fecha: 2026-11-19 09:22
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok (aviso sin datos_usados aceptado: pieza de comunidad)'

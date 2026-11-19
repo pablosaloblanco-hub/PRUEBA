@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: revisada
 fecha: 2026-12-04 10:00
 tema_hashtag: '#GTA6Trailer'
 objetivo: compartir (mandar el post a quien vio el tráiler 1 contigo aquel día)
@@ -110,3 +110,7 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'diseñador: JPG generados con la plantilla, hoja de contacto revisada a ojo'
+- fecha: 2026-11-19 09:22
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok'

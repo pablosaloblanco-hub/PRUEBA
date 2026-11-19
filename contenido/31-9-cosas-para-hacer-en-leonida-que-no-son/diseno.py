@@ -3,7 +3,7 @@
 Rótulo de cada foto = zona de la carpeta de la captura, nunca un barrio.
 Grassrivers_03 (guion, 3/5) descartada: el hombre del hidrodeslizador apunta con una escopeta
 a un caimán (arma + caza). Se usa Grassrivers_05 (pantano con la ciudad al fondo).
-Subetiqueta cian acortada a «PLANES 0X–0Y · MÁRCALOS»: «MARCA CUÁNTAS LLEVAS · 0X–0Y» pisaba la marca de agua.
+Subetiqueta cian acortada a «MÁRCALOS · 0X–0Y»: «MARCA CUÁNTAS LLEVAS · 0X–0Y» pisaba la marca de agua.
 """
 from pathlib import Path
 from urllib.parse import quote
@@ -32,17 +32,17 @@ render([
            '…que <span class="mag">no son la historia</span>',
            [("check", "9 PLANES"), ("map", "6 ZONAS"), ("save", "GUÁRDALO")], 1, TOTAL),
      salida("31-1.jpg"), 1080, 1350),
-    (info(F2, "VICE CITY", "PLANES 01–03 · MÁRCALOS",
+    (info(F2, "VICE CITY", "MÁRCALOS · 01–03",
           [("palm", "01 · PASEA", "OCEAN BEACH", "Date una vuelta sin prisa por este rincón de Vice City", "ye"),
            ("pin", "02 · PIÉRDETE", "LITTLE CUBA", "Callejea sin rumbo fijo y sin mirar el mapa", "cy"),
            ("star", "03 · CURIOSEA", "TISHA-WOCKA", "Pasa por el mercadillo y mira qué se cuece", "mag")], 2, TOTAL),
      salida("31-2.jpg"), 1080, 1350),
-    (info(F3, "GRASSRIVERS", "PLANES 04–06 · MÁRCALOS",
+    (info(F3, "GRASSRIVERS", "MÁRCALOS · 04–06",
           [("eye", "04 · ACÉRCATE", "EL PUERTO", "Remata la ruta por Vice City junto al agua, en su puerto", "ye"),
            ("car", "05 · CRUZA", "LEONIDA KEYS", "Ve de isla en isla por los puentes cuando llegues a los Keys", "cy"),
            ("map", "06 · MÉTETE", "GRASSRIVERS", "Adéntrate en los pantanos y manglares, lejos del asfalto", "mag")], 3, TOTAL),
      salida("31-3.jpg"), 1080, 1350),
-    (info(F4, "MOUNT KALAGA", "PLANES 07–09 · MÁRCALOS",
+    (info(F4, "MOUNT KALAGA", "MÁRCALOS · 07–09",
           [("pin", "07 · BUSCA", "PORT GELLHORN", "Recorre sus moteles baratos y echa un ojo a las atracciones cerradas", "ye"),
            ("bolt", "08 · MIRA", "ALLIED CRYSTAL", "Sube a Ambrosia a ver de cerca la refinería de azúcar", "cy"),
            ("globe", "09 · SAL", "MOUNT KALAGA", "De pesca o de ruta todoterreno por la frontera norte", "mag")], 4, TOTAL),

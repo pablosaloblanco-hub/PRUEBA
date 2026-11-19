@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-12-08 10:00
 tema_hashtag: '#GTA6Comunidad'
 objetivo: comentar (tu mejor momento en Leonida, sin spoilers)
@@ -64,3 +64,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de diseño en notas
+- fecha: 2026-11-19 09:22
+  estado: disenada
+  quien: Claude
+  nota: diseño con plantilla oficial; hoja de contacto revisada
