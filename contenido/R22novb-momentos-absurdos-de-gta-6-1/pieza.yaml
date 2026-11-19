@@ -5,17 +5,33 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-22 20:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (pregunta del cierre) y etiquetar
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  instagram: ''
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
+  instagram: |-
+    Lo más absurdo de mi partida de GTA 6 🤡
+
+    Aterrizo el hidroavión con el ala casi en el agua, derrapo en el agua como si fuera hielo, llego nadando tarde a mi propio vuelo, cruzo la carretera en modo Frogger, cambio de coche porque el otro ya no me gusta y acabo en un camión que me quedo. Leonida no estaba preparada. ¿Cuál es el más absurdo? Comenta el número 👇 y etiqueta a quien juega igual de raro.
+
+    Solo en el juego: en la vida real, se cruza por el paso de peatones.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+  tiktok: 'Lo más absurdo de mi partida de GTA 6 🤡 (solo en el juego, eh). ¿Cuál es el más absurdo? Comenta el número
+    👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan
+    · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    Lo más absurdo de mi partida de GTA 6 🤡 Un hidroavión que aterriza como puede, un derrape en el agua, una carrera a nado, cruzar la carretera en modo Frogger y un camión que me quedo. ¿Cuál es el más absurdo? Comenta el número 👇 Solo en el juego: en la vida real, por el paso de peatones.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: Lo más absurdo de mi partida de GTA 6 en Leonida 🤡 ¿Cuál es el más absurdo?
+titulo_youtube: 'Lo más absurdo de mi partida de GTA 6 🤡 ¿Cuál es el más absurdo? #Shorts'
 medios:
 - R22novb-momentos-absurdos-de-gta-6-1.mp4
 drive: {}
@@ -36,3 +52,11 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: Reel dinámico de choques y caídas con memes (Pablo, 19/11)'
+- fecha: 2026-11-19 14:32
+  estado: redactada
+  quien: Claude
+  nota: 'redactor: textos v1'
+- fecha: 2026-11-19 14:32
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1'

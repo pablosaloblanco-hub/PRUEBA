@@ -5,17 +5,33 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-21 20:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (pregunta del cierre) y etiquetar
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  instagram: ''
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
+  instagram: |-
+    Así conduzco en Vice City y mi profesor de autoescuela no lo sabe 🚗💀
+
+    Un retrovisor menos, un adelantamiento por los pelos, un roce con perdón incluido, un «atajo» fuera de la carretera y una camioneta que se lleva una señal y acaba contra unos barcos aparcados. ¿Cuál ha sido el peor? Comenta el número 👇 y etiqueta a quien conduce igual que tú en GTA 6.
+
+    Solo en el juego: en la vida real, como en la autoescuela de verdad.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+  tiktok: 'Así conduzco en Vice City 🚗💀 (solo en el juego, eh). ¿Cuál ha sido el peor? Comenta el número 👇 #GTA6
+    #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    Así conduzco en Vice City en GTA 6 🚗💀 Un retrovisor menos, sustos entre el tráfico, un atajo fuera de la carretera y una camioneta contra unos barcos aparcados. ¿Cuál ha sido el peor? Comenta el número 👇 Solo en el juego: en la vida real, como en la autoescuela.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: Conducir en GTA 6 como en la autoescuela 🚗💀 ¿Cuál ha sido el peor?
+titulo_youtube: 'Así conduzco en Vice City en GTA 6 🚗💀 ¿Cuál ha sido el peor? #Shorts'
 medios:
 - R22nova-recopilatorio-de-choques-en-gta-6-3.mp4
 drive: {}
@@ -38,3 +54,11 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: Reel dinámico de choques y caídas con memes (Pablo, 19/11)'
+- fecha: 2026-11-19 14:32
+  estado: redactada
+  quien: Claude
+  nota: 'redactor: textos v1'
+- fecha: 2026-11-19 14:32
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1'
