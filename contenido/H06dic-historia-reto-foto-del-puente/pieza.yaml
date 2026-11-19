@@ -3,7 +3,7 @@ titulo: Historia reto foto del puente
 formato: historia
 redes:
 - instagram
-estado: redactada
+estado: disenada
 fecha: 2026-12-06 13:00
 tema_hashtag: '#RetoFotoGTA6'
 objetivo: guardar la publicación 28 (visitar el post y apuntarse al reto)
@@ -12,7 +12,8 @@ capturas:
 - Places/Leonida Keys/Leonida_Keys_03.jpg
 textos: {}
 titulo_tiktok: ''
-medios: []
+medios:
+- H-06dic.jpg
 drive: {}
 metricool: {}
 enlaces: {}
@@ -35,3 +36,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: guion de la historia en notas
+- fecha: 2026-11-19 08:00
+  estado: disenada
+  quien: Claude
+  nota: 'diseñador: historia 1080x1920 con story(); hoja revisada'

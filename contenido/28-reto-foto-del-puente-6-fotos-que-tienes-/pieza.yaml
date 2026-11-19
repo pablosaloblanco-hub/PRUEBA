@@ -4,11 +4,12 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-12-06 10:00
 tema_hashtag: '#RetoFotoGTA6'
 objetivo: guardar (la lista de las 6 fotos del reto para hacerlas durante el puente)
-datos_usados: []
+datos_usados:
+- Historia
 capturas:
 - Places/Ambrosia/Ambrosia_04.jpg
 - Places/Grassrivers/Grassrivers_04.jpg
@@ -16,9 +17,17 @@ capturas:
 - Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_04.jpg
 - People/Cal Hampton/Cal_Hampton_03.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    RETO FOTO DEL PUENTE 📸 6 fotos que tienes que hacer en Leonida estos días.
+
+    Un atardecer, un vehículo en marcha, un animal salvaje, Vice City de noche, Leonida desde las alturas y la foto más rara que te salga en GTA 6. Mándanos las tuyas por DM, sin spoilers ni pantallas de misión, y compartiremos las mejores mencionando al autor (siempre con su permiso). Guarda el reto para no dejarte ninguna y comenta cuál vas a hacer primero (01–06) 👇
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RetoFotoGTA6
+  tiktok: 'Reto foto del puente en GTA 6: 6 fotos que tienes que hacer en Leonida 📸 Guárdalo y mándanos las tuyas
+    por DM, sin spoilers 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RetoFotoGTA6 #parati · Imágenes: Rockstar
+    Games · Cuenta fan · No oficial'
+titulo_tiktok: 'Reto foto del puente: 6 fotos que tienes que hacer en Leonida 📸'
 medios: []
 drive: {}
 metricool: {}
@@ -40,6 +49,37 @@ notas: |-
   Reglas para participar (texto): sin spoilers, sin interfaz de misión, que se vea solo el juego libre.
   Pablo: del 6 al 9/12 revisar los DM y guardar las fotos que valgan; pedir permiso por DM antes de compartir y mencionar siempre al autor (como con los clips del 21/11). Descartar las que tengan armas, contenido sexual, Lucia o Jason, o escenas de misión.
   Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite dentro del 4–10/12.
+
+  GUION DISEÑO:
+  (5 diapositivas, TOTAL = 5. Archivos 28-1.jpg … 28-5.jpg. Las capturas son de EJEMPLO: en las diapositivas de datos la etiqueta grande es «EJEMPLO», nunca el nombre de la zona, para no mandar a nadie a un sitio concreto. Nada de cómo se hacen capturas ni de modos de foto.)
+
+  1/5 · cover(Places/Ambrosia/Ambrosia_04.jpg)
+  - kicker: RETO DEL PUENTE
+  - título: RETO <span class="ye">FOTO</span> EN <span class="mag">LEONIDA</span>
+  - subtítulo: <span class="cy">6 fotos</span> que tienes que hacer este puente
+  - chips: ("cam", "6 FOTOS") · ("eye", "SIN SPOILERS") · ("send", "MÁNDALA POR DM")
+  - rótulo pequeño sobre la foto (esquina superior derecha, bajo el crédito): FOTO DE EJEMPLO
+
+  2/5 · info(Places/Grassrivers/Grassrivers_04.jpg, "EJEMPLO", "RETOS 01–02")
+  - ("palm", "RETO 01", "UN ATARDECER", "El cielo de Leonida a última hora", "ye")
+  - ("car", "RETO 02", "UN VEHÍCULO EN MARCHA", "Tierra, mar o aire: el que quieras", "cy")
+  - ("send", "CÓMO PARTICIPAR", "POR DM", "Mándanos tu foto por mensaje directo", "mag")
+
+  3/5 · info(Places/Leonida Keys/Leonida_Keys_06.jpg, "EJEMPLO", "RETOS 03–04")
+  - ("eye", "RETO 03", "UN ANIMAL SALVAJE", "Cuanto más cerca, mejor", "ye")
+  - ("bolt", "RETO 04", "VICE CITY DE NOCHE", "Luces, neón y calle", "cy")
+  - ("check", "REGLA", "CERO SPOILERS", "Nada de misiones ni pantallas de misión: solo juego libre", "mag")
+
+  4/5 · info(Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_04.jpg, "EJEMPLO", "RETOS 05–06")
+  - ("globe", "RETO 05", "DESDE LAS ALTURAS", "Leonida a vista de pájaro", "ye")
+  - ("star", "RETO 06", "LA MÁS RARA", "La foto que no sabes explicar", "cy")
+  - ("trophy", "LAS MEJORES", "LAS COMPARTIMOS", "Mencionando al autor y siempre con su permiso", "mag")
+
+  5/5 · close(People/Cal Hampton/Cal_Hampton_03.jpg)
+  - título (brocha): ¿Te apuntas?
+  - subtítulo: Guarda el reto y mándanos tus fotos por DM. Compartimos las mejores mencionándote, con tu permiso 👇
+  - acciones: ("chat", "COMENTA") · ("save", "GUARDA") · ("send", "COMPARTE")
+  - rótulo pequeño sobre la foto: FOTO DE EJEMPLO
 historial:
 - fecha: 2026-11-19 07:54
   estado: idea
@@ -49,3 +89,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan semana 4-10/12 aprobado'
+- fecha: 2026-11-19 07:59
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de diseño en notas

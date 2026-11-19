@@ -4,17 +4,27 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-12-08 10:00
 tema_hashtag: '#GTA6Comunidad'
 objetivo: comentar (tu mejor momento en Leonida, sin spoilers)
-datos_usados: []
+datos_usados:
+- Lanzamiento
+- Historia
 capturas:
 - Places/Port Gellhorn/Port_Gellhorn_06.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    ¿Cuál ha sido tu mejor momento en Leonida? 🌅 Sin spoilers, por favor.
+
+    Llevamos casi tres semanas de GTA 6 y lo mejor muchas veces pasa lejos de las misiones: un atardecer desde la carretera de la costa, una vuelta sin rumbo por Vice City o algo absurdo que solo te ha pasado a ti. Cuéntanoslo en comentarios en una frase 👇 dónde estabas y qué pasó, sin nada de misiones ni de la historia 🌴
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Comunidad
+  tiktok: '¿Tu mejor momento en Leonida en GTA 6? 🌅 Cuéntanoslo en comentarios sin spoilers: nada de misiones ni
+    de la historia 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Comunidad #parati · Imágenes: Rockstar Games
+    · Cuenta fan · No oficial'
+titulo_tiktok: ¿Cuál ha sido tu mejor momento en Leonida? Sin spoilers 🌅
 medios: []
 drive: {}
 metricool: {}
@@ -26,6 +36,19 @@ notas: |-
   Captura: Port_Gellhorn_06 (atardecer sobre la costa). Ya salió como diapositiva interior el 28/11; es la reutilización más antigua posible.
   RIESGO DE SPOILERS EN COMENTARIOS: Pablo debe vigilar la primera hora y ocultar los que cuenten misiones, giros o finales. Fijar un comentario propio con un ejemplo inocente (p. ej. «el atardecer desde la carretera de la costa»).
   Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite dentro del 4–10/12.
+
+  GUION DISEÑO:
+  1 imagen 1080x1350 · archivo 30-1.jpg · single("Places/Port Gellhorn/Port_Gellhorn_06.jpg", kicker, título_html, subtítulo, bloque, cta, size=130). Si el título pasa de tres líneas, bajar a size=120.
+    kicker: CUÉNTANOS TU ANÉCDOTA
+    título_html: TU <span class="ye">MEJOR MOMENTO</span> EN <span class="mag">LEONIDA</span>
+    subtítulo: Sin spoilers: <span class="cy">nada de misiones</span>
+    bloque (mini con 3 casillas; son pistas para contarlo, no opciones para votar):
+      mini([("pin", "UN SITIO", "Dónde estabas"),
+            ("star", "UN MOMENTO", "Qué pasó"),
+            ("x", "CERO SPOILERS", "Nada de la historia")])
+      línea debajo de mini (26 px, centrada, cursiva): Ej.: «el atardecer desde la carretera de la costa»
+    cta (píldora magenta): CUÉNTANOSLO EN COMENTARIOS 👇
+    (Sin nada de la historia del juego. Ningún lugar concreto en la imagen: la etiqueta es solo «Leonida».)
 historial:
 - fecha: 2026-11-19 07:54
   estado: idea
@@ -35,3 +58,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan semana 4-10/12 aprobado'
+- fecha: 2026-11-19 07:59
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de diseño en notas

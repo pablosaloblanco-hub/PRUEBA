@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-12-05 10:00
 tema_hashtag: '#GTA6Vehiculos'
 objetivo: 'comentar (T, M o A: cómo te mueves por Leonida)'
@@ -12,9 +12,16 @@ datos_usados: []
 capturas:
 - Places/Vice City/Vice_City_15.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    Sábado en Leonida y toca elegir: ¿tierra, mar o aire? 🚗🚤🚁
+
+    Hay quien no suelta el volante, quien vive sobre el agua y quien solo quiere ver Vice City desde arriba. ¿Cuál es lo tuyo cuando sales a dar una vuelta? Comenta T, M o A 👇 y etiqueta a quien siempre elige lo contrario que tú.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Vehiculos
+  tiktok: 'Tierra, mar o aire: ¿cómo te mueves tú por Leonida en GTA 6? 🚗🚤🚁 Comenta T, M o A 👇 #GTA6 #GTAVI #GTA6Español
+    #ViceCity #Leonida #GTA6Vehiculos #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
+titulo_tiktok: 'Tierra, mar o aire: ¿cómo te mueves por Leonida en GTA 6? Comenta T, M o A 👇'
 medios: []
 drive: {}
 metricool: {}
@@ -28,6 +35,20 @@ notas: |-
   Pablo: responder en la primera hora; si alguien cuenta una misión en la que usa un vehículo, ocultar el comentario.
   Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite dentro del 4–10/12.
   CAPTURA (director, 19/11): Vice_City_15 (puerto con yates). Vice_City_17 está vetada: redada policial con armas.
+
+  GUION DISEÑO:
+  (1 imagen 1080×1350, archivo 27-1.jpg. Pieza de comunidad: no se apoya en ningún dato del juego ni afirma nada de él. Solo las tres categorías genéricas: ni modelos, ni marcas, ni tipos concretos de vehículo.)
+
+  single(Places/Vice City/Vice_City_15.jpg, kicker, title, sub, mini([...]), cta, size=130). Si el título salta a tres líneas, bajar a size=120.
+  - kicker: «SÁBADO EN LEONIDA»
+  - title: '<span class="ye">TIERRA</span>, <span class="cy">MAR</span><br>O <span class="mag">AIRE</span>'
+  - sub: '¿Cómo te mueves tú por <span class="cy">Leonida</span>?'
+  - bloque interactivo: mini([
+      ("car", "T · TIERRA", "Sobre ruedas"),
+      ("palm", "M · MAR", "Sobre el agua"),
+      ("eye", "A · AIRE", "Desde arriba"),
+    ])
+  - cta (píldora magenta): «COMENTA T, M O A 👇»
 historial:
 - fecha: 2026-11-19 07:54
   estado: idea
@@ -37,3 +58,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan semana 4-10/12 aprobado'
+- fecha: 2026-11-19 07:59
+  estado: redactada
+  quien: Claude
+  nota: 'redactor: textos IG/TikTok y guion de la suelta con mini()'

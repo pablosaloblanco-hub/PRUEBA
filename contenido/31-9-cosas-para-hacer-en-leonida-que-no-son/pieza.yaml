@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-12-09 10:00
 tema_hashtag: '#GuiaGTA6'
 objetivo: guardar (lista de 9 cosas para hacer en Leonida sin tocar la historia)
@@ -17,9 +17,17 @@ capturas:
 - Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_05.jpg
 - Places/Grassrivers/Grassrivers_02.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    ¿Y si hoy en GTA 6 no haces ni una misión? 🌴
+
+    Hemos juntado 9 planes para Leonida que no son la historia, solo con lo que Rockstar ha contado de sus zonas: de pasear por Ocean Beach en Vice City a cruzar los puentes de Leonida Keys o salir de pesca por Mount Kalaga 🎣 Ve tachando a medida que llegues a cada zona, sin prisa. Comenta cuántas llevas de 9 y guarda la lista para tu próxima tarde en GTA VI 👇
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GuiaGTA6
+  tiktok: '9 cosas para hacer en Leonida que no son la historia de GTA 6: de Ocean Beach en Vice City a salir de
+    pesca por Mount Kalaga 🌴 Comenta cuántas llevas de 9 y guárdalo 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida
+    #GuiaGTA6 #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
+titulo_tiktok: 9 cosas para hacer en Leonida que no son la historia de GTA 6 🌴
 medios: []
 drive: {}
 metricool: {}
@@ -40,6 +48,35 @@ notas: |-
   5/5 · cierre (Grassrivers_02, pueblo sobre pilotes): brocha «¿Cuántas llevas de 9?» · subtítulo «Comenta tu número y guarda la lista» · botones COMENTA / GUARDA / COMPARTE.
   Pablo: responder en la primera hora; ocultar comentarios que relacionen sitios con misiones.
   Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite dentro del 4–10/12.
+
+  GUION DISEÑO:
+  (5 diapositivas, TOTAL = 5. Archivos 31-1.jpg … 31-5.jpg. Todo sale de la fila «Zonas de Leonida» de «Datos verificados». Cada tarjeta es una ACCIÓN: la etiqueta lleva número + verbo y el texto dice qué hacer; no se reutilizan las definiciones del diccionario del 2/12. La etiqueta grande encima de cada foto es la ZONA de la carpeta de la captura, nunca un barrio. Nada de caza ni armas; nada de «desde el minuto 1».)
+
+  1/5 · cover(Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_06.jpg)
+  - kicker: SIN SPOILERS
+  - título: 9 COSAS PARA HACER EN <span class="ye">LEONIDA</span>
+  - subtítulo: …que <span class="mag">no son la historia</span>
+  - chips: ("check", "9 PLANES") · ("map", "6 ZONAS") · ("save", "GUÁRDALO")
+
+  2/5 · info(Places/Vice City/Vice_City_26.jpg, "VICE CITY", "MARCA CUÁNTAS LLEVAS · 01–03")
+  - ("palm", "01 · PASEA", "OCEAN BEACH", "Date una vuelta sin prisa por este rincón de Vice City", "ye")
+  - ("pin", "02 · PIÉRDETE", "LITTLE CUBA", "Callejea sin rumbo fijo y sin mirar el mapa", "cy")
+  - ("star", "03 · CURIOSEA", "TISHA-WOCKA", "Pasa por el mercadillo y mira qué se cuece", "mag")
+
+  3/5 · info(Places/Grassrivers/Grassrivers_03.jpg, "GRASSRIVERS", "MARCA CUÁNTAS LLEVAS · 04–06")
+  - ("eye", "04 · ACÉRCATE", "EL PUERTO", "Remata la ruta por Vice City junto al agua, en su puerto", "ye")
+  - ("car", "05 · CRUZA", "LEONIDA KEYS", "Ve de isla en isla por los puentes cuando llegues a los Keys", "cy")
+  - ("map", "06 · MÉTETE", "GRASSRIVERS", "Adéntrate en los pantanos y manglares, lejos del asfalto", "mag")
+
+  4/5 · info(Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_05.jpg, "MOUNT KALAGA", "MARCA CUÁNTAS LLEVAS · 07–09")
+  - ("pin", "07 · BUSCA", "PORT GELLHORN", "Recorre sus moteles baratos y echa un ojo a las atracciones cerradas", "ye")
+  - ("bolt", "08 · MIRA", "ALLIED CRYSTAL", "Sube a Ambrosia a ver de cerca la refinería de azúcar", "cy")
+  - ("globe", "09 · SAL", "MOUNT KALAGA", "De pesca o de ruta todoterreno por la frontera norte", "mag")
+
+  5/5 · close(Places/Grassrivers/Grassrivers_02.jpg)
+  - título (brocha): ¿Cuántas llevas de 9?
+  - subtítulo: Comenta tu número y guarda la lista para cuando llegues 👇
+  - acciones: ("chat", "COMENTA") · ("save", "GUARDA") · ("send", "COMPARTE")
 historial:
 - fecha: 2026-11-19 07:54
   estado: idea
@@ -49,3 +86,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan semana 4-10/12 aprobado'
+- fecha: 2026-11-19 08:00
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de 5 diapositivas

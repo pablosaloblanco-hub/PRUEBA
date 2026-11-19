@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-12-10 10:00
 tema_hashtag: '#JuegoDelAño'
 objetivo: 'comentar (un solo juego: tu juego del año)'
@@ -12,9 +12,16 @@ datos_usados: []
 capturas:
 - People/DreQuan Priest/DreQuan_Priest_03.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    Una pregunta y una sola respuesta: ¿cuál es tu juego del año? 🎮
+
+    No tiene que ser GTA 6 ni pasar por Vice City o Leonida: vale cualquiera, de cualquier consola. Las normas son sencillas: uno solo, sin empates y sin destripar nada, tampoco de otros juegos. Comenta tu juego del año 👇 y etiqueta a quien seguro que dice otro distinto 😅
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #JuegoDelAño
+  tiktok: '¿Cuál es tu juego del año? Uno solo y vale cualquiera, no tiene que ser GTA 6 🎮 Comenta el tuyo 👇 #GTA6
+    #GTAVI #GTA6Español #ViceCity #Leonida #JuegoDelAño #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
+titulo_tiktok: ¿Cuál es tu juego del año? Uno solo, y no tiene que ser GTA 6 🎮
 medios: []
 drive: {}
 metricool: {}
@@ -27,6 +34,18 @@ notas: |-
   Captura: DreQuan_Priest_03 (escenario con focos violetas, ambiente de «gran noche» sin nombrar nada). Rótulo sin nombre del personaje.
   Pablo: responder en la primera hora; dar «me gusta» solo a mano.
   Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite dentro del 4–10/12.
+
+  GUION DISEÑO:
+  1 imagen · single("People/DreQuan Priest/DreQuan_Priest_03.jpg", ...) — archivo 32-1.jpg. Rótulo sin el nombre del personaje. Sin «GOTY», sin galas, fechas, nominaciones ni candidatos.
+    kicker: DEBATE DE FIN DE AÑO
+    título: ¿CUÁL ES TU <span class="ye">JUEGO</span> DEL <span class="mag">AÑO</span>?
+    subtítulo: Solo uno. Vale cualquiera, <span class="cy">no tiene que ser GTA 6</span>
+    bloque interactivo (mini con 3 casillas, que son las normas):
+      mini([("check", "UNO SOLO", "Sin empates"),
+            ("pad", "EL QUE SEA", "De cualquier consola"),
+            ("x", "SIN SPOILERS", "Tampoco de otros juegos")])
+    píldora magenta (cta): COMENTA TU JUEGO DEL AÑO 👇
+    (Pieza de comunidad: no afirma ningún dato del juego.)
 historial:
 - fecha: 2026-11-19 07:54
   estado: idea
@@ -36,3 +55,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan semana 4-10/12 aprobado'
+- fecha: 2026-11-19 08:00
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de la suelta en notas

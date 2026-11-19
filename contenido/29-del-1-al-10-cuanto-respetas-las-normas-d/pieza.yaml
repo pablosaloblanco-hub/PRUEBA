@@ -4,17 +4,26 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-12-07 10:00
 tema_hashtag: '#HumorGamer'
 objetivo: comentar (un número del 1 al 10)
-datos_usados: []
+datos_usados:
+- Historia
 capturas:
 - Places/Vice City/Vice_City_04.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    Del 1 al 10: ¿cuánto respetas las normas de tráfico en Vice City? 🚦
+
+    Sé sincero, que aquí no hay examen práctico. El 1 es «¿semáforo? ¿qué semáforo?», el 5 es «según el día» y el 10, conductor ejemplar que pone el intermitente hasta para aparcar en Leonida. Comenta tu número 👇 y etiqueta a quien aparca fatal en GTA 6 (ya sabes quién) 😂
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #HumorGamer
+  tiktok: 'GTA 6 y los semáforos: del 1 al 10, ¿cuánto respetas las normas de tráfico en Vice City? 🚦 Comenta tu
+    número 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #HumorGamer #parati · Imágenes: Rockstar Games · Cuenta
+    fan · No oficial'
+titulo_tiktok: 'Del 1 al 10: ¿cuánto respetas las normas de tráfico en Vice City? 🚦'
 medios: []
 drive: {}
 metricool: {}
@@ -27,6 +36,17 @@ notas: |-
   Captura: Vice_City_04 (dos tipos posando en la calle, actitud de «yo conduzco como quiero»). Sin armas.
   Pablo: responder en la primera hora con humor (p. ej. «un 1 es carné retirado»).
   Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite dentro del 4–10/12.
+
+  GUION DISEÑO:
+  1 imagen 1080x1350 · archivo 29-1.jpg · single("Places/Vice City/Vice_City_04.jpg", kicker, título_html, subtítulo, bloque, cta, size=100). Título largo: si pasa de cuatro líneas, bajar a size=92.
+    kicker: SÉ SINCERO
+    título_html: DEL <span class="ye">1</span> AL <span class="cy">10</span>: ¿CUÁNTO RESPETAS LAS <span class="mag">NORMAS DE TRÁFICO</span> EN VICE CITY?
+    subtítulo: Semáforos, intermitentes y el arte de aparcar
+    bloque (escala 1–10 + leyenda debajo, en una fila de tres, 26 px):
+      scale()
+      leyenda: izquierda «<span class="mag">1</span> = ¿SEMÁFORO? ¿QUÉ SEMÁFORO?» · centro «<span class="ye">5</span> = SEGÚN EL DÍA» · derecha «<span class="cy">10</span> = CONDUCTOR EJEMPLAR»
+    cta (píldora magenta): COMENTA TU NÚMERO 👇
+    (Nada de atropellos, persecuciones, policía ni violencia. El chiste es solo semáforos y aparcar fatal.)
 historial:
 - fecha: 2026-11-19 07:54
   estado: idea
@@ -36,3 +56,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan semana 4-10/12 aprobado'
+- fecha: 2026-11-19 07:59
+  estado: redactada
+  quien: Claude
+  nota: textos IG/TikTok y guion de diseño en notas

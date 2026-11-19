@@ -3,7 +3,7 @@ titulo: Historia tu juego del año
 formato: historia
 redes:
 - instagram
-estado: redactada
+estado: disenada
 fecha: 2026-12-10 13:00
 tema_hashtag: '#JuegoDelAño'
 objetivo: comentar (pegatina de preguntas y llevar a la publicación 32)
@@ -12,7 +12,8 @@ capturas:
 - People/Cal Hampton/Cal_Hampton_01.jpg
 textos: {}
 titulo_tiktok: ''
-medios: []
+medios:
+- H-10dic.jpg
 drive: {}
 metricool: {}
 enlaces: {}
@@ -35,3 +36,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: guion de la historia en notas
+- fecha: 2026-11-19 08:00
+  estado: disenada
+  quien: Claude
+  nota: 'diseñador: historia 1080x1920 con story(); hoja revisada'

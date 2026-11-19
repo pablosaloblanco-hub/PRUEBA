@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: aprobada
+estado: redactada
 fecha: 2026-12-04 10:00
 tema_hashtag: '#GTA6Trailer'
 objetivo: compartir (mandar el post a quien vio el tráiler 1 contigo aquel día)
@@ -18,9 +18,17 @@ capturas:
 - People/Raul Bautista/Raul_Bautista_03.jpg
 - People/Raul Bautista/Raul_Bautista_01.jpg
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
+  instagram: |-
+    Hoy hace 3 años, GTA 6 se nos adelantó un día 📅
+
+    El tráiler 1 tenía fecha para el 5 de diciembre de 2023, pero una filtración hizo que Rockstar lo sacara el día 4. En sus primeras 24 horas sumó 93 millones de visitas en YouTube y se convirtió en el vídeo no musical más visto en su primer día en la plataforma. Desde el 19 de noviembre ya nos movemos por Vice City y Leonida, así que cuéntanos en comentarios dónde estabas cuando lo viste 👇 y manda esto a quien lo vio contigo 📲
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Trailer
+  tiktok: 'Hoy hace 3 años que el tráiler 1 de GTA 6 se adelantó un día por una filtración y sumó 93 millones de
+    visitas en YouTube en 24 h 📅 Comenta dónde estabas cuando lo viste y mándaselo a quien lo vio contigo 👇 #GTA6
+    #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Trailer #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
+titulo_tiktok: 'Hoy hace 3 años del tráiler 1 de GTA 6: ¿dónde estabas cuando lo viste? 📅'
 medios: []
 drive: {}
 metricool: {}
@@ -41,6 +49,45 @@ notas: |-
   Texto: arrancar con «Hoy hace 3 años…», pedir que lo manden a quien lo vio con ellos (objetivo compartir) y que cuenten dónde lo vieron, sin spoilers.
   Pablo: responder en la primera hora a los que cuenten dónde lo vieron.
   Sin nada de la historia del juego (ni misiones, ni giros, ni finales). Crédito obligatorio en el texto: «Imágenes: Rockstar Games · Cuenta fan · No oficial». Capturas sin armas ni nada subido de tono; ninguna se repite dentro del 4–10/12.
+
+  GUION DISEÑO:
+  (5 imágenes, archivos 26-1.jpg … 26-5.jpg. Datos: filas «Tráiler 1» y «Lanzamiento»; los «3 años» salen de comparar el 4/12/2023 con la fecha de publicación. Nada del tráiler 2, del Guinness ni de lo que se ve en el tráiler. Ningún rótulo con el nombre de un personaje. Cierre cambiado por el director: «¿Dónde estabas cuando lo viste?».)
+
+  1/5 · cover(img, kicker, title, sub, chips, 1, 5, size=150)
+  - img: Places/Vice City/Vice_City_16.jpg
+  - kicker: «HOY HACE 3 AÑOS»
+  - title: '3 AÑOS DEL<br><span class="ye">TRÁILER 1</span>'
+  - sub: 'El día que GTA 6 <span class="cy">se adelantó</span>: así fue el 4 de diciembre de 2023'
+  - chips: [("clock", "4/12/2023"), ("bolt", "SE ADELANTÓ UN DÍA"), ("eye", "93 M EN 24 H")]
+
+  2/5 · info(img, label, sublabel, cards, 2, 5)
+  - img: Places/Vice City/Vice_City_11.jpg
+  - label: «EL ADELANTO» · sublabel: «4 DE DICIEMBRE DE 2023»
+  - cards:
+    ("clock", "EL PLAN", "5 de diciembre", "Era el día previsto para el tráiler.", "ye")
+    ("bolt", "LO QUE PASÓ", "4 de diciembre", "Salió un día antes de lo previsto.", "cy")
+    ("alert", "POR QUÉ", "Una filtración", "Por eso Rockstar lo lanzó antes de tiempo.", "mag")
+
+  3/5 · info(img, label, sublabel, cards, 3, 5)
+  - img: Places/Leonida Keys/Leonida_Keys_01.jpg
+  - label: «LAS PRIMERAS 24 HORAS» · sublabel: «EN YOUTUBE»
+  - cards:
+    ("eye", "VISITAS", "93 millones", "Las que sumó en YouTube en solo 24 horas.", "ye")
+    ("star", "EN SU PRIMER DÍA", "N.º 1", "Ningún vídeo no musical había tenido tantas visitas en su primer día en YouTube.", "cy")
+
+  4/5 · info(img, label, sublabel, cards, 4, 5)
+  - img: People/Raul Bautista/Raul_Bautista_03.jpg
+  - label: «3 AÑOS DESPUÉS» · sublabel: «DE 2023 A 2026»
+  - cards:
+    ("cam", "ENTONCES", "4/12/2023", "El primer tráiler, por fin.", "ye")
+    ("pad", "EL ESTRENO", "19/11/2026", "El día que por fin se pudo jugar.", "cy")
+    ("palm", "HOY", "4/12/2026", "Tres años después, ya estamos en Leonida.", "mag")
+
+  5/5 · close(img, title, sub, actions, 5, 5, size=120)
+  - img: People/Raul Bautista/Raul_Bautista_01.jpg
+  - title (brocha): «¿Dónde estabas cuando lo viste?»
+  - sub: «Cuéntalo en comentarios y manda esto a quien lo vio contigo»
+  - actions: [("chat", "COMENTA"), ("save", "GUARDA"), ("send", "COMPARTE")]
 historial:
 - fecha: 2026-11-19 07:54
   estado: idea
@@ -50,3 +97,7 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: plan semana 4-10/12 aprobado'
+- fecha: 2026-11-19 07:59
+  estado: redactada
+  quien: Claude
+  nota: 'redactor: textos IG/TikTok y guion de diseño (5 diapositivas)'
