@@ -90,9 +90,61 @@ def hojas(video: Path, cands: list[dict], carpeta: Path, por_hoja: int = 8) -> l
     return salida
 
 
-def analizar(video: Path, carpeta: Path, maximo: int = 80) -> dict:
-    db = niveles(video)
-    cands = candidatos(db, maximo=maximo)
+def resumen(video: Path, carpeta: Path, cada: float = 5.0, por_hoja: int = 96) -> list[Path]:
+    """Un fotograma cada `cada` segundos de toda la grabación, en hojas de 12 columnas con el minuto.
+    Sirve para ver de un vistazo dónde se conduce libre y dónde hay cinemáticas."""
+    from PIL import Image, ImageDraw
+    tmp = carpeta / "resumen"
+    tmp.mkdir(parents=True, exist_ok=True)
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-skip_frame", "nokey", "-i", str(video), "-vf",
+                    f"fps=1/{cada},scale=200:-2", "-vsync", "vfr", "-q:v", "6", str(tmp / "r_%05d.jpg")], check=True)
+    fotos = sorted(tmp.glob("r_*.jpg"))
+    salida = []
+    for h in range(0, len(fotos), por_hoja):
+        grupo = fotos[h:h + por_hoja]
+        im0 = Image.open(grupo[0])
+        w, alto = im0.width, im0.height + 18
+        hoja = Image.new("RGB", (w * 12, alto * ((len(grupo) + 11) // 12)), "#0b0612")
+        d = ImageDraw.Draw(hoja)
+        for k, f in enumerate(grupo):
+            t = (h + k) * cada
+            x, y = (k % 12) * w, (k // 12) * alto
+            hoja.paste(Image.open(f), (x, y + 18))
+            d.text((x + 4, y + 3), f"{int(t // 60):02d}:{int(t % 60):02d}", fill="#ffd400")
+        ruta = carpeta / f"resumen_{h // por_hoja + 1:02d}.jpg"
+        hoja.save(ruta, quality=82)
+        salida.append(ruta)
+    return salida
+
+
+def _rangos(texto: str | None) -> list[tuple[float, float]]:
+    """«1:20-6:40,12:00-15:30» (o en segundos) → [(80, 400), (720, 930)]."""
+    if not texto:
+        return []
+    def seg(x):
+        x = x.strip()
+        if ":" in x:
+            m, s_ = x.split(":")
+            return int(m) * 60 + float(s_)
+        return float(x)
+    return [tuple(seg(v) for v in r.split("-")) for r in texto.split(",") if r.strip()]
+
+
+def analizar(video: Path, carpeta: Path, maximo: int = 80, rangos: str | None = None,
+             salto_db: float = 11) -> dict:
+    carpeta.mkdir(parents=True, exist_ok=True)
+    cache = carpeta / "niveles.npy"
+    if cache.exists():
+        db = np.load(cache)
+    else:
+        db = niveles(video)
+        np.save(cache, db)
+    cands = candidatos(db, salto_db=salto_db, maximo=100000 if rangos else maximo)
+    rs = _rangos(rangos)
+    if rs:
+        cands = [c for c in cands if any(a <= c["t"] <= b for a, b in rs)]
+        cands = sorted(cands, key=lambda c: -c["salto_db"])[:maximo]
+        cands.sort(key=lambda c: c["t"])
     rutas = hojas(video, cands, carpeta)
     datos = {"video": str(video), "duracion_s": round(len(db) * VENTANA, 1), "candidatos": cands,
              "hojas": [str(r) for r in rutas]}

@@ -153,7 +153,11 @@ def cmd_reel(a):
 
 def cmd_detectar(a):
     from . import detectar
-    datos = detectar.analizar(Path(a.video), Path(a.salida), a.maximo)
+    if a.resumen:
+        for h in detectar.resumen(Path(a.video), Path(a.salida)):
+            print(h)
+        return
+    datos = detectar.analizar(Path(a.video), Path(a.salida), a.maximo, a.rangos, a.salto)
     print(f"{len(datos['candidatos'])} candidatos en {datos['duracion_s']} s · hojas: {len(datos['hojas'])}")
     for h in datos["hojas"]:
         print(" ", h)
@@ -184,6 +188,9 @@ def main(argv=None):
 
     s = sub.add_parser("detectar", help="buscar choques y caídas en una grabación larga"); s.set_defaults(f=cmd_detectar)
     s.add_argument("video"); s.add_argument("salida"); s.add_argument("--maximo", type=int, default=80)
+    s.add_argument("--resumen", action="store_true", help="solo hojas con un fotograma cada 5 s")
+    s.add_argument("--rangos", help="«1:20-6:40,12:00-15:30»: buscar solo en esos tramos (conducción libre)")
+    s.add_argument("--salto", type=float, default=11, help="dB de salto mínimo")
     s = sub.add_parser("efectos", help="montar un Reel dinámico con zooms, pegatinas y sonidos"); s.set_defaults(f=cmd_efectos)
     s.add_argument("guion", help="guion.json del montaje"); s.add_argument("salida")
 

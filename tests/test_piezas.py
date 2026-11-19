@@ -61,9 +61,11 @@ def test_historia_solo_instagram_y_sin_texto(espacio):
     assert metricool.peticiones(piezas.cargar(p["id"]))[0]["date"].endswith("+02:00")
 
 
-def test_youtube_no_es_de_claude(espacio):
-    with pytest.raises(piezas.ErrorPieza, match="ChatGPT"):
-        piezas.nueva("x", "Short", "reel", redes=["youtube"])
+def test_youtube_solo_reels(espacio):
+    p = piezas.nueva("x", "Short", "reel")
+    assert p["redes"] == ["instagram", "tiktok", "youtube"]
+    with pytest.raises(piezas.ErrorPieza, match="Reels"):
+        piezas.nueva("y", "Carrusel", "carrusel", redes=["youtube"])
 
 
 def test_estados_especiales_y_volver_atras(espacio):

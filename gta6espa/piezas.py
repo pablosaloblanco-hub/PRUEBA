@@ -18,7 +18,7 @@ from .reglas import CONTENIDO, TRABAJO, reglas
 ORDEN = ["idea", "aprobada", "redactada", "disenada", "revisada", "subida", "programada", "publicada"]
 ESPECIALES = ["error", "descartada"]
 FORMATOS = ["carrusel", "suelta", "historia", "reel"]
-REDES = ["instagram", "tiktok"]
+REDES = ("instagram", "tiktok", "youtube")  # YouTube solo para Reels (Shorts), desde el 19/11
 
 
 class ErrorPieza(Exception):
@@ -115,10 +115,12 @@ def nueva(pid: str, titulo: str, formato: str, redes: list[str] | None = None,
         raise ErrorPieza(f"Formato «{formato}» no válido. Usa: {', '.join(FORMATOS)}")
     if formato == "historia":
         redes = ["instagram"]  # las historias de TikTok se suben a mano
-    redes = redes or list(REDES)
+    redes = redes or (["instagram", "tiktok", "youtube"] if formato == "reel" else ["instagram", "tiktok"])
+    if "youtube" in redes and formato != "reel":
+        raise ErrorPieza("En YouTube solo salen Reels (como Shorts)")
     for r in redes:
         if r not in REDES:
-            raise ErrorPieza(f"Red «{r}» no es de Claude. YouTube es de ChatGPT según el reparto.")
+            raise ErrorPieza(f"Red «{r}» no válida. Usa: {', '.join(REDES)}")
     if ruta_ficha(pid).exists():
         raise ErrorPieza(f"Ya existe la pieza «{pid}»")
     p = {
