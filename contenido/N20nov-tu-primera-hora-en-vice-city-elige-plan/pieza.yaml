@@ -2,7 +2,6 @@ id: N20nov-tu-primera-hora-en-vice-city-elige-plan
 titulo: 'Tu primera hora en Vice City: elige plan'
 formato: suelta
 redes:
-- instagram
 - tiktok
 estado: programada
 fecha: 2026-11-20 10:00
@@ -13,13 +12,6 @@ datos_usados:
 capturas:
 - Places/Vice City/Vice_City_09.jpg
 textos:
-  instagram: |-
-    Tienes una hora en Vice City. ¿Qué haces? 🌴
-
-    Llega el primer finde con GTA 6 y toca elegir plan: A) paseo por Ocean Beach, B) perderte por Little Cuba o C) curiosear en el mercadillo Tisha-Wocka 🛍️ Comenta A, B o C 👇 y etiqueta a quien se vendría contigo.
-
-    Imágenes: Rockstar Games · Cuenta fan · No oficial.
-    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Mapa
   tiktok: 'Tienes una hora en Vice City: ¿Ocean Beach (A), Little Cuba (B) o el mercadillo Tisha-Wocka (C)? 🌴 Comenta
     tu letra 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Mapa #parati · Imágenes: Rockstar Games · Cuenta
     fan · No oficial'
@@ -50,6 +42,7 @@ notas: |-
     (Redactor: «Café en Little Cuba» pasa a «Perderte por sus calles» para no dar por hecho una actividad del juego que no está verificada. Solo nombres de barrios de «Zonas de Leonida»; nada de misiones ni de desbloqueos.)
 
   DISEÑO (diseñador): single() con título a size=120 para que quepa en 3 líneas sin tocar el bloque mini. Textos del guion sin cambios.
+  Instagram retirado a borrador el 19/11: el Reel R20nov ocupa la publicación de feed de Instagram del 20/11 (máximo 1 al día).
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea

@@ -4,7 +4,7 @@ formato: reel
 redes:
 - instagram
 - tiktok
-estado: revisada
+estado: programada
 fecha: 2026-11-20 18:00
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (avioneta o coche) y guardar
@@ -68,3 +68,11 @@ historial:
   estado: revisada
   quien: Claude
   nota: 'revisor: ok'
+- fecha: 2026-11-19 04:43
+  estado: subida
+  quien: Claude
+  nota: 'publicador: MP4 subido a Drive'
+- fecha: 2026-11-19 04:43
+  estado: programada
+  quien: Claude
+  nota: 'publicador: Reel IG + TikTok 20/11 18:00, portada 1,5 s'
