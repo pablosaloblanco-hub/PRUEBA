@@ -1,5 +1,5 @@
 """Pista propia y sin derechos para el Reel: synthwave sencillo a 96 BPM (La m · Fa · Do · Sol).
-Genera musica.wav en la carpeta actual. Uso: python3 musica.py [segundos]"""
+Genera musica.wav en la carpeta actual. Uso: python3 musica.py [segundos] [bpm] [tono en semitonos]"""
 import sys
 import wave
 
@@ -8,6 +8,8 @@ import numpy as np
 SR = 44100
 BPM = 96
 DUR = float(sys.argv[1]) if len(sys.argv) > 1 else 30.0
+BPM = float(sys.argv[2]) if len(sys.argv) > 2 else BPM
+TONO = int(sys.argv[3]) if len(sys.argv) > 3 else 0
 beat = 60 / BPM
 n = int(SR * DUR)
 t = np.arange(n) / SR
@@ -15,13 +17,13 @@ mix = np.zeros(n)
 
 
 def nota(f):
-    return 440.0 * 2 ** ((f - 69) / 12)
+    return 440.0 * 2 ** ((f + TONO - 69) / 12)
 
 
 def env(longitud, ataque=0.01, caida=0.3):
     e = np.ones(longitud)
-    a = max(1, int(ataque * SR)); e[:a] = np.linspace(0, 1, a)
-    c = max(1, int(caida * SR)); e[-c:] *= np.linspace(1, 0, c)
+    a = min(longitud, max(1, int(ataque * SR))); e[:a] = np.linspace(0, 1, a)
+    c = min(longitud, max(1, int(caida * SR))); e[-c:] *= np.linspace(1, 0, c)
     return e
 
 
