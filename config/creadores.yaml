@@ -1,0 +1,17 @@
+# Streamers y youtubers cuyos clips de GTA 6 se pueden usar en @gta6espa.
+# Solo datos públicos (nombre y usuario). La prueba del permiso (captura del DM,
+# correo o enlace a su política de clips) se guarda en trabajo/permisos/<usuario>.* y no se sube.
+#
+# permiso:
+#   escrito        → el creador ha dicho que sí por DM o correo (Pablo pide el permiso a mano)
+#   politica       → su canal publica que permite clips con crédito (apunta la URL en «politica_url»)
+#   pendiente      → se ha pedido y no ha contestado: NO se publica
+#   no             → ha dicho que no: NO se publica
+# credito: cómo se le menciona en el texto («Clip: @usuario»).
+creadores: []
+#  - nombre: "Ejemplo"
+#    usuario: "@ejemplo"
+#    plataforma: twitch
+#    permiso: pendiente
+#    politica_url: ""
+#    condiciones: "con crédito y enlace a su canal; máximo 30 s"

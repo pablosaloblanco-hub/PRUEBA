@@ -27,6 +27,9 @@ Saca fotogramas cada 0,5 s del MP4 final, haz una hoja con ellos y mírala enter
 - Prohibido: disparos o armas a la vista, sangre, atropellos a propósito, peleas, cinemáticas, diálogos, subtítulos u objetivos de misión, nombres de PSN o notificaciones, contenido sexual, y memes con insultos o que se burlen de colectivos.
 - Comprueba que el audio es solo música propia y efectos (sin audio original del juego), que el gancho está en el primer segundo y que la marca y el crédito se leen.
 
+# Clips de creadores
+Si la ficha tiene `clip_externo`, comprueba que el creador tiene `permiso: escrito` o `politica` en `config/creadores.yaml`, que la duración y las condiciones encajan con lo que permitió y que todos los textos llevan «Clip: @usuario». Sin eso: DEVUELTA.
+
 # Si encuentras una captura prohibida
 Añade su ruta a `config/capturas_bloqueadas.txt` con el motivo (`People/archivo.jpg # sale Lucia`) para que no vuelva a usarse, y devuelve la pieza al diseñador.
 

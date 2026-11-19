@@ -165,9 +165,45 @@ def validar_capturas(capturas: list[str], carpeta_capturas: Path | None = None) 
     return h
 
 
+PERMISOS_VALIDOS = ("escrito", "politica")
+
+
+def creadores() -> list[dict]:
+    import yaml
+    ruta = Path(__file__).resolve().parent.parent / "config" / "creadores.yaml"
+    if not ruta.exists():
+        return []
+    return (yaml.safe_load(ruta.read_text(encoding="utf-8")) or {}).get("creadores") or []
+
+
+def validar_clip_externo(p: dict) -> list[Hallazgo]:
+    """Clips de streamers o youtubers: solo con permiso registrado y su crédito en cada texto."""
+    clip = p.get("clip_externo")
+    if not clip:
+        return []
+    h: list[Hallazgo] = []
+    usuario = (clip.get("creador") or "").strip()
+    ficha = next((c for c in creadores() if c.get("usuario", "").lower() == usuario.lower()), None)
+    if not usuario:
+        h.append(Hallazgo("ERROR", "clip externo", "falta «creador» (@usuario)"))
+    elif not ficha:
+        h.append(Hallazgo("ERROR", "clip externo", f"{usuario} no está en config/creadores.yaml"))
+    elif ficha.get("permiso") not in PERMISOS_VALIDOS:
+        h.append(Hallazgo("ERROR", "clip externo", f"{usuario} no ha dado permiso (estado: {ficha.get('permiso')})"))
+    elif ficha.get("permiso") == "politica" and not ficha.get("politica_url"):
+        h.append(Hallazgo("ERROR", "clip externo", f"{usuario}: falta la URL de su política de clips"))
+    if not clip.get("url"):
+        h.append(Hallazgo("ERROR", "clip externo", "falta la URL del clip original"))
+    credito = f"clip: {usuario}".lower()
+    for red in p.get("redes", []):
+        if credito not in normalizar((p.get("textos") or {}).get(red, "")):
+            h.append(Hallazgo("ERROR", f"texto {red}", f"falta el crédito «Clip: {usuario}»"))
+    return h
+
+
 def validar_pieza(p: dict) -> list[Hallazgo]:
     from .piezas import carpeta_trabajo
-    h: list[Hallazgo] = []
+    h: list[Hallazgo] = validar_clip_externo(p)
     formato = p["formato"]
     if formato != "historia":
         for red in p["redes"]:
