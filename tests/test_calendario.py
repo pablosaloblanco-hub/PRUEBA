@@ -56,12 +56,15 @@ def test_borradores_no_cuentan(tmp_path):
 def test_reels_tienen_su_propio_maximo(tmp_path):
     datos = [_post(1, "2030-04-01T10:00:00", "instagram", "POST"),
              _post(2, "2030-04-01T11:30:00", "instagram", "REEL"),
-             _post(3, "2030-04-01T20:30:00", "instagram", "REEL")]
+             _post(3, "2030-04-01T20:30:00", "instagram", "REEL"),
+             _post(4, "2030-04-01T14:30:00", "instagram", "REEL")]
     ruta = tmp_path / "p.json"; ruta.write_text(json.dumps(datos))
     prog = calendario.leer_programado(ruta)
     assert calendario.excesos(prog) == []
     assert all(h.date() != dt.date(2030, 4, 1) for h in calendario.huecos(prog, dt.date(2030, 4, 1), 2, "reel", ["instagram"]))
-    assert [h.strftime("%d %H:%M") for h in calendario.huecos(prog, dt.date(2030, 4, 2), 1, "reel", ["instagram"])] == ["02 11:30", "02 20:30"]
+    assert [h.strftime("%d %H:%M") for h in calendario.huecos(prog, dt.date(2030, 4, 2), 1, "reel", ["instagram"])] == ["02 11:30", "02 14:30", "02 20:30"]
+    tt = calendario.huecos([], dt.date(2030, 4, 2), 1, "reel", ["tiktok", "youtube"])
+    assert [h.strftime("%H:%M") for h in tt] == ["11:30", "14:30", "16:30", "20:30", "22:30"]
 
 
 def test_efectos_sonidos_y_filtro():

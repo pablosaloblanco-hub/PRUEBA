@@ -68,13 +68,16 @@ def huecos(programado: list[Programada], desde: dt.date, dias: int, formato: str
     """Horas estándar libres en las redes pedidas, respetando la separación mínima."""
     h = reglas()["horarios"]
     clave = {"carrusel": "publicacion", "suelta": "publicacion", "historia": "historia", "reel": "reel"}[formato]
+    horas = list(h[clave])
+    if formato == "reel" and "instagram" not in redes:
+        horas = sorted(horas + list(h.get("reel_extra", [])))  # TikTok y YouTube admiten más Reels
     sep = dt.timedelta(minutes=h["separacion_minima_min"])
     grupo = _grupo_formato(formato)
     libres = []
     ahora = dt.datetime.now()
     for d in range(dias):
         dia = desde + dt.timedelta(days=d)
-        for hora in h[clave]:
+        for hora in horas:
             hh, mm = map(int, hora.split(":"))
             candidato = dt.datetime.combine(dia, dt.time(hh, mm))
             if candidato <= ahora:

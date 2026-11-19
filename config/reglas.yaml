@@ -16,15 +16,18 @@ reparto:
 horarios:
   publicacion: ["10:00", "18:00"]    # carruseles y publicaciones sueltas
   historia: ["13:00"]
-  reel: ["11:30", "20:30"]
-  short: ["11:30", "20:30"]         # cada Reel de gameplay sale también como Short
+  reel: ["11:30", "14:30", "20:30"]        # Reels de gameplay en Instagram + TikTok + Short de YouTube
+  reel_extra: ["16:30", "22:30"]           # Reels SOLO en TikTok + Short (Instagram no pasa de 3 al día)
   separacion_minima_min: 60          # entre dos piezas distintas de la misma red
   # 18/11: máximo 1 de feed en Instagram tras la restricción por exceso de publicaciones.
-  # 19/11 (Pablo, restricción resuelta): además, 2 Reels de gameplay al día en IG y TikTok (11:30 y 20:30).
+  # 19/11 (Pablo, restricción resuelta): Reels de gameplay aparte del feed.
+  # 19/11 noche (Pablo: «al máximo razonable»): 3 Reels al día en Instagram, 5 en TikTok y 5 Shorts.
+  # Instagram es la red sensible (restringió el 18/11): si vuelve a avisar de restricción, bajar a 2.
   maximo_diario:
-    instagram: {feed: 1, reel: 2, historia: 1}
-    tiktok: {feed: 3, reel: 2, historia: 0}
-  reels_gameplay_diarios: 2
+    instagram: {feed: 1, reel: 3, historia: 1}
+    tiktok: {feed: 3, reel: 5, historia: 0}
+    youtube: {reel: 5}
+  reels_gameplay_diarios: {instagram: 3, tiktok: 5, youtube: 5}
   # 19/11 (Pablo): en el arranque de la cuenta quiere MUCHO contenido. Los máximos son una guía para
   # planificar, no motivo para retirar nada: no se quita ni se pasa a borrador lo programado sin que él lo pida.
 

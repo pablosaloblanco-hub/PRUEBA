@@ -62,7 +62,7 @@ Pruebas: `python3 -m pytest -q`.
 
 ## Reglas que no se negocian
 - Instagram: como máximo 1 publicación de feed (carrusel o suelta) y 1 historia al día (el 18/11 Instagram restringió la cuenta por exceso de publicaciones). TikTok, hasta 3.
-- Reels de gameplay: 2 al día en Instagram y TikTok, a las 11:30 y 20:30, aparte de lo anterior (Pablo, 19/11, con la restricción ya resuelta). Se montan con las grabaciones de Pablo en PS5 y no repiten tramos.
+- Reels de gameplay (Pablo, 19/11: «al máximo razonable»): 3 al día en Instagram + TikTok + Short (11:30, 14:30, 20:30) y 2 más solo en TikTok + Short (16:30, 22:30), aparte del feed. Se montan con las grabaciones de Pablo en PS5 y no repiten tramos. Si Instagram vuelve a avisar de restricción, se baja a 2 Reels allí y se avisa a Pablo.
 - Arranque de la cuenta (Pablo, 19/11): prioridad al volumen. No retires ni pases a borrador nada programado sin que Pablo lo pida; si hay riesgo con Instagram, avísale y él decide.
 - Nada de la historia del juego ni spoilers, aunque ya se pueda jugar.
 - Solo datos de «Datos verificados». Un dato nuevo pasa por el `investigador` y se apunta en el LÉEME antes de publicarse.
