@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: redactada
+estado: disenada
 fecha: 2026-11-20 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -16,7 +16,7 @@ textos:
   instagram: |-
     Los choques más tontos de GTA 6 💀
 
-    Una farola que nadie vio venir, una caravana aparcada que no lo vio venir, un seto que se cruzó en mi camino y un bus que solo pedía respeto. Al camión lo esquivé por poco, que también cuenta. ¿Cuál ha sido el peor? Comenta el número 👇 y etiqueta a quien conduce así en Vice City.
+    Una farola que nadie vio venir, una caravana aparcada que no tenía culpa de nada, un seto que se cruzó en mi camino y un bus que solo pedía respeto. Al camión lo esquivé por poco, que también cuenta. ¿Cuál ha sido el peor? Comenta el número 👇 y etiqueta a quien conduce así en Vice City.
 
     Solo en el juego: en la vida real, despacio y con cabeza.
 
@@ -37,18 +37,9 @@ medios:
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'v2 (tras la revisión): el #2 antiguo (36:27.6-36:30.3, oscuro y con el rótulo «BRIAN''S MARINA») se ha quitado
-  y el gancho ya no anuncia el #2. Concepto: recopilatorio de 5 choques reales de la grabación b (19/11) con memes,
-  zoom, temblor y sonidos propios; gancho: el golpe contra la farola en el primer segundo con «YO CON EL CARNET
-  RECIÉN SACADO 💀» y «BRO 💀»; repetición a cámara lenta del choque con la caravana; cierre con pregunta. Tramos
-  (gta6_20261119_b.mp4): #1 37:25.15-37:28.8 farola y cámara de choque, gamma 1,5 (empieza en el golpe); #2 37:10.9-37:13.2
-  contra una caravana aparcada, gamma 1,8 (+ repetición 37:11.3-37:12.3 a 0,4x); #3 52:11.6-52:14.3 contra el seto;
-  #4 52:14.3-52:15.8 roce con el bus; #5 50:02.9-50:04.7 por poco con el camión. Memes: YO CON EL CARNET RECIÉN
-  SACADO 💀, BRO 💀, ¿QUIÉN HA PUESTO ESA FAROLA?, ESTO VA BIEN 👍, -1 CARAVANA 🚐, MI SEGURO VIENDO ESTO 😭, MODO KAMIKAZE
-  🔥, EL GPS: SIGA RECTO, -1 SETO 🌳, EL BUS: 😐, PERDÓN 🙏, POV: CONDUCES EN VICE CITY, CASI 😳; cierre ¿CUÁL HA SIDO
-  EL PEOR? 👇. Música propia (musica.py, 128 bpm, tono 0). Sin audio original. Duración 17,5 s, 2,67 MB, 720x1280.
-  Guion: trabajo/<id>/guion.json. Ojo, redactor: los textos v1 pueden citar la señal o el cruce; ahora el #2 es
-  una caravana.'
+notas: |-
+  v2 (tras la revisión): el #2 antiguo (36:27.6-36:30.3, oscuro y con el rótulo «BRIAN'S MARINA») se ha quitado y el gancho ya no anuncia el #2. Concepto: recopilatorio de 5 choques reales de la grabación b (19/11) con memes, zoom, temblor y sonidos propios; gancho: el golpe contra la farola en el primer segundo con «YO CON EL CARNET RECIÉN SACADO 💀» y «BRO 💀»; repetición a cámara lenta del choque con la caravana; cierre con pregunta. Tramos (gta6_20261119_b.mp4): #1 37:25.15-37:28.8 farola y cámara de choque, gamma 1,5 (empieza en el golpe); #2 37:10.9-37:13.2 contra una caravana aparcada, gamma 1,8 (+ repetición 37:11.3-37:12.3 a 0,4x); #3 52:11.6-52:14.3 contra el seto; #4 52:14.3-52:15.8 roce con el bus; #5 50:02.9-50:04.7 por poco con el camión. Memes: YO CON EL CARNET RECIÉN SACADO 💀, BRO 💀, ¿QUIÉN HA PUESTO ESA FAROLA?, ESTO VA BIEN 👍, -1 CARAVANA 🚐, MI SEGURO VIENDO ESTO 😭, MODO KAMIKAZE 🔥, EL GPS: SIGA RECTO, -1 SETO 🌳, EL BUS: 😐, PERDÓN 🙏, POV: CONDUCES EN VICE CITY, CASI 😳; cierre ¿CUÁL HA SIDO EL PEOR? 👇. Música propia (musica.py, 128 bpm, tono 0). Sin audio original. Duración 17,5 s, 2,67 MB, 720x1280. Guion: trabajo/<id>/guion.json. Ojo, redactor: los textos v1 pueden citar la señal o el cruce; ahora el #2 es una caravana.
+  v3 (director): gancho #1 empieza en 37:25.45 (sin el cartel «Wonder Whale»); efectos del gancho adelantados 0,3 s.
 historial:
 - fecha: 2026-11-19 10:37
   estado: idea
@@ -91,3 +82,7 @@ historial:
     vio venir, una caravana aparcada que no lo vio venir» repite «vio venir». OK en v2: #2 caravana legible con
     gamma 1,8, sin corredor ni BRIAN''S MARINA (comprobado cada 0,2 s), sin sangre, marcador $ 287 pies fuera de
     recorte, aviso de llamada de Brian fuera de encuadre, audio sin original.'
+- fecha: 2026-11-19 19:49
+  estado: disenada
+  quien: Claude
+  nota: 'director: v3 gancho sin cartel luminoso'
