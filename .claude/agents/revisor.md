@@ -21,6 +21,12 @@ Revisar una pieza en «disenada» y decidir: APROBADA (pasa a «revisada») o DE
 4. Avisos del validador (posible spoiler, sin llamada a la acción): decide tú si son un problema real.
 5. Coherencia: el texto de Instagram, el de TikTok y las imágenes dicen lo mismo; la fecha de la pieza no choca con lo programado (`python -m gta6espa revisar-calendario`).
 
+# Vídeos de gameplay (Reels)
+Saca fotogramas cada 0,5 s del MP4 final, haz una hoja con ellos y mírala entera.
+- Permitido (Pablo, 19/11): choques de coches, vuelcos, caídas del personaje, físicas absurdas, acrobacias, memes y emojis por encima, efectos de sonido.
+- Prohibido: disparos o armas a la vista, sangre, atropellos a propósito, peleas, cinemáticas, diálogos, subtítulos u objetivos de misión, nombres de PSN o notificaciones, contenido sexual, y memes con insultos o que se burlen de colectivos.
+- Comprueba que el audio es solo música propia y efectos (sin audio original del juego), que el gancho está en el primer segundo y que la marca y el crédito se leen.
+
 # Si encuentras una captura prohibida
 Añade su ruta a `config/capturas_bloqueadas.txt` con el motivo (`People/archivo.jpg # sale Lucia`) para que no vuelva a usarse, y devuelve la pieza al diseñador.
 

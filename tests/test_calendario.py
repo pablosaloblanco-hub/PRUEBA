@@ -62,3 +62,13 @@ def test_reels_tienen_su_propio_maximo(tmp_path):
     assert calendario.excesos(prog) == []
     assert all(h.date() != dt.date(2030, 4, 1) for h in calendario.huecos(prog, dt.date(2030, 4, 1), 2, "reel", ["instagram"]))
     assert [h.strftime("%d %H:%M") for h in calendario.huecos(prog, dt.date(2030, 4, 2), 1, "reel", ["instagram"])] == ["02 11:30", "02 20:30"]
+
+
+def test_efectos_sonidos_y_filtro():
+    from gta6espa import efectos
+    for tipo in efectos.SONIDOS:
+        x = efectos.sonido(tipo)
+        assert len(x) > 1000 and abs(x).max() <= 1.0
+    f = efectos._filtro_tramo({"inicio": 0, "fin": 3, "zoom": [[1, 0.5, 1.3]], "temblor": [[1, 0.4, 10]],
+                               "destello": [1], "congelar": 0.5}, "cuadrado", 1920, 1080)
+    assert "zoompan" in f and "tpad" in f and "boxblur" in f and "crop=788:788" in f

@@ -68,7 +68,22 @@ def info_para(p: dict, red: str) -> dict:
             "disableStitch": False,
         }
         return info
-    raise ValueError(f"Red no gestionada por Claude: {red}")
+    if red == "youtube":
+        if formato != "reel":
+            raise ValueError("En YouTube solo salen los Reels, como Shorts")
+        textos = p["textos"]
+        texto = textos.get("youtube") or textos["instagram"]
+        if "#Shorts" not in texto:
+            texto = texto.rstrip() + " #Shorts"
+        titulo = p.get("titulo_youtube") or p.get("titulo_tiktok") or p["titulo"]
+        if "#Shorts" not in titulo:
+            titulo = titulo[:90].rstrip() + " #Shorts"
+        info = _base(texto, media, fecha, "youtube")
+        info["youtubeData"] = {"title": titulo[:100], "type": "short", "privacy": "public",
+                               "tags": ["GTA 6", "GTA VI", "GTA 6 gameplay", "Vice City", "Leonida", "PS5"],
+                               "category": "GAMING", "madeForKids": False, "isAiGeneratedContent": False}
+        return info
+    raise ValueError(f"Red no gestionada: {red}")
 
 
 def peticiones(p: dict) -> list[dict]:

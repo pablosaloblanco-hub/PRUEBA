@@ -1,6 +1,6 @@
 # Reglas de la cuenta GTA 6 Español (@gta6espa).
-# Resumen técnico de lo que dice el LÉEME de Drive. Si cambia el LÉEME, manda el LÉEME
-# y se actualiza este archivo. Aquí NO van IDs de Drive ni datos privados: el repo es público.
+# Desde el 19/11 este archivo manda: Pablo gestiona todo desde este sistema (sin ChatGPT).
+# El LÉEME de Drive queda como histórico y fuente de «Datos verificados». Aquí NO van IDs de Drive ni datos privados: el repo es público.
 
 cuenta:
   usuario: "@gta6espa"
@@ -10,15 +10,14 @@ cuenta:
   idioma: "español de España"
 
 reparto:
-  claude: [instagram, tiktok, comprobar_publicaciones, informe_semanal]
-  chatgpt: [youtube]
+  claude: [instagram, tiktok, youtube, comprobar_publicaciones, informe_semanal]
   pablo: [grabar_gameplay_ps5, responder_comentarios, seguir_cuentas_a_mano, pegatinas_historias, revisar_dm]
 
 horarios:
   publicacion: ["10:00", "18:00"]    # carruseles y publicaciones sueltas
   historia: ["13:00"]
   reel: ["11:30", "20:30"]
-  youtube_chatgpt: ["18:00-20:00"]   # franja preferente de ChatGPT para Shorts
+  short: ["11:30", "20:30"]         # cada Reel de gameplay sale también como Short
   separacion_minima_min: 60          # entre dos piezas distintas de la misma red
   # 18/11: máximo 1 de feed en Instagram tras la restricción por exceso de publicaciones.
   # 19/11 (Pablo, restricción resuelta): además, 2 Reels de gameplay al día en IG y TikTok (11:30 y 20:30).

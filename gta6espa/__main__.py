@@ -151,6 +151,22 @@ def cmd_reel(a):
         print(h)
 
 
+def cmd_detectar(a):
+    from . import detectar
+    datos = detectar.analizar(Path(a.video), Path(a.salida), a.maximo)
+    print(f"{len(datos['candidatos'])} candidatos en {datos['duracion_s']} s · hojas: {len(datos['hojas'])}")
+    for h in datos["hojas"]:
+        print(" ", h)
+
+
+def cmd_efectos(a):
+    from . import efectos
+    salida = efectos.montar(Path(a.guion), Path(a.salida))
+    print(salida)
+    for h in validar.validar_video(salida):
+        print(h)
+
+
 def cmd_tablero(a):
     todas = piezas.listar()
     cuenta = {}
@@ -165,6 +181,11 @@ def cmd_tablero(a):
 def main(argv=None):
     ap = argparse.ArgumentParser(prog="gta6espa", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="orden", required=True)
+
+    s = sub.add_parser("detectar", help="buscar choques y caídas en una grabación larga"); s.set_defaults(f=cmd_detectar)
+    s.add_argument("video"); s.add_argument("salida"); s.add_argument("--maximo", type=int, default=80)
+    s = sub.add_parser("efectos", help="montar un Reel dinámico con zooms, pegatinas y sonidos"); s.set_defaults(f=cmd_efectos)
+    s.add_argument("guion", help="guion.json del montaje"); s.add_argument("salida")
 
     s = sub.add_parser("nueva"); s.set_defaults(f=cmd_nueva)
     s.add_argument("titulo"); s.add_argument("--formato", required=True, choices=piezas.FORMATOS)

@@ -21,8 +21,9 @@ Proponer un plan de piezas (tema, formato, fecha y hora, objetivo, datos en los 
 - Solo temas sostenidos por «Datos verificados». Si un tema necesita un dato nuevo, márcalo como «pendiente de investigador» en `notas`.
 - Después del estreno (19/11/2026) nada de historia del juego: ni misiones, ni giros, ni finales. Humor, datos, guías sin spoilers y preguntas a la comunidad.
 - **Máximo en Instagram: 1 publicación de feed y 1 historia al día** (decisión de Pablo del 18/11, tras una restricción de Instagram por exceso de publicaciones). TikTok admite hasta 3 al día. `huecos` y `revisar-calendario` ya lo aplican.
-- Horas estándar: 10:00 para feed, 13:00 historias; 18:00 solo en TikTok. Compruébalo con getBestTimeToPostByNetwork si planificas más de 3 días. La franja 18:00–20:00 es la preferente de los Shorts de ChatGPT: evita temas iguales a esa hora.
-- No planifiques YouTube: es de ChatGPT. Si ves un hueco allí, apúntalo para el coordinador.
+- Horas estándar: 10:00 para feed, 13:00 historias; 18:00 solo en TikTok. Compruébalo con getBestTimeToPostByNetwork si planificas más de 3 días. Reels y Shorts a las 11:30 y 20:30.
+- YouTube también es nuestro: cada Reel de gameplay sale como Short a la misma hora.
+- Cada día lleva 2 Reels de gameplay (11:30 y 20:30). Alterna formatos: recopilatorio de choques y caídas, «POV», reto, ranking, paseo bonito.
 
 # Formato de salida
 Crea cada pieza con:
