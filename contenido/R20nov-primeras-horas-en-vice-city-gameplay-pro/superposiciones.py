@@ -1,7 +1,7 @@
 """Superposiciones del Reel R20nov (720×1280, PNG con transparencia).
 
-- franja.png: franja inferior con la marca. TAPA los subtítulos y objetivos de misión del
-  juego, que son historia y no se pueden publicar. Va durante todo el vídeo.
+- franja.png: franja inferior con la marca y degradado superior. TAPAN los subtítulos, los
+  objetivos de misión y la barra del GPS del juego, que son historia. Van durante todo el vídeo.
 - gancho.png: texto grande de los primeros segundos.
 - cierre.png: pregunta final para comentar.
 Se ejecuta desde trabajo/<id>/ (salida en la carpeta actual).
@@ -22,6 +22,8 @@ html,body{margin:0;width:720px;height:1280px;background:transparent;overflow:hid
 </style></head><body>%s</body></html>"""
 
 FRANJA = """
+<div style="position:absolute;left:0;right:0;top:0;height:240px;
+     background:linear-gradient(180deg,#0b0612 0%,#0b0612 72%,rgba(11,6,18,0) 100%)"></div>
 <div style="position:absolute;left:24px;top:28px" class="pill" >
   <span style="background:#ff4fd8;padding:8px 16px;border-radius:999px;box-shadow:0 0 18px rgba(255,79,216,.7)">GAMEPLAY PROPIO · PS5</span></div>
 <div style="position:absolute;left:0;right:0;bottom:0;height:250px;
@@ -45,7 +47,7 @@ GANCHO = """
 
 CIERRE = """
 <div style="position:absolute;left:30px;right:30px;top:230px;text-align:center">
-  <div style="font-family:'Permanent Marker';font-size:76px;line-height:1.05;text-shadow:0 4px 18px rgba(0,0,0,.9)">¿Lancha, avioneta<br>o coche?</div>
+  <div style="font-family:'Permanent Marker';font-size:76px;line-height:1.05;text-shadow:0 4px 18px rgba(0,0,0,.9)">¿Avioneta<br>o coche?</div>
   <div style="margin-top:22px"><span class="pill" style="background:#ff4fd8">COMENTA 👇</span></div>
 </div>
 """

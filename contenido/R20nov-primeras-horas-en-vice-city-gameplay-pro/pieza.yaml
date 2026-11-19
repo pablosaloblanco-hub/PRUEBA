@@ -1,5 +1,5 @@
 id: R20nov-primeras-horas-en-vice-city-gameplay-pro
-titulo: 'Primeras horas en Vice City: gameplay propio'
+titulo: 'Así se ve GTA 6 en PS5: avioneta y conducción de noche'
 formato: reel
 redes:
 - instagram
@@ -7,23 +7,22 @@ redes:
 estado: disenada
 fecha: 2026-11-20 18:00
 tema_hashtag: '#GTA6Gameplay'
-objetivo: comentar (lancha, avioneta o coche) y guardar
+objetivo: comentar (avioneta o coche) y guardar
 datos_usados:
 - Plataformas
-- Zonas de Leonida (6, presentadas por Rockstar)
 capturas: []
 textos:
   instagram: |-
     Así se ve GTA 6 en PS5 🌴
 
-    Lancha entre puentes en Leonida Keys, avioneta al atardecer y Vice City de noche, grabado por nosotros en nuestra partida. Sin spoilers: solo paseo. ¿Con qué te quedas: lancha, avioneta o coche? Comenta 👇 y guárdalo para cuando lo juegues.
+    Avioneta al atardecer sobre el mar de Leonida y carretera de noche, grabado por nosotros en nuestra partida. Sin spoilers: solo vistas. ¿Tú qué prefieres para moverte, avioneta o coche? Comenta 👇 y guárdalo para cuando lo juegues.
 
     Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
     #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
-  tiktok: 'Así se ve GTA 6 en PS5 🌴 Lancha, avioneta y Vice City de noche, sin spoilers. ¿Con qué te quedas? Comenta
-    👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan
-    · No oficial'
-titulo_tiktok: 'Así se ve GTA 6 en PS5: lancha, avioneta y Vice City de noche 🌴'
+  tiktok: 'Así se ve GTA 6 en PS5 🌴 Avioneta al atardecer y carretera de noche, sin spoilers. ¿Avioneta o coche?
+    Comenta 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta
+    fan · No oficial'
+titulo_tiktok: 'Así se ve GTA 6 en PS5: avioneta al atardecer y carretera de noche 🌴'
 medios:
 - R20nov-reel.mp4
 drive: {}
@@ -31,10 +30,11 @@ metricool: {}
 enlaces: {}
 notas: |-
   Reel de 27,5 s (720×1280) con el gameplay de Pablo grabado en PS5 el 19/11 (grabación de 50 min en Drive).
-  Tramos usados (minuto de la grabación): 31:06 avioneta sobre las islas · 17:32 lancha bajo el puente · 17:05 lancha en mar abierto · 18:04 lancha a contraluz · 30:51 avioneta al atardecer · 46:17 conducción de noche.
+  Tramos usados (v2, minuto de la grabación): 30:51 avioneta al atardecer (7 s) · 30:36 avioneta a pleno sol (6 s) · 42:20 camioneta de noche (7 s) · 46:16 coche de noche (8 s). Solo planos desde atrás: sin el rótulo «Brian's» de la avioneta.
   Descartado: créditos iniciales, todas las cinemáticas (cárcel, conversación en la lancha, hangar), el móvil del juego y la persecución de las 10:40 (diálogo malsonante). Sin audio original: los diálogos y la radio son historia o tienen licencia.
   La franja inferior (franja.png) TAPA los subtítulos de diálogo y los objetivos de misión, que son historia. Gancho 0–3,2 s (gancho.png) y pregunta final (cierre.png). Música propia generada por código (musica.py), sin derechos.
   Publicación: 20/11 18:00. En Instagram sustituye a la publicación N20nov de las 10:00 (máximo 1 de feed al día); en TikTok se suma a N20nov.
+  V2 (19/11, director): devuelta la v1 por el revisor — los tramos de lancha eran una persecución de misión con un acompañante disparando un arma larga y marcadores de objetivo. Quitados los tres tramos de lancha. La franja superior tapa ahora también la brújula y la distancia del GPS. Pregunta final: «¿Avioneta o coche?».
 historial:
 - fecha: 2026-11-19 04:27
   estado: idea
@@ -52,3 +52,15 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'director: Reel con el gameplay de Pablo'
+- fecha: 2026-11-19 04:38
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: devuelta. 8,0-9,0 s y 11,0-13,0 s: el acompañante de la lancha apunta con un arma larga (persecución
+    de misión: avioneta perseguida, marcadores rosa/cian de objetivo 14,5-17,5 s); en la lancha van los protagonistas
+    (Jason/Lucia). Quitar los tramos 17:05, 17:32 y 18:04 o sustituirlos por lancha en paseo libre. Revisar también
+    avioneta ''Brian''s'' (3,5-4,5 s) y GPS ''1,11 millas'' (22,5-27,5 s). Ojo: N20nov sigue programada en IG a
+    las 10:00 (2 de feed el 20/11).'
+- fecha: 2026-11-19 04:41
+  estado: disenada
+  quien: Claude
+  nota: 'director: v2 sin lancha, GPS tapado, textos actualizados'
