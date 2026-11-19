@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: redactada
 fecha: 2026-11-20 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -82,3 +82,12 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v2 (nuevo #2 caravana, gancho farola)'
+- fecha: 2026-11-19 14:53
+  estado: redactada
+  quien: Claude
+  nota: 'revisor v2: DEVUELTA (ajuste mínimo de montaje). 1) Gancho #1: el cartel luminoso Wonder Whale se ve a
+    la derecha de 0,0 a 0,2 s (fuente 37:25.15-37:25.35). Empezar el #1 en 37:25.45 o después (a partir de ahí solo
+    queda el resplandor; el golpe sigue cayendo en el primer segundo). 2) Opcional en IG: «una farola que nadie
+    vio venir, una caravana aparcada que no lo vio venir» repite «vio venir». OK en v2: #2 caravana legible con
+    gamma 1,8, sin corredor ni BRIAN''S MARINA (comprobado cada 0,2 s), sin sangre, marcador $ 287 pies fuera de
+    recorte, aviso de llamada de Brian fuera de encuadre, audio sin original.'

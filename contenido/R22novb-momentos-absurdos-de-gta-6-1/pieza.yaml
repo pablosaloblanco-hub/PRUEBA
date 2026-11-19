@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: programada
 fecha: 2026-11-22 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -80,3 +80,18 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v2'
+- fecha: 2026-11-19 14:56
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok v2 (hoja propia 0,5 s; sin hidroavión, natación ni marcador rosa; Romper la ventana (45:47)
+    fuera del tramo, que termina en 45:45.9; Sube a tu coche, RESTABLECER y DESENGANCHAR fuera del recorte; sin
+    sangre en el cruce Frogger; sin violencia al coger el coche y el camión; nocturnos legibles con gamma; audio
+    sin original)'
+- fecha: 2026-11-19 14:57
+  estado: subida
+  quien: Claude
+  nota: 'director: MP4 subido a Drive'
+- fecha: 2026-11-19 19:47
+  estado: programada
+  quien: Claude
+  nota: 'director: Reel IG + TikTok + Short 22/11 20:30'

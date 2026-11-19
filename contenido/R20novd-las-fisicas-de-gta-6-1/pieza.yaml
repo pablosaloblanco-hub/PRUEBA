@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: programada
 fecha: 2026-11-20 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -100,3 +100,17 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v3'
+- fecha: 2026-11-19 14:54
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok v3 (hoja propia 0,5 s; #4 obras 37:16.9-37:18.6 revisado cada 0,1 s: sin móvil, sin fundido
+    del juego (el blanqueo de 7,27-7,5 s es el destello del montaje), sin marcador ni obreros; #3 sin sangre; #5
+    sin patrulla; audio sin original; 15,5 s)'
+- fecha: 2026-11-19 14:57
+  estado: subida
+  quien: Claude
+  nota: 'director: MP4 subido a Drive'
+- fecha: 2026-11-19 19:47
+  estado: programada
+  quien: Claude
+  nota: 'director: Reel IG + TikTok + Short 20/11 20:30'
