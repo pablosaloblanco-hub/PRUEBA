@@ -4,23 +4,51 @@ formato: reel
 redes:
 - instagram
 - tiktok
-estado: idea
+estado: disenada
 fecha: 2026-11-20 18:00
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (lancha, avioneta o coche) y guardar
+datos_usados:
+- Plataformas
+- Zonas de Leonida (6, presentadas por Rockstar)
 capturas: []
 textos:
-  instagram: ''
-  tiktok: ''
-titulo_tiktok: ''
-medios: []
+  instagram: |-
+    Así se ve GTA 6 en PS5 🌴
+
+    Lancha entre puentes en Leonida Keys, avioneta al atardecer y Vice City de noche, grabado por nosotros en nuestra partida. Sin spoilers: solo paseo. ¿Con qué te quedas: lancha, avioneta o coche? Comenta 👇 y guárdalo para cuando lo juegues.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+  tiktok: 'Así se ve GTA 6 en PS5 🌴 Lancha, avioneta y Vice City de noche, sin spoilers. ¿Con qué te quedas? Comenta
+    👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan
+    · No oficial'
+titulo_tiktok: 'Así se ve GTA 6 en PS5: lancha, avioneta y Vice City de noche 🌴'
+medios:
+- R20nov-reel.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: |-
+  Reel de 27,5 s (720×1280) con el gameplay de Pablo grabado en PS5 el 19/11 (grabación de 50 min en Drive).
+  Tramos usados (minuto de la grabación): 31:06 avioneta sobre las islas · 17:32 lancha bajo el puente · 17:05 lancha en mar abierto · 18:04 lancha a contraluz · 30:51 avioneta al atardecer · 46:17 conducción de noche.
+  Descartado: créditos iniciales, todas las cinemáticas (cárcel, conversación en la lancha, hangar), el móvil del juego y la persecución de las 10:40 (diálogo malsonante). Sin audio original: los diálogos y la radio son historia o tienen licencia.
+  La franja inferior (franja.png) TAPA los subtítulos de diálogo y los objetivos de misión, que son historia. Gancho 0–3,2 s (gancho.png) y pregunta final (cierre.png). Música propia generada por código (musica.py), sin derechos.
+  Publicación: 20/11 18:00. En Instagram sustituye a la publicación N20nov de las 10:00 (máximo 1 de feed al día); en TikTok se suma a N20nov.
 historial:
 - fecha: 2026-11-19 04:27
   estado: idea
   quien: Claude
   nota: creada
+- fecha: 2026-11-19 04:36
+  estado: aprobada
+  quien: Claude
+  nota: 'director: Reel con el gameplay de Pablo'
+- fecha: 2026-11-19 04:36
+  estado: redactada
+  quien: Claude
+  nota: 'director: Reel con el gameplay de Pablo'
+- fecha: 2026-11-19 04:36
+  estado: disenada
+  quien: Claude
+  nota: 'director: Reel con el gameplay de Pablo'

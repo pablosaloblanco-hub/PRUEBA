@@ -41,3 +41,21 @@ def test_reel_vertical_sin_audio_original(tmp_path):
     assert not any(s["codec_type"] == "audio" for s in info["streams"])  # audio original fuera
     assert abs(float(info["format"]["duration"]) - 16) < 0.5
     assert salida.stat().st_size <= 3_000_000
+
+
+@pytest.mark.skipif(not shutil.which("ffmpeg"), reason="sin ffmpeg")
+def test_reel_con_superposicion_tapa_la_franja(tmp_path):
+    from gta6espa import video
+    clip = tmp_path / "clip.mp4"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "color=white:size=1920x1080:rate=30",
+                    "-t", "9", "-c:v", "libx264", str(clip)], check=True)
+    franja = tmp_path / "franja.png"
+    im = Image.new("RGBA", (720, 1280), (0, 0, 0, 0))
+    im.paste((10, 6, 18, 255), (0, 1050, 720, 1280))
+    im.save(franja)
+    salida = video.montar([{"ruta": str(clip)}], tmp_path / "r.mp4", superposiciones=[{"ruta": str(franja)}])
+    fot = tmp_path / "f.png"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "4", "-i", str(salida), "-frames:v", "1", str(fot)], check=True)
+    with Image.open(fot) as f:
+        assert sum(f.convert("RGB").getpixel((360, 1200))) < 80    # franja oscura encima
+        assert sum(f.convert("RGB").getpixel((360, 300))) > 600    # vídeo blanco debajo

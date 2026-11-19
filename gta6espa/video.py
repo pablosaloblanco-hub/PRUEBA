@@ -32,8 +32,14 @@ def _filtro_clip(i: int, inicio: float | None, fin: float | None, ancho: int, al
 
 
 def montar(clips: list[dict], salida: Path, musica: Path | None = None,
-           duracion_max: float | None = None) -> Path:
-    """clips: [{"ruta": "...", "inicio": 2.0, "fin": 6.5}, ...] (inicio y fin opcionales)."""
+           duracion_max: float | None = None, superposiciones: list[dict] | None = None) -> Path:
+    """clips: [{"ruta": "...", "inicio": 2.0, "fin": 6.5}, ...] (inicio y fin opcionales).
+
+    superposiciones: PNG de 720×1280 con transparencia que se ponen encima del vídeo,
+    [{"ruta": "franja.png"}, {"ruta": "gancho.png", "desde": 0, "hasta": 3}].
+    Sirven para la marca de la cuenta, el gancho y para TAPAR subtítulos u objetivos de
+    misión del juego (son historia y no se pueden publicar).
+    """
     f = reglas()["formatos"]
     ancho, alto = f["reel"]["ancho"], f["reel"]["alto"]
     duracion_max = duracion_max or f["reel"]["duracion_max_s"]
@@ -47,13 +53,23 @@ def montar(clips: list[dict], salida: Path, musica: Path | None = None,
         total += min(c.get("fin") or d, d) - (c.get("inicio") or 0)
     total = min(total, duracion_max)
     n = len(clips)
-    filtros.append("".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[vout]")
+    filtros.append("".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[vcat]")
+    ultimo = "vcat"
+    siguiente = n
+    for k, sp in enumerate(superposiciones or []):
+        entradas += ["-loop", "1", "-i", str(sp["ruta"])]
+        activo = ""
+        if sp.get("desde") is not None or sp.get("hasta") is not None:
+            activo = f":enable='between(t,{sp.get('desde', 0)},{sp.get('hasta', total)})'"
+        filtros.append(f"[{ultimo}][{siguiente}:v]overlay=0:0:shortest=1{activo}[vs{k}]")
+        ultimo, siguiente = f"vs{k}", siguiente + 1
+    filtros.append(f"[{ultimo}]null[vout]")
     mapas = ["-map", "[vout]"]
     audio_kbps = 0
     if musica:
         entradas += ["-i", str(musica)]
         fundido = max(total - 1.5, 0)
-        filtros.append(f"[{n}:a]atrim=0:{total},afade=t=out:st={fundido}:d=1.5,asetpts=PTS-STARTPTS[aout]")
+        filtros.append(f"[{siguiente}:a]atrim=0:{total},afade=t=out:st={fundido}:d=1.5,asetpts=PTS-STARTPTS[aout]")
         mapas += ["-map", "[aout]", "-c:a", "aac", "-b:a", "96k"]
         audio_kbps = 96
     limite_bits = f["tamano_max_mb"] * 8_000_000 * 0.92

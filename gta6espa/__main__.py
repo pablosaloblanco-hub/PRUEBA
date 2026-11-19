@@ -142,8 +142,10 @@ def cmd_capturas(a):
 
 def cmd_reel(a):
     from . import video
-    clips = json.loads(Path(a.clips).read_text(encoding="utf-8"))
-    salida = video.montar(clips, Path(a.salida), Path(a.musica) if a.musica else None, a.max)
+    datos = json.loads(Path(a.clips).read_text(encoding="utf-8"))
+    clips = datos["clips"] if isinstance(datos, dict) else datos
+    sup = datos.get("superposiciones") if isinstance(datos, dict) else None
+    salida = video.montar(clips, Path(a.salida), Path(a.musica) if a.musica else None, a.max, sup)
     print(salida)
     for h in validar.validar_video(salida):
         print(h)
