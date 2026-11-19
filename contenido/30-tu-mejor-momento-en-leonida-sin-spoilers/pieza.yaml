@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: revisada
+estado: programada
 fecha: 2026-12-08 10:00
 tema_hashtag: '#GTA6Comunidad'
 objetivo: comentar (tu mejor momento en Leonida, sin spoilers)
@@ -72,3 +72,11 @@ historial:
   estado: revisada
   quien: Claude
   nota: 'revisor: ok'
+- fecha: 2026-11-19 09:29
+  estado: subida
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-19 09:30
+  estado: programada
+  quien: Claude
+  nota: ''

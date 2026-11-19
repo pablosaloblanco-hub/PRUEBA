@@ -3,7 +3,7 @@ titulo: Historia Leonida vs Florida
 formato: historia
 redes:
 - instagram
-estado: revisada
+estado: programada
 fecha: 2026-11-28 13:00
 tema_hashtag: '#Florida'
 objetivo: compartir la publicación 20 (y votar en el cuestionario)
@@ -60,3 +60,11 @@ historial:
   estado: revisada
   quien: Claude
   nota: 'revisor: ok (Ambrosia_04, sin armas). Actualizar Metricool'
+- fecha: 2026-11-19 09:30
+  estado: subida
+  quien: Claude
+  nota: 'publicador: imagen nueva sin armas subida a Drive (v2)'
+- fecha: 2026-11-19 09:30
+  estado: programada
+  quien: Claude
+  nota: 'publicador: imagen sustituida en Metricool con updateScheduledPost; hora, texto e imágenes comprobados'

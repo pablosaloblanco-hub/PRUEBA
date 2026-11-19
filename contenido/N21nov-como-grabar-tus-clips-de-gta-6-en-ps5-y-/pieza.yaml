@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: revisada
+estado: programada
 fecha: 2026-11-21 10:00
 tema_hashtag: '#PS5'
 objetivo: guardar (guía útil) y, de paso, que manden su clip por DM
@@ -135,3 +135,11 @@ historial:
   estado: revisada
   quien: Claude
   nota: 'revisor: ok (N21nov-3 con Leonida_Keys_04, sin armas). Actualizar Metricool'
+- fecha: 2026-11-19 09:30
+  estado: subida
+  quien: Claude
+  nota: 'publicador: imagen nueva sin armas subida a Drive (v2)'
+- fecha: 2026-11-19 09:30
+  estado: programada
+  quien: Claude
+  nota: 'publicador: imagen sustituida en Metricool con updateScheduledPost; hora, texto e imágenes comprobados'

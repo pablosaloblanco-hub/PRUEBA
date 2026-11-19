@@ -3,7 +3,7 @@ titulo: Historia 9 cosas para hacer en Leonida
 formato: historia
 redes:
 - instagram
-estado: revisada
+estado: programada
 fecha: 2026-12-09 13:00
 tema_hashtag: '#GuiaGTA6'
 objetivo: guardar la publicación 31 (visitar el post)
@@ -45,3 +45,11 @@ historial:
   estado: revisada
   quien: Claude
   nota: 'revisor: ok'
+- fecha: 2026-11-19 09:29
+  estado: subida
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-19 09:30
+  estado: programada
+  quien: Claude
+  nota: ''

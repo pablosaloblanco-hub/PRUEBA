@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: revisada
+estado: programada
 fecha: 2026-12-09 10:00
 tema_hashtag: '#GuiaGTA6'
 objetivo: guardar (lista de 9 cosas para hacer en Leonida sin tocar la historia)
@@ -106,3 +106,11 @@ historial:
   estado: revisada
   quien: Claude
   nota: 'revisor: ok'
+- fecha: 2026-11-19 09:29
+  estado: subida
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-19 09:30
+  estado: programada
+  quien: Claude
+  nota: ''

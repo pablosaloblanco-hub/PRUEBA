@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: revisada
+estado: programada
 fecha: 2026-11-28 10:00
 tema_hashtag: '#Florida'
 objetivo: guardar
@@ -131,3 +131,11 @@ historial:
   quien: Claude
   nota: 'revisor: ok (20-4 con Grassrivers_02, sin armas). Ojo: Grassrivers_02 sale también en la 22 (30/11); no
     hay otra de Grassrivers sin armas. Actualizar Metricool'
+- fecha: 2026-11-19 09:30
+  estado: subida
+  quien: Claude
+  nota: 'publicador: imagen nueva sin armas subida a Drive (v2)'
+- fecha: 2026-11-19 09:30
+  estado: programada
+  quien: Claude
+  nota: 'publicador: imagen sustituida en Metricool con updateScheduledPost; hora, texto e imágenes comprobados'

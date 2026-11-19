@@ -3,7 +3,7 @@ titulo: Historia tu mejor momento en Leonida
 formato: historia
 redes:
 - instagram
-estado: revisada
+estado: programada
 fecha: 2026-12-08 13:00
 tema_hashtag: '#GTA6Comunidad'
 objetivo: comentar (pegatina de preguntas y llevar a la publicación 30)
@@ -44,3 +44,11 @@ historial:
   estado: revisada
   quien: Claude
   nota: 'revisor: ok'
+- fecha: 2026-11-19 09:29
+  estado: subida
+  quien: Claude
+  nota: ''
+- fecha: 2026-11-19 09:30
+  estado: programada
+  quien: Claude
+  nota: ''
