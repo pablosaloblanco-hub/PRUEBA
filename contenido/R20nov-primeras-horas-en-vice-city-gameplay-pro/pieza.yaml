@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: programada
+estado: publicada
 fecha: 2026-11-19 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (avioneta o coche) y guardar
@@ -78,3 +78,7 @@ historial:
   estado: programada
   quien: Claude
   nota: 'publicador: Reel IG + TikTok 20/11 18:00, portada 1,5 s'
+- fecha: 2026-11-19 14:22
+  estado: publicada
+  quien: Claude
+  nota: 'analista: publicado en Instagram, TikTok y YouTube (comprobado en Metricool 15:22)'

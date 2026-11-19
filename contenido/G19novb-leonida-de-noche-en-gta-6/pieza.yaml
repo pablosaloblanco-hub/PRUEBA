@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: programada
+estado: publicada
 fecha: 2026-11-19 14:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (¿de día o de noche?) y guardar
@@ -73,3 +73,7 @@ historial:
   estado: programada
   quien: Claude
   nota: 'director: Reel IG + TikTok + Short de YouTube 19/11 20:30 (YouTube a petición de Pablo)'
+- fecha: 2026-11-19 14:22
+  estado: publicada
+  quien: Claude
+  nota: 'analista: publicado en Instagram, TikTok y YouTube (comprobado en Metricool 15:22)'
