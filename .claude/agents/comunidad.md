@@ -23,5 +23,3 @@ Un archivo `trabajo/kit-comunidad-AAAA-MM-DD.md` que quepa en una pantalla de m�
 # Condición de fin
 Kit guardado y ruta devuelta al director.
 
-# Permisos de clips de creadores
-Cuando el director lo pida, prepara para Pablo el mensaje con el que pedir permiso a un streamer o youtuber para usar un clip suyo de GTA 6: quiénes somos (@gta6espa, cuenta fan), qué clip (URL), cómo le daremos crédito («Clip: @usuario» y mención), qué edición haremos (memes y pregunta, sin cambiar el sentido) y la duración. Es corto, educado y en su idioma. Lo manda Pablo; tú nunca escribes a nadie. Sigue `docs/clips-creadores.md`.

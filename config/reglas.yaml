@@ -88,3 +88,9 @@ estados:
   - publicada
   - error
   - descartada
+
+# Clips de streamers y youtubers (Pablo, 19/11: sin pedir permisos). Modo «cita»: fragmento corto,
+# crédito y edición propia encima; si el creador pide retirarlo, se retira ese mismo día.
+clips_creadores:
+  max_cita_s: 10          # por creador y vídeo, sin permiso
+  max_total_clip_s: 30    # suma de fragmentos ajenos en un mismo vídeo

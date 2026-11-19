@@ -74,15 +74,17 @@ def test_efectos_sonidos_y_filtro():
     assert "zoompan" in f and "tpad" in f and "boxblur" in f and "crop=788:788" in f
 
 
-def test_clip_externo_necesita_permiso_y_credito(monkeypatch):
+def test_clip_externo_modo_cita(monkeypatch):
     from gta6espa import validar
-    p = {"redes": ["instagram"], "clip_externo": {"creador": "@alguien", "url": "https://x"},
-         "textos": {"instagram": "Clip: @alguien"}}
     monkeypatch.setattr(validar, "creadores", lambda: [])
-    assert any("no está" in h.mensaje for h in validar.validar_clip_externo(p))
-    monkeypatch.setattr(validar, "creadores", lambda: [{"usuario": "@alguien", "permiso": "pendiente"}])
-    assert any("permiso" in h.mensaje for h in validar.validar_clip_externo(p))
+    p = {"redes": ["instagram"], "clip_externo": {"creador": "@alguien", "url": "https://x", "duracion_s": 8},
+         "textos": {"instagram": "Clip: @alguien"}}
+    assert validar.validar_clip_externo(p) == []
+    p["clip_externo"]["duracion_s"] = 25
+    assert any("modo cita" in h.mensaje for h in validar.validar_clip_externo(p))
     monkeypatch.setattr(validar, "creadores", lambda: [{"usuario": "@alguien", "permiso": "escrito"}])
     assert validar.validar_clip_externo(p) == []
+    monkeypatch.setattr(validar, "creadores", lambda: [{"usuario": "@alguien", "permiso": "no"}])
+    assert any("no se usen" in h.mensaje for h in validar.validar_clip_externo(p))
     p["textos"]["instagram"] = "sin crédito"
     assert any("Clip: @alguien" in h.mensaje for h in validar.validar_clip_externo(p))

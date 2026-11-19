@@ -28,7 +28,7 @@ Saca fotogramas cada 0,5 s del MP4 final, haz una hoja con ellos y mírala enter
 - Comprueba que el audio es solo música propia y efectos (sin audio original del juego), que el gancho está en el primer segundo y que la marca y el crédito se leen.
 
 # Clips de creadores
-Si la ficha tiene `clip_externo`, comprueba que el creador tiene `permiso: escrito` o `politica` en `config/creadores.yaml`, que la duración y las condiciones encajan con lo que permitió y que todos los textos llevan «Clip: @usuario». Sin eso: DEVUELTA.
+Si la ficha tiene `clip_externo` (modo cita, ver `docs/clips-creadores.md`): mide en el vídeo los segundos de cada creador (máximo 10 sin permiso registrado y 30 en total), comprueba que su etiqueta «🎥 @usuario» sale en pantalla mientras suena su clip, que todos los textos llevan «Clip: @usuario», que hay edición propia encima y que no hay historia ni spoilers. Si falta algo: DEVUELTA.
 
 # Si encuentras una captura prohibida
 Añade su ruta a `config/capturas_bloqueadas.txt` con el motivo (`People/archivo.jpg # sale Lucia`) para que no vuelva a usarse, y devuelve la pieza al diseñador.

@@ -177,27 +177,40 @@ def creadores() -> list[dict]:
 
 
 def validar_clip_externo(p: dict) -> list[Hallazgo]:
-    """Clips de streamers o youtubers: solo con permiso registrado y su crédito en cada texto."""
+    """Clips de streamers o youtubers.
+
+    Sin permiso (modo «cita», decisión de Pablo del 19/11): fragmento corto (≤ max_cita_s por creador),
+    crédito «Clip: @usuario» en cada texto, URL del original y edición propia encima. Con permiso
+    registrado (escrito o política pública) vale lo que diga ese permiso.
+    """
     clip = p.get("clip_externo")
     if not clip:
         return []
     h: list[Hallazgo] = []
-    usuario = (clip.get("creador") or "").strip()
-    ficha = next((c for c in creadores() if c.get("usuario", "").lower() == usuario.lower()), None)
-    if not usuario:
-        h.append(Hallazgo("ERROR", "clip externo", "falta «creador» (@usuario)"))
-    elif not ficha:
-        h.append(Hallazgo("ERROR", "clip externo", f"{usuario} no está en config/creadores.yaml"))
-    elif ficha.get("permiso") not in PERMISOS_VALIDOS:
-        h.append(Hallazgo("ERROR", "clip externo", f"{usuario} no ha dado permiso (estado: {ficha.get('permiso')})"))
-    elif ficha.get("permiso") == "politica" and not ficha.get("politica_url"):
-        h.append(Hallazgo("ERROR", "clip externo", f"{usuario}: falta la URL de su política de clips"))
-    if not clip.get("url"):
-        h.append(Hallazgo("ERROR", "clip externo", "falta la URL del clip original"))
-    credito = f"clip: {usuario}".lower()
-    for red in p.get("redes", []):
-        if credito not in normalizar((p.get("textos") or {}).get(red, "")):
-            h.append(Hallazgo("ERROR", f"texto {red}", f"falta el crédito «Clip: {usuario}»"))
+    clips = clip if isinstance(clip, list) else [clip]
+    maximo = reglas().get("clips_creadores", {}).get("max_cita_s", 10)
+    for c in clips:
+        usuario = (c.get("creador") or "").strip()
+        if not usuario:
+            h.append(Hallazgo("ERROR", "clip externo", "falta «creador» (@usuario)"))
+            continue
+        ficha = next((x for x in creadores() if x.get("usuario", "").lower() == usuario.lower()), {})
+        permiso = ficha.get("permiso", "cita")
+        if permiso == "no":
+            h.append(Hallazgo("ERROR", "clip externo", f"{usuario} ha pedido que no se usen sus clips"))
+        if not c.get("url"):
+            h.append(Hallazgo("ERROR", "clip externo", f"{usuario}: falta la URL del clip original"))
+        if permiso not in PERMISOS_VALIDOS:
+            dur = c.get("duracion_s")
+            if dur is None:
+                h.append(Hallazgo("ERROR", "clip externo", f"{usuario}: apunta «duracion_s» del fragmento usado"))
+            elif float(dur) > maximo:
+                h.append(Hallazgo("ERROR", "clip externo",
+                                  f"{usuario}: {dur} s sin permiso; en modo cita el máximo es {maximo} s"))
+        credito = f"clip: {usuario}".lower()
+        for red in p.get("redes", []):
+            if credito not in normalizar((p.get("textos") or {}).get(red, "")):
+                h.append(Hallazgo("ERROR", f"texto {red}", f"falta el crédito «Clip: {usuario}»"))
     return h
 
 

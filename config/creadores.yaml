@@ -3,10 +3,10 @@
 # correo o enlace a su política de clips) se guarda en trabajo/permisos/<usuario>.* y no se sube.
 #
 # permiso:
-#   escrito        → el creador ha dicho que sí por DM o correo (Pablo pide el permiso a mano)
+#   cita           → (por defecto, sin pedir permiso) fragmento ≤ 10 s, crédito y edición propia encima
+#   escrito        → el creador ha dicho que sí por DM o correo
 #   politica       → su canal publica que permite clips con crédito (apunta la URL en «politica_url»)
-#   pendiente      → se ha pedido y no ha contestado: NO se publica
-#   no             → ha dicho que no: NO se publica
+#   no             → ha pedido que no se usen o que se retire: NO se publica y se retira lo publicado
 # credito: cómo se le menciona en el texto («Clip: @usuario»).
 creadores: []
 #  - nombre: "Ejemplo"
