@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: revisada
 fecha: 2026-12-10 10:00
 tema_hashtag: '#JuegoDelAño'
 objetivo: 'comentar (un solo juego: tu juego del año)'
@@ -66,3 +66,7 @@ historial:
   estado: disenada
   quien: Claude
   nota: 32-1.jpg single + mini
+- fecha: 2026-11-19 09:27
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok (aviso de datos: pieza de comunidad, no afirma datos)'

@@ -26,3 +26,7 @@ People/Boobie Ike/Boobie_Ike_03.jpg # bailarina de barra al fondo (contenido sex
 Places/Grassrivers/Grassrivers_04.jpg # hombre con rifle en una camioneta y coches patrulla
 Places/Vice City/Vice_City_17.jpg # redada policial con armas y una figura tendida
 Places/Grassrivers/Grassrivers_03.jpg # mujer (quizá Lucia) apuntando con escopeta a un caimán
+Places/Grassrivers/Grassrivers_01.jpg # rifles a la vista y animales abatidos (caimán, lince): armas + caza
+Places/Grassrivers/Grassrivers_06.jpg # hombre con escopeta en primer plano y caimán colgado: armas + caza
+Places/Grassrivers/Grassrivers_07.jpg # cuchillo en primer plano y caimán muerto
+Places/Grassrivers/Grassrivers_08.jpg # hombre con escopeta al hombro en un hidrodeslizador acechando un caimán: armas + caza

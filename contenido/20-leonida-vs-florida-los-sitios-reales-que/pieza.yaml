@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: revisada
 fecha: 2026-11-28 10:00
 tema_hashtag: '#Florida'
 objetivo: guardar
@@ -126,3 +126,8 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'director: diapositiva 4 cambiada a Grassrivers_02 (la 04 tiene un rifle); hay que actualizar Metricool'
+- fecha: 2026-11-19 09:27
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok (20-4 con Grassrivers_02, sin armas). Ojo: Grassrivers_02 sale también en la 22 (30/11); no
+    hay otra de Grassrivers sin armas. Actualizar Metricool'

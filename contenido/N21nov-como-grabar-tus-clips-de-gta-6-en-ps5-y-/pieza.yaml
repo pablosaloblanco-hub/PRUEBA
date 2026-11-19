@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: revisada
 fecha: 2026-11-21 10:00
 tema_hashtag: '#PS5'
 objetivo: guardar (guía útil) y, de paso, que manden su clip por DM
@@ -131,3 +131,7 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'director: captura con escopeta sustituida; hay que actualizar Metricool'
+- fecha: 2026-11-19 09:27
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok (N21nov-3 con Leonida_Keys_04, sin armas). Actualizar Metricool'
