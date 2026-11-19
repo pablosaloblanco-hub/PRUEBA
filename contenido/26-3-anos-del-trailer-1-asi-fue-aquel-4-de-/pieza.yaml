@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-12-04 10:00
 tema_hashtag: '#GTA6Trailer'
 objetivo: compartir (mandar el post a quien vio el tráiler 1 contigo aquel día)
@@ -29,7 +29,12 @@ textos:
     visitas en YouTube en 24 h 📅 Comenta dónde estabas cuando lo viste y mándaselo a quien lo vio contigo 👇 #GTA6
     #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Trailer #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
 titulo_tiktok: 'Hoy hace 3 años del tráiler 1 de GTA 6: ¿dónde estabas cuando lo viste? 📅'
-medios: []
+medios:
+- 26-1.jpg
+- 26-2.jpg
+- 26-3.jpg
+- 26-4.jpg
+- 26-5.jpg
 drive: {}
 metricool: {}
 enlaces: {}
@@ -101,3 +106,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: 'redactor: textos IG/TikTok y guion de diseño (5 diapositivas)'
+- fecha: 2026-11-19 08:01
+  estado: disenada
+  quien: Claude
+  nota: 'diseñador: JPG generados con la plantilla, hoja de contacto revisada a ojo'

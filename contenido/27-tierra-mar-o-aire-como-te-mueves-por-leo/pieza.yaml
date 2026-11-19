@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-12-05 10:00
 tema_hashtag: '#GTA6Vehiculos'
 objetivo: 'comentar (T, M o A: cómo te mueves por Leonida)'
@@ -22,7 +22,8 @@ textos:
   tiktok: 'Tierra, mar o aire: ¿cómo te mueves tú por Leonida en GTA 6? 🚗🚤🚁 Comenta T, M o A 👇 #GTA6 #GTAVI #GTA6Español
     #ViceCity #Leonida #GTA6Vehiculos #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial'
 titulo_tiktok: 'Tierra, mar o aire: ¿cómo te mueves por Leonida en GTA 6? Comenta T, M o A 👇'
-medios: []
+medios:
+- 27-1.jpg
 drive: {}
 metricool: {}
 enlaces: {}
@@ -62,3 +63,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: 'redactor: textos IG/TikTok y guion de la suelta con mini()'
+- fecha: 2026-11-19 08:01
+  estado: disenada
+  quien: Claude
+  nota: 'diseñador: JPG generados con la plantilla, hoja de contacto revisada a ojo'
