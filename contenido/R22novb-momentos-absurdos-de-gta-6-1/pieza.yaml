@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-22 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -16,21 +16,21 @@ textos:
   instagram: |-
     Lo más absurdo de mi partida de GTA 6 🤡
 
-    Aterrizo el hidroavión con el ala casi en el agua, derrapo en el agua como si fuera hielo, llego nadando tarde a mi propio vuelo, cruzo la carretera en modo Frogger, cambio de coche porque el otro ya no me gusta y acabo en un camión que me quedo. Leonida no estaba preparada. ¿Cuál es el más absurdo? Comenta el número 👇 y etiqueta a quien juega igual de raro.
+    Cruzo la carretera entre los faros en modo Frogger, dejo la camioneta porque ya no me gusta, me quedo un coche rojo, me bajo del coche rojo porque tampoco, y el GPS diciendo «ve a casa» mientras me llevo un camión con tráiler sin carnet de camión. Una noche cualquiera en Leonida. ¿Cuál es el más absurdo? Comenta el número 👇 y etiqueta a quien cambia de coche igual que de idea.
 
     Solo en el juego: en la vida real, se cruza por el paso de peatones.
 
     Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
     #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
-  tiktok: 'Lo más absurdo de mi partida de GTA 6 🤡 (solo en el juego, eh). ¿Cuál es el más absurdo? Comenta el número
-    👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan
-    · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  tiktok: 'Lo más absurdo de mi partida de GTA 6 🤡: Frogger, coche rojo, «este tampoco» y un camión que me quedo
+    (solo en el juego, eh). ¿Cuál es el más absurdo? Comenta el número 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida
+    #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
   youtube: |-
-    Lo más absurdo de mi partida de GTA 6 🤡 Un hidroavión que aterriza como puede, un derrape en el agua, una carrera a nado, cruzar la carretera en modo Frogger y un camión que me quedo. ¿Cuál es el más absurdo? Comenta el número 👇 Solo en el juego: en la vida real, por el paso de peatones.
+    Lo más absurdo de mi partida de GTA 6 🤡 Cruzar la carretera en modo Frogger, cambiar la camioneta por un coche rojo, dejar el coche rojo y acabar con un camión con tráiler en Vice City. ¿Cuál es el más absurdo? Comenta el número 👇 Solo en el juego: en la vida real, por el paso de peatones.
 
     Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
     #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
-titulo_tiktok: Lo más absurdo de mi partida de GTA 6 en Leonida 🤡 ¿Cuál es el más absurdo?
+titulo_tiktok: 'Lo más absurdo de mi partida de GTA 6: de Frogger al camión 🤡 ¿Cuál es el más absurdo?'
 titulo_youtube: 'Lo más absurdo de mi partida de GTA 6 🤡 ¿Cuál es el más absurdo? #Shorts'
 medios:
 - R22novb-momentos-absurdos-de-gta-6-1.mp4
@@ -72,3 +72,11 @@ historial:
     buscar otro gancho. 3) Nocturnos ilegibles: #4 12,0-13,0 s casi negro, #5 16,0-17,5 s, #6 21,0-23,0 s: aclarar
     o cambiar. 4) Reescribir IG/TikTok/YouTube sin el hidroavión. OK: ROMPER LA VENTANA y Sube a tu coche fuera
     de encuadre en #5, sin violencia ni atropellos, audio sin original.'
+- fecha: 2026-11-19 14:50
+  estado: redactada
+  quien: Claude
+  nota: 'redactor: textos v2'
+- fecha: 2026-11-19 14:50
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v2'
