@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-20 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -13,34 +13,42 @@ datos_usados:
 - Plataformas
 capturas: []
 textos:
-  instagram: 'Las físicas de GTA 6 no tienen piedad 🤡
+  instagram: |-
+    Las físicas de GTA 6 no tienen piedad 🤡
 
-
-    Bajarse del coche en marcha, parkour de nivel olímpico, un camión que aparece de la nada y una señal que no volverá a ser la misma. Todo normal en Vice City. ¿Cuál te ha dolido más? Comenta el número 👇 y etiqueta a quien conduce igual que tú en Leonida.
-
+    Una furgoneta en el puente, un segundo choque con trompo de regalo, un salto de valla de nivel olímpico, una carrera junto a un camión volcado, una roca que me deja a dos ruedas y un derrape de noche que iba a salir perfecto. Todo normal en Vice City. ¿Cuál te ha dolido más? Comenta el número 👇 y etiqueta a quien conduce igual que tú en Leonida.
 
     Solo en el juego: en la vida real, cinturón y con calma.
 
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+  tiktok: 'Las físicas de GTA 6: furgoneta, trompo, valla, roca y derrape 🤡 (solo en el juego, eh). ¿Cuál te ha
+    dolido más? Comenta el número 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes:
+    Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    Las físicas de GTA 6 no perdonan 🤡 Un choque en el puente, un trompo, un salto de valla, un camión volcado, un coche a dos ruedas y un derrape de noche en Vice City. ¿Cuál te ha dolido más? Comenta el número 👇 Solo en el juego: en la vida real, con calma.
 
     Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
-
-    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay'
-  tiktok: 'Las físicas de GTA 6 no perdonan 🤡 (solo en el juego, eh). ¿Cuál te ha dolido más? Comenta el número 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
-  youtube: 'Las físicas de GTA 6 no perdonan 🤡 Caídas, parkour, un camión en mitad de la calzada y una señal derribada en Vice City. ¿Cuál te ha dolido más? Comenta el número 👇 Solo en el juego: en la vida real, con calma.
-
-
-    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
-
-    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts'
-titulo_tiktok: Las físicas de GTA 6 en Vice City no perdonan 🤡 ¿Cuál te ha dolido más?
-titulo_youtube: 'Las físicas de GTA 6 no perdonan 🤡 ¿Cuál te ha dolido más? #Shorts'
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: 'Las físicas de GTA 6 en Vice City: hasta a dos ruedas 🤡 ¿Cuál te ha dolido más?'
+titulo_youtube: 'Las físicas de GTA 6: hasta a dos ruedas 🤡 ¿Cuál te ha dolido más? #Shorts'
 medios:
 - R20novd-las-fisicas-de-gta-6-1.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'v2 (tras devolución del revisor): fuera la caída del coche del sheriff (17:24, sangre) y el derrape de 10:47 (policía persiguiendo). Concepto: recopilatorio de físicas absurdas (choques, trompos, saltos, vuelcos y derrapes) con memes, sonidos propios, zoom y temblor; repetición a cámara lenta del #1 y cierre con pregunta. Modo cuadrado, título en pantalla «LAS FÍSICAS DE GTA 6 🤡». Fuente: gta6_20261119_c.mp4. Tramos: #1 18:27.90–18:29.40 (choque contra una furgoneta en el puente; repetición 18:28.10–18:29.00 a 0,4x); #2 18:31.30–18:33.00 (segundo choque y trompo); #3 21:33.30–21:35.10 (salta una valla); #4 10:22.30–10:25.80 a 1,15x (camión volcado en la calzada); #5 10:58.10–10:59.90 (el coche pisa una roca y sale a dos ruedas); #6 37:19.90–37:22.20 con gamma 1,8 (derrape nocturno; cortado antes de que asome el marcador de destino). Memes: ESTO VA BIEN 👍, NO LO VI 😭, 💀, 2 SEGUNDOS DESPUÉS…, OTRA VEZ NO 💀, MODO PARKOUR 🤸, OLÍMPICO 🥇, TODO NORMAL EN VICE CITY 👍, ¿Y ESE CAMIÓN? 🚛, ¿QUIÉN
-  HA PUESTO ESA PIEDRA? 🪨, MODO RALLY 🏁, YO CON EL CARNET RECIÉN SACADO, PLAN PERFECTO, EJECUCIÓN… 💀; cierre «¿CUÁL TE HA DOLIDO MÁS? 👇». Música propia (musica.py, 128 bpm, tono +2). Sin audio original. Duración 16,4 s. Ojo redactor: los textos actuales citan «bajarse del coche en marcha» y «una señal», que ya no salen.'
+notas: 'v2 (tras devolución del revisor): fuera la caída del coche del sheriff (17:24, sangre) y el derrape de 10:47
+  (policía persiguiendo). Concepto: recopilatorio de físicas absurdas (choques, trompos, saltos, vuelcos y derrapes)
+  con memes, sonidos propios, zoom y temblor; repetición a cámara lenta del #1 y cierre con pregunta. Modo cuadrado,
+  título en pantalla «LAS FÍSICAS DE GTA 6 🤡». Fuente: gta6_20261119_c.mp4. Tramos: #1 18:27.90–18:29.40 (choque
+  contra una furgoneta en el puente; repetición 18:28.10–18:29.00 a 0,4x); #2 18:31.30–18:33.00 (segundo choque
+  y trompo); #3 21:33.30–21:35.10 (salta una valla); #4 10:22.30–10:25.80 a 1,15x (camión volcado en la calzada);
+  #5 10:58.10–10:59.90 (el coche pisa una roca y sale a dos ruedas); #6 37:19.90–37:22.20 con gamma 1,8 (derrape
+  nocturno; cortado antes de que asome el marcador de destino). Memes: ESTO VA BIEN 👍, NO LO VI 😭, 💀, 2 SEGUNDOS
+  DESPUÉS…, OTRA VEZ NO 💀, MODO PARKOUR 🤸, OLÍMPICO 🥇, TODO NORMAL EN VICE CITY 👍, ¿Y ESE CAMIÓN? 🚛, ¿QUIÉN HA PUESTO
+  ESA PIEDRA? 🪨, MODO RALLY 🏁, YO CON EL CARNET RECIÉN SACADO, PLAN PERFECTO, EJECUCIÓN… 💀; cierre «¿CUÁL TE HA
+  DOLIDO MÁS? 👇». Música propia (musica.py, 128 bpm, tono +2). Sin audio original. Duración 16,4 s. Ojo redactor:
+  los textos actuales citan «bajarse del coche en marcha» y «una señal», que ya no salen.'
 historial:
 - fecha: 2026-11-19 10:37
   estado: idea
@@ -61,4 +69,17 @@ historial:
 - fecha: 2026-11-19 14:35
   estado: aprobada
   quien: Claude
-  nota: 'revisor: DEVUELTA. 1) #1 (fuente 17:24.35-17:27.35; salida 0,0-5,0 s con la repetición): sangre en rodilla y brazo (0,6-1,0 s, 1,6 s, 4,4-4,9 s) y salta de un coche del sheriff que conducía con búsqueda activa (librea 0,0-0,3 s, rótulo SHERIFF 2,8 s): quitar el tramo y su repetición. 2) #4 (fuente 10:47.2-10:47.6; salida 9,83-10,2 s): coche de policía con luces persiguiendo, búsqueda de 2 estrellas: cambiar el tramo por otro sin policía. 3) Reescribir IG/TikTok/YouTube/titulos y gancho del primer segundo sin «bajarse del coche en marcha»; reajustar numeración y pregunta del cierre. #2, #3, #5, #6, audio y memes OK.'
+  nota: 'revisor: DEVUELTA. 1) #1 (fuente 17:24.35-17:27.35; salida 0,0-5,0 s con la repetición): sangre en rodilla
+    y brazo (0,6-1,0 s, 1,6 s, 4,4-4,9 s) y salta de un coche del sheriff que conducía con búsqueda activa (librea
+    0,0-0,3 s, rótulo SHERIFF 2,8 s): quitar el tramo y su repetición. 2) #4 (fuente 10:47.2-10:47.6; salida 9,83-10,2
+    s): coche de policía con luces persiguiendo, búsqueda de 2 estrellas: cambiar el tramo por otro sin policía.
+    3) Reescribir IG/TikTok/YouTube/titulos y gancho del primer segundo sin «bajarse del coche en marcha»; reajustar
+    numeración y pregunta del cierre. #2, #3, #5, #6, audio y memes OK.'
+- fecha: 2026-11-19 14:47
+  estado: redactada
+  quien: Claude
+  nota: 'redactor: textos v2'
+- fecha: 2026-11-19 14:47
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v2'
