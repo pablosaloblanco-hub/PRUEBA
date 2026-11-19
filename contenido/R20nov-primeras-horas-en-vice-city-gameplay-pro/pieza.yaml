@@ -4,8 +4,9 @@ formato: reel
 redes:
 - instagram
 - tiktok
+- youtube
 estado: programada
-fecha: 2026-11-20 18:00
+fecha: 2026-11-19 12:00
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (avioneta o coche) y guardar
 datos_usados:
@@ -33,7 +34,7 @@ notas: |-
   Tramos usados (v2, minuto de la grabación): 30:51 avioneta al atardecer (7 s) · 30:36 avioneta a pleno sol (6 s) · 42:20 camioneta de noche (7 s) · 46:16 coche de noche (8 s). Solo planos desde atrás: sin el rótulo «Brian's» de la avioneta.
   Descartado: créditos iniciales, todas las cinemáticas (cárcel, conversación en la lancha, hangar), el móvil del juego y la persecución de las 10:40 (diálogo malsonante). Sin audio original: los diálogos y la radio son historia o tienen licencia.
   La franja inferior (franja.png) TAPA los subtítulos de diálogo y los objetivos de misión, que son historia. Gancho 0–3,2 s (gancho.png) y pregunta final (cierre.png). Música propia generada por código (musica.py), sin derechos.
-  Publicación: 20/11 18:00. En Instagram sustituye a la publicación N20nov de las 10:00 (máximo 1 de feed al día); en TikTok se suma a N20nov.
+  Publicación: adelantada al 19/11 12:00 en Instagram, TikTok y Short de YouTube a petición de Pablo (19/11), por encima del máximo diario de Instagram. N20nov vuelve a salir en Instagram el 20/11 a las 10:00.
   V2 (19/11, director): devuelta la v1 por el revisor — los tramos de lancha eran una persecución de misión con un acompañante disparando un arma larga y marcadores de objetivo. Quitados los tres tramos de lancha. La franja superior tapa ahora también la brújula y la distancia del GPS. Pregunta final: «¿Avioneta o coche?».
 historial:
 - fecha: 2026-11-19 04:27

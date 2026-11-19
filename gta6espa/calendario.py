@@ -23,7 +23,15 @@ class Programada:
 
     @property
     def grupo(self) -> str:
-        return "historia" if self.tipo == "STORY" else "feed"
+        """Grupo para el máximo diario: historia, reel (vídeo vertical) o feed."""
+        if self.tipo == "STORY":
+            return "historia"
+        return "reel" if self.tipo in ("REEL", "TRIAL_REEL", "VIDEO", "SHORT") else "feed"
+
+    @property
+    def familia(self) -> str:
+        """Para la separación mínima, Reels y publicaciones del feed cuentan juntos."""
+        return "historia" if self.grupo == "historia" else "feed"
 
 
 def _tipo(post: dict, red: str) -> str:
@@ -31,6 +39,8 @@ def _tipo(post: dict, red: str) -> str:
         return (post.get("instagramData") or {}).get("type") or "POST"
     if red == "youtube":
         return ((post.get("youtubeData") or {}).get("type") or "video").upper()
+    if any(str(m).lower().split("?")[0].endswith((".mp4", ".mov")) for m in post.get("media", [])):
+        return "VIDEO"
     return "POST"
 
 
@@ -50,7 +60,7 @@ def leer_programado(ruta: Path) -> list[Programada]:
 
 
 def _grupo_formato(formato: str) -> str:
-    return "historia" if formato == "historia" else "feed"
+    return {"historia": "historia", "reel": "reel"}.get(formato, "feed")
 
 
 def huecos(programado: list[Programada], desde: dt.date, dias: int, formato: str,
@@ -69,7 +79,8 @@ def huecos(programado: list[Programada], desde: dt.date, dias: int, formato: str
             candidato = dt.datetime.combine(dia, dt.time(hh, mm))
             if candidato <= ahora:
                 continue
-            choca = any(p.red in redes and p.grupo == grupo and abs(p.fecha - candidato) < sep
+            familia = "historia" if grupo == "historia" else "feed"
+            choca = any(p.red in redes and p.familia == familia and abs(p.fecha - candidato) < sep
                         for p in programado)
             lleno = any(_cuenta_dia(programado, red, grupo, dia) >= _maximo(red, grupo) for red in redes)
             if not choca and not lleno:
@@ -98,18 +109,18 @@ def excesos(programado: list[Programada]) -> list[tuple[dt.date, str, str, int]]
 
 def dias_vacios(programado: list[Programada], desde: dt.date, dias: int) -> list[dt.date]:
     """Días sin ninguna publicación de feed en Instagram o TikTok."""
-    con_feed = {p.fecha.date() for p in programado if p.red in ("instagram", "tiktok") and p.grupo == "feed"}
+    con_feed = {p.fecha.date() for p in programado if p.red in ("instagram", "tiktok") and p.familia == "feed"}
     return [desde + dt.timedelta(days=d) for d in range(dias) if desde + dt.timedelta(days=d) not in con_feed]
 
 
 def choques(programado: list[Programada]) -> list[tuple[Programada, Programada]]:
-    """Parejas de piezas distintas en la misma red y grupo separadas menos de lo permitido."""
+    """Parejas de piezas distintas en la misma red (feed y Reels juntos, o historias) separadas menos de lo permitido."""
     sep = dt.timedelta(minutes=reglas()["horarios"]["separacion_minima_min"])
     malos = []
     for i, a in enumerate(programado):
         for b in programado[i + 1:]:
             if b.fecha - a.fecha >= sep:
                 break
-            if a.red == b.red and a.grupo == b.grupo and a.id != b.id:
+            if a.red == b.red and a.familia == b.familia and a.id != b.id:
                 malos.append((a, b))
     return malos

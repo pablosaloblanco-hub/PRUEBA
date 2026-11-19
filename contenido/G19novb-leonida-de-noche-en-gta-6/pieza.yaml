@@ -4,7 +4,8 @@ formato: reel
 redes:
 - instagram
 - tiktok
-estado: redactada
+- youtube
+estado: programada
 fecha: 2026-11-19 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (¿de día o de noche?) y guardar
@@ -29,11 +30,13 @@ medios:
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'Vídeo de 27 s (720×1280) con el gameplay de Pablo del 19/11. Tramos (minuto de la grabación): 42:38 camioneta
-  por el pueblo (8 s) · 46:28 coche de noche (7 s) · 46:38 coche de noche (6 s) · 42:56 camioneta en la carretera
-  (6 s). Distintos de los del Reel R20nov (42:20 y 46:16). Sin audio original; música propia (musica.py 29 s, 104
-  BPM, +2 semitonos). Franjas de 400 px abajo y 240 px arriba: tapan subtítulos, objetivos y GPS. Publicación extra
-  pedida por Pablo el 19/11 (segunda de las dos de hoy), a las 20:30.'
+notas: 'Vídeo de 23,5 s (720×1280) con el gameplay de Pablo del 19/11. Tramos v2 (minuto de la grabación): 42:38
+  camioneta por el pueblo (8 s) · 46:38 coche de noche (6 s) · 42:57,5 camioneta en carretera abierta (9,5 s). Quitado
+  el tramo de 46:28 (choques con chispas, devuelto por el revisor); el último plano empieza 1,5 s más tarde para
+  no ver a los ocupantes y acaba antes de que salga el móvil del juego (43:08). Distintos de los del Reel R20nov
+  (42:20 y 46:16). Sin audio original; música propia (musica.py 29 s, 104 BPM, +2 semitonos). Franjas de 400 px
+  abajo y 240 px arriba: tapan subtítulos, objetivos y GPS. Publicación extra pedida por Pablo el 19/11 (segunda
+  de las dos de hoy), a las 20:30.'
 historial:
 - fecha: 2026-11-19 10:00
   estado: idea
@@ -58,3 +61,19 @@ historial:
     chispas y piezas volando a 9,0-9,5 s, 10,25 s y 11,0-11,5 s; parece conducción temeraria o persecución y contradice
     ''solo conducir''. Sustituir c2 por un tramo tranquilo y volver a montar. Revisar también 21,0-22,0 s (c4):
     se ven dos ocupantes en la cabina de la camioneta.'
+- fecha: 2026-11-19 10:09
+  estado: disenada
+  quien: Claude
+  nota: 'director: v2 sin los choques; móvil del juego recortado'
+- fecha: 2026-11-19 10:13
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok (v2, 23,5 s; sin choques, sin ocupantes visibles, sin móvil del juego, solo música propia)'
+- fecha: 2026-11-19 10:15
+  estado: subida
+  quien: Claude
+  nota: 'director: MP4 subido a Drive'
+- fecha: 2026-11-19 10:15
+  estado: programada
+  quien: Claude
+  nota: 'director: Reel IG + TikTok + Short de YouTube 19/11 20:30 (YouTube a petición de Pablo)'

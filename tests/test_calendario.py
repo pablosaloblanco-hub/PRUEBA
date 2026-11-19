@@ -51,3 +51,14 @@ def test_borradores_no_cuentan(tmp_path):
     ruta = tmp_path / "p.json"; ruta.write_text(json.dumps(datos))
     prog = calendario.leer_programado(ruta)
     assert len(prog) == 1 and calendario.choques(prog) == [] and calendario.excesos(prog) == []
+
+
+def test_reels_tienen_su_propio_maximo(tmp_path):
+    datos = [_post(1, "2030-04-01T10:00:00", "instagram", "POST"),
+             _post(2, "2030-04-01T11:30:00", "instagram", "REEL"),
+             _post(3, "2030-04-01T20:30:00", "instagram", "REEL")]
+    ruta = tmp_path / "p.json"; ruta.write_text(json.dumps(datos))
+    prog = calendario.leer_programado(ruta)
+    assert calendario.excesos(prog) == []
+    assert all(h.date() != dt.date(2030, 4, 1) for h in calendario.huecos(prog, dt.date(2030, 4, 1), 2, "reel", ["instagram"]))
+    assert [h.strftime("%d %H:%M") for h in calendario.huecos(prog, dt.date(2030, 4, 2), 1, "reel", ["instagram"])] == ["02 11:30", "02 20:30"]
