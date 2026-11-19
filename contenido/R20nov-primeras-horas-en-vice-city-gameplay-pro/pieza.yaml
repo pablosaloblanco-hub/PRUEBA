@@ -4,7 +4,7 @@ formato: reel
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: revisada
 fecha: 2026-11-20 18:00
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (avioneta o coche) y guardar
@@ -64,3 +64,7 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'director: v2 sin lancha, GPS tapado, textos actualizados'
+- fecha: 2026-11-19 04:42
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok'
