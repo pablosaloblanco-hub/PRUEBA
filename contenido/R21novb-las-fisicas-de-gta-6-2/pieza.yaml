@@ -6,7 +6,7 @@ redes:
 - tiktok
 - youtube
 estado: disenada
-fecha: 2026-11-21 20:30
+fecha: 2026-11-19 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
 datos_usados:
@@ -37,15 +37,9 @@ medios:
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'Concepto: «GTA 6 contra las farolas», recopilatorio de choques contra farolas, postes y semáforos con memes,
-  sonidos propios, zoom y temblor; repetición a cámara lenta del #1 y cierre con pregunta. Modo cuadrado, título
-  «GTA 6 CONTRA LAS FAROLAS 💡». Fuente: gta6_20261119_c.mp4. Tramos: #1 10:12.70–10:16.20 (deportivo contra un poste,
-  cámara de choque; repetición 10:12.95–10:14.05 a 0,4x); #2 30:17.30–30:19.10 (de noche, tira un semáforo entre
-  chispas); #3 11:18.20–11:20.90 a 1,1x (atajo entre los arbustos); #4 30:40.30–30:42.40 (de noche, choque contra
-  un camión); #5 03:03.50–03:06.50 (pick-up que derriba una farola). Memes: ESPERA AL #5 💀, LA FAROLA: 1 YO: 0,
-  💀, DE NOCHE NO SE VE NADA 🌙, BRO 💀, ATAJO 🌳, EL GPS: RECALCULANDO…, -1 COCHE, MI SEGURO VIENDO ESTO 😭, ¿QUIÉN
-  ME HA PUESTO ESA FAROLA?, -1 FAROLA 💡; cierre «¿QUIÉN GANA: YO O LAS FAROLAS? 👇». Música propia (musica.py, 136
-  bpm, tono -3). Sin audio original. Duración 17,6 s.'
+notas: |-
+  Concepto: «GTA 6 contra las farolas», recopilatorio de choques contra farolas, postes y semáforos con memes, sonidos propios, zoom y temblor; repetición a cámara lenta del #1 y cierre con pregunta. Modo cuadrado, título «GTA 6 CONTRA LAS FAROLAS 💡». Fuente: gta6_20261119_c.mp4. Tramos: #1 10:12.70–10:16.20 (deportivo contra un poste, cámara de choque; repetición 10:12.95–10:14.05 a 0,4x); #2 30:17.30–30:19.10 (de noche, tira un semáforo entre chispas); #3 11:18.20–11:20.90 a 1,1x (atajo entre los arbustos); #4 30:40.30–30:42.40 (de noche, choque contra un camión); #5 03:03.50–03:06.50 (pick-up que derriba una farola). Memes: ESPERA AL #5 💀, LA FAROLA: 1 YO: 0, 💀, DE NOCHE NO SE VE NADA 🌙, BRO 💀, ATAJO 🌳, EL GPS: RECALCULANDO…, -1 COCHE, MI SEGURO VIENDO ESTO 😭, ¿QUIÉN ME HA PUESTO ESA FAROLA?, -1 FAROLA 💡; cierre «¿QUIÉN GANA: YO O LAS FAROLAS? 👇». Música propia (musica.py, 136 bpm, tono -3). Sin audio original. Duración 17,6 s.
+  Adelantada al 19/11 20:30 a petición de Pablo (19/11).
 historial:
 - fecha: 2026-11-19 10:37
   estado: idea
