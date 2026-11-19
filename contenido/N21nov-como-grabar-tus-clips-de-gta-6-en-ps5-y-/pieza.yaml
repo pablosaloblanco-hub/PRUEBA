@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: programada
+estado: disenada
 fecha: 2026-11-21 10:00
 tema_hashtag: '#PS5'
 objetivo: guardar (guía útil) y, de paso, que manden su clip por DM
@@ -14,7 +14,7 @@ datos_usados:
 capturas:
 - Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_01.jpg
 - Places/Leonida Keys/Leonida_Keys_01.jpg
-- Places/Grassrivers/Grassrivers_03.jpg
+- Places/Leonida Keys/Leonida_Keys_04.jpg
 - Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_06.jpg
 - Places/Leonida Keys/Leonida_Keys_07.jpg
 - Places/Vice City/Vice_City_19.jpg
@@ -95,6 +95,7 @@ notas: |-
     botones: (send, MANDA TU CLIP) · (save, GUARDA) · (users, COMPARTE)
 
   DISEÑO (diseñador): portada con title size=120 y foto desplazada (pos 25%) para que se vea el piloto entero. Cierre: subtítulo partido en 3 líneas con <br> («Por DM y sin spoilers 🎬 / Compartimos los mejores mencionándote / ¿Juegas en Xbox Series X/S? También vale»): se quitan los dos puntos y el « · », mismo contenido. Resto sin cambios.
+  CAPTURA (director, 19/11): Grassrivers_03 sustituida por Places/Leonida Keys/Leonida_Keys_04.jpg: una mujer, quizá Lucia, apunta con una escopeta a un caimán. Bloqueada.
 historial:
 - fecha: 2026-11-18 16:08
   estado: idea
@@ -126,3 +127,7 @@ historial:
   estado: programada
   quien: Claude
   nota: ''
+- fecha: 2026-11-19 09:24
+  estado: disenada
+  quien: Claude
+  nota: 'director: captura con escopeta sustituida; hay que actualizar Metricool'

@@ -15,7 +15,7 @@ def foto(ruta: str) -> str:
 
 F1 = foto("Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_01.jpg")
 F2 = foto("Places/Leonida Keys/Leonida_Keys_01.jpg")
-F3 = foto("Places/Grassrivers/Grassrivers_03.jpg")
+F3 = foto("Places/Leonida Keys/Leonida_Keys_04.jpg")
 F4 = foto("Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_06.jpg")
 F5 = foto("Places/Leonida Keys/Leonida_Keys_07.jpg")
 F6 = foto("Places/Vice City/Vice_City_19.jpg")

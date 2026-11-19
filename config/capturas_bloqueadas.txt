@@ -22,3 +22,7 @@ Places/Port Gellhorn/Port_Gellhorn_04.jpg # cartel del club de striptease
 Places/Port Gellhorn/Port_Gellhorn_07.jpg # club de striptease
 People/Brian Heder/Brian_Heder_01.jpg # probablemente sale Jason (conductor joven con gorra roja del revés)
 People/Boobie Ike/Boobie_Ike_03.jpg # bailarina de barra al fondo (contenido sexual)
+# Criterio sin armas ni violencia (19/11): fotos con armas a la vista
+Places/Grassrivers/Grassrivers_04.jpg # hombre con rifle en una camioneta y coches patrulla
+Places/Vice City/Vice_City_17.jpg # redada policial con armas y una figura tendida
+Places/Grassrivers/Grassrivers_03.jpg # mujer (quizá Lucia) apuntando con escopeta a un caimán

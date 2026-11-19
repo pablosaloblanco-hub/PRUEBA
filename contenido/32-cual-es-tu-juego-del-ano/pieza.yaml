@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-12-10 10:00
 tema_hashtag: '#JuegoDelAño'
 objetivo: 'comentar (un solo juego: tu juego del año)'
@@ -47,6 +47,8 @@ notas: |-
             ("x", "SIN SPOILERS", "Tampoco de otros juegos")])
     píldora magenta (cta): COMENTA TU JUEGO DEL AÑO 👇
     (Pieza de comunidad: no afirma ningún dato del juego.)
+
+  DISEÑO (diseñador, 19/11): 32-1.jpg con single() + mini() de 3 casillas, textos del guion sin cambios. Sin nombre del personaje ni «GOTY». El encuadre vertical deja fuera a la chica del fondo de la captura.
 historial:
 - fecha: 2026-11-19 07:54
   estado: idea
@@ -60,3 +62,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de la suelta en notas
+- fecha: 2026-11-19 09:22
+  estado: disenada
+  quien: Claude
+  nota: 32-1.jpg single + mini

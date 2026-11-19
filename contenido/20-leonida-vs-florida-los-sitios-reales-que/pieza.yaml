@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: programada
+estado: disenada
 fecha: 2026-11-28 10:00
 tema_hashtag: '#Florida'
 objetivo: guardar
@@ -15,7 +15,7 @@ capturas:
 - Places/Grassrivers/Grassrivers_05.jpg
 - Places/Vice City/Vice_City_03.jpg
 - Places/Leonida Keys/Leonida_Keys_01.jpg
-- Places/Grassrivers/Grassrivers_04.jpg
+- Places/Grassrivers/Grassrivers_02.jpg
 - Places/Port Gellhorn/Port_Gellhorn_06.jpg
 - Places/Vice City/Vice_City_11.jpg
 textos:
@@ -68,7 +68,7 @@ notas: |-
     ("info", "DATO", "1 de 6 zonas", "Una de las 6 zonas de Leonida que ha presentado Rockstar.", "mag")
 
   4/6 · info(img, label, sublabel, cards, 4, 6)
-  - img: Places/Grassrivers/Grassrivers_04.jpg
+  - img: Places/Grassrivers/Grassrivers_02.jpg (sustituye a Grassrivers_04: rifle y coches patrulla)
   - label: «GRASSRIVERS» · sublabel: «COMO LOS EVERGLADES»
   - cards:
     ("pin", "EQUIVALENTE REAL", "Everglades", "El gran pantano de Florida, en versión Leonida.", "ye")
@@ -122,3 +122,7 @@ historial:
   estado: programada
   quien: Claude
   nota: ''
+- fecha: 2026-11-19 09:23
+  estado: disenada
+  quien: Claude
+  nota: 'director: diapositiva 4 cambiada a Grassrivers_02 (la 04 tiene un rifle); hay que actualizar Metricool'

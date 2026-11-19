@@ -11,7 +11,7 @@ def salida(nombre: str) -> str:
 
 
 # La plantilla mete la ruta en url() sin comillas: los espacios se codifican con quote().
-FOTO = 'Places/Grassrivers/Grassrivers_03.jpg'
+FOTO = 'Places/Ambrosia/Ambrosia_04.jpg'
 
 render([
     (story(quote(FOTO), 'LEONIDA VS FLORIDA',

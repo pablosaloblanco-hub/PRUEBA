@@ -18,7 +18,7 @@ TOTAL = 6
 F1 = foto("Places/Grassrivers/Grassrivers_05.jpg")
 F2 = foto("Places/Vice City/Vice_City_03.jpg")
 F3 = foto("Places/Leonida Keys/Leonida_Keys_01.jpg")
-F4 = foto("Places/Grassrivers/Grassrivers_04.jpg")
+F4 = foto("Places/Grassrivers/Grassrivers_02.jpg")
 F5 = foto("Places/Port Gellhorn/Port_Gellhorn_06.jpg")
 F6 = foto("Places/Vice City/Vice_City_11.jpg")
 

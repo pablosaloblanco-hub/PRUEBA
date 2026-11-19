@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: redactada
+estado: disenada
 fecha: 2026-12-09 10:00
 tema_hashtag: '#GuiaGTA6'
 objetivo: guardar (lista de 9 cosas para hacer en Leonida sin tocar la historia)
@@ -82,6 +82,9 @@ notas: |-
   - título (brocha): ¿Cuántas llevas de 9?
   - subtítulo: Comenta tu número y guarda la lista para cuando llegues 👇
   - acciones: ("chat", "COMENTA") · ("save", "GUARDA") · ("send", "COMPARTE")
+
+  DISEÑO (diseñador, 19/11): 3/5 usa Grassrivers_05 (pantano con la ciudad al fondo) en vez de Grassrivers_03: en la 03 el del hidrodeslizador apunta con una escopeta a un caimán (arma + caza).
+  Subetiqueta cian de 2/5, 3/5 y 4/5 acortada de «MARCA CUÁNTAS LLEVAS · 0X–0Y» a «MÁRCALOS · 0X–0Y» (01–03, 04–06, 07–09): la larga pisaba la marca de agua «GTA 6 ESPAÑOL · @gta6espa».
 historial:
 - fecha: 2026-11-19 07:54
   estado: idea
@@ -95,3 +98,7 @@ historial:
   estado: redactada
   quien: Claude
   nota: textos IG/TikTok y guion de 5 diapositivas
+- fecha: 2026-11-19 09:22
+  estado: disenada
+  quien: Claude
+  nota: 5 JPG; Grassrivers_03 cambiada por Grassrivers_05 (arma); subetiqueta cian acortada

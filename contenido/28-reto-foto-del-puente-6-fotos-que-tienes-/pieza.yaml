@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: disenada
+estado: revisada
 fecha: 2026-12-06 10:00
 tema_hashtag: '#RetoFotoGTA6'
 objetivo: guardar (la lista de las 6 fotos del reto para hacerlas durante el puente)
@@ -103,3 +103,7 @@ historial:
   estado: disenada
   quien: Claude
   nota: diseño con plantilla oficial; hoja de contacto revisada
+- fecha: 2026-11-19 09:24
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok'
