@@ -6,7 +6,7 @@ redes:
 - tiktok
 - youtube
 estado: programada
-fecha: 2026-11-19 20:30
+fecha: 2026-11-19 14:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (¿de día o de noche?) y guardar
 datos_usados:
@@ -30,13 +30,9 @@ medios:
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'Vídeo de 23,5 s (720×1280) con el gameplay de Pablo del 19/11. Tramos v2 (minuto de la grabación): 42:38
-  camioneta por el pueblo (8 s) · 46:38 coche de noche (6 s) · 42:57,5 camioneta en carretera abierta (9,5 s). Quitado
-  el tramo de 46:28 (choques con chispas, devuelto por el revisor); el último plano empieza 1,5 s más tarde para
-  no ver a los ocupantes y acaba antes de que salga el móvil del juego (43:08). Distintos de los del Reel R20nov
-  (42:20 y 46:16). Sin audio original; música propia (musica.py 29 s, 104 BPM, +2 semitonos). Franjas de 400 px
-  abajo y 240 px arriba: tapan subtítulos, objetivos y GPS. Publicación extra pedida por Pablo el 19/11 (segunda
-  de las dos de hoy), a las 20:30.'
+notas: |-
+  Vídeo de 23,5 s (720×1280) con el gameplay de Pablo del 19/11. Tramos v2 (minuto de la grabación): 42:38 camioneta por el pueblo (8 s) · 46:38 coche de noche (6 s) · 42:57,5 camioneta en carretera abierta (9,5 s). Quitado el tramo de 46:28 (choques con chispas, devuelto por el revisor); el último plano empieza 1,5 s más tarde para no ver a los ocupantes y acaba antes de que salga el móvil del juego (43:08). Distintos de los del Reel R20nov (42:20 y 46:16). Sin audio original; música propia (musica.py 29 s, 104 BPM, +2 semitonos). Franjas de 400 px abajo y 240 px arriba: tapan subtítulos, objetivos y GPS. Publicación extra pedida por Pablo el 19/11 (segunda de las dos de hoy), a las 20:30.
+  Hora movida a mano en Metricool a las 14:30 (19/11, hacia las 11:16; mismos IDs): se respeta.
 historial:
 - fecha: 2026-11-19 10:00
   estado: idea

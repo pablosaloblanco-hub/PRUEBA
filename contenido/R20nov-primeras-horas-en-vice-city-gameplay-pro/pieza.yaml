@@ -6,7 +6,7 @@ redes:
 - tiktok
 - youtube
 estado: programada
-fecha: 2026-11-19 12:00
+fecha: 2026-11-19 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (avioneta o coche) y guardar
 datos_usados:
@@ -36,6 +36,7 @@ notas: |-
   La franja inferior (franja.png) TAPA los subtítulos de diálogo y los objetivos de misión, que son historia. Gancho 0–3,2 s (gancho.png) y pregunta final (cierre.png). Música propia generada por código (musica.py), sin derechos.
   Publicación: adelantada al 19/11 12:00 en Instagram, TikTok y Short de YouTube a petición de Pablo (19/11), por encima del máximo diario de Instagram. N20nov vuelve a salir en Instagram el 20/11 a las 10:00.
   V2 (19/11, director): devuelta la v1 por el revisor — los tramos de lancha eran una persecución de misión con un acompañante disparando un arma larga y marcadores de objetivo. Quitados los tres tramos de lancha. La franja superior tapa ahora también la brújula y la distancia del GPS. Pregunta final: «¿Avioneta o coche?».
+  Hora movida a mano en Metricool a las 11:30 (19/11, hacia las 11:16; mismos IDs): se respeta.
 historial:
 - fecha: 2026-11-19 04:27
   estado: idea
