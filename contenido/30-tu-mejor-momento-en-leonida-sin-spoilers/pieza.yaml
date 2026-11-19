@@ -25,7 +25,8 @@ textos:
     de la historia 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Comunidad #parati · Imágenes: Rockstar Games
     · Cuenta fan · No oficial'
 titulo_tiktok: ¿Cuál ha sido tu mejor momento en Leonida? Sin spoilers 🌅
-medios: []
+medios:
+- 30-1.jpg
 drive: {}
 metricool: {}
 enlaces: {}
@@ -49,6 +50,7 @@ notas: |-
       línea debajo de mini (26 px, centrada, cursiva): Ej.: «el atardecer desde la carretera de la costa»
     cta (píldora magenta): CUÉNTANOSLO EN COMENTARIOS 👇
     (Sin nada de la historia del juego. Ningún lugar concreto en la imagen: la etiqueta es solo «Leonida».)
+  DISEÑO (19/11): single(size=130), título en 2 líneas; mini de 3 casillas + línea del ejemplo (26 px, cursiva). Textos sin cambios.
 historial:
 - fecha: 2026-11-19 07:54
   estado: idea

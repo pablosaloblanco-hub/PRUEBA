@@ -3,7 +3,7 @@ titulo: Historia tierra, mar o aire
 formato: historia
 redes:
 - instagram
-estado: disenada
+estado: revisada
 fecha: 2026-12-05 13:00
 tema_hashtag: '#GTA6Vehiculos'
 objetivo: comentar (votar en la encuesta y llevar a la publicación 27)
@@ -40,3 +40,7 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'diseñador: historia 1080x1920 con story(); hoja revisada'
+- fecha: 2026-11-19 08:02
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok'

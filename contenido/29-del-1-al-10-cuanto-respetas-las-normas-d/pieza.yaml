@@ -24,7 +24,8 @@ textos:
     número 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #HumorGamer #parati · Imágenes: Rockstar Games · Cuenta
     fan · No oficial'
 titulo_tiktok: 'Del 1 al 10: ¿cuánto respetas las normas de tráfico en Vice City? 🚦'
-medios: []
+medios:
+- 29-1.jpg
 drive: {}
 metricool: {}
 enlaces: {}
@@ -47,6 +48,7 @@ notas: |-
       leyenda: izquierda «<span class="mag">1</span> = ¿SEMÁFORO? ¿QUÉ SEMÁFORO?» · centro «<span class="ye">5</span> = SEGÚN EL DÍA» · derecha «<span class="cy">10</span> = CONDUCTOR EJEMPLAR»
     cta (píldora magenta): COMENTA TU NÚMERO 👇
     (Nada de atropellos, persecuciones, policía ni violencia. El chiste es solo semáforos y aparcar fatal.)
+  DISEÑO (19/11): single(size=100), título en 3 líneas; escala + leyenda de tres en una fila (26 px). Textos sin cambios.
 historial:
 - fecha: 2026-11-19 07:54
   estado: idea

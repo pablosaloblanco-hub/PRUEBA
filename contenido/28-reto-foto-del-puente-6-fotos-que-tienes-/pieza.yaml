@@ -12,7 +12,7 @@ datos_usados:
 - Historia
 capturas:
 - Places/Ambrosia/Ambrosia_04.jpg
-- Places/Grassrivers/Grassrivers_04.jpg
+- Places/Ambrosia/Ambrosia_01.jpg
 - Places/Leonida Keys/Leonida_Keys_06.jpg
 - Places/Mount Kalaga National Park/Mount_Kalaga_National_Park_04.jpg
 - People/Cal Hampton/Cal_Hampton_03.jpg
@@ -28,7 +28,12 @@ textos:
     por DM, sin spoilers 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RetoFotoGTA6 #parati · Imágenes: Rockstar
     Games · Cuenta fan · No oficial'
 titulo_tiktok: 'Reto foto del puente: 6 fotos que tienes que hacer en Leonida 📸'
-medios: []
+medios:
+- 28-1.jpg
+- 28-2.jpg
+- 28-3.jpg
+- 28-4.jpg
+- 28-5.jpg
 drive: {}
 metricool: {}
 enlaces: {}
@@ -80,6 +85,7 @@ notas: |-
   - subtítulo: Guarda el reto y mándanos tus fotos por DM. Compartimos las mejores mencionándote, con tu permiso 👇
   - acciones: ("chat", "COMENTA") · ("save", "GUARDA") · ("send", "COMPARTE")
   - rótulo pequeño sobre la foto: FOTO DE EJEMPLO
+  DISEÑO (19/11): 2/5 Grassrivers_04 → Ambrosia_01 (moteros en marcha por la carretera). Grassrivers_04 tiene a un hombre con un rifle en la camioneta y coches patrulla con sirenas: no vale (sin armas ni persecuciones). Ambrosia_01 solo salió el 2/12 (pieza 24), fuera de la semana 4-10/12. Rótulo «FOTO DE EJEMPLO» arriba a la derecha en 1/5 y 5/5. Textos sin cambios; subetiquetas «RETOS 01–02/03–04/05–06» no chocan con la marca de agua.
 historial:
 - fecha: 2026-11-19 07:54
   estado: idea
