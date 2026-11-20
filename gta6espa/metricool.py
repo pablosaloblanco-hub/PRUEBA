@@ -48,6 +48,17 @@ def info_para(p: dict, red: str) -> dict:
     media = [url_drive(p["drive"][m]) for m in p["medios"]]
     fecha = _fecha_iso(p["fecha"])
     formato = p["formato"]
+    info = _info_red(p, red, media, fecha, formato)
+    if formato == "reel":
+        portada = p.get("portada")
+        if portada and portada in (p.get("drive") or {}) and red in ("instagram", "youtube"):
+            info["videoThumbnailUrl"] = url_drive(p["drive"][portada])
+        else:
+            info["videoCoverMilliseconds"] = 1500
+    return info
+
+
+def _info_red(p: dict, red: str, media: list[str], fecha: str, formato: str) -> dict:
     if red == "instagram":
         tipo = {"historia": "STORY", "reel": "REEL"}.get(formato, "POST")
         texto = "" if formato == "historia" else p["textos"]["instagram"]

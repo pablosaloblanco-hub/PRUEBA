@@ -171,6 +171,15 @@ def cmd_efectos(a):
         print(h)
 
 
+def cmd_portada(a):
+    from . import efectos
+    p = piezas.cargar(a.id)
+    base = piezas.carpeta_trabajo(a.id)
+    salida = efectos.portada(base / p["medios"][0], a.texto, base / "portada.jpg", a.t)
+    piezas.actualizar(a.id, portada="portada.jpg")
+    print(salida)
+
+
 def cmd_tablero(a):
     todas = piezas.listar()
     cuenta = {}
@@ -193,6 +202,9 @@ def main(argv=None):
     s.add_argument("--salto", type=float, default=11, help="dB de salto mínimo")
     s = sub.add_parser("efectos", help="montar un Reel dinámico con zooms, pegatinas y sonidos"); s.set_defaults(f=cmd_efectos)
     s.add_argument("guion", help="guion.json del montaje"); s.add_argument("salida")
+
+    s = sub.add_parser("portada", help="portada JPG con texto grande para un Reel"); s.set_defaults(f=cmd_portada)
+    s.add_argument("id"); s.add_argument("--texto", required=True); s.add_argument("--t", type=float, default=1.0)
 
     s = sub.add_parser("nueva"); s.set_defaults(f=cmd_nueva)
     s.add_argument("titulo"); s.add_argument("--formato", required=True, choices=piezas.FORMATOS)

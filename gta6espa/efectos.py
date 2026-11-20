@@ -39,7 +39,8 @@ from .reglas import reglas
 
 ANCHO, ALTO, FPS = 720, 1280, 30
 SR = 44100
-ZONA_CUADRADO = (290, 1010)          # franja vertical donde va el vídeo en modo cuadrado
+ZONA_CUADRADO = (290, 1010)
+ALTO_FACECAM = 520                    # modo streamer: alto de la franja de la cámara del creador          # franja vertical donde va el vídeo en modo cuadrado
 FUENTE = "'Inter Display Black','Inter Display','Inter',sans-serif"
 EMOJI = "'Noto Color Emoji'"
 
@@ -189,6 +190,8 @@ def _marco_html(titulo: str, modo: str) -> str:
                    'text-transform:uppercase;letter-spacing:-1px;-webkit-text-stroke:6px #000;paint-order:stroke fill;'
                    f'text-shadow:0 5px 0 #ff2d55">{t}</div></div>')
     pie_top = abajo + 70 if modo == "cuadrado" else ALTO - 150
+    if modo == "streamer":
+        pie_top = ALTO - 120
     pie = (f'<div style="position:absolute;left:0;width:{ANCHO}px;top:{pie_top}px;text-align:center;'
            f'font-family:{FUENTE};color:#fff">'
            '<div style="font-size:40px;letter-spacing:1px;-webkit-text-stroke:4px #000;paint-order:stroke fill">@gta6espa</div>'
@@ -271,6 +274,9 @@ def _filtro_tramo(tr: dict, modo: str, ancho_src: int, alto_src: int) -> str:
     if modo == "llenar":
         w, h = ANCHO, ALTO
         escala = f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h}"
+    elif modo == "streamer":
+        w, h = ANCHO, ALTO - ALTO_FACECAM
+        escala = f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h}"
     else:
         w = ANCHO
         h = min(_par(ANCHO * ch / cw), ZONA_CUADRADO[1] - ZONA_CUADRADO[0] + 120)
@@ -296,12 +302,34 @@ def _filtro_tramo(tr: dict, modo: str, ancho_src: int, alto_src: int) -> str:
     contenido = ",".join(cadena)
     if modo == "llenar":
         return f"[0:v]{contenido},format=yuv420p[v]"
+    if modo == "streamer":
+        fx0, fy0, fx1, fy1 = tr.get("facecam") or [0.0, 0.0, 0.3, 0.3]
+        fw, fh = _par((fx1 - fx0) * ancho_src), _par((fy1 - fy0) * alto_src)
+        cara = [f"crop={fw}:{fh}:{int(fx0 * ancho_src)}:{int(fy0 * alto_src)}", f"setpts=(PTS-STARTPTS)/{vel}",
+                f"fps={FPS}", f"scale={ANCHO}:{ALTO_FACECAM}:force_original_aspect_ratio=increase",
+                f"crop={ANCHO}:{ALTO_FACECAM}", "setsar=1", "eq=saturation=1.1:contrast=1.04"]
+        if congelar > 0:
+            cara.append(f"tpad=stop_mode=clone:stop_duration={congelar}")
+        return (f"[0:v]split[a][b];[a]{contenido}[juego];[b]{','.join(cara)}[cara];"
+                f"[cara][juego]vstack=inputs=2,format=yuv420p[v]")
     arriba, abajo = ZONA_CUADRADO
     y = arriba + ((abajo - arriba) - h) // 2
     return (f"[0:v]{contenido},split[c][f];"
             f"[f]scale={ANCHO}:{ALTO}:force_original_aspect_ratio=increase,crop={ANCHO}:{ALTO},boxblur=22:2,"
             f"eq=brightness=-0.22:saturation=1.2[fondo];"
             f"[fondo][c]overlay=0:{y}:shortest=1,format=yuv420p[v]")
+
+
+def _audio_tramo(tr: dict, fuente: Path, ruta: Path) -> Path | None:
+    """Voz del creador en su fragmento (solo clips externos con «audio»: true). Nunca la radio ni la música."""
+    if not tr.get("audio"):
+        return None
+    ini, fin = float(tr["inicio"]), float(tr["fin"])
+    vel = float(tr.get("velocidad", 1.0))
+    filtro = f"atempo={vel}" if 0.5 <= vel <= 2 and vel != 1 else "anull"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{ini:.3f}", "-t", f"{fin - ini:.3f}", "-i", str(fuente),
+                    "-vn", "-ac", "1", "-ar", str(SR), "-af", filtro, str(ruta)], check=True)
+    return ruta
 
 
 def _render_tramo(tr: dict, fuente: Path, modo: str, ruta: Path) -> float:
@@ -362,6 +390,7 @@ def montar(ruta_guion: Path, salida: Path) -> Path:
             fuente = ruta(tr.get("fuente") or guion["fuente"])
             p = tmp / f"tramo_{i:02d}.mp4"
             d = _render_tramo(tr, fuente, modo, p)
+            tr["_audio"] = _audio_tramo(tr, fuente, tmp / f"voz_{i:02d}.wav")
             partes.append(p)
             inicios.append(t)
             t += d
@@ -380,7 +409,7 @@ def montar(ruta_guion: Path, salida: Path) -> Path:
                 fin_tramo = inicios[i + 1] if i + 1 < len(inicios) else total
                 if tr.get("contador"):
                     png = pintor.pegatina({"texto": tr["contador"], "estilo": "contador"}, tmp / f"cont_{i}.png")
-                    y = (ZONA_CUADRADO[0] + 46) / ALTO if modo == "cuadrado" else 0.16
+                    y = {"cuadrado": (ZONA_CUADRADO[0] + 46) / ALTO, "streamer": (ALTO_FACECAM + 40) / ALTO}.get(modo, 0.16)
                     capas.append((png, inicios[i], fin_tramo, (0.15, y), True, 0))
                 for k, pg in enumerate(tr.get("pegatinas", [])):
                     png = pintor.pegatina(pg, tmp / f"peg_{i}_{k}.png")
@@ -423,6 +452,13 @@ def montar(ruta_guion: Path, salida: Path) -> Path:
                            f"afade=t=out:st={fundido:.3f}:d=1.2[mus]")
             pistas.append("[mus]")
             n_in += 1
+        for i, tr in enumerate(tramos):
+            if tr.get("_audio"):
+                ms = int(inicios[i] * 1000)
+                entradas += ["-i", str(tr["_audio"])]
+                filtros.append(f"[{n_in}:a]volume={tr.get('volumen_audio', 1.0)},adelay={ms}|{ms},apad[voz{i}]")
+                pistas.append(f"[voz{i}]")
+                n_in += 1
         cache = {}
         k = 0
         for i, tr in enumerate(tramos):
@@ -465,6 +501,40 @@ def montar(ruta_guion: Path, salida: Path) -> Path:
                 break
         (salida.with_suffix(".tramos.json")).write_text(
             json.dumps({"total_s": round(total, 2), "inicios": [round(x, 2) for x in inicios]}, indent=1))
+        return salida
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def portada(video: Path, texto: str, salida: Path, t: float = 1.0, color: str = "#ffd400") -> Path:
+    """Portada JPG 1080×1920 para el Reel: un fotograma del vídeo y 2–4 palabras enormes.
+
+    Va en la cuadrícula de Instagram y como miniatura de YouTube y TikTok (videoThumbnailUrl).
+    """
+    tmp = Path(tempfile.mkdtemp(prefix="portada_"))
+    try:
+        foto = tmp / "f.jpg"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{t:.2f}", "-i", str(video), "-frames:v", "1",
+                        "-vf", "scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920", "-q:v", "2",
+                        str(foto)], check=True)
+        import base64
+        b64 = base64.b64encode(foto.read_bytes()).decode()
+        txt = html.escape(texto).replace("\\n", "<br>").replace("\n", "<br>")
+        cuerpo = (f'<div style="position:relative;width:1080px;height:1920px;background:url(data:image/jpeg;base64,{b64}) center/cover">'
+                  '<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,6,18,.15) 30%,rgba(11,6,18,.75) 100%)"></div>'
+                  '<div style="position:absolute;left:50px;right:50px;top:560px;text-align:center;'
+                  f'font-family:{FUENTE},{EMOJI};font-size:150px;line-height:.95;text-transform:uppercase;letter-spacing:-3px;'
+                  f'color:{color};-webkit-text-stroke:14px #000;paint-order:stroke fill;text-shadow:0 12px 0 rgba(0,0,0,.6);'
+                  f'transform:rotate(-3deg)">{txt}</div>'
+                  '<div style="position:absolute;left:0;right:0;bottom:120px;text-align:center;font-family:Inter;font-weight:800;'
+                  'font-size:44px;color:#fff;-webkit-text-stroke:5px #000;paint-order:stroke fill">@gta6espa</div></div>')
+        png = tmp / "p.png"
+        with _Pintor() as pintor:
+            pintor._pag.set_viewport_size({"width": 1080, "height": 1920})
+            pintor._pinta(cuerpo, png, None)
+        salida = Path(salida)
+        salida.parent.mkdir(parents=True, exist_ok=True)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(png), "-q:v", "3", str(salida)], check=True)
         return salida
     finally:
         shutil.rmtree(tmp, ignore_errors=True)
