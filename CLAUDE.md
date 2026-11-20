@@ -39,6 +39,9 @@ idea → aprobada → redactada → disenada → revisada → subida → program
 - **Aprobar** (idea → aprobada) es tuyo: comprueba que el tema encaja con el plan, no repite lo de la semana y se apoya en datos verificados. Si cambia algo de fondo (nuevo formato, tema delicado, colaboración), pregunta a Pablo.
 - Si Pablo pide revisar antes de que salga, el publicador usa createScheduledPostForReview.
 
+## Estrategia
+`docs/estrategia.md` (ángulo, ganchos, portadas, horarios, outliers, tendencias y monetización). Antes de cada pieza se leen `docs/lecciones-revisor.md` y `docs/aprendizajes.md`. Cada mañana, `/tendencias`.
+
 ## Arranque de cada sesión
 1. `scripts/preparar_sesion.sh` (con `--descargar` la primera vez, si la red permite media-rockstargames-com.akamaized.net).
 2. Plantilla: descarga de Drive «03 · Plantilla de diseño (plantilla_gta6.py)» con download_file_content y guárdala como `trabajo/plantilla_gta6.py` (copia el archivo que devuelve la herramienta, no lo reescribas a mano).
@@ -57,6 +60,9 @@ idea → aprobada → redactada → disenada → revisada → subida → program
 | `payload <id>` | peticiones listas para createScheduledPost |
 | `capturas [--zip pack]` | preparar o listar capturas permitidas |
 | `reel clips.json salida.mp4 [--musica pista]` | montar Reel vertical sin audio original |
+| `efectos guion.json salida.mp4` | Reel dinámico: memes, zooms, sonidos, modo `cuadrado`, `llenar` o `streamer` (`docs/guion-efectos.md`) |
+| `detectar <grabación> <carpeta> [--resumen] [--rangos]` | localizar juego libre y golpes en una grabación larga |
+| `portada <id> --texto "…"` | portada JPG con texto grande para un Reel |
 
 Pruebas: `python3 -m pytest -q`.
 

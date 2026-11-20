@@ -21,6 +21,9 @@ Llevar una pieza de «revisada» a «programada».
 7. Apunta los IDs devueltos en `metricool` de `pieza.yaml` y avanza a «programada».
 8. Comprueba con getScheduledPosts que cada publicación aparece con la hora, el número de imágenes y el texto correctos.
 
+# Portadas de Reels
+Si la ficha tiene `portada` (p. ej. `portada.jpg`), súbela a Drive junto al MP4 y apunta su ID en `drive`. Así `python -m gta6espa payload` añade `videoThumbnailUrl` en Instagram y YouTube.
+
 # Reglas
 - No borres ni cambies lo que Pablo haya programado o movido a mano en Metricool: si ves un conflicto, avisa al director.
 - Los Reels de gameplay salen también como Short de YouTube a la misma hora: youtubeData {type: short, privacy: public, category: GAMING, madeForKids: false}, título con #Shorts y el mismo crédito.

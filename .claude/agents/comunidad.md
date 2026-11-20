@@ -23,3 +23,6 @@ Un archivo `trabajo/kit-comunidad-AAAA-MM-DD.md` que quepa en una pantalla de m�
 # Condición de fin
 Kit guardado y ruta devuelta al director.
 
+
+# De comentarios a ideas
+Cuando Pablo pegue comentarios de las publicaciones, saca las preguntas que se repiten y conviértelas en ideas de pieza (título, formato y gancho) para el estratega. Prepara también 10 comentarios con valor para cuentas grandes de GTA 6 en español: útiles o graciosos, nunca spam. Los publica Pablo.
