@@ -1,24 +1,46 @@
 id: R23nove-reel-de-gameplay-r23nove
-titulo: Reel de gameplay R23nove
+titulo: Yo con la pick-up en GTA 6
 formato: reel
 redes:
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-23 22:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (pregunta del cierre) y etiquetar
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  tiktok: 'Yo con la pick-up en GTA 6 🛻💀: un adelantamiento en el puente, un tráiler en el que no cabía, un poste,
+    el monte y un motor echando humo (solo en el juego, eh). ¿Cuál ha sido el peor? Comenta el número 👇 #GTA6 #GTAVI
+    #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    Yo con la pick-up en GTA 6 🛻💀 Un adelantamiento de nivel dios en el puente, un tráiler en el que no cabía, un poste que alguien puso ahí, un atajo por el monte, un árbol menos y el motor echando humo en Leonida. ¿Cuál ha sido el peor? Comenta el número 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: 'Yo con la pick-up en GTA 6 🛻💀 ¿Cuál ha sido el peor? Espera al #6'
+medios:
+- R23nove-reel-de-gameplay-r23nove.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: 'v1 (editor): concepto «yo con la pick-up», recopilatorio de 6 golpes con la pick-up de la grabación g2_0439
+  (19/11) con memes, contador, zoom, temblor y sonidos propios; gancho: choque al adelantar en el puente con el
+  golpe a 0,3 s («ESPERA AL #6 💀» → «BRO 💀»); repetición a cámara lenta del choque; cierre con pregunta. Tramos
+  (g2_0439.mp4): #1 05:46.8-05:48.7 choque con un coche en el puente (+ repetición 05:46.9-05:47.7 a 0,4x); #2 04:32.9-04:35.2
+  roce contra el tráiler VITREOUS en el cruce; #3 04:29.9-04:31.4 valla y poste; #4 06:02.0-06:04.2 se mete en el
+  monte, gamma 1,3; #5 06:12.1-06:14.1 sale del monte llevándose un árbol (empieza después de 06:12.0 para que no
+  se vea a los ocupantes por el parabrisas); #6 06:30.9-06:33.0 motor echando humo. Todo antes de 06:39 (la cinemática
+  empieza en 06:39: fuera). Recorte [0.295, 0.115, 0.705, 0.80] (#2: [0.25, 0.115, 0.66, 0.80]): fuera brújula,
+  distancia, barra de vida, tarjeta del GPS («Gira a la izquierda»), minimapa y subtítulos del diálogo. Sin peatones
+  afectados, sin policía, sin letreros de la historia. Memes: ESPERA AL #6 💀, BRO 💀, MI SEGURO VIENDO ESTO 😭, ADELANTAR:
+  NIVEL DIOS 🤡, CABE, CABE 👍, NO CABÍA 💀, ¿QUIÉN HA PUESTO ESE POSTE? 🤨, EL GPS: SIGA RECTO, MODO TODOTERRENO 🌳,
+  -1 ÁRBOL 🌴, AQUÍ NO HA PASADO NADA 😇, EL MOTOR: 💨💨💨, TODO BIEN, TODO CONTROLADO 👍; cierre ¿CUÁL HA SIDO EL PEOR?
+  👇. Música propia (musica.py, 124 bpm, tono 5). Sin audio original. Duración 16,3 s, 2,73 MB, 720x1280. Guion:
+  trabajo/<id>/guion.json; hoja: trabajo/<id>/hoja_final.jpg.'
 historial:
 - fecha: 2026-11-19 21:23
   estado: idea
@@ -28,3 +50,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: Reel dinámico de gameplay (volumen máximo, Pablo 19/11)'
+- fecha: 2026-11-20 08:54
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1'
+- fecha: 2026-11-20 08:54
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1'
+titulo_youtube: 'Yo con la pick-up en GTA 6 🛻💀 ¿Cuál ha sido el peor? #Shorts'
