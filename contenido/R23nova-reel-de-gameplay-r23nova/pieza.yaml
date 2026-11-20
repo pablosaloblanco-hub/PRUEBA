@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: redactada
 fecha: 2026-11-21 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -68,4 +68,9 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1'
+- fecha: 2026-11-20 22:12
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: DEVUELTA. Marcador rosa de misión («B» con candado) visible en 3,80-3,87 s (#2, g2_2106 31:28.75-31:29.0,
+    sobre la palmera de la derecha): cortar o tapar'
 titulo_youtube: 'Cosas que solo pasan en Vice City en GTA 6 🌴 #Shorts'
