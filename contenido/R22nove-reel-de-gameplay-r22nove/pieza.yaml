@@ -1,24 +1,46 @@
 id: R22nove-reel-de-gameplay-r22nove
-titulo: Reel de gameplay R22nove
+titulo: 'POV: conduces en Vice City y no sabes frenar'
 formato: reel
 redes:
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-22 16:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (pregunta del cierre) y compartir
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  tiktok: 'POV: conduces en Vice City y no sabes frenar 🚗💀 Una moto de agua menos, un trompo, un atajo por el césped,
+    una señal volando y un camión por los pelos (solo en el juego, eh). ¿Cuál ha sido el peor? Comenta el número
+    👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan
+    · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    POV: conduces en Vice City y no sabes frenar 🚗💀 Un todoterreno contra una moto de agua, un trompo en pleno cruce, un atajo por la mediana, una señal que sale volando y un camión esquivado por los pelos. ¿Cuál ha sido el peor? Comenta el número 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: 'POV: conduces en Vice City y no sabes frenar 🚗💀 ¿Cuál ha sido el peor?'
+medios:
+- R22nove-reel-de-gameplay-r22nove.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: 'v1 (editor, grabación g2_2106.mp4 del 19/11): concepto «POV: conduces en Vice City»: cinco desastres de
+  conducción de día (todoterreno y pick-up amarilla). Gancho: el todoterreno contra la moto de agua remolcada en
+  el primer segundo (golpe a 0,25 s) con «-1 MOTO DE AGUA 🌊» y «BRO 💀»; repetición a 0,35x del golpe; cierre con
+  pregunta. Tramos (g2_2106.mp4): #1 22:15.35-22:16.15 todoterreno contra la moto de agua (recorte bajo, y0=0,30:
+  sin la valla publicitaria de arriba ni el camión «Black Holes») + repetición 22:15.40-22:15.90 a 0,35x; #2 3:15.40-3:19.40
+  trompo en el cruce a 1,2x; #3 3:19.90-3:22.30 atajo por la mediana; #4 5:20.30-5:21.30 se lleva una señal naranja
+  (corta antes de que entre el cartel del bar de la derecha); #5 8:05.00-8:08.30 derrape por la esquina y camión
+  por poco. Recortes con y0=0,11 (sin la distancia del GPS «0.14 millas» de arriba), sin minimapa, aviso de llamada
+  ni subtítulos (de 3:15 a 3:22 hay una llamada de teléfono con subtítulos en la franja de abajo: queda fuera).
+  Nivel de búsqueda del HUD (22:15) fuera de encuadre y sin coches de policía. Memes: ESTO VA BIEN 👍, -1 MOTO DE
+  AGUA 🌊, BRO 💀, MI SEGURO VIENDO ESTO 😭, MODO TROMPO 🌀, ¿DÓNDE ESTÁ EL NORTE? 🧭, EL GPS: SIGA RECTO, ATAJO POR
+  EL CÉSPED 🌱, LA SEÑAL: ADIÓS 👋, YO CON EL CARNET RECIÉN SACADO, CASI 😳; cierre ¿CUÁL HA SIDO EL PEOR? 👇. Música
+  propia (musica.py, 124 bpm, tono 5). Sin audio original. Duración 15,3 s, 2,59 MB, 720x1280. Minutos usados de
+  g2_2106: 3:15.40-3:22.30, 5:20.30-5:21.30, 8:05.00-8:08.30 y 22:15.35-22:16.15.'
 historial:
 - fecha: 2026-11-19 21:23
   estado: idea
@@ -28,3 +50,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: Reel dinámico de gameplay (volumen máximo, Pablo 19/11)'
+- fecha: 2026-11-19 21:46
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1'
+- fecha: 2026-11-19 21:46
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1'
+titulo_youtube: 'POV: conduces en Vice City y no sabes frenar 🚗💀 #Shorts'

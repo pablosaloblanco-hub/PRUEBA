@@ -1,24 +1,44 @@
 id: R23novc-reel-de-gameplay-r23novc
-titulo: Reel de gameplay R23novc
+titulo: GTA 6 pero en moto
 formato: reel
 redes:
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-23 16:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (pregunta del cierre) y etiquetar
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  tiktok: 'GTA 6 pero en moto 🏍️💀: una furgoneta, un caballito en el puente, un atajo por la selva y un arbusto
+    con mala leche (solo en el juego, eh). ¿Cuál ha dolido más? Comenta 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida
+    #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    GTA 6 pero en moto 🏍️💀 Me como una furgoneta, hago el caballito por el puente, pruebo el atajo del GPS por la selva y un arbusto me lanza contra otra furgo en Vice City. ¿Cuál ha dolido más? Comenta 👇 Solo en el juego: en la vida real, casco y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: GTA 6 pero en moto 🏍️💀 ¿Cuál ha dolido más? Espera al último
+medios:
+- R23novc-reel-de-gameplay-r23novc.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: 'v1 (editor): concepto «GTA 6 pero en moto», recopilatorio de caídas y acrobacias en moto de la grabación
+  g2_0516 (19/11) con memes, zoom, temblor y sonidos propios; gancho: choque contra la furgoneta DTH en el primer
+  segundo («ESPERA AL ÚLTIMO 💀» → «BRO 💀»); repetición a cámara lenta del rebote contra la furgo; cierre con pregunta.
+  Tramos (g2_0516.mp4): #1 00:10.3-00:12.0 choque con la furgoneta (corta antes de 00:12.2: después hay manchas
+  rojas en el suelo y el codo); #2 00:00.3-00:04.4 caballito en el puente y roce con el pretil, 1,25x; #3 01:27.6-01:29.5
+  sale de la selva a la carretera; #4 00:22.0-00:24.5 vuelve a la moto, 1,25x; #5 00:30.6-00:33.6 contra el arbusto
+  y rebote contra la furgoneta (corta antes de 00:34.0, después hay sangre en el asfalto) + repetición 00:32.5-00:33.55
+  a 0,4x. Recorte [0.295, 0.115, 0.705, 0.80] en todos: sin brújula ni distancia al destino, sin minimapa, sin la
+  notificación del móvil (abajo a la derecha) ni subtítulos. Piel ampliada a resolución completa en 11.0-12.05,
+  21-23, 85.5-86.25 y 33.3-33.6: sin sangre. Memes: ESPERA AL ÚLTIMO 💀, BRO 💀, -1 MOTO, MODO CABALLITO 🏍️, UY UY
+  UY 😬, EL GPS: ATAJO 🌴, LLEGUÉ 😎, AQUÍ NO HA PASADO NADA 😇, ESTO VA BIEN 👍, -1 ARBUSTO 🌳, Y AHORA LA FURGO 😭, BRO
+  💀💀, FÍSICAS DE GTA 6 🤡; cierre ¿CUÁL HA DOLIDO MÁS? 👇. Música propia (musica.py, 132 bpm, tono 2). Sin audio original.
+  Duración 16,9 s, 2,62 MB, 720x1280. Guion: trabajo/<id>/guion.json; hoja: trabajo/<id>/hoja_final.jpg.'
 historial:
 - fecha: 2026-11-19 21:23
   estado: idea
@@ -28,3 +48,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: Reel dinámico de gameplay (volumen máximo, Pablo 19/11)'
+- fecha: 2026-11-20 08:47
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1'
+- fecha: 2026-11-20 08:47
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1'
+titulo_youtube: 'GTA 6 pero en moto 🏍️💀 ¿Cuál ha dolido más? #Shorts'
