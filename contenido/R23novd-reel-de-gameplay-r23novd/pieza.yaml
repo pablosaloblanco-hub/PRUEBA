@@ -1,28 +1,55 @@
 id: R23novd-reel-de-gameplay-r23novd
-titulo: Reel de gameplay R23novd
+titulo: GTA 6 pero conduzco yo
 formato: reel
 redes:
 - instagram
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-22 14:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (sí o no del cierre) y etiquetar
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  instagram: ''
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  instagram: |-
+    GTA 6 pero conduzco yo 🚗💥
+
+    Una pick-up roja que decide que el carril contrario también es suyo, un cartel de Key Lento que no vi venir, un trompo en la mediana, tres conos menos, un atajo por el césped con el límite a 40 y un motor echando humo en la gasolinera. ¿Me das el carnet? Comenta sí o no 👇 y etiqueta a quien conduce igual.
+
+    Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+  tiktok: 'GTA 6 pero conduzco yo 🚗💥 Carril contrario, trompo, conos y el motor echando humo (solo en el juego,
+    eh). ¿Me das el carnet? Comenta sí o no 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati
+    · Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    GTA 6 pero conduzco yo 🚗💥 Un choque en el carril contrario, un cartel de Key Lento, un trompo en la mediana, tres conos, un atajo por el césped y el motor echando humo. ¿Me das el carnet? Comenta sí o no 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: GTA 6 pero conduzco yo 🚗💥 ¿Me das el carnet?
+medios:
+- R23novd-reel-de-gameplay-r23novd.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: |2-
-
-  Fecha cambiada de 2026-11-23 20:30 a 2026-11-22 14:30 (huecos que dejaron los Reels adelantados por Pablo el 20/11).
+notas: 'v1 (editor, grabación g2_2106.mp4 del 19/11): concepto «GTA 6 pero…» («pero conduzco yo»): seis desastres
+  de conducción de día con la pick-up roja y la amarilla. Gancho: choque lateral en el carril contrario en el primer
+  fotograma (golpe a 0,15 s) con «ESPERA AL #3 💀» y «BRO 💀»; repetición a 0,4x; cierre con pregunta. Tramos (g2_2106.mp4):
+  #1 30:56.45-30:58.00 pick-up roja contra la pick-up gris + repetición 30:56.45-30:57.15 a 0,4x (subtítulo de insultos
+  del otro conductor en la franja de abajo, fuera del recorte); #2 5:12.30-5:14.00 contra el sedán negro junto al
+  cartel «Key Lento» (nombre de lugar, no de la historia); #3 5:15.50-5:17.60 trompo en la mediana; #4 5:06.60-5:08.30
+  se lleva conos y roza un remolque; #5 3:22.50-3:24.00 sale por el césped junto a la señal de límite 40 (corta
+  antes de girar hacia la calle; peatones lejos, sin contacto); #6 5:25.40-5:27.40 llega a la gasolinera con el
+  motor echando humo. Recortes con y0=0,11 (sin brújula, distancia ni marcadores) y sin minimapa, GPS ni subtítulos.
+  Sin policía, armas, sangre ni rótulos de la historia. Memes: ESPERA AL #3 💀, BRO 💀, MI SEGURO VIENDO ESTO 😭, CARRIL
+  CONTRARIO: MI CARRIL 😎, EL GPS: GIRA A LA IZQUIERDA, YO: 💥, MODO TROMPO 🌀, Y SIGO 😤, -3 CONOS 🚧, EL REMOLQUE:
+  😐, LÍMITE: 40 YO: CÉSPED 🌱, EL MOTOR: 💨, A REPOSTAR... Y A REZAR 🙏; cierre ¿LE DAS EL CARNET? SÍ O NO 👇. Música
+  propia (musica.py, 136 bpm, tono 3). Sin audio original. Duración 15,6 s, 2,34 MB, 720x1280. Minutos usados de
+  g2_2106: 3:22.50-3:24.00, 5:06.60-5:08.30, 5:12.30-5:14.00, 5:15.50-5:17.60, 5:25.40-5:27.40 y 30:56.45-30:58.00.'
 historial:
 - fecha: 2026-11-19 21:23
   estado: idea
@@ -32,3 +59,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: Reel dinámico de gameplay (volumen máximo, Pablo 19/11)'
+- fecha: 2026-11-20 22:07
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1'
+- fecha: 2026-11-20 22:07
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1'
+titulo_youtube: 'GTA 6 pero conduzco yo 🚗💥 ¿Me das el carnet? #Shorts'

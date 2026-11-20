@@ -1,26 +1,45 @@
 id: R22novf-reel-de-gameplay-r22novf
-titulo: Reel de gameplay R22novf
+titulo: Las físicas más absurdas de GTA 6
 formato: reel
 redes:
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-21 22:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (pregunta del cierre) y compartir
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  tiktok: 'Las físicas de GTA 6 no son normales 🤡 Un camión que ni se inmuta, un coche hecho polvo que sigue arrancando,
+    saltos de canguro y derrapes en la hierba (solo en el juego, eh). ¿Qué física ha sido la mejor? Comenta el número
+    👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan
+    · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    Las físicas más absurdas de GTA 6 🤡 Choque contra un camión, un coche destrozado que sigue arrancando, saltos, bordillos y derrapes en la hierba de Vice City. ¿Qué física ha sido la mejor? Comenta el número 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: Las físicas más absurdas de GTA 6 🤡 ¿Cuál ha sido la mejor?
+medios:
+- R22novf-reel-de-gameplay-r22novf.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: |2-
-
-  Fecha cambiada de 2026-11-22 22:30 a 2026-11-21 22:30 (huecos que dejaron los Reels adelantados por Pablo el 20/11).
+notas: 'v1 (editor). Concepto: «FÍSICAS DE GTA 6 🤡», 5 momentos de físicas absurdas con el deportivo rojo, de día,
+  en conducción libre (grabación g2_1958, 19/11). Solo TikTok + Short. Gancho: choque contra el camión en el primer
+  frame con «EL CAMIÓN: 😐» y «BRO 💀», zoom, temblor, destello y boom. Tramos (g2_1958.mp4): #1 02:11.85-02:15.0
+  a 1,25x (contra el camión de reparto y rebote a la hierba; + repetición 02:13.65-02:14.75 a 0,5x); #2 02:16.5-02:19.4
+  a 1,2x (el coche destrozado sigue arrancando); #3 00:49.8-00:52.2 (salto y aterrizaje en la mediana); #4 00:42.0-00:44.2
+  (derrape contra el bordillo); #5 02:24.4-02:26.0 (derrape en la hierba). Memes: EL CAMIÓN: 😐, BRO, -1 COCHE, FÍSICAS
+  DE GTA 6, Y AÚN ARRANCA, MI SEGURO VIENDO ESTO, MODO CANGURO, 10/10 ATERRIZAJE, YO CON EL CARNET RECIÉN SACADO,
+  ¿EL BORDILLO? NI LO VI, DERRAPE EN LA HIERBA, SKILL ISSUE; cierre ¿QUÉ FÍSICA HA SIDO LA MEJOR? 👇. Matrícula personalizada
+  (texto malsonante) pixelada con seguimiento en 02:11.5-02:12.0, y #5 recortado por abajo para que no se lea al
+  congelar. HUD (brújula, distancia y minimapa) fuera del recorte; sin estrellas ni policía; el conductor del camión
+  sigue en la cabina; sin sangre ni armas. Música propia (musica.py, 132 bpm, tono 5). Sin audio original. Duración
+  16,2 s, 2,59 MB, 720x1280. Guion: trabajo/<id>/guion.json. Hoja: trabajo/<id>/hoja_fotogramas.jpg. Minutos usados
+  de g2_1958: 00:41-00:52.5, 02:11.5-02:20, 02:24-02:26.'
 historial:
 - fecha: 2026-11-19 21:23
   estado: idea
@@ -30,3 +49,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: Reel dinámico de gameplay (volumen máximo, Pablo 19/11)'
+- fecha: 2026-11-20 22:02
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1'
+- fecha: 2026-11-20 22:02
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1 (fecha 21/11 22:30 por indicación del director)'
+titulo_youtube: 'Las físicas más absurdas de GTA 6 🤡 ¿Cuál ha sido la mejor? #Shorts'

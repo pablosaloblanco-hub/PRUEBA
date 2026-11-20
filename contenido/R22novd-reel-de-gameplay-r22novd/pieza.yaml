@@ -1,28 +1,53 @@
 id: R22novd-reel-de-gameplay-r22novd
-titulo: Reel de gameplay R22novd
+titulo: Este coche ya no tiene arreglo en GTA 6
 formato: reel
 redes:
 - instagram
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-21 14:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (pregunta del cierre) y etiquetar
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  instagram: ''
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  instagram: |-
+    Este coche ya no tiene arreglo en GTA 6 💀
+
+    Un deportivo rojo, cuatro golpes y cero piedad: contra un coche blanco en plena autovía, otro roce que acaba en la hierba, el parachoques diciendo adiós y un último choque que lo deja descapotable. Espera al cuarto. ¿Cuál ha sido el peor? Comenta el número 👇 y etiqueta a quien conduce así en Vice City.
+
+    Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+  tiktok: 'Este coche ya no tiene arreglo en GTA 6 💀 (solo en el juego, eh). Espera al cuarto. ¿Cuál ha sido el
+    peor? Comenta el número 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar
+    Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    Este coche ya no tiene arreglo en GTA 6 💀 Cuatro golpes seguidos con un deportivo rojo en Vice City: el último lo deja descapotable. ¿Cuál ha sido el peor? Comenta el número 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: Este coche ya no tiene arreglo en GTA 6 💀 ¿Cuál ha sido el peor?
+medios:
+- R22novd-reel-de-gameplay-r22novd.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: |2-
-
-  Fecha cambiada de 2026-11-22 14:30 a 2026-11-21 14:30 (huecos que dejaron los Reels adelantados por Pablo el 20/11).
+notas: 'v1 (editor). Concepto: «ESTE COCHE YA NO TIENE ARREGLO 💀», 4 golpes seguidos del deportivo rojo, de día,
+  en conducción libre (grabación g2_1958, 19/11). Gancho: choque contra el coche blanco en el primer frame con «ESPERA
+  AL #4 💀» y «BRO 💀», zoom, temblor, destello y boom. Tramos (g2_1958.mp4): #1 00:29.6-00:34.4 a 1,2x (choque con
+  coche blanco en la autovía y cámara de choque); #2 00:58.9-01:01.0 (roce con un sedán y a la hierba; + repetición
+  00:59.05-00:59.95 a 0,4x); #3 01:03.2-01:05.2 (se le cae el parachoques); #4 02:21.6-02:24.4 (choque con un todoterreno
+  junto al camión y queda descapotable). Memes: ESPERA AL #4, BRO, MI SEGURO VIENDO ESTO, -1 COCHE, ESTO VA BIEN,
+  PERDÓN, NO LO VI, SKILL ISSUE, SE LE CAE EL PARACHOQUES, FÍSICAS DE GTA 6, MODO KAMIKAZE, EL COCHE YA ES UN DESCAPOTABLE;
+  cierre ¿CUÁL HA SIDO EL PEOR? 👇. Matrícula personalizada del coche (texto malsonante) pixelada con seguimiento
+  en los planos traseros (fuentes en trabajo/<id>/fuentes/). HUD (brújula, marcador y distancia, minimapa) fuera
+  del recorte; sin estrellas de búsqueda ni policía; sin peatones implicados; sin sangre ni armas. Música propia
+  (musica.py, 124 bpm, tono 2). Sin audio original. Duración 16,1 s, 2,62 MB, 720x1280. Guion: trabajo/<id>/guion.json.
+  Hoja: trabajo/<id>/hoja_fotogramas.jpg. Minutos usados de g2_1958: 00:29-00:35, 00:58.5-01:05.5, 02:21-02:25.'
 historial:
 - fecha: 2026-11-19 21:23
   estado: idea
@@ -32,3 +57,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: Reel dinámico de gameplay (volumen máximo, Pablo 19/11)'
+- fecha: 2026-11-20 22:02
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1'
+- fecha: 2026-11-20 22:02
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1 (fecha 21/11 14:30 por indicación del director)'
+titulo_youtube: 'Este coche ya no tiene arreglo en GTA 6 💀 ¿Cuál ha sido el peor? #Shorts'

@@ -1,28 +1,56 @@
 id: R23nova-reel-de-gameplay-r23nova
-titulo: Reel de gameplay R23nova
+titulo: Cosas que solo pasan en Vice City
 formato: reel
 redes:
 - instagram
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-21 20:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (pregunta del cierre) y etiquetar
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  instagram: ''
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  instagram: |-
+    Cosas que solo pasan en Vice City 🌴
+
+    Salir del coche y atravesar un seto con aterrizaje de 10, meterse en el jacuzzi del hotel con ropa y todo, colar la bola 8 y la blanca a la vez en el billar, un roce «de nada» y aparcar como si no hubiera mañana. ¿Cuál es más de Vice City? Comenta el número 👇 y etiqueta a quien haría lo mismo.
+
+    Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+  tiktok: 'Cosas que solo pasan en Vice City 🌴 Setos, jacuzzi con ropa, billar desastroso y aparcar fatal (solo
+    en el juego, eh). ¿Cuál es más de Vice City? Comenta el número 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida
+    #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    Cosas que solo pasan en Vice City 🌴 Atravesar un seto y aterrizar de cara, meterse en el jacuzzi con ropa, colar la bola 8 y la blanca a la vez, un roce de nada y aparcar fatal. ¿Cuál es más de Vice City? Comenta el número 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: Cosas que solo pasan en Vice City 🌴 ¿Cuál es más de GTA 6?
+medios:
+- R23nova-reel-de-gameplay-r23nova.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: |2-
-
-  Fecha cambiada de 2026-11-23 11:30 a 2026-11-21 20:30 (huecos que dejaron los Reels adelantados por Pablo el 20/11).
+notas: 'v1 (editor, grabación g2_2106.mp4 del 19/11): concepto «Cosas que solo pasan en Vice City»: vida diaria
+  absurda de día (seto, jacuzzi, billar, roce y aparcar). Gancho: salir del todoterreno en marcha y atravesar el
+  seto, golpe a 0,3 s con «ATRAVESAR SETOS: DESBLOQUEADO 🌳» y «BRO 💀»; repetición a 0,35x del aterrizaje; cierre
+  con pregunta. Tramos (g2_2106.mp4): #1 22:25.95-22:26.50 (salto al seto) + 22:27.15-22:27.65 (aterrizaje en el
+  aparcamiento; se quita el interior oscuro del seto 22:26.50-22:27.15) + repetición 22:27.15-22:27.65 a 0,35x;
+  #2 31:27.00-31:31.00 a 1,4x, entra en el jacuzzi del hotel con ropa; #3 19:07.40-19:11.30 a 1,2x, mete la bola
+  8 y la blanca (rótulo del minijuego «¡HAS PERDIDO!»; subtítulo y botones de abajo fuera del recorte); #4 1:00.40-1:01.70
+  roce de la pick-up amarilla con un sedán aparcado; #5 8:33.00-8:35.00 aparca empotrada en la hierba + 8:37.60-8:38.90
+  el personaje con la mano en la cabeza. Recortes con y0=0,11 (sin brújula ni marcadores) y sin minimapa, GPS ni
+  subtítulos. Revisado: piel del personaje en la caída cada 0,1 s (22:27.15-22:27.65) sin sangre; sin policía, armas
+  ni rótulos de la historia; bañistas en traje de baño, nada sexual. Memes: ATRAVESAR SETOS: DESBLOQUEADO 🌳, BRO
+  💀, ¿Y ESO? 😳, 10/10 ATERRIZAJE 🛬, YO EN EL SPA 🧖, MODO SUBMARINO 🤿, LA NEGRA... 🎱, Y LA BLANCA TAMBIÉN 💀, SKILL
+  ISSUE, ROCE DE NADA 🤏, APARCAR: NIVEL VICE CITY 🅿️, YO VIENDO LA FACTURA 😭; cierre ¿CUÁL ES MÁS DE VICE CITY?
+  👇. Música propia (musica.py, 130 bpm, tono -5). Sin audio original. Duración 15,8 s, 2,50 MB, 720x1280. Minutos
+  usados de g2_2106: 1:00.40-1:01.70, 8:33.00-8:35.00, 8:37.60-8:38.90, 19:07.40-19:11.30, 22:25.95-22:27.65 y 31:27.00-31:31.00.'
 historial:
 - fecha: 2026-11-19 21:23
   estado: idea
@@ -32,3 +60,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: Reel dinámico de gameplay (volumen máximo, Pablo 19/11)'
+- fecha: 2026-11-20 22:02
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1'
+- fecha: 2026-11-20 22:02
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1'
+titulo_youtube: 'Cosas que solo pasan en Vice City en GTA 6 🌴 #Shorts'
