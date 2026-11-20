@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: revisada
 fecha: 2026-11-21 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (nota del 1 al 10 en el cierre) y etiquetar
@@ -56,4 +56,8 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1'
+- fecha: 2026-11-20 22:09
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok'
 titulo_youtube: 'Las físicas de GTA 6: la pick-up que quería ser cabra 🐐 #Shorts'

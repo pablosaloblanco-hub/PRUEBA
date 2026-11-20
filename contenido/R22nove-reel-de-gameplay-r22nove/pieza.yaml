@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: disenada
+estado: aprobada
 fecha: 2026-11-21 16:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y compartir
@@ -47,4 +47,10 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1'
+- fecha: 2026-11-20 22:09
+  estado: aprobada
+  quien: Claude
+  nota: 'revisor: DEVUELTA. Coche de policía con luces en 2,9-4,1 s (#2, g2_2106 3:16.4-3:17.6, con estrella de
+    búsqueda); en #4 (7,97-8,97 s) lo que sale volando es el capó de la pick-up, no una señal: cambiar pegatina
+    y textos de TikTok/YouTube'
 titulo_youtube: 'POV: conduces en Vice City y no sabes frenar 🚗💀 #Shorts'

@@ -17,3 +17,5 @@ Los editores, redactores y diseñadores la leen antes de cada pieza.
 | 19/11 | R22nova v1–v2 | Peatón atropellado al subir a la acera (visible con gamma) | Con gamma alta, revisar la acera cada 0,1 s en cada choque |
 | 19/11 | R22novb v1 | Hidroavión de la misión de Brian: marcador rosa de destino y rótulo «Brian's» | Nada de tramos de misión aunque parezcan libres: marcadores rosas = misión |
 | 19/11 | R20novd v1 | Textos que hablaban de tramos ya quitados | Al cambiar un tramo, revisar los 5 textos y los títulos |
+| 20/11 | R22novd, R22novf, R23novb | Matrícula personalizada con texto grosero («ASS MAN») legible en los planos traseros | Pixelar la matrícula o cortar el plano; revisar también la imagen congelada del final |
+| 20/11 | R24novc (descartado por el editor) | Persecución de misión: brazo con arma por la ventanilla, impactos de bala y chevron rosa sobre el objetivo | Un chevron o marcador rosa sobre un vehículo = misión. Fuera el tramo entero |
