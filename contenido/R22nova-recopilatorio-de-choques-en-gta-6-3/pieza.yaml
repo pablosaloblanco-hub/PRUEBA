@@ -5,8 +5,8 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: programada
-fecha: 2026-11-21 20:30
+estado: publicada
+fecha: 2026-11-20 16:00
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
 datos_usados:
@@ -46,6 +46,7 @@ notas: |-
   V2 (19/11, editor): devuelta por el revisor por planos casi negros. Gamma por tramo: #1 1,5 · #2 1,9 · #3 1,6 · #4 1,9 · #5 1,5 en carretera y 2,0 en el choque. El #5 se parte en dos y el choque va en un plano abierto hacia la izquierda (recorte 0,10–0,52) para que se vea el barco en su remolque desde 47:44,3. Mismo remate (el barco): no hace falta reescribir los textos.
   Título cambiado (antes «Recopilatorio de choques en GTA 6 #3»): la grabación tiene pocos choques claros y casi todo es conducción nocturna con sustos.
   V3 (19/11, editor): devuelta por el revisor por un atropello en 47:43,2–47:43,8 (la camioneta sube a la acera y golpea a un peatón; el cuerpo queda en el suelo). Se quita 47:42,8–47:44,2 entero: el #5a acaba en 47:42,8 y el #5b empieza en 47:44,2 y acaba en 47:46,2. Comprobado cada 0,1 s a resolución completa y con gamma 2,0–2,2 en el encuadre de cada tramo: no se ve ningún peatón, ni golpeado ni en el suelo. Los #1–#4, revisados cada 0,2 s: sin peatones. Mismo remate (el barco) y mismo gancho «ESPERA AL #5»: no hace falta reescribir los textos.
+  Pablo la adelantó a mano en Metricool al 20/11 16:00.
 historial:
 - fecha: 2026-11-19 10:37
   estado: idea
@@ -103,3 +104,7 @@ historial:
   estado: programada
   quien: Claude
   nota: 'director: Reel IG + TikTok + Short 21/11 20:30'
+- fecha: 2026-11-20 21:59
+  estado: publicada
+  quien: Claude
+  nota: 'analista: publicado en IG, TikTok y YouTube (comprobado 20/11 23:00)'

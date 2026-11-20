@@ -5,8 +5,8 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: programada
-fecha: 2026-11-22 20:30
+estado: publicada
+fecha: 2026-11-20 14:00
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
 datos_usados:
@@ -45,6 +45,7 @@ notas: |-
   Gamma para los planos de noche: #1 1,8 · #2 1,9 (puerta 1,7) · #3 1,7 · #4 1,7. Recorte sin brújula, distancia del GPS, marcadores, minimapa, avisos, subtítulos ni objetivos. Sin cinemáticas, diálogos, armas ni atropellos.
   V2 (19/11, editor): devuelta por el revisor (rótulo «Brian's» en el fuselaje, marcador rosa de destino y misión del hidroavión de Brian). Quitados enteros los tramos del hidroavión y la natación (32:00,6–32:03,6, 32:20,9–32:22,7 y 29:44–29:51). Nuevo gancho: cruzar la carretera entre los faros. Nuevo tramo #3 (46:44,2–46:50,8). No repite tramos con R22nova ni con R20nov (46:38–46:44).
   Descartados de la grabación: la huida del atraco (10:15–11:08, historia), la lancha con disparos, 45:28 (corte de cámara sin HUD), 48:00 (pelea) y 48:13 (sacar a alguien del coche).
+  Pablo la adelantó a mano en Metricool al 20/11 14:00.
 historial:
 - fecha: 2026-11-19 10:37
   estado: idea
@@ -95,3 +96,7 @@ historial:
   estado: programada
   quien: Claude
   nota: 'director: Reel IG + TikTok + Short 22/11 20:30'
+- fecha: 2026-11-20 21:59
+  estado: publicada
+  quien: Claude
+  nota: 'analista: publicado en IG, TikTok y YouTube (comprobado 20/11 23:00)'

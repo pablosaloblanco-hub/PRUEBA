@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: programada
+estado: publicada
 fecha: 2026-11-20 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -114,3 +114,7 @@ historial:
   estado: programada
   quien: Claude
   nota: 'director: Reel IG + TikTok + Short 20/11 20:30'
+- fecha: 2026-11-20 21:59
+  estado: publicada
+  quien: Claude
+  nota: 'analista: publicado en IG, TikTok y YouTube (comprobado 20/11 23:00)'

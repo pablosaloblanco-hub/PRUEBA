@@ -6,7 +6,7 @@ redes:
 - tiktok
 - youtube
 estado: disenada
-fecha: 2026-11-22 11:30
+fecha: 2026-11-21 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (nota del 1 al 10 en el cierre) y etiquetar
 datos_usados:
@@ -36,19 +36,9 @@ medios:
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'v1 (editor, grabación g2_2106.mp4 del 19/11): concepto «Físicas de GTA 6»: una sola carrera de la pick-up
-  amarilla con cuatro desastres seguidos, de día. Gancho: el golpe contra la palmera en el primer fotograma (crash
-  cam) con «ESPERA AL #4 💀» y «BRO 💀»; repetición a 0,45x del momento en que la pick-up se sube a la palmera; cierre
-  con pregunta. Tramos (g2_2106.mp4): #1 8:13.97-8:17.60 se sube a la palmera (empieza en 8:13.97 para no enseñar
-  el marcador de GPS «480 pies», visible hasta 8:13.95) + repetición 8:14.32-8:15.52 a 0,45x; #2 8:17.75-8:19.90
-  bote y aterrizaje en la carretera; #3 8:19.90-8:22.50 choque contra la pick-up blanca que remolca una barca; #4
-  8:26.60-8:30.00 roce con el sedán blanco y se lleva una señal. Recorte central: sin GPS, minimapa, aviso de Pay
-  ''n'' Spray ni subtítulos (de 8:19 a 8:30 hay diálogo con palabrotas en la franja de abajo: queda fuera). Memes:
-  ESPERA AL #4 💀, BRO 💀, LA PICK-UP: MODO CABRA 🐐, FÍSICAS DE GTA 6 🤡, ¿Y ESTO? 😳, 10/10 ATERRIZAJE 🛬, EL GPS: SIGA
-  RECTO, -1 BARCA 🚤, MI SEGURO VIENDO ESTO 😭, PERDÓN 🙏, -1 SEÑAL ⚠️, SKILL ISSUE; cierre ¿QUÉ NOTA LE DAS AL CONDUCTOR?
-  👇. Sonidos: boom, cristal, risas, whoosh, bonk, bocina, golpe, error, scratch. Música propia (musica.py, 132 bpm,
-  tono 2). Sin audio original. Duración 17,0 s, 2,68 MB, 720x1280. Guion: trabajo/<id>/guion.json; hoja: trabajo/<id>/hoja_fotogramas.jpg.
-  Minutos usados de g2_2106: 8:13.97-8:22.50 y 8:26.60-8:30.00.'
+notas: |-
+  v1 (editor, grabación g2_2106.mp4 del 19/11): concepto «Físicas de GTA 6»: una sola carrera de la pick-up amarilla con cuatro desastres seguidos, de día. Gancho: el golpe contra la palmera en el primer fotograma (crash cam) con «ESPERA AL #4 💀» y «BRO 💀»; repetición a 0,45x del momento en que la pick-up se sube a la palmera; cierre con pregunta. Tramos (g2_2106.mp4): #1 8:13.97-8:17.60 se sube a la palmera (empieza en 8:13.97 para no enseñar el marcador de GPS «480 pies», visible hasta 8:13.95) + repetición 8:14.32-8:15.52 a 0,45x; #2 8:17.75-8:19.90 bote y aterrizaje en la carretera; #3 8:19.90-8:22.50 choque contra la pick-up blanca que remolca una barca; #4 8:26.60-8:30.00 roce con el sedán blanco y se lleva una señal. Recorte central: sin GPS, minimapa, aviso de Pay 'n' Spray ni subtítulos (de 8:19 a 8:30 hay diálogo con palabrotas en la franja de abajo: queda fuera). Memes: ESPERA AL #4 💀, BRO 💀, LA PICK-UP: MODO CABRA 🐐, FÍSICAS DE GTA 6 🤡, ¿Y ESTO? 😳, 10/10 ATERRIZAJE 🛬, EL GPS: SIGA RECTO, -1 BARCA 🚤, MI SEGURO VIENDO ESTO 😭, PERDÓN 🙏, -1 SEÑAL ⚠️, SKILL ISSUE; cierre ¿QUÉ NOTA LE DAS AL CONDUCTOR? 👇. Sonidos: boom, cristal, risas, whoosh, bonk, bocina, golpe, error, scratch. Música propia (musica.py, 132 bpm, tono 2). Sin audio original. Duración 17,0 s, 2,68 MB, 720x1280. Guion: trabajo/<id>/guion.json; hoja: trabajo/<id>/hoja_fotogramas.jpg. Minutos usados de g2_2106: 8:13.97-8:22.50 y 8:26.60-8:30.00.
+  Fecha cambiada de 2026-11-22 11:30 a 2026-11-21 11:30 (huecos que dejaron los Reels adelantados por Pablo el 20/11).
 historial:
 - fecha: 2026-11-19 21:23
   estado: idea
