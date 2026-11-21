@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: disenada
+estado: programada
 fecha: 2026-11-22 22:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -58,4 +58,16 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v2 sin el anuncio'
+- fecha: 2026-11-21 10:04
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok v2 (nuevo #3 sin anuncio ni HUD; 6,0-9,2 s revisados a 30 fps)'
+- fecha: 2026-11-21 10:05
+  estado: subida
+  quien: Claude
+  nota: 'director: MP4 subido a Drive'
+- fecha: 2026-11-21 10:05
+  estado: programada
+  quien: Claude
+  nota: 'director: programado 2026-11-22 22:30'
 titulo_youtube: 'Yo con la pick-up en GTA 6 🛻💀 ¿Cuál ha sido el peor? #Shorts'

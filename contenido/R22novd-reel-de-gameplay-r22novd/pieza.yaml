@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: programada
 fecha: 2026-11-21 14:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -65,4 +65,17 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v2 matrícula desde el fotograma 0'
+- fecha: 2026-11-21 10:03
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok v2 (matrícula pixelada desde el fotograma 0; repetición y congelados revisados fotograma a
+    fotograma)'
+- fecha: 2026-11-21 10:05
+  estado: subida
+  quien: Claude
+  nota: 'director: MP4 subido a Drive'
+- fecha: 2026-11-21 10:05
+  estado: programada
+  quien: Claude
+  nota: 'director: programado 2026-11-21 14:30'
 titulo_youtube: 'Este coche ya no tiene arreglo en GTA 6 💀 ¿Cuál ha sido el peor? #Shorts'

@@ -1,5 +1,7 @@
 # Lecciones del revisor (gauntlet)
 
+**Criterio del director (21/11) sobre tramos de misión:** cuenta lo que SE VE en el vídeo final. Conducir o pasear durante una misión vale si en pantalla no aparece nada de ella: ni marcadores, chevrons ni rutas rosas, ni objetivos, subtítulos o diálogos, ni rótulos de la historia, ni personajes de la trama, ni acción de misión (persecuciones, tiros o robos con violencia), ni cinemáticas. El recorte puede quitar el HUD. Lo que no vale es un elemento de la misión que se ve dentro del mundo (como el marcador rosa sobre la palmera o el hidroavión de Brian).
+
 Cada vez que el revisor devuelve una pieza, añade aquí una línea: fecha, pieza, qué falló y cómo se evita.
 Los editores, redactores y diseñadores la leen antes de cada pieza.
 

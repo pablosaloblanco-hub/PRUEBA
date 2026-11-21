@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-21 16:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y compartir
@@ -12,12 +12,12 @@ datos_usados:
 - Plataformas
 capturas: []
 textos:
-  tiktok: 'POV: conduces en Vice City y no sabes frenar 🚗💀 Una moto de agua menos, un trompo, un atajo por el césped,
-    una señal volando y un camión por los pelos (solo en el juego, eh). ¿Cuál ha sido el peor? Comenta el número
-    👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan
-    · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  tiktok: 'POV: conduces en Vice City y no sabes frenar 🚗💀 Una moto de agua menos, salir de la gasolinera con la
+    puerta abierta y el motor echando humo, un atajo por el césped, un capó volando y un camión por los pelos (solo
+    en el juego, eh). ¿Cuál ha sido el peor? Comenta el número 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+    #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
   youtube: |-
-    POV: conduces en Vice City y no sabes frenar 🚗💀 Un todoterreno contra una moto de agua, un trompo en pleno cruce, un atajo por la mediana, una señal que sale volando y un camión esquivado por los pelos. ¿Cuál ha sido el peor? Comenta el número 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+    POV: conduces en Vice City y no sabes frenar 🚗💀 Un todoterreno contra una moto de agua, salir de la gasolinera con la puerta abierta y el motor echando humo, un atajo por la mediana, un capó que sale volando y un camión esquivado por los pelos. ¿Cuál ha sido el peor? Comenta el número 👇 Solo en el juego: en la vida real, despacio y con cabeza.
 
     Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
     #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
@@ -27,9 +27,22 @@ medios:
 drive: {}
 metricool: {}
 enlaces: {}
-notas: |-
-  v1 (editor, grabación g2_2106.mp4 del 19/11): concepto «POV: conduces en Vice City»: cinco desastres de conducción de día (todoterreno y pick-up amarilla). Gancho: el todoterreno contra la moto de agua remolcada en el primer segundo (golpe a 0,25 s) con «-1 MOTO DE AGUA 🌊» y «BRO 💀»; repetición a 0,35x del golpe; cierre con pregunta. Tramos (g2_2106.mp4): #1 22:15.35-22:16.15 todoterreno contra la moto de agua (recorte bajo, y0=0,30: sin la valla publicitaria de arriba ni el camión «Black Holes») + repetición 22:15.40-22:15.90 a 0,35x; #2 3:15.40-3:19.40 trompo en el cruce a 1,2x; #3 3:19.90-3:22.30 atajo por la mediana; #4 5:20.30-5:21.30 se lleva una señal naranja (corta antes de que entre el cartel del bar de la derecha); #5 8:05.00-8:08.30 derrape por la esquina y camión por poco. Recortes con y0=0,11 (sin la distancia del GPS «0.14 millas» de arriba), sin minimapa, aviso de llamada ni subtítulos (de 3:15 a 3:22 hay una llamada de teléfono con subtítulos en la franja de abajo: queda fuera). Nivel de búsqueda del HUD (22:15) fuera de encuadre y sin coches de policía. Memes: ESTO VA BIEN 👍, -1 MOTO DE AGUA 🌊, BRO 💀, MI SEGURO VIENDO ESTO 😭, MODO TROMPO 🌀, ¿DÓNDE ESTÁ EL NORTE? 🧭, EL GPS: SIGA RECTO, ATAJO POR EL CÉSPED 🌱, LA SEÑAL: ADIÓS 👋, YO CON EL CARNET RECIÉN SACADO, CASI 😳; cierre ¿CUÁL HA SIDO EL PEOR? 👇. Música propia (musica.py, 124 bpm, tono 5). Sin audio original. Duración 15,3 s, 2,59 MB, 720x1280. Minutos usados de g2_2106: 3:15.40-3:22.30, 5:20.30-5:21.30, 8:05.00-8:08.30 y 22:15.35-22:16.15.
-  Fecha cambiada de 2026-11-22 16:30 a 2026-11-21 16:30 (huecos que dejaron los Reels adelantados por Pablo el 20/11).
+notas: 'v2 (editor, tras la revisión): fuera el antiguo #2 (trompo 3:15.40-3:19.40: coche de policía con luces y
+  estrella de búsqueda). Nuevo #2 8:03.10-8:05.00: la pick-up sale de la gasolinera con la puerta abierta y el motor
+  echando humo (empieza en 8:03.10 para que no salga el aviso «Servicios»; sin policía ni estrellas). En el #4 lo
+  que sale volando es el capó: pegatina «EL CAPÓ: ADIÓS 👋» y textos de TikTok y YouTube corregidos (ni trompo ni
+  señal). Congelados un poco más largos en #3, #4 y #5 y cierre de 2,8 s para llegar a 15 s. Concepto «POV: conduces
+  en Vice City»: cinco desastres de conducción de día (todoterreno y pick-up amarilla). Gancho: el todoterreno contra
+  la moto de agua remolcada en el primer segundo (golpe a 0,25 s) con «-1 MOTO DE AGUA 🌊» y «BRO 💀»; repetición
+  a 0,35x; cierre con pregunta. Tramos (g2_2106.mp4): #1 22:15.35-22:16.15 todoterreno contra la moto de agua (recorte
+  bajo, y0=0,30) + repetición 22:15.40-22:15.90 a 0,35x; #2 8:03.10-8:05.00 salida de la gasolinera con humo; #3
+  3:19.90-3:22.30 atajo por la mediana (sin estrellas de búsqueda, comprobado; subtítulos de la llamada fuera del
+  recorte); #4 5:20.30-5:21.30 sale volando el capó; #5 8:05.00-8:08.30 derrape y camión por poco. Recortes con
+  y0=0,11 (sin brújula ni marcadores) y sin minimapa, GPS ni subtítulos. Memes: ESTO VA BIEN 👍, -1 MOTO DE AGUA
+  🌊, BRO 💀, MI SEGURO VIENDO ESTO 😭, PUERTA ABIERTA, MOTOR EN HUMO 💨, TODO BIEN 👍, EL GPS: SIGA RECTO, ATAJO POR
+  EL CÉSPED 🌱, EL CAPÓ: ADIÓS 👋, YO CON EL CARNET RECIÉN SACADO, CASI 😳; cierre ¿CUÁL HA SIDO EL PEOR? 👇. Música
+  propia (musica.py, 124 bpm, tono 5). Sin audio original. Duración 15,1 s, 2,51 MB, 720x1280. Minutos usados de
+  g2_2106: 3:19.90-3:22.30, 5:20.30-5:21.30, 8:03.10-8:08.30 y 22:15.35-22:16.15 (3:15.40-3:19.40 ya no se usa).'
 historial:
 - fecha: 2026-11-19 21:23
   estado: idea
@@ -53,4 +66,12 @@ historial:
   nota: 'revisor: DEVUELTA. Coche de policía con luces en 2,9-4,1 s (#2, g2_2106 3:16.4-3:17.6, con estrella de
     búsqueda); en #4 (7,97-8,97 s) lo que sale volando es el capó de la pick-up, no una señal: cambiar pegatina
     y textos de TikTok/YouTube'
+- fecha: 2026-11-21 10:04
+  estado: redactada
+  quien: Claude
+  nota: 'editor: v2 textos (capó, sin trompo)'
+- fecha: 2026-11-21 10:04
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v2'
 titulo_youtube: 'POV: conduces en Vice City y no sabes frenar 🚗💀 #Shorts'
