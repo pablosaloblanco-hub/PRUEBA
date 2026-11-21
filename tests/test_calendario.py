@@ -91,3 +91,10 @@ def test_clip_externo_modo_cita(monkeypatch):
     assert any("no se usen" in h.mensaje for h in validar.validar_clip_externo(p))
     p["textos"]["instagram"] = "sin crédito"
     assert any("Clip: @alguien" in h.mensaje for h in validar.validar_clip_externo(p))
+
+
+def test_ia_exige_aviso():
+    from gta6espa import validar
+    p = {"id": "x", "formato": "reel", "redes": ["tiktok"], "ia": True, "medios": [], "titulo_tiktok": "t",
+         "textos": {"tiktok": "hola"}}
+    assert any("IA" in h.mensaje for h in validar.validar_pieza(p))

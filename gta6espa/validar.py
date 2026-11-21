@@ -217,6 +217,10 @@ def validar_clip_externo(p: dict) -> list[Hallazgo]:
 def validar_pieza(p: dict) -> list[Hallazgo]:
     from .piezas import carpeta_trabajo
     h: list[Hallazgo] = validar_clip_externo(p)
+    if p.get("ia"):
+        for red in p.get("redes", []):
+            if "voces generadas con ia" not in normalizar((p.get("textos") or {}).get(red, "")):
+                h.append(Hallazgo("ERROR", f"texto {red}", "contenido con IA: falta «Parodia fan · Voces generadas con IA»"))
     formato = p["formato"]
     if formato != "historia":
         for red in p["redes"]:

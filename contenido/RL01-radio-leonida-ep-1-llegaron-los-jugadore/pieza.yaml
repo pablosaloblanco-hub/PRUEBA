@@ -1,0 +1,51 @@
+id: RL01-radio-leonida-ep-1-llegaron-los-jugadore
+titulo: 'Radio Leonida · Ep. 1: Llegaron los jugadores'
+formato: reel
+redes:
+- instagram
+- tiktok
+- youtube
+estado: idea
+fecha: null
+tema_hashtag: '#RadioLeonida'
+objetivo: comentar (pregunta del día) y seguir la sección
+datos_usados:
+- Lugares de Vice City (Ocean Beach)
+capturas: []
+textos:
+  instagram: |-
+    Radio Leonida 🎙️ El podcast de los NPC de Vice City
+
+    Episodio 1: llegaron los jugadores. Mari, la de los batidos de Ocean Beach, y Chuy, taxista (sin taxi desde el miércoles), comentan lo que está pasando en la ciudad: pick-ups en palmeras, gente en el jacuzzi con zapatos y señales de tráfico por los suelos.
+
+    Pregunta del día: ¿qué es lo más absurdo que has hecho en tu primera hora en Vice City? Cuéntalo en comentarios 👇 y síguenos para el episodio 2.
+
+    Parodia fan · Voces generadas con IA · Personajes inventados, no son de Rockstar. Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RadioLeonida
+  tiktok: 'Radio Leonida 🎙️ Ep. 1: los NPC de Vice City hablan de los jugadores (y no salen bien parados). ¿Qué
+    es lo más absurdo que has hecho en tu primera hora? Comenta 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RadioLeonida
+    #parati · Parodia fan · Voces generadas con IA · Personajes inventados, no son de Rockstar. Imágenes: Rockstar
+    Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    Radio Leonida 🎙️ Ep. 1: llegaron los jugadores. Mari y Chuy, dos vecinos de Vice City, comentan el caos del primer día de GTA 6: pick-ups en palmeras, jacuzzis con zapatos y señales por los suelos. ¿Qué es lo más absurdo que has hecho en tu primera hora? Comenta 👇
+
+    Parodia fan · Voces generadas con IA · Personajes inventados, no son de Rockstar. Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #RadioLeonida #Shorts
+titulo_tiktok: 'Radio Leonida 🎙️ Ep. 1: los NPC de Vice City hablan de los jugadores'
+medios:
+- RL01-radio-leonida-ep-1-llegaron-los-jugadore.mp4
+drive: {}
+metricool: {}
+enlaces: {}
+notas: 'Sección nueva «Radio Leonida» (Pablo, 21/11): mini-podcast de NPC inventados (Mari y Chuy) con voces sintéticas
+  (espeak-ng + MBROLA es3/es4, sin imitar a nadie real). Guion en trabajo/<id>/guion_podcast.json; montaje con gta6espa/podcast.py.
+  61 s, 720×1280, música propia baja. B-roll de g2_2106 ya publicado en Reels: 8:13.97–8:17.6 (palmera), 31:27.0–31:28.6
+  (jacuzzi, antes del marcador de 31:28.70), 8:26.6–8:30.0 (señal); fondo 0:52–1:10. Pendiente del visto bueno de
+  Pablo antes de revisar y programar.'
+historial:
+- fecha: 2026-11-21 17:31
+  estado: idea
+  quien: Claude
+  nota: creada
+ia: true
+titulo_youtube: 'Radio Leonida 🎙️ Ep. 1: los NPC de GTA 6 hablan de los jugadores #Shorts'

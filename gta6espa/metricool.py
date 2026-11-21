@@ -49,6 +49,13 @@ def info_para(p: dict, red: str) -> dict:
     fecha = _fecha_iso(p["fecha"])
     formato = p["formato"]
     info = _info_red(p, red, media, fecha, formato)
+    if p.get("ia"):  # voces o imagen generadas con IA: las tres redes exigen declararlo
+        if red == "instagram":
+            info["instagramData"]["isAiGenerated"] = True
+        elif red == "tiktok":
+            info["tiktokData"]["isAigc"] = True
+        elif red == "youtube":
+            info["youtubeData"]["isAiGeneratedContent"] = True
     if formato == "reel":
         portada = p.get("portada")
         if portada and portada in (p.get("drive") or {}) and red in ("instagram", "youtube"):
