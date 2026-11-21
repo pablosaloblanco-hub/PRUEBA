@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: idea
+estado: descartada
 fecha: null
 tema_hashtag: '#RadioLeonida'
 objetivo: comentar (pregunta del día) y seguir la sección
@@ -47,5 +47,9 @@ historial:
   estado: idea
   quien: Claude
   nota: creada
+- fecha: 2026-11-21 18:08
+  estado: descartada
+  quien: Claude
+  nota: 'Pablo: no le ha gustado el formato podcast; sección retirada (21/11)'
 ia: true
 titulo_youtube: 'Radio Leonida 🎙️ Ep. 1: los NPC de GTA 6 hablan de los jugadores #Shorts'
