@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: programada
 fecha: 2026-11-22 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -76,4 +76,16 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v2 título nuevo'
+- fecha: 2026-11-20 22:22
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok (matrícula pixelada en todos los planos, peatones de la valla sin contacto)'
+- fecha: 2026-11-21 09:57
+  estado: subida
+  quien: Claude
+  nota: 'director: MP4 subido a Drive'
+- fecha: 2026-11-21 09:59
+  estado: programada
+  quien: Claude
+  nota: 'director: programado 2026-11-22 11:30 en instagram, tiktok, youtube'
 titulo_youtube: 'Mi seguro odia GTA 6 💀 ¿Cuál ha sido el peor? #Shorts'

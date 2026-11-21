@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: disenada
+estado: programada
 fecha: 2026-11-22 16:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -46,4 +46,16 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1'
+- fecha: 2026-11-20 22:19
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok (piel revisada cada 0,1 s en las caídas, sin sangre)'
+- fecha: 2026-11-21 09:57
+  estado: subida
+  quien: Claude
+  nota: 'director: MP4 subido a Drive'
+- fecha: 2026-11-21 09:59
+  estado: programada
+  quien: Claude
+  nota: 'director: programado 2026-11-22 16:30 en tiktok, youtube'
 titulo_youtube: 'GTA 6 pero en moto 🏍️💀 ¿Cuál ha dolido más? #Shorts'

@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: disenada
+estado: programada
 fecha: 2026-11-21 22:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y compartir
@@ -57,4 +57,16 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1 (fecha 21/11 22:30 por indicación del director)'
+- fecha: 2026-11-20 22:17
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok (matrícula pixelada en #1, ilegible en #4 y fuera en #5)'
+- fecha: 2026-11-21 09:57
+  estado: subida
+  quien: Claude
+  nota: 'director: MP4 subido a Drive'
+- fecha: 2026-11-21 09:59
+  estado: programada
+  quien: Claude
+  nota: 'director: programado 2026-11-21 22:30 en tiktok, youtube'
 titulo_youtube: 'Las físicas más absurdas de GTA 6 🤡 ¿Cuál ha sido la mejor? #Shorts'

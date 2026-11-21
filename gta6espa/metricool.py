@@ -53,7 +53,7 @@ def info_para(p: dict, red: str) -> dict:
         portada = p.get("portada")
         if portada and portada in (p.get("drive") or {}) and red in ("instagram", "youtube"):
             info["videoThumbnailUrl"] = url_drive(p["drive"][portada])
-        else:
+        elif red in ("instagram", "tiktok"):
             info["videoCoverMilliseconds"] = 1500
     return info
 

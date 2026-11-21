@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: redactada
 fecha: 2026-11-21 14:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -65,4 +65,9 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1 (fecha 21/11 14:30 por indicación del director)'
+- fecha: 2026-11-20 22:16
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: DEVUELTA. Matrícula «ASS MAN» sin pixelar y legible en los 3 primeros fotogramas (0,00-0,07 s,
+    #1): el seguimiento del pixelado empieza tarde. Pixelar desde el primer fotograma o empezar el tramo después'
 titulo_youtube: 'Este coche ya no tiene arreglo en GTA 6 💀 ¿Cuál ha sido el peor? #Shorts'

@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: disenada
+estado: redactada
 fecha: 2026-11-22 22:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -48,4 +48,9 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1'
+- fecha: 2026-11-20 22:20
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: DEVUELTA. Camión publicitario «BLACK HOLES - Swallow them up whole!» (doble sentido sexual) legible
+    en 6,50-7,70 s (#3, g2_0439 4:29.9-4:31.1): recortar o cambiar el tramo'
 titulo_youtube: 'Yo con la pick-up en GTA 6 🛻💀 ¿Cuál ha sido el peor? #Shorts'
