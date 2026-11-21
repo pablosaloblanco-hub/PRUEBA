@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: redactada
+estado: disenada
 fecha: 2026-11-21 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -36,21 +36,23 @@ medios:
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'v1 (editor, grabación g2_2106.mp4 del 19/11): concepto «Cosas que solo pasan en Vice City»: vida diaria
-  absurda de día (seto, jacuzzi, billar, roce y aparcar). Gancho: salir del todoterreno en marcha y atravesar el
-  seto, golpe a 0,3 s con «ATRAVESAR SETOS: DESBLOQUEADO 🌳» y «BRO 💀»; repetición a 0,35x del aterrizaje; cierre
-  con pregunta. Tramos (g2_2106.mp4): #1 22:25.95-22:26.50 (salto al seto) + 22:27.15-22:27.65 (aterrizaje en el
-  aparcamiento; se quita el interior oscuro del seto 22:26.50-22:27.15) + repetición 22:27.15-22:27.65 a 0,35x;
-  #2 31:27.00-31:31.00 a 1,4x, entra en el jacuzzi del hotel con ropa; #3 19:07.40-19:11.30 a 1,2x, mete la bola
-  8 y la blanca (rótulo del minijuego «¡HAS PERDIDO!»; subtítulo y botones de abajo fuera del recorte); #4 1:00.40-1:01.70
-  roce de la pick-up amarilla con un sedán aparcado; #5 8:33.00-8:35.00 aparca empotrada en la hierba + 8:37.60-8:38.90
-  el personaje con la mano en la cabeza. Recortes con y0=0,11 (sin brújula ni marcadores) y sin minimapa, GPS ni
-  subtítulos. Revisado: piel del personaje en la caída cada 0,1 s (22:27.15-22:27.65) sin sangre; sin policía, armas
-  ni rótulos de la historia; bañistas en traje de baño, nada sexual. Memes: ATRAVESAR SETOS: DESBLOQUEADO 🌳, BRO
-  💀, ¿Y ESO? 😳, 10/10 ATERRIZAJE 🛬, YO EN EL SPA 🧖, MODO SUBMARINO 🤿, LA NEGRA... 🎱, Y LA BLANCA TAMBIÉN 💀, SKILL
-  ISSUE, ROCE DE NADA 🤏, APARCAR: NIVEL VICE CITY 🅿️, YO VIENDO LA FACTURA 😭; cierre ¿CUÁL ES MÁS DE VICE CITY?
-  👇. Música propia (musica.py, 130 bpm, tono -5). Sin audio original. Duración 15,8 s, 2,50 MB, 720x1280. Minutos
-  usados de g2_2106: 1:00.40-1:01.70, 8:33.00-8:35.00, 8:37.60-8:38.90, 19:07.40-19:11.30, 22:25.95-22:27.65 y 31:27.00-31:31.00.'
+notas: 'v2 (editor, tras la revisión): marcador rosa del jacuzzi fuera. v1 (editor, grabación g2_2106.mp4 del 19/11):
+  concepto «Cosas que solo pasan en Vice City»: vida diaria absurda de día (seto, jacuzzi, billar, roce y aparcar).
+  Gancho: salir del todoterreno en marcha y atravesar el seto, golpe a 0,3 s con «ATRAVESAR SETOS: DESBLOQUEADO
+  🌳» y «BRO 💀»; repetición a 0,35x del aterrizaje; cierre con pregunta. Tramos (g2_2106.mp4): #1 22:25.95-22:26.50
+  (salto al seto) + 22:27.15-22:27.65 (aterrizaje en el aparcamiento; se quita el interior oscuro del seto 22:26.50-22:27.15)
+  + repetición 22:27.15-22:27.65 a 0,35x; #2 31:27.00-31:28.70 + 31:29.05-31:31.00 a 1,4x, entra en el jacuzzi del
+  hotel con ropa (se quita 31:28.70-31:29.05 por el marcador rosa de misión sobre la palmera; comprobado cada 0,05
+  s); #3 19:07.40-19:11.30 a 1,2x, mete la bola 8 y la blanca (rótulo del minijuego «¡HAS PERDIDO!»; subtítulo y
+  botones de abajo fuera del recorte); #4 1:00.40-1:01.70 roce de la pick-up amarilla con un sedán aparcado; #5
+  8:33.00-8:35.00 aparca empotrada en la hierba + 8:37.60-8:38.90 el personaje con la mano en la cabeza. Recortes
+  con y0=0,11 (sin brújula ni marcadores) y sin minimapa, GPS ni subtítulos. Revisado: piel del personaje en la
+  caída cada 0,1 s (22:27.15-22:27.65) sin sangre; sin policía, armas ni rótulos de la historia; bañistas en traje
+  de baño, nada sexual. Memes: ATRAVESAR SETOS: DESBLOQUEADO 🌳, BRO 💀, ¿Y ESO? 😳, 10/10 ATERRIZAJE 🛬, YO EN EL SPA
+  🧖, MODO SUBMARINO 🤿, LA NEGRA... 🎱, Y LA BLANCA TAMBIÉN 💀, SKILL ISSUE, ROCE DE NADA 🤏, APARCAR: NIVEL VICE CITY
+  🅿️, YO VIENDO LA FACTURA 😭; cierre ¿CUÁL ES MÁS DE VICE CITY? 👇. Música propia (musica.py, 130 bpm, tono -5).
+  Sin audio original. Duración 15,6 s, 2,49 MB, 720x1280. Minutos usados de g2_2106: 1:00.40-1:01.70, 8:33.00-8:35.00,
+  8:37.60-8:38.90, 19:07.40-19:11.30, 22:25.95-22:27.65 y 31:27.00-31:28.70 + 31:29.05-31:31.00.'
 historial:
 - fecha: 2026-11-19 21:23
   estado: idea
@@ -73,4 +75,8 @@ historial:
   quien: Claude
   nota: 'revisor: DEVUELTA. Marcador rosa de misión («B» con candado) visible en 3,80-3,87 s (#2, g2_2106 31:28.75-31:29.0,
     sobre la palmera de la derecha): cortar o tapar'
+- fecha: 2026-11-21 10:06
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v2 sin marcador'
 titulo_youtube: 'Cosas que solo pasan en Vice City en GTA 6 🌴 #Shorts'
