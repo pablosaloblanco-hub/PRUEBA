@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: programada
 fecha: 2026-11-21 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -79,4 +79,16 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v2 sin marcador'
+- fecha: 2026-11-21 10:08
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok v2 (jacuzzi revisado a 30 fps, sin marcador rosa)'
+- fecha: 2026-11-21 10:09
+  estado: subida
+  quien: Claude
+  nota: 'director: MP4 subido a Drive'
+- fecha: 2026-11-21 10:10
+  estado: programada
+  quien: Claude
+  nota: 'director: programado 2026-11-21 20:30'
 titulo_youtube: 'Cosas que solo pasan en Vice City en GTA 6 🌴 #Shorts'
