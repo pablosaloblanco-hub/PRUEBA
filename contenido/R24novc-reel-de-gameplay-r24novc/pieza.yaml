@@ -1,26 +1,46 @@
 id: R24novc-reel-de-gameplay-r24novc
-titulo: Reel de gameplay R24novc
+titulo: Por los pelos en GTA 6
 formato: reel
 redes:
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-23 16:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (pregunta del cierre) y compartir
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  tiktok: 'Por los pelos en GTA 6 😰 Un camión de frente, una pickup que se cruza y un slalom entre camiones, y el
+    coche sin un rasguño (solo en el juego, eh). ¿Cuál ha estado más cerca? Comenta el número 👇 #GTA6 #GTAVI #GTA6Español
+    #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado
+    en PS5 por @gta6espa.'
+  youtube: |-
+    Por los pelos en GTA 6 😰 Seis casi choques seguidos en Vice City: un camión de frente, una pickup cruzándose, camiones a los lados y una furgoneta. ¿Cuál ha estado más cerca? Comenta el número 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: Por los pelos en GTA 6 😰 ¿Cuál ha estado más cerca?
+medios:
+- R24novc-reel-de-gameplay-r24novc.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: |2-
-
-  Fecha cambiada de 2026-11-24 16:30 a 2026-11-23 16:30 (huecos que dejaron los Reels adelantados por Pablo el 20/11).
+notas: 'v1 (editor). Concepto: «POR LOS PELOS 😰», 6 casi choques sin golpe, de día, en conducción libre (grabación
+  g2_1958, 19/11). Solo TikTok + Short. Gancho: camión de frente desde el primer frame con «ESPERA AL #2 😰», «EL
+  CAMIÓN: 🚛» y «CASI 😳» al cruzarse (0,75 s), con zoom, temblor y destello; repetición a 0,4x. Tramos (g2_1958.mp4):
+  #1 02:33.0-02:34.4 (camión de frente; + repetición 02:32.8-02:33.5 a 0,4x); #2 01:08.5-01:10.0 (deportivo que
+  viene de frente; + repetición 01:09.0-01:09.6 a 0,4x); #3 03:37.8-03:39.35 (pickup que se cruza); #4 01:27.0-01:29.2
+  a 1,2x (entre camiones); #5 01:41.7-01:43.7 (camión al lado); #6 01:48.9-01:49.9 (furgoneta). Memes: ESPERA AL
+  #2, EL CAMIÓN: 🚛, CASI, MI CORAZÓN, POV: CONDUCES EN VICE CITY, ¿POR QUÉ VIENE DE FRENTE?, POR UN PELO, LA PICKUP:
+  YO PASO, MODO SLALOM, ENTRE CAMIONES, ESTO VA BIEN, EL RETROVISOR: ADIÓS, SKILL; cierre ¿CUÁL HA ESTADO MÁS CERCA?
+  👇. Matrícula personalizada (texto malsonante) pixelada con seguimiento desde el fotograma 0 de cada fuente (trabajo/<id>/fuentes/),
+  comprobada fotograma a fotograma en los primeros 0,5 s de cada tramo. HUD (brújula, marcador y distancia, minimapa)
+  fuera del recorte (y0 0,12). Sin armería (nada desde 04:04), sin la policía de 18:00-18:47, sin estrellas, sin
+  peatones implicados, sin sangre ni armas. Música propia (musica.py, 130 bpm, tono -2). Sin audio original. Duración
+  15,3 s, 2,66 MB, 720x1280. Guion: trabajo/<id>/guion.json. Hoja: trabajo/<id>/hoja_fotogramas.jpg. Minutos usados
+  de g2_1958: 01:07.8-01:10.3, 01:26.5-01:29.7, 01:41.1-01:44.1, 01:48.4-01:50.4, 02:32.4-02:34.6, 03:37.4-03:39.9.'
 historial:
 - fecha: 2026-11-19 21:23
   estado: idea
@@ -30,3 +50,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: Reel dinámico de gameplay (volumen máximo, Pablo 19/11)'
+- fecha: 2026-11-23 08:21
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1'
+- fecha: 2026-11-23 08:21
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1'
+titulo_youtube: 'Por los pelos en GTA 6 😰 ¿Cuál ha estado más cerca? #Shorts'
