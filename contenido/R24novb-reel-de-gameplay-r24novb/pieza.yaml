@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: revisada
 fecha: 2026-11-23 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (el mejor de la semana) y compartir
@@ -68,4 +68,8 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1 top 5 semanal'
+- fecha: 2026-11-23 08:21
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok (congelado del jacuzzi sin marcador; «The Rusty Anchor» genérico; textos sin #n)'
 titulo_youtube: 'Lo mejor de la semana en Vice City 🏆 Top 5 de GTA 6 #Shorts'

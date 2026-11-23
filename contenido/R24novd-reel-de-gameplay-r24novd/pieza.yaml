@@ -1,28 +1,58 @@
 id: R24novd-reel-de-gameplay-r24novd
-titulo: Reel de gameplay R24novd
+titulo: El único que conduce bien en GTA 6
 formato: reel
 redes:
 - instagram
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-23 14:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (pregunta del cierre) y etiquetar
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  instagram: ''
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  instagram: |-
+    El único que conduce bien en GTA 6 😇
+
+    Manos a las 10 y 10, a 50 por ciudad, paro en el STOP, cedo el paso, intermitente puesto y mi carril respetado. Mi profe de autoescuela llorando de orgullo… hasta que llegó el puente. No duró mucho 💀 ¿Y tú conduces así en Vice City? Comenta 👇 y etiqueta a quien jura que conduce perfecto.
+
+    Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+  tiktok: 'El único que conduce bien en GTA 6 😇: STOP, ceda el paso, intermitente y a 50 por ciudad… hasta el puente
+    💀 (solo en el juego, eh). ¿Y tú conduces así? Comenta 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+    #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    El único que conduce bien en GTA 6 😇 Manos a las 10 y 10, a 50 por ciudad, paro en el STOP, cedo el paso y pongo el intermitente con el taxi y la pick-up en Vice City… hasta que llega el puente y no dura mucho 💀 ¿Y tú conduces así? Comenta 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: El único que conduce bien en GTA 6 😇 Espera al final 💀
+medios:
+- R24novd-reel-de-gameplay-r24novd.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: |2-
-
-  Fecha cambiada de 2026-11-24 20:30 a 2026-11-23 14:30 (huecos que dejaron los Reels adelantados por Pablo el 20/11).
+notas: 'v1 (editor): concepto «el único que conduce bien en GTA 6», conducción tranquila con memes irónicos de buen
+  conductor y remate con roce contra el pretil del puente; gancho: «ESPERA AL FINAL 💀» + «MANOS A LAS 10 Y 10 😇»
+  desde 0,0 s; scratch y «PERO…» antes del remate; repetición a cámara lenta del roce; cierre con pregunta. Tramos
+  (g2_0439.mp4): #1 00:00.5-00:04.5 taxi por la autovía (corta antes de 00:05.5: camión con el anuncio «BLACK HOLES»);
+  #2 02:03.6-02:06.4 taxi parado en el STOP (recorte desplazado a la derecha [0.35, 0.115, 0.76, 0.80] para que
+  se vea la señal); #3 02:10.0-02:13.0 taxi por su carril en una calle residencial; #4 18:32.5-18:34.3 pick-up por
+  la autovía (corta antes del cartel verde de 18:35); #5 18:18.4-18:20.0 la pick-up se va contra el pretil del puente
+  y derrapa de lado (+ repetición 18:18.6-18:19.3 a 0,4x). Descartados: 00:50-00:59 (peatón en el capó y rótulo
+  «BRIAN''S»), 01:44-01:57 (valla «Our shrimp is so pimp!»), 17:20-17:36 (espera de misión con marcador rosa en
+  la tienda) y 20:15-20:40 (persecución de misión). Recorte [0.295, 0.115, 0.705, 0.80]: fuera tarifa del taxi y
+  brújula de arriba, minimapa, tarjeta del GPS, notificación y subtítulos. Sin peatones afectados, sin policía,
+  sin rótulos de la historia. Aviso para el revisor: 16:45-18:55 es conducción con ruta del GPS (probablemente camino
+  de una misión), sin combate ni marcadores en el encuadre. Memes: ESPERA AL FINAL 💀, MANOS A LAS 10 Y 10 😇, A 50
+  POR CIUDAD, ME PARO EN EL STOP 🛑, CEDA EL PASO 😇, INTERMITENTE ✅, RESPETO MI CARRIL ✅, MI PROFE DE AUTOESCUELA
+  LLORANDO DE ORGULLO 🥹, PERO…, …NO DURÓ MUCHO 💀, -1 PRETIL, MI PROFE: 😐; cierre ¿Y TÚ CONDUCES ASÍ? 👇. Música propia
+  en dos partes (musica.py: 100 bpm, tono -2 tranquila hasta 11,6 s; 136 bpm, tono -2 en el remate). Sin audio original.
+  Duración 17,4 s, 2,64 MB, 720x1280. Guion: trabajo/<id>/guion.json; hoja: trabajo/<id>/hoja_final.jpg.'
 historial:
 - fecha: 2026-11-19 21:23
   estado: idea
@@ -32,3 +62,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: Reel dinámico de gameplay (volumen máximo, Pablo 19/11)'
+- fecha: 2026-11-23 08:21
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1'
+- fecha: 2026-11-23 08:21
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1'
+titulo_youtube: 'El único que conduce bien en GTA 6 😇 Espera al final 💀 #Shorts'
