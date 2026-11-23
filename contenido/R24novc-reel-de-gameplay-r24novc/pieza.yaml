@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: disenada
+estado: programada
 fecha: 2026-11-23 16:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y compartir
@@ -68,4 +68,16 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'director: v2, pegatina «EL RETROVISOR: CASI 😬»'
+- fecha: 2026-11-23 08:27
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok v2 (EL RETROVISOR: CASI cuadra con el plano y con «sin un rasguño»)'
+- fecha: 2026-11-23 08:28
+  estado: subida
+  quien: Claude
+  nota: 'director: MP4 subido a Drive'
+- fecha: 2026-11-23 08:28
+  estado: programada
+  quien: Claude
+  nota: 'director: programado 2026-11-23 16:30'
 titulo_youtube: 'Por los pelos en GTA 6 😰 ¿Cuál ha estado más cerca? #Shorts'
