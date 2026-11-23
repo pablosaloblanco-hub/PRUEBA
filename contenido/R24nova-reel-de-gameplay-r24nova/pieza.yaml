@@ -1,29 +1,55 @@
 id: R24nova-reel-de-gameplay-r24nova
-titulo: Reel de gameplay R24nova
+titulo: 'Expectativa vs realidad: el buggy en la cantera'
 formato: reel
 redes:
 - instagram
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-23 20:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (sí o no del cierre) y compartir
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  instagram: ''
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  instagram: |-
+    Expectativa vs realidad en GTA 6 ✨💀
+
+    Yo, subiendo la cantera con el buggy como un piloto de rally. También yo, diez segundos después, dando vueltas de campana y esperando a la grúa boca abajo. Te lo pongo a 0,5x y a 0,25x por si no te lo crees. ¿Le das el carnet de buggy? Comenta sí o no 👇 y etiqueta a quien conduce así.
+
+    Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+  tiktok: 'Expectativa vs realidad con el buggy en GTA 6 ✨💀 Piloto de rally… hasta que no (solo en el juego, eh).
+    ¿Le das el carnet de buggy? Comenta sí o no 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati
+    · Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    Expectativa vs realidad en GTA 6 ✨💀 Subo la cantera con el buggy como un piloto de rally y acabo dando vueltas de campana y boca abajo esperando a la grúa. ¿Le das el carnet de buggy? Comenta sí o no 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: Expectativa vs realidad con el buggy en GTA 6 ✨💀
+medios:
+- R24nova-reel-de-gameplay-r24nova.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: |2-
-
-  Fecha cambiada de 2026-11-24 11:30 a 2026-11-22 20:30 (huecos que dejaron los Reels adelantados por Pablo el 20/11).
-  Movida de 2026-11-22 20:30 a 2026-11-23 20:30: se montará con las grabaciones nuevas de Pablo (23/11 tarde).
+notas: 'v1 (editor, grabación g3_23_1746.mp4 del 23/11): formato C «Expectativa vs realidad» en modo llenar. Gancho:
+  pantalla partida desde el primer fotograma, «EXPECTATIVA ✨» arriba y «REALIDAD 💀» abajo, con el subtítulo «LO
+  QUE CREÍA QUE IBA A PASAR…»; el vuelco de abajo golpea a 1,9 s con «BRO 💀». Remate a pantalla completa con dos
+  repeticiones (0,5x y 0,25x) y un plano a 3x del buggy boca abajo; cierre con pregunta. Tramos (g3_23_1746.mp4):
+  #1 dividido, arriba 0:00.60-0:04.20 (el buggy sube la cantera; corta antes del cambio de cámara de 0:04.22) y
+  abajo 0:09.80-0:13.40 (vuelco); #2 0:11.30-0:13.90 vuelco a pantalla completa + repeticiones 0:11.50-0:12.70 a
+  0,5x y 0:11.75-0:12.35 a 0,25x; #3 0:14.20-0:20.20 a 3x, boca abajo echando humo. No se usa nada desde 0:24.00:
+  la protagonista sale del buggy a pie. Dentro de la jaula solo se le ve el brazo, de lejos y sin sangre (piel revisada
+  en 0:11.3-0:20.2). Recortes con y0=0,11 (sin la distancia del GPS ni el icono rosa de la brújula) y x0≥0,28 (sin
+  minimapa); revisado el gancho a 30 fps: sin carteles, marcadores ni policía. La matrícula del buggy es genérica.
+  Memes: EXPECTATIVA ✨, REALIDAD 💀, LO QUE CREÍA QUE IBA A PASAR…, PILOTO DE RALLY 🏁, BRO 💀, -1 BUGGY 🛞, FÍSICAS
+  DE GTA 6 🤡, MÍRALO OTRA VEZ 👀, Y OTRA 💀, YO ESPERANDO A LA GRÚA 🛻, ⏩ x3; cierre ¿LE DAS EL CARNET DE BUGGY? 👇
+  SÍ O NO. Música propia (musica.py, 138 bpm, tono 4). Sin audio original. Duración 15,4 s, 2,31 MB, 720x1280. Minutos
+  usados de g3_23_1746: 0:00.60-0:04.20 y 0:09.80-0:20.20.'
 historial:
 - fecha: 2026-11-19 21:23
   estado: idea
@@ -33,3 +59,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: Reel dinámico de gameplay (volumen máximo, Pablo 19/11)'
+- fecha: 2026-11-23 18:31
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1 (expectativa vs realidad)'
+- fecha: 2026-11-23 18:31
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1 expectativa vs realidad (g3_23_1746)'
+titulo_youtube: 'Expectativa vs realidad con el buggy en GTA 6 ✨💀 #Shorts'
