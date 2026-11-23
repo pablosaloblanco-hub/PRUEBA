@@ -1,27 +1,43 @@
 id: R24nove-reel-de-gameplay-r24nove
-titulo: Reel de gameplay R24nove
+titulo: Grassrivers en lancha
 formato: reel
 redes:
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-23 22:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: guardar y comentar (pregunta del cierre)
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  tiktok: 'Grassrivers en lancha 🐊🌿 Un rato sin prisa por el pantano de Leonida… y aparcamiento de 10 en la hierba.
+    ¿Te quedarías a vivir aquí? Comenta 👇 Solo en el juego, eh. #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+    #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    Grassrivers en lancha 🐊🌿 Un paseo tranquilo por los canales del pantano de Leonida en GTA 6, a vista de dron: agua, juncos y el ruido del motor. Y para aparcar, en la hierba, con un 10 de 10. ¿Te quedarías a vivir aquí? Comenta 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: Grassrivers en lancha 🐊🌿 ¿Te quedarías a vivir aquí?
+medios:
+- R24nove-reel-de-gameplay-r24nove.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: |2-
-
-  Fecha cambiada de 2026-11-24 22:30 a 2026-11-23 22:30 (huecos que dejaron los Reels adelantados por Pablo el 20/11).
-  23/11: se montará con las grabaciones nuevas de Pablo (tarde).
+notas: 'v1 (editor, grabación g3_20_1933.mp4): formato K «Relax / paseo bonito» (no había salto ni paso por tierra
+  con desenlace para el formato D). Concepto: paseo en lancha por los canales de Grassrivers a vista de dron, sin
+  memes, con subtítulos de narrador serenos, música tranquila y guiño final: la lancha «aparca» en la orilla de
+  hierba con sello 10/10. Gancho: plano aéreo con el sol reflejado y «POV: desconectas un rato en Grassrivers 🌅».
+  Cierre: ¿TE QUEDARÍAS A VIVIR AQUÍ? 🌿👇. Tramos (g3_20_1933.mp4): 0:05.00-0:08.00, 0:12.60-0:15.60, 2:07.00-2:10.00
+  (panorámica), 2:20.20-2:23.20, 7:41.00-7:44.00 (sol en el agua) y 6:40.80-6:49.00 a 2x (la lancha sube a la orilla
+  de hierba; empieza después del mapa de 6:35-6:39 y del primer plano de 6:40.50). Fuera: 0:40-0:55 (pantalla roja),
+  interiores de 4:45-6:00, móvil y mapas. Recorte cuadrado [0.30,0.08,0.70,0.80] (sin brújula, distancia, minimapa
+  ni avisos de «conducción automática»). Revisado a 30 fps: sin marcadores rosas, caimanes, sangre ni carteles;
+  en 0:13.0-0:14.2 cruzan espátulas rosadas (aves) por abajo a la derecha. El personaje solo se ve de lejos en la
+  lancha. Música propia tranquila (musica.py, 92 bpm, tono -3). Sin audio original. Duración 21,9 s, 2,56 MB, 720x1280.
+  Minutos usados de g3_20_1933: los de arriba.'
 historial:
 - fecha: 2026-11-19 21:23
   estado: idea
@@ -31,3 +47,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: Reel dinámico de gameplay (volumen máximo, Pablo 19/11)'
+- fecha: 2026-11-23 18:44
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1 (relax Grassrivers)'
+- fecha: 2026-11-23 18:44
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1 formato K relax (g3_20_1933)'
+titulo_youtube: 'Grassrivers en lancha en GTA 6 🐊🌿 #Shorts'
