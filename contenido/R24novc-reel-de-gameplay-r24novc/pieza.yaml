@@ -58,4 +58,14 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1'
+- fecha: 2026-11-23 08:24
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: DEVUELTA. Pegatina «EL RETROVISOR: ADIÓS» (10,7-11,7 s, #5) falsa: el retrovisor derecho sigue
+    en su sitio todo el tramo (g2_1958 1:42.6-1:43.7) y contradice «sin un rasguño» del texto de TikTok. Cambiar
+    por p. ej. «EL RETROVISOR: CASI 😬»'
+- fecha: 2026-11-23 08:26
+  estado: disenada
+  quien: Claude
+  nota: 'director: v2, pegatina «EL RETROVISOR: CASI 😬»'
 titulo_youtube: 'Por los pelos en GTA 6 😰 ¿Cuál ha estado más cerca? #Shorts'

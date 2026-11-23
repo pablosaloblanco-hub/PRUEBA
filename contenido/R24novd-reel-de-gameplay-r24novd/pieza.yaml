@@ -70,4 +70,13 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1'
+- fecha: 2026-11-23 08:24
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: DEVUELTA. Cartel verde de localidad «Abismo Key» legible en 11,30-11,60 s (#4, g2_0439 18:34.0-18:34.3;
+    asoma desde 11,10). Terminar el #4 en 18:33.9 o recortar por la derecha'
+- fecha: 2026-11-23 08:26
+  estado: disenada
+  quien: Claude
+  nota: 'director: v2, #4 termina en 18:33.9 (sin el cartel «Abismo Key»)'
 titulo_youtube: 'El único que conduce bien en GTA 6 😇 Espera al final 💀 #Shorts'
