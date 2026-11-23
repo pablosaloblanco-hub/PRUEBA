@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: programada
+estado: publicada
 fecha: 2026-11-22 22:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -26,7 +26,9 @@ medios:
 - R23nove-reel-de-gameplay-r23nove.mp4
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  tiktok: https://www.tiktok.com/@gta6espa/video/7711111623280299296
+  youtube: https://www.youtube.com/shorts/BRzEIZKLKOI
 notas: |-
   v1 (editor): concepto «yo con la pick-up», recopilatorio de 6 golpes con la pick-up de la grabación g2_0439 (19/11) con memes, contador, zoom, temblor y sonidos propios; gancho: choque al adelantar en el puente con el golpe a 0,3 s («ESPERA AL #6 💀» → «BRO 💀»); repetición a cámara lenta del choque; cierre con pregunta. Tramos (g2_0439.mp4): #1 05:46.8-05:48.7 choque con un coche en el puente (+ repetición 05:46.9-05:47.7 a 0,4x); #2 04:32.9-04:35.2 roce contra el tráiler VITREOUS en el cruce; #3 04:14.9-04:17.2 se mete en el seto (v2; antes 04:29.9-04:31.4, quitado por el anuncio «BLACK HOLES»); #4 06:02.0-06:04.2 se mete en el monte, gamma 1,3; #5 06:12.1-06:14.1 sale del monte llevándose un árbol (empieza después de 06:12.0 para que no se vea a los ocupantes por el parabrisas); #6 06:30.9-06:33.0 motor echando humo. Todo antes de 06:39 (la cinemática empieza en 06:39: fuera). Recorte [0.295, 0.115, 0.705, 0.80] (#2: [0.25, 0.115, 0.66, 0.80]): fuera brújula, distancia, barra de vida, tarjeta del GPS («Gira a la izquierda»), minimapa y subtítulos del diálogo. Sin peatones afectados, sin policía, sin letreros de la historia. Memes: ESPERA AL #6 💀, BRO 💀, MI SEGURO VIENDO ESTO 😭, ADELANTAR: NIVEL DIOS 🤡, CABE, CABE 👍, NO CABÍA 💀, ¿QUIÉN HA PUESTO ESE SETO? 🤨, APARCADO 👍, EL GPS: SIGA RECTO, MODO TODOTERRENO 🌳, -1 ÁRBOL 🌴, AQUÍ NO HA PASADO NADA 😇, EL MOTOR: 💨💨💨, TODO BIEN, TODO CONTROLADO 👍; cierre ¿CUÁL HA SIDO EL PEOR? 👇. Música propia (musica.py, 124 bpm, tono 5). Sin audio original. Duración 17,1 s, 2,78 MB, 720x1280. Guion: trabajo/<id>/guion.json; hoja: trabajo/<id>/hoja_final.jpg.
   Fecha cambiada de 2026-11-23 22:30 a 2026-11-22 22:30 (huecos que dejaron los Reels adelantados por Pablo el 20/11).
@@ -70,4 +72,8 @@ historial:
   estado: programada
   quien: Claude
   nota: 'director: programado 2026-11-22 22:30'
+- fecha: 2026-11-23 08:18
+  estado: publicada
+  quien: analista
+  nota: 'analista: TikTok y Short PUBLISHED 22/11 22:30'
 titulo_youtube: 'Yo con la pick-up en GTA 6 🛻💀 ¿Cuál ha sido el peor? #Shorts'

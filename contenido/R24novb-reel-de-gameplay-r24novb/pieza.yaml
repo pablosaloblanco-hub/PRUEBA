@@ -1,28 +1,56 @@
 id: R24novb-reel-de-gameplay-r24novb
-titulo: Reel de gameplay R24novb
+titulo: 'Lo mejor de la semana en Vice City: top 5'
 formato: reel
 redes:
 - instagram
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-23 11:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (el mejor de la semana) y compartir
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  instagram: ''
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  instagram: |-
+    Lo mejor de la semana en Vice City 🏆 Top 5
+
+    En el puesto 5, un capó que sale volando; en el 4, un día de spa con vaqueros; en el 3, una moto de agua que no lo vio venir; en el 2, el carril contrario, que también cuenta, y en el número uno, una pick-up haciendo escalada libre en una palmera. ¿Cuál ha sido el mejor de la semana? Comenta el número 👇 y etiqueta a quien conduce así.
+
+    Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+  tiktok: 'Lo mejor de la semana en Vice City 🏆 Top 5: capó volador, spa con vaqueros, moto de agua, carril contrario
+    y la pick-up escaladora (solo en el juego, eh). ¿Cuál ha sido el mejor de la semana? Comenta el número 👇 #GTA6
+    #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial.
+    Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    Lo mejor de la semana en Vice City 🏆 Top 5 de GTA 6: un capó que sale volando, un día de spa con vaqueros, una moto de agua que no lo vio venir, un choque en el carril contrario y una pick-up subiendo a una palmera. ¿Cuál ha sido el mejor de la semana? Comenta el número 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: Lo mejor de la semana en Vice City 🏆 Top 5 de GTA 6
+medios:
+- R24novb-reel-de-gameplay-r24novb.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: |2-
-
-  Fecha cambiada de 2026-11-24 14:30 a 2026-11-23 11:30 (huecos que dejaron los Reels adelantados por Pablo el 20/11).
+notas: 'v1 (editor, grabación g2_2106.mp4): concepto «Lo mejor de la semana en Vice City 🏆 Top 5», resumen semanal
+  con cuenta atrás #5 → #1. EXCEPCIÓN pedida por el director: repite A PROPÓSITO tramos ya revisados y publicados,
+  con los mismos cortes y recortes que pasaron el revisor. Gancho «¿CUÁL ES EL #1? 💀» desde el primer fotograma,
+  con el golpe del capó a 0,1 s; cierre ¿CUÁL HA SIDO EL MEJOR DE LA SEMANA? 👇. Tramos (g2_2106.mp4): #5 5:20.30-5:21.30
+  sale volando el capó (de R22nove #4, recorte [0.17,0.11,0.63,0.78]); #4 31:27.00-31:28.70 a 1,4x, jacuzzi con
+  ropa (de R23nova #2, solo la primera parte, sin el marcador rosa de 31:28.75; el congelado final está revisado
+  y sin marcador); #3 22:15.35-22:16.15 todoterreno contra la moto de agua + repetición 22:15.40-22:15.90 a 0,35x
+  (de R22nove #1, recorte [0.36,0.30,0.82,0.82]); #2 30:56.45-30:58.00 choque en el carril contrario + repetición
+  30:56.45-30:57.15 a 0,4x (de R23novd #1); #1 8:13.97-8:17.60 la pick-up sube a la palmera + repetición 8:14.32-8:15.52
+  a 0,45x (de R22novc #1). Memes nuevos: ¿CUÁL ES EL #1? 💀, CAPÓ VOLADOR 🛸, DÍA DE SPA, CON VAQUEROS 👖, LA MOTO
+  DE AGUA NO LO VIO VENIR 🌊, OTRA VEZ, QUE NO LO HE VISTO 😭, EL CARRIL CONTRARIO TAMBIÉN CUENTA 😎, -1 PICK-UP 🛻,
+  EL #1 🏆, ESCALADA LIBRE EN PICK-UP 🧗, LA PALMERA: 😐. Revisado con las lecciones del revisor: sin policía, estrellas,
+  marcadores, rótulos de la historia ni sangre. Música propia (musica.py, 126 bpm, tono -1; trabajo/<id>/musica_top5.m4a).
+  Sin audio original. Duración 18,5 s, 2,45 MB, 720x1280. Guion: trabajo/<id>/guion.json.'
 historial:
 - fecha: 2026-11-19 21:23
   estado: idea
@@ -32,3 +60,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: Reel dinámico de gameplay (volumen máximo, Pablo 19/11)'
+- fecha: 2026-11-23 08:19
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1 (top 5 semanal)'
+- fecha: 2026-11-23 08:19
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1 top 5 semanal'
+titulo_youtube: 'Lo mejor de la semana en Vice City 🏆 Top 5 de GTA 6 #Shorts'

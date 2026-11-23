@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: programada
+estado: publicada
 fecha: 2026-11-22 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -35,7 +35,10 @@ medios:
 - R23novb-reel-de-gameplay-r23novb.mp4
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  instagram: https://www.instagram.com/reel/DgCmGOuEci3/
+  tiktok: https://www.tiktok.com/@gta6espa/video/7710941539848998177
+  youtube: https://www.youtube.com/shorts/iRhjDqC93ek
 notas: 'v1 (editor). v2 (director): título nuevo «MI SEGURO ODIA GTA 6 💀» (el anterior coincidía con R23novd); tramos
   y memes iguales. Concepto: «MI SEGURO ODIA GTA 6 💀», 5 golpes de día en conducción libre (grabación g2_1958, 19/11),
   casi todos con el deportivo blanco. Gancho: choque frontal bajo el paso elevado en el primer frame con «ESPERA
@@ -88,4 +91,8 @@ historial:
   estado: programada
   quien: Claude
   nota: 'director: programado 2026-11-22 11:30 en instagram, tiktok, youtube'
+- fecha: 2026-11-23 08:18
+  estado: publicada
+  quien: analista
+  nota: 'analista: IG, TikTok y Short PUBLISHED 22/11 11:30'
 titulo_youtube: 'Mi seguro odia GTA 6 💀 ¿Cuál ha sido el peor? #Shorts'

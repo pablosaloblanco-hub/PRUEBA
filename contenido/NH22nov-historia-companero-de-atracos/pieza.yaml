@@ -3,7 +3,7 @@ titulo: Historia compañero de atracos
 formato: historia
 redes:
 - instagram
-estado: programada
+estado: publicada
 fecha: 2026-11-22 13:00
 tema_hashtag: '#GTA6Atracos'
 objetivo: etiquetar (llevar a la publicación N22nov)
@@ -17,7 +17,8 @@ medios:
 - NH-22nov.jpg
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  instagram: https://www.instagram.com/stories/gta6espa/4036001881456813930
 notas: |-
   Historia de Instagram 1080x1920: archivo NH-22nov.jpg.
   Guion: título «¿QUIÉN ES TU SOCIO?». 1) El que conduce. 2) El que vigila. 3) El que lo lía todo. + «NUEVO POST EN EL PERFIL».
@@ -52,3 +53,7 @@ historial:
   estado: programada
   quien: Claude
   nota: ''
+- fecha: 2026-11-23 08:18
+  estado: publicada
+  quien: analista
+  nota: 'analista: historia IG PUBLISHED 22/11 13:00'

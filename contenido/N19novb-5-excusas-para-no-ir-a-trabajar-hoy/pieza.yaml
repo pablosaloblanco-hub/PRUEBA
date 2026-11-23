@@ -3,7 +3,7 @@ titulo: 5 excusas para no ir a trabajar hoy
 formato: carrusel
 redes:
 - tiktok
-estado: programada
+estado: publicada
 fecha: 2026-11-19 10:00
 tema_hashtag: '#HumorGamer'
 objetivo: comentar (el número de la excusa) y etiquetar a quien la necesita hoy
@@ -34,7 +34,8 @@ medios:
 - N19novb-7.jpg
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  tiktok: https://www.tiktok.com/@gta6espa/video/7709805964018404640
 notas: |-
   Solo TikTok (carrusel de fotos). 7 diapositivas: archivos N19novb-1.jpg … N19novb-7.jpg.
   Ángulo: humor del día del estreno, recuperado del plan retirado (carrusel 10). Gancho de portada: «HOY MEDIA ESPAÑA TIENE FIEBRE» + «5 excusas para no ir a trabajar».
@@ -139,3 +140,7 @@ historial:
   estado: programada
   quien: Claude
   nota: ''
+- fecha: 2026-11-23 08:18
+  estado: publicada
+  quien: analista
+  nota: 'analista: TikTok PUBLISHED 19/11 10:00 (comprobado 23/11)'

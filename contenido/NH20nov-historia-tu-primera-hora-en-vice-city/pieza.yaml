@@ -3,7 +3,7 @@ titulo: Historia tu primera hora en Vice City
 formato: historia
 redes:
 - instagram
-estado: programada
+estado: publicada
 fecha: 2026-11-20 13:00
 tema_hashtag: '#GTA6Mapa'
 objetivo: comentar (votar en la encuesta y llevar a la publicación N20nov)
@@ -17,7 +17,8 @@ medios:
 - NH-20nov.jpg
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  instagram: https://www.instagram.com/stories/gta6espa/4034552948780253894
 notas: |-
   Historia de Instagram 1080x1920, la única del día: archivo NH-20nov.jpg.
   Guion: título «TU PRIMERA HORA EN VICE CITY». 1) Ocean Beach. 2) Little Cuba. 3) Mercadillo Tisha-Wocka. + «NUEVO POST EN EL PERFIL».
@@ -52,3 +53,7 @@ historial:
   estado: programada
   quien: Claude
   nota: ''
+- fecha: 2026-11-23 08:18
+  estado: publicada
+  quien: analista
+  nota: 'analista: historia IG PUBLISHED 20/11 13:00'

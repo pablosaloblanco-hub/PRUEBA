@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: programada
+estado: publicada
 fecha: 2026-11-21 22:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y compartir
@@ -26,7 +26,9 @@ medios:
 - R22novf-reel-de-gameplay-r22novf.mp4
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  tiktok: https://www.tiktok.com/@gta6espa/video/7710740618904882465
+  youtube: https://www.youtube.com/shorts/EkR-vOS5EF4
 notas: 'v1 (editor). Concepto: «FÍSICAS DE GTA 6 🤡», 5 momentos de físicas absurdas con el deportivo rojo, de día,
   en conducción libre (grabación g2_1958, 19/11). Solo TikTok + Short. Gancho: choque contra el camión en el primer
   frame con «EL CAMIÓN: 😐» y «BRO 💀», zoom, temblor, destello y boom. Tramos (g2_1958.mp4): #1 02:11.85-02:15.0
@@ -69,4 +71,8 @@ historial:
   estado: programada
   quien: Claude
   nota: 'director: programado 2026-11-21 22:30 en tiktok, youtube'
+- fecha: 2026-11-23 08:18
+  estado: publicada
+  quien: analista
+  nota: 'analista: TikTok y Short PUBLISHED 21/11 22:30'
 titulo_youtube: 'Las físicas más absurdas de GTA 6 🤡 ¿Cuál ha sido la mejor? #Shorts'

@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: programada
+estado: publicada
 fecha: 2026-11-21 10:00
 tema_hashtag: '#PS5'
 objetivo: guardar (guía útil) y, de paso, que manden su clip por DM
@@ -39,7 +39,9 @@ medios:
 - N21nov-6.jpg
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  instagram: https://www.instagram.com/p/Df_3edQCE14/
+  tiktok: https://www.tiktok.com/@gta6espa/video/7710548313971494176
 notas: |-
   Carrusel útil, 6 diapositivas: archivos N21nov-1.jpg … N21nov-6.jpg. Recuperado del plan retirado («Mándanos tu clip + cómo grabar»).
   Ángulo: primer sábado de juego; que nadie pierda su mejor momento. Gancho de portada: «NO PIERDAS TU MEJOR MOMENTO EN LEONIDA».
@@ -143,3 +145,7 @@ historial:
   estado: programada
   quien: Claude
   nota: 'publicador: imagen sustituida en Metricool con updateScheduledPost; hora, texto e imágenes comprobados'
+- fecha: 2026-11-23 08:18
+  estado: publicada
+  quien: analista
+  nota: 'analista: IG y TikTok PUBLISHED 21/11 10:00'

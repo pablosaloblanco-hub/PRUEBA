@@ -3,7 +3,7 @@ titulo: Historia graba tu clip
 formato: historia
 redes:
 - instagram
-estado: programada
+estado: publicada
 fecha: 2026-11-21 13:00
 tema_hashtag: '#PS5'
 objetivo: compartir (llevar a la guía N21nov y pedir clips por DM)
@@ -17,7 +17,8 @@ medios:
 - NH-21nov.jpg
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  instagram: https://www.instagram.com/stories/gta6espa/4035277491677061052
 notas: |-
   Historia de Instagram 1080x1920: archivo NH-21nov.jpg.
   Guion: título «GRABA TU MEJOR MOMENTO». 1) Doble pulsación de Crear: últimos 30 s. 2) Guardar partida reciente: hasta 1 h. 3) Mándanos tu clip por DM. + «NUEVO POST EN EL PERFIL».
@@ -52,3 +53,7 @@ historial:
   estado: programada
   quien: Claude
   nota: ''
+- fecha: 2026-11-23 08:18
+  estado: publicada
+  quien: analista
+  nota: 'analista: historia IG PUBLISHED 21/11 13:00'

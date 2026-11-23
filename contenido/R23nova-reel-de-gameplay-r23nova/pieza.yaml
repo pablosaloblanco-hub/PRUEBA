@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: programada
+estado: publicada
 fecha: 2026-11-21 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -35,7 +35,10 @@ medios:
 - R23nova-reel-de-gameplay-r23nova.mp4
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  instagram: https://www.instagram.com/reel/DgA_IMpiWx8/
+  tiktok: https://www.tiktok.com/@gta6espa/video/7710709618493689120
+  youtube: https://www.youtube.com/shorts/bNuVykIq6cU
 notas: 'v2 (editor, tras la revisión): marcador rosa del jacuzzi fuera. v1 (editor, grabación g2_2106.mp4 del 19/11):
   concepto «Cosas que solo pasan en Vice City»: vida diaria absurda de día (seto, jacuzzi, billar, roce y aparcar).
   Gancho: salir del todoterreno en marcha y atravesar el seto, golpe a 0,3 s con «ATRAVESAR SETOS: DESBLOQUEADO
@@ -91,4 +94,8 @@ historial:
   estado: programada
   quien: Claude
   nota: 'director: programado 2026-11-21 20:30'
+- fecha: 2026-11-23 08:18
+  estado: publicada
+  quien: analista
+  nota: 'analista: IG, TikTok y Short PUBLISHED 21/11 20:30'
 titulo_youtube: 'Cosas que solo pasan en Vice City en GTA 6 🌴 #Shorts'

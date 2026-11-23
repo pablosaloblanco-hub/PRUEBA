@@ -3,7 +3,7 @@ titulo: Qué nota le das a GTA 6 del 1 al 10
 formato: suelta
 redes:
 - tiktok
-estado: programada
+estado: publicada
 fecha: 2026-11-19 18:00
 tema_hashtag: '#GTA6Nota'
 objetivo: comentar (una nota del 1 al 10, sin spoilers)
@@ -22,7 +22,8 @@ medios:
 - N19novc-1.jpg
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  tiktok: https://www.tiktok.com/@gta6espa/video/7709929630202973473
 notas: |-
   Solo TikTok. Publicación suelta, 1 imagen: archivo N19novc-1.jpg.
   Ángulo: primeras 18 horas en Leonida tras 13 años, 2 meses y 2 días de espera. Gancho: «¿APRUEBA O SUSPENDE?». Bloque interactivo: escala 1–10. CTA: «Comenta tu nota (sin spoilers)».
@@ -68,3 +69,7 @@ historial:
   estado: programada
   quien: Claude
   nota: ''
+- fecha: 2026-11-23 08:18
+  estado: publicada
+  quien: analista
+  nota: 'analista: TikTok PUBLISHED 19/11 18:00; Metricool cambió el id (cruzado por hora y texto)'

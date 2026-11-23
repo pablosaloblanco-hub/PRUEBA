@@ -3,7 +3,7 @@ titulo: 'Tu primera hora en Vice City: elige plan'
 formato: suelta
 redes:
 - tiktok
-estado: programada
+estado: publicada
 fecha: 2026-11-20 10:00
 tema_hashtag: '#GTA6Mapa'
 objetivo: comentar (A, B o C)
@@ -20,7 +20,9 @@ medios:
 - N20nov-1.jpg
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  tiktok: https://www.tiktok.com/@gta6espa/video/7710176765641100577
+  instagram: https://www.instagram.com/p/Df9S7QKDb5Q/
 notas: |-
   Publicación suelta, 1 imagen: archivo N20nov-1.jpg. Viene de «Ideas guardadas» («Tu plan para la primera hora en Vice City»).
   Ángulo: primer fin de semana de juego; solo Vice City, para no pisar el Black Friday del 27/11 (Leonida Keys, Ambrosia, Mount Kalaga) ni el diccionario del 2/12. Gancho: «TIENES UNA HORA EN VICE CITY. ¿QUÉ HACES?».
@@ -73,3 +75,7 @@ historial:
   estado: programada
   quien: Claude
   nota: ''
+- fecha: 2026-11-23 08:18
+  estado: publicada
+  quien: analista
+  nota: 'analista: TikTok PUBLISHED; Instagram publicada con aviso de restricción (ERROR con publicUrl) 20/11 10:00'

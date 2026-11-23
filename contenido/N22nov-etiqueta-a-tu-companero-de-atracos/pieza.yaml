@@ -4,7 +4,7 @@ formato: suelta
 redes:
 - instagram
 - tiktok
-estado: programada
+estado: publicada
 fecha: 2026-11-22 10:00
 tema_hashtag: '#GTA6Atracos'
 objetivo: etiquetar (a tu compañero de atracos)
@@ -27,7 +27,9 @@ medios:
 - N22nov-1.jpg
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  instagram: https://www.instagram.com/p/DgCcUxfCMpX/
+  tiktok: https://www.tiktok.com/@gta6espa/video/7710919314697620768
 notas: |-
   Publicación suelta, 1 imagen: archivo N22nov-1.jpg. Recuperada del plan retirado.
   Ángulo: domingo de juego con amigos. Gancho: «RAUL BAUTISTA, ATRACADOR VETERANO, BUSCA SOCIO» → «¿Con quién te la jugarías tú?». CTA en píldora magenta: «Etiqueta a tu compañero de atracos».
@@ -88,3 +90,7 @@ historial:
   estado: programada
   quien: Claude
   nota: ''
+- fecha: 2026-11-23 08:18
+  estado: publicada
+  quien: analista
+  nota: 'analista: IG y TikTok PUBLISHED 22/11 10:00'

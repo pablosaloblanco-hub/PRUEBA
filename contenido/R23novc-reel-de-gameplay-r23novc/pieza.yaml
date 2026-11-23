@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: programada
+estado: publicada
 fecha: 2026-11-22 16:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -25,7 +25,9 @@ medios:
 - R23novc-reel-de-gameplay-r23novc.mp4
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  tiktok: https://www.tiktok.com/@gta6espa/video/7711018787155266849
+  youtube: https://www.youtube.com/shorts/S5mEO8Uc4q8
 notas: |-
   v1 (editor): concepto «GTA 6 pero en moto», recopilatorio de caídas y acrobacias en moto de la grabación g2_0516 (19/11) con memes, zoom, temblor y sonidos propios; gancho: choque contra la furgoneta DTH en el primer segundo («ESPERA AL ÚLTIMO 💀» → «BRO 💀»); repetición a cámara lenta del rebote contra la furgo; cierre con pregunta. Tramos (g2_0516.mp4): #1 00:10.3-00:12.0 choque con la furgoneta (corta antes de 00:12.2: después hay manchas rojas en el suelo y el codo); #2 00:00.3-00:04.4 caballito en el puente y roce con el pretil, 1,25x; #3 01:27.6-01:29.5 sale de la selva a la carretera; #4 00:22.0-00:24.5 vuelve a la moto, 1,25x; #5 00:30.6-00:33.6 contra el arbusto y rebote contra la furgoneta (corta antes de 00:34.0, después hay sangre en el asfalto) + repetición 00:32.5-00:33.55 a 0,4x. Recorte [0.295, 0.115, 0.705, 0.80] en todos: sin brújula ni distancia al destino, sin minimapa, sin la notificación del móvil (abajo a la derecha) ni subtítulos. Piel ampliada a resolución completa en 11.0-12.05, 21-23, 85.5-86.25 y 33.3-33.6: sin sangre. Memes: ESPERA AL ÚLTIMO 💀, BRO 💀, -1 MOTO, MODO CABALLITO 🏍️, UY UY UY 😬, EL GPS: ATAJO 🌴, LLEGUÉ 😎, AQUÍ NO HA PASADO NADA 😇, ESTO VA BIEN 👍, -1 ARBUSTO 🌳, Y AHORA LA FURGO 😭, BRO 💀💀, FÍSICAS DE GTA 6 🤡; cierre ¿CUÁL HA DOLIDO MÁS? 👇. Música propia (musica.py, 132 bpm, tono 2). Sin audio original. Duración 16,9 s, 2,62 MB, 720x1280. Guion: trabajo/<id>/guion.json; hoja: trabajo/<id>/hoja_final.jpg.
   Fecha cambiada de 2026-11-23 16:30 a 2026-11-22 16:30 (huecos que dejaron los Reels adelantados por Pablo el 20/11).
@@ -58,4 +60,8 @@ historial:
   estado: programada
   quien: Claude
   nota: 'director: programado 2026-11-22 16:30 en tiktok, youtube'
+- fecha: 2026-11-23 08:18
+  estado: publicada
+  quien: analista
+  nota: 'analista: TikTok y Short PUBLISHED 22/11 16:30'
 titulo_youtube: 'GTA 6 pero en moto 🏍️💀 ¿Cuál ha dolido más? #Shorts'
