@@ -33,6 +33,7 @@ Reels de gameplay con más gancho: recopilatorios de choques y caídas, memes po
 - `gamma`: aclara las sombras (1 = igual; 1,6–2,0 para planos de noche). También vale a nivel de guion para todos los tramos. **Regla del revisor:** un plano en el que no se entiende lo que pasa no vale; aclara o cámbialo.
 - `congelar`: segundos de imagen congelada al final del tramo (buen sitio para un meme).
 - `repeticion`: añade otra pasada a cámara lenta con el rótulo «REPETICIÓN 🔁» y un scratch.
+- Formatos y estilos nuevos (23/11): pantalla partida (`dividido`), `cronometro`, estilos `nota` y `subtitulo`, y `repeticion` como lista. Ver `docs/formatos-reels.md`.
 - Estilos de pegatina: `meme` (texto blanco con borde negro), `etiqueta` (caja de color), `bocadillo` (globo blanco), `emoji` (emoji grande), `contador`. Admiten `tam`, `color`, `giro`, `pos` [x, y] (0–1 de la pantalla), `animar` (sale con rebote; por defecto sí). Usa `\n` para partir líneas.
 - Sonidos propios (sin derechos): boom, bonk, golpe, whoosh, ding, bocina, scratch, error, cristal, risas.
 

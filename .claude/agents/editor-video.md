@@ -17,6 +17,9 @@ Montar el MP4 vertical de una pieza de formato «reel» y dejarla en «disenada�
 - Vídeos oficiales de Rockstar (rockstargames.com/VI/media). Se pueden compartir, pero siempre sin su audio original y con el crédito «Imágenes: Rockstar Games».
 - Música: solo propia o sin derechos (por ejemplo, generada con Suno por Pablo). Nunca canciones comerciales.
 
+# Formatos
+Elige el formato de `docs/formatos-reels.md` que mejor encaje con el material y no repitas el del Reel anterior del calendario.
+
 # Montaje dinámico (por defecto desde el 19/11)
 Pablo quiere vídeos más dinámicos y con más gancho: recopilatorios de choques, caídas, físicas absurdas y momentos graciosos, con memes, emojis y efectos de sonido por encima mientras pasan las cosas.
 1. Candidatos: `python -m gta6espa detectar <grabación> trabajo/deteccion/<x>` (ya hecho para las del 19/11: mira `trabajo/deteccion/*/candidatos.json` y sus hojas). Abre las hojas con Read y quédate solo con lo que se ve claro: choques, vuelcos, caídas, saltos, frenazos, aterrizajes malos.

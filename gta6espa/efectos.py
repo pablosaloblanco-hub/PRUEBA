@@ -169,10 +169,17 @@ def _css_pegatina(estilo: str, tam: int, color: str) -> str:
     if estilo == "contador":
         return texto + (f"color:#000;background:{color or '#ffd400'};padding:4px 16px 6px;border-radius:10px;"
                         "border:4px solid #000;")
+    if estilo == "nota":       # sello de puntuación («7/10»)
+        return texto + (f"color:#fff;background:{color or '#7c3aed'};padding:18px 26px;border-radius:999px;"
+                        "border:6px solid #fff;box-shadow:0 0 0 6px #000,8px 10px 0 6px rgba(0,0,0,.5);")
+    if estilo == "subtitulo":  # narrador en primera persona (POV)
+        return (f"font-family:Inter,{EMOJI};font-weight:800;font-size:{tam}px;line-height:1.18;color:#fff;"
+                "background:rgba(0,0,0,.78);padding:10px 18px;border-radius:12px;")
     raise ValueError(f"Estilo de pegatina desconocido: {estilo}")
 
 
-TAM_POR_ESTILO = {"meme": 86, "etiqueta": 58, "bocadillo": 46, "emoji": 150, "contador": 48}
+TAM_POR_ESTILO = {"meme": 86, "etiqueta": 58, "bocadillo": 46, "emoji": 150, "contador": 48, "nota": 72,
+                  "subtitulo": 36}
 
 
 def _marco_html(titulo: str, modo: str) -> str:
@@ -274,6 +281,9 @@ def _filtro_tramo(tr: dict, modo: str, ancho_src: int, alto_src: int) -> str:
     if modo == "llenar":
         w, h = ANCHO, ALTO
         escala = f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h}"
+    elif modo == "mitad":
+        w, h = ANCHO, ALTO // 2
+        escala = f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h}"
     elif modo == "streamer":
         w, h = ANCHO, ALTO - ALTO_FACECAM
         escala = f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h}"
@@ -300,7 +310,7 @@ def _filtro_tramo(tr: dict, modo: str, ancho_src: int, alto_src: int) -> str:
     if congelar > 0:
         cadena.append(f"tpad=stop_mode=clone:stop_duration={congelar}")
     contenido = ",".join(cadena)
-    if modo == "llenar":
+    if modo in ("llenar", "mitad"):
         return f"[0:v]{contenido},format=yuv420p[v]"
     if modo == "streamer":
         fx0, fy0, fx1, fy1 = tr.get("facecam") or [0.0, 0.0, 0.3, 0.3]
@@ -332,7 +342,28 @@ def _audio_tramo(tr: dict, fuente: Path, ruta: Path) -> Path | None:
     return ruta
 
 
-def _render_tramo(tr: dict, fuente: Path, modo: str, ruta: Path) -> float:
+def _render_dividido(tr: dict, fuente: Path, ruta: Path, resolver) -> float:
+    """Pantalla partida (p. ej. «EXPECTATIVA» arriba y «REALIDAD» abajo): dos tramos a la vez."""
+    partes = []
+    for k, clave in enumerate(("arriba", "abajo")):
+        sub = dict(tr[clave])
+        sub.setdefault("gamma", tr.get("gamma", 1.0))
+        f = resolver(sub["fuente"]) if sub.get("fuente") else fuente
+        r = ruta.with_name(f"{ruta.stem}_{clave}.mp4")
+        _render_tramo(sub, f, "mitad", r)
+        partes.append((r, _duracion(r)))
+    largo = max(d for _, d in partes)
+    filtros = ";".join(f"[{k}:v]tpad=stop_mode=clone:stop_duration={largo - d + 0.05:.3f},trim=0:{largo:.3f}[p{k}]"
+                       for k, (_, d) in enumerate(partes))
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(partes[0][0]), "-i", str(partes[1][0]),
+                    "-filter_complex", filtros + ";[p0][p1]vstack=inputs=2,format=yuv420p[v]", "-map", "[v]",
+                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "17", "-r", str(FPS), str(ruta)], check=True)
+    return _duracion(ruta)
+
+
+def _render_tramo(tr: dict, fuente: Path, modo: str, ruta: Path, resolver=None) -> float:
+    if tr.get("dividido"):
+        return _render_dividido(tr["dividido"], fuente, ruta, resolver or Path)
     ancho_src, alto_src = _dim(fuente)
     ini, fin = float(tr["inicio"]), float(tr["fin"])
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{ini:.3f}", "-t", f"{fin - ini:.3f}", "-i", str(fuente),
@@ -349,9 +380,9 @@ def _expandir(guion: dict) -> list[dict]:
         tr = dict(tr)
         if "gamma" not in tr and guion.get("gamma"):
             tr["gamma"] = guion["gamma"]
-        rep = tr.pop("repeticion", None)
+        reps = tr.pop("repeticion", None)
         tramos.append(tr)
-        if rep:
+        for rep in (reps if isinstance(reps, list) else [reps] if reps else []):
             vel = rep.get("velocidad", 0.4)
             nuevo = {"inicio": tr["inicio"] + rep.get("desde", 0), "fin": tr["inicio"] + rep.get("hasta", tr["fin"] - tr["inicio"]),
                      "fuente": tr.get("fuente"), "recorte": tr.get("recorte"), "velocidad": vel, "gamma": tr.get("gamma", 1.0),
@@ -389,7 +420,7 @@ def montar(ruta_guion: Path, salida: Path) -> Path:
         for i, tr in enumerate(tramos):
             fuente = ruta(tr.get("fuente") or guion["fuente"])
             p = tmp / f"tramo_{i:02d}.mp4"
-            d = _render_tramo(tr, fuente, modo, p)
+            d = _render_tramo(tr, fuente, modo, p, ruta)
             tr["_audio"] = _audio_tramo(tr, fuente, tmp / f"voz_{i:02d}.wav")
             partes.append(p)
             inicios.append(t)
@@ -441,6 +472,23 @@ def montar(ruta_guion: Path, salida: Path) -> Path:
             filtros.append(cad + f"[p{k}]")
             filtros.append(f"[{ultimo}][p{k}]overlay=x='{px}*W-overlay_w/2':y='{py}*H-overlay_h/2':eof_action=pass[m{k + 1}]")
             ultimo, n_in = f"m{k + 1}", n_in + 1
+
+        # cronómetros («¿cuánto duro sin chocar?»): cuentan desde «desde» y se paran en «hasta»
+        fuente_crono = "/usr/share/fonts/opentype/inter/Inter-Bold.otf"
+        for i, tr in enumerate(tramos):
+            c = tr.get("cronometro")
+            if not c:
+                continue
+            a = inicios[i] + float(c.get("desde", 0))
+            b = inicios[i] + float(c.get("hasta", 99))
+            fin_vis = min(inicios[i] + float(c.get("visible_hasta", c.get("hasta", 99)) + 1.5), total)
+            v = f"(min(t\\,{b:.3f})-{a:.3f}+{float(c.get('valor_inicial', 0)):.3f})"
+            texto = (f"{c.get('etiqueta', 'SIN CHOCAR')}\\: %{{eif\\:{v}\\:d}}.%{{eif\\:mod({v}*10\\,10)\\:d}} s")
+            y = float(c.get("y", 0.18))
+            filtros.append(f"[{ultimo}]drawtext=fontfile={fuente_crono}:text='{texto}':fontsize={int(c.get('tam', 54))}:"
+                           f"fontcolor={c.get('color', '#ffd400')}:borderw=6:bordercolor=black:x=(w-text_w)/2:y=h*{y}:"
+                           f"enable='between(t\\,{a:.3f}\\,{fin_vis:.3f})'[cr{i}]")
+            ultimo = f"cr{i}"
 
         # audio: música + efectos
         pistas = []
