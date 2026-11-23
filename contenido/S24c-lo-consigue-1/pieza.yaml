@@ -1,0 +1,30 @@
+id: S24c-lo-consigue-1
+titulo: Lo consigue 1
+formato: reel
+redes:
+- tiktok
+- youtube
+estado: aprobada
+fecha: 2026-11-24 16:30
+tema_hashtag: '#GTA6Gameplay'
+objetivo: ''
+datos_usados: []
+capturas: []
+textos:
+  tiktok: ''
+  youtube: ''
+titulo_tiktok: ''
+medios: []
+drive: {}
+metricool: {}
+enlaces: {}
+notas: ''
+historial:
+- fecha: 2026-11-23 18:27
+  estado: idea
+  quien: Claude
+  nota: creada
+- fecha: 2026-11-23 18:27
+  estado: aprobada
+  quien: Claude
+  nota: 'director: formato nuevo del catálogo (Pablo, 23/11: estilos distintos)'
