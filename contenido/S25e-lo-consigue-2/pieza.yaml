@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: disenada
+estado: programada
 fecha: 2026-11-25 22:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (sí o no antes de verlo)
@@ -56,4 +56,16 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v2 (correcciones del revisor)'
+- fecha: 2026-11-24 14:01
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok v2 (congelado en 969.4: ventanilla oscura, no se ve al protagonista ni el móvil)'
+- fecha: 2026-11-24 14:01
+  estado: subida
+  quien: Claude
+  nota: Vídeo en Drive
+- fecha: 2026-11-24 14:02
+  estado: programada
+  quien: Claude
+  nota: Programada en Metricool
 titulo_youtube: '¿Lo consigue? 🤔 GTA 6 en Vice City #Shorts'

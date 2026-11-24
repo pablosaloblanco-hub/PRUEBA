@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: programada
 fecha: 2026-11-25 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -64,4 +64,16 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v2 (correcciones del revisor)'
+- fecha: 2026-11-24 14:01
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok v2 (súper sin anuncios de cerveza ni «PAN (5 $)»; look 1 sin «COGER LA INDUMENTARIA»)'
+- fecha: 2026-11-24 14:01
+  estado: subida
+  quien: Claude
+  nota: Vídeo en Drive
+- fecha: 2026-11-24 14:02
+  estado: programada
+  quien: Claude
+  nota: Programada en Metricool
 titulo_youtube: 'Mi sábado en Vice City en GTA 6 🌴 #Shorts'
