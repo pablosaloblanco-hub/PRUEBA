@@ -55,4 +55,13 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1 formato K relax (g3_20_1933)'
+- fecha: 2026-11-24 09:03
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: DEVUELTA. Distancia del GPS «1.92 millas» legible arriba del plano en 15,05-21,9 s (todo el #6,
+    g3_20_1933 6:40.8-6:49.0), y choca con «Sin GPS»: subir y0 del recorte del #6 de 0,08 a 0,10'
+- fecha: 2026-11-24 09:05
+  estado: disenada
+  quien: Claude
+  nota: 'Recorte del tramo 6 a y0 0,11: fuera la distancia del GPS'
 titulo_youtube: 'Grassrivers en lancha en GTA 6 🐊🌿 #Shorts'
