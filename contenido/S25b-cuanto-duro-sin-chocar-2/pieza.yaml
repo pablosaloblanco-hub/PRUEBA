@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-25 14:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (récord del cierre) y compartir
@@ -56,4 +56,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: formato nuevo del catálogo (Pablo, 23/11: estilos distintos)'
+- fecha: 2026-11-24 13:44
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1'
+- fecha: 2026-11-24 13:44
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1 (g3_19_2322, revisado sin armas ni sangre)'
 titulo_youtube: '¿Cuánto duro en moto sin caerme en GTA 6? ⏱️ #Shorts'
