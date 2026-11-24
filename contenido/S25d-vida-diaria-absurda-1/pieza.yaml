@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: redactada
 fecha: 2026-11-25 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -63,4 +63,10 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1 (g3_19_2322, revisado sin armas ni sangre)'
+- fecha: 2026-11-24 13:55
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: DEVUELTA. Anuncios de cerveza legibles («TAP INTO A COOL ONE», «ICE COLD GOLD» con vaso de cerveza)
+    en 10,75-11,5 s, al empezar el tramo del súper (g3_19_2322 11:21.1-11:22.9): empezar el tramo en 11:23.0 o recortar
+    arriba. De paso, quitar los avisos de botón «COGER LA INDUMENTARIA» (2,25-2,5 s) y «PAN (5 $)» (12,9-13,0 s)'
 titulo_youtube: 'Mi sábado en Vice City en GTA 6 🌴 #Shorts'

@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: revisada
+estado: programada
 fecha: 2026-11-25 14:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (récord del cierre) y compartir
@@ -69,4 +69,12 @@ historial:
   quien: Claude
   nota: 'revisor: ok (señal de calle POLICE sin patrullas: no cuenta; piel limpia en el intento 2; corte en el aire
     antes del aterrizaje)'
+- fecha: 2026-11-24 13:56
+  estado: subida
+  quien: Claude
+  nota: Vídeo en Drive
+- fecha: 2026-11-24 13:57
+  estado: programada
+  quien: Claude
+  nota: Programada en Metricool
 titulo_youtube: '¿Cuánto duro en moto sin caerme en GTA 6? ⏱️ #Shorts'

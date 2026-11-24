@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: disenada
+estado: programada
 fecha: 2026-11-25 16:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y compartir
@@ -52,4 +52,16 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1 (g3_19_2322, revisado sin armas ni sangre)'
+- fecha: 2026-11-24 13:52
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok («Crimen denunciado», estrellas y llamada fuera del recorte; sin peatones; matrícula normal)'
+- fecha: 2026-11-24 13:56
+  estado: subida
+  quien: Claude
+  nota: Vídeo en Drive
+- fecha: 2026-11-24 13:57
+  estado: programada
+  quien: Claude
+  nota: Programada en Metricool
 titulo_youtube: 'El fail desde 3 velocidades en GTA 6 🔁 #Shorts'

@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: disenada
+estado: redactada
 fecha: 2026-11-25 22:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (sí o no antes de verlo)
@@ -52,4 +52,10 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1 (g3_19_2322, revisado sin armas ni sangre)'
+- fecha: 2026-11-24 13:55
+  estado: redactada
+  quien: Claude
+  nota: 'revisor: DEVUELTA. En el #2 se ve al protagonista por la ventanilla hablando por el móvil del juego (llamada
+    en curso) de 12,8 s al final, y queda congelado bajo el cierre hasta 16,3 s (g3_19_2322 16:09.5-16:10.6). Terminar
+    el tramo 4 en 16:09.4 (fin 969.4) y congelar ese fotograma, o tapar la ventanilla'
 titulo_youtube: '¿Lo consigue? 🤔 GTA 6 en Vice City #Shorts'

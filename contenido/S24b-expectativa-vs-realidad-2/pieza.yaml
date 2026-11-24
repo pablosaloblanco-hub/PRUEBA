@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: programada
 fecha: 2026-11-25 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y compartir
@@ -66,4 +66,16 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1'
+- fecha: 2026-11-24 13:51
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok (rueda de armas fuera del corte; sin estrellas ni policía; matrícula normal)'
+- fecha: 2026-11-24 13:56
+  estado: subida
+  quien: Claude
+  nota: Vídeo en Drive
+- fecha: 2026-11-24 13:57
+  estado: programada
+  quien: Claude
+  nota: Programada en Metricool
 titulo_youtube: 'Expectativa vs realidad en GTA 6 💀 ¿A ti también te pasa? #Shorts'

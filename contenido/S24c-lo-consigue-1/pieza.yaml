@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: disenada
+estado: programada
 fecha: 2026-11-24 16:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar SÍ o NO antes de ver el final
@@ -54,4 +54,17 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1'
+- fecha: 2026-11-24 13:51
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok (pájaro en el poste en 6,8 s y en la repetición 11,0 s; cañas de pescar y bolsa, sin armas;
+    sin HUD)'
+- fecha: 2026-11-24 13:56
+  estado: subida
+  quien: Claude
+  nota: Vídeo en Drive
+- fecha: 2026-11-24 13:57
+  estado: programada
+  quien: Claude
+  nota: Programada en Metricool
 titulo_youtube: '¿Lo consigue? 🤔 Atajo en lancha por los manglares de GTA 6 #Shorts'
