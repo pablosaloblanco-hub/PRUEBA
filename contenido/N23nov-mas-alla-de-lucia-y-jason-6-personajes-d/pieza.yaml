@@ -4,7 +4,7 @@ formato: carrusel
 redes:
 - instagram
 - tiktok
-estado: programada
+estado: publicada
 fecha: 2026-11-23 10:00
 tema_hashtag: '#GTA6Personajes'
 objetivo: guardar (ficha de personajes) y comentar (tu favorito)
@@ -157,3 +157,7 @@ historial:
   estado: programada
   quien: Claude
   nota: ''
+- fecha: 2026-11-24 09:01
+  estado: publicada
+  quien: Claude
+  nota: Comprobado en Metricool 24/11

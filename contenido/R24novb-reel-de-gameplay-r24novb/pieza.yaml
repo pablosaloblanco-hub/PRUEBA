@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: programada
+estado: publicada
 fecha: 2026-11-23 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (el mejor de la semana) y compartir
@@ -80,4 +80,8 @@ historial:
   estado: programada
   quien: Claude
   nota: 'director: programado 23/11 11:30 en IG, TikTok y YouTube'
+- fecha: 2026-11-24 09:01
+  estado: publicada
+  quien: Claude
+  nota: 'Comprobado en Metricool 24/11: publicado en todas sus redes'
 titulo_youtube: 'Lo mejor de la semana en Vice City 🏆 Top 5 de GTA 6 #Shorts'

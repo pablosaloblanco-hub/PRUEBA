@@ -3,7 +3,7 @@ titulo: Historia personajes de Leonida
 formato: historia
 redes:
 - instagram
-estado: programada
+estado: publicada
 fecha: 2026-11-23 13:00
 tema_hashtag: '#GTA6Personajes'
 objetivo: comentar (votar al favorito y llevar al carrusel N23nov)
@@ -52,3 +52,7 @@ historial:
   estado: programada
   quien: Claude
   nota: ''
+- fecha: 2026-11-24 09:01
+  estado: publicada
+  quien: Claude
+  nota: Comprobado en Metricool 24/11

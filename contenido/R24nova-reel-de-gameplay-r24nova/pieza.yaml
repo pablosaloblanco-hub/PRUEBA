@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: programada
+estado: publicada
 fecha: 2026-11-23 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (sí o no del cierre) y compartir
@@ -79,4 +79,8 @@ historial:
   estado: programada
   quien: Claude
   nota: 'director: programado 23/11 20:30 en IG, TikTok y YouTube'
+- fecha: 2026-11-24 09:01
+  estado: publicada
+  quien: Claude
+  nota: 'Comprobado en Metricool 24/11: publicado en todas sus redes'
 titulo_youtube: 'Expectativa vs realidad con el buggy en GTA 6 ✨💀 #Shorts'
