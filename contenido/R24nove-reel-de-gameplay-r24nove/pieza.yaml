@@ -4,8 +4,8 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: disenada
-fecha: 2026-11-23 22:30
+estado: programada
+fecha: 2026-11-24 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: guardar y comentar (pregunta del cierre)
 datos_usados:
@@ -64,4 +64,16 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'Recorte del tramo 6 a y0 0,11: fuera la distancia del GPS'
+- fecha: 2026-11-24 09:06
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok v2 (borde superior del #6 limpio: sin GPS ni HUD)'
+- fecha: 2026-11-24 09:06
+  estado: subida
+  quien: Claude
+  nota: Vídeo en Drive
+- fecha: 2026-11-24 09:06
+  estado: programada
+  quien: Claude
+  nota: 'TikTok + YouTube 24/11 11:30 (reprogramada: su hueco del 23/11 22:30 pasó)'
 titulo_youtube: 'Grassrivers en lancha en GTA 6 🐊🌿 #Shorts'
