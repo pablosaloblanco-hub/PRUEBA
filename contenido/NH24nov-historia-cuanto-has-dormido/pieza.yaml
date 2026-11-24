@@ -3,7 +3,7 @@ titulo: Historia cuánto has dormido
 formato: historia
 redes:
 - instagram
-estado: programada
+estado: publicada
 fecha: 2026-11-24 13:00
 tema_hashtag: '#HumorGamer'
 objetivo: comentar (deslizador de la historia y llevar a la publicación N24nov)
@@ -52,3 +52,7 @@ historial:
   estado: programada
   quien: Claude
   nota: ''
+- fecha: 2026-11-24 13:58
+  estado: publicada
+  quien: Claude
+  nota: Comprobado en Metricool 24/11

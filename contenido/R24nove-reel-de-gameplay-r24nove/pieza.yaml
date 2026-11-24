@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: programada
+estado: publicada
 fecha: 2026-11-24 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: guardar y comentar (pregunta del cierre)
@@ -76,4 +76,8 @@ historial:
   estado: programada
   quien: Claude
   nota: 'TikTok + YouTube 24/11 11:30 (reprogramada: su hueco del 23/11 22:30 pasó)'
+- fecha: 2026-11-24 13:58
+  estado: publicada
+  quien: Claude
+  nota: Comprobado en Metricool 24/11
 titulo_youtube: 'Grassrivers en lancha en GTA 6 🐊🌿 #Shorts'
