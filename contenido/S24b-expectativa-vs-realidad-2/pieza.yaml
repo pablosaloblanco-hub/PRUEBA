@@ -1,26 +1,54 @@
 id: S24b-expectativa-vs-realidad-2
-titulo: Expectativa vs realidad 2
+titulo: 'Expectativa vs realidad: mi paseo tranquilo en GTA 6'
 formato: reel
 redes:
 - instagram
 - tiktok
 - youtube
-estado: aprobada
-fecha: 2026-11-24 14:30
+estado: disenada
+fecha: 2026-11-25 11:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (pregunta del cierre) y compartir
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  instagram: ''
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  instagram: |-
+    Expectativa vs realidad en GTA 6 💀
+
+    Arriba, lo que tenía pensado: un paseo tranquilo en lancha por aguas turquesas. Abajo, lo que pasó de verdad: al atardecer, de frente contra una pickup que acabó dando vueltas. ¿A ti también te pasa? Cuéntalo en comentarios 👇 y etiqueta a quien siempre dice «hoy voy tranquilo».
+
+    Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+  tiktok: 'Expectativa: paseo tranquilo en lancha ✨ Realidad: de frente contra una pickup 💀 (solo en el juego, eh).
+    ¿A ti también te pasa? Comenta 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes:
+    Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    Expectativa vs realidad en GTA 6 💀 Arriba, un paseo tranquilo en lancha; abajo, un choque de frente contra una pickup al atardecer, con repetición a cámara lenta. ¿A ti también te pasa? Comenta 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: Expectativa vs realidad en GTA 6 💀 ¿A ti también te pasa?
+medios:
+- S24b-expectativa-vs-realidad-2.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: 'v1 (editor). Material: g3_20_1745.mp4 (desde 17:30) y g3_20_1933.mp4 (g3_20_1819 descartada entera por el
+  arma a la espalda). Formato C (expectativa vs realidad) con pantalla partida, modo llenar. Concepto: «MI PLAN
+  PARA HOY: UN PASEO TRANQUILO» arriba (lancha a vista de dron en agua turquesa) y abajo el choque de frente contra
+  una pickup al atardecer. Tramos: #1 dividido: arriba g3_20_1933 10:27.5-10:32.5; abajo g3_20_1745 21:52.0-21:57.0
+  (golpe a 2,75 s, gamma 1,6); #2 cámara lenta g3_20_1745 21:54.4-21:55.7 a 0,35x; #3 g3_20_1745 21:57.0-21:59.2
+  (la pickup da vueltas) + repetición 0,5x 21:57.0-21:58.3. Memes: EXPECTATIVA ✨, REALIDAD 💀, MI PLAN PARA HOY:
+  UN PASEO TRANQUILO, BRO, LA PICKUP: 😐, OTRA VEZ A CÁMARA LENTA, EL PASEO TRANQUILO, LA PICKUP DANDO VUELTAS, FÍSICAS
+  DE GTA 6; cierre ¿A TI TAMBIÉN TE PASA? 👇. Revisado: en 21:52-21:59 no hay estrellas de búsqueda ni policía (la
+  persecución de 17:30-21:00 queda fuera), ni robo de coche, armas, menús (la rueda de armas sale a las 21:59.5,
+  después del corte), llamadas ni peatones; matrícula normal (BM1 6OZ); recorte y0 0,11 sin brújula, distancia ni
+  minimapa; subtítulos fuera. Música propia (musica.py, 122 bpm, tono 3). Sin audio original. Duración 15,7 s, 2,4
+  MB, 720x1280. Guion: trabajo/<id>/guion.json. Hoja: trabajo/<id>/hoja_fotogramas.jpg. Minutos usados: g3_20_1933
+  10:27.5-10:32.5; g3_20_1745 21:52-21:59.2.'
 historial:
 - fecha: 2026-11-23 18:27
   estado: idea
@@ -30,3 +58,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: formato nuevo del catálogo (Pablo, 23/11: estilos distintos)'
+- fecha: 2026-11-24 13:45
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1'
+- fecha: 2026-11-24 13:45
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1'
+titulo_youtube: 'Expectativa vs realidad en GTA 6 💀 ¿A ti también te pasa? #Shorts'

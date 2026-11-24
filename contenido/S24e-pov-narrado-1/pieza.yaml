@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: disenada
+estado: programada
 fecha: 2026-11-24 22:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -61,4 +61,17 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1'
+- fecha: 2026-11-24 13:47
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok (sin armas a la espalda, protagonista de espaldas a media distancia, sin patrulla ni HUD; todoterreno
+    oscuro sin distintivos en 9,05-9,45 s)'
+- fecha: 2026-11-24 13:50
+  estado: subida
+  quien: Claude
+  nota: Vídeo en Drive
+- fecha: 2026-11-24 13:50
+  estado: programada
+  quien: Claude
+  nota: Programada en Metricool
 titulo_youtube: 'POV: tu primer día de repartidor en GTA 6 📦💀 #Shorts'

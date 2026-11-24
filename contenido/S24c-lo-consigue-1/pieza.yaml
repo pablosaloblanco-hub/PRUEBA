@@ -1,24 +1,42 @@
 id: S24c-lo-consigue-1
-titulo: Lo consigue 1
+titulo: ¿Lo consigue? Atajo en lancha por los manglares de GTA 6
 formato: reel
 redes:
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-24 16:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar SÍ o NO antes de ver el final
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  tiktok: '¿Lo consigue? 🤔 Atajo en lancha por los manglares, entre un poste y las ramas. Comenta SÍ o NO antes
+    de ver el final 👇 (solo en el juego, eh) #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati
+    · Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    ¿Lo consigue? 🤔 Atajo en lancha por los manglares de GTA 6, entre un poste con un pájaro y las ramas. Comenta SÍ o NO antes de ver el final 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: ¿Lo consigue? 🤔 Atajo en lancha por los manglares de GTA 6
+medios:
+- S24c-lo-consigue-1.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: 'v1 (editor). Material: g3_20_1933.mp4 (g3_20_1819 descartada entera por el arma a la espalda). Formato D
+  (¿lo consigue?), modo cuadrado. Concepto: la lancha se mete por un hueco entre el manglar y un poste con un pájaro;
+  se congela justo antes, «¿LO CONSIGUE? 🤔» y 3-2-1, y se revela que pasa rozando. Tramos (g3_20_1933): #1 09:43.6-09:47.95
+  + congelado 2 s con 3-2-1; #2 09:47.95-09:52.0 (pasa entre el poste y las ramas) + repetición 0,4x 09:48.0-09:49.0.
+  Memes: COMENTA SÍ O NO ANTES DE VERLO, POV: ATAJO POR LOS MANGLARES, ¿LO CONSIGUE?, 3-2-1, ¡SÍ!, EL PÁJARO: 😐,
+  LAS RAMAS: HOLA, POR UN PELO; cierre ¿HABÍAS DICHO SÍ O NO? 👇. Revisado a resolución completa: el personaje lleva
+  camiseta de tirantes y una bolsa, sin armas; en la lancha solo hay cañas de pescar; sin HUD (plano de cámara cinemática
+  de conducción sin minimapa), sin menús, llamadas, policía ni marcadores; la matrícula de la lancha es normal.
+  No coincide con los tramos de R24nove (5-15.6, 127-143.2, 400.8-409, 461-464 s). Música propia (musica.py, 134
+  bpm, tono -4). Sin audio original. Duración 15,1 s, 2,5 MB, 720x1280. Guion: trabajo/<id>/guion.json. Hoja: trabajo/<id>/hoja_fotogramas.jpg.
+  Minutos usados: g3_20_1933 09:43.6-09:52.0.'
 historial:
 - fecha: 2026-11-23 18:27
   estado: idea
@@ -28,3 +46,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: formato nuevo del catálogo (Pablo, 23/11: estilos distintos)'
+- fecha: 2026-11-24 13:48
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1'
+- fecha: 2026-11-24 13:48
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1'
+titulo_youtube: '¿Lo consigue? 🤔 Atajo en lancha por los manglares de GTA 6 #Shorts'

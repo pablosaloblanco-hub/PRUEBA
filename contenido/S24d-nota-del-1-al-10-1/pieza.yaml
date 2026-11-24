@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: disenada
+estado: programada
 fecha: 2026-11-24 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -68,4 +68,16 @@ historial:
   estado: disenada
   quien: Claude
   nota: 'editor: v1'
+- fecha: 2026-11-24 13:48
+  estado: revisada
+  quien: Claude
+  nota: 'revisor: ok (sin armas ni sangre; cara en el suelo de lejos y borrosa; HUD, notificación y subtítulos fuera)'
+- fecha: 2026-11-24 13:50
+  estado: subida
+  quien: Claude
+  nota: Vídeo en Drive
+- fecha: 2026-11-24 13:50
+  estado: programada
+  quien: Claude
+  nota: Programada en Metricool
 titulo_youtube: 'Puntúo cómo conduzco cada vehículo en GTA 6 📝 #Shorts'
