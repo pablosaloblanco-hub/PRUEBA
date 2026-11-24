@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: redactada
+estado: disenada
 fecha: 2026-11-25 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -34,18 +34,9 @@ medios:
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'v1 (editor, grabación g3_19_2322.mp4): formato J «Vida diaria absurda» con horario del día. Sin el tatuador:
-  la escena de 5:21-6:15 es una conversación con la dependienta con subtítulos (indica una casa sobre pilotes en
-  Peach Palm Drive) y queda fuera por diálogo. Gancho: «POV: tu sábado en Vice City 🌴» y «SIN CAMISETA Y A LA TIENDA
-  🛍️» desde el primer fotograma; cierre ¿Y TU SÁBADO CÓMO ES? 👇. Tramos (g3_19_2322.mp4): 4:22.50-4:24.60 entrada
-  a la tienda; 4:41.50-4:45.50 a 1,4x, camiseta de tirantes; 4:49.00-4:52.00 a 1,4x, sudadera negra (aviso de «indumentarias
-  desechables» fuera del recorte); 6:35.00-6:41.00 a 2x, en moto con la sudadera; 11:20.50-11:28.60 a 2,5x, pasillos
-  del supermercado (corta antes de las neveras con anuncios de cerveza). Recortes con y0=0,11 y x0≥0,25 (sin dinero,
-  estrellas, minimapa ni avisos). Aparecen indicaciones de botón «COGER LA INDUMENTARIA» de la tienda (interfaz,
-  no misión). Memes: POV, SIN CAMISETA Y A LA TIENDA 🛍️, LOOK 1: TIRANTES 💪, LOOK 2: SUDADERA NEGRA A 35 GRADOS
-  🥵, 10/10, Y A DAR UNA VUELTA CON LA SUDADERA 🏍️, LA COMPRA DE LA SEMANA 🛒, SOLO SNACKS 🍫🥤 y las horas 10:00-12:00.
-  Música propia (musica.py, 120 bpm, tono -4). Sin audio original. Duración 16,8 s, 2,59 MB, 720x1280. Minutos usados
-  de g3_19_2322: 4:22.50-4:24.60, 4:41.50-4:45.50, 4:49.00-4:52.00, 6:35.00-6:41.00 y 11:20.50-11:28.60.'
+notas: |-
+  v1 (editor, grabación g3_19_2322.mp4): formato J «Vida diaria absurda» con horario del día. Sin el tatuador: la escena de 5:21-6:15 es una conversación con la dependienta con subtítulos (indica una casa sobre pilotes en Peach Palm Drive) y queda fuera por diálogo. Gancho: «POV: tu sábado en Vice City 🌴» y «SIN CAMISETA Y A LA TIENDA 🛍️» desde el primer fotograma; cierre ¿Y TU SÁBADO CÓMO ES? 👇. Tramos (g3_19_2322.mp4): 4:22.50-4:24.60 entrada a la tienda; 4:42.60-4:45.50 a 1,2x, camiseta de tirantes; 4:49.00-4:52.00 a 1,4x, sudadera negra (aviso de «indumentarias desechables» fuera del recorte); 6:35.00-6:41.00 a 1,6x, en moto con la sudadera; 11:24.70-11:26.20 a 1,2x, pasillo del supermercado. Recortes con y0=0,11 y x0≥0,25 (sin dinero, estrellas, minimapa ni avisos). Memes: POV, SIN CAMISETA Y A LA TIENDA 🛍️, LOOK 1: TIRANTES 💪, LOOK 2: SUDADERA NEGRA A 35 GRADOS 🥵, 10/10, Y A DAR UNA VUELTA CON LA SUDADERA 🏍️, LA COMPRA DE LA SEMANA 🛒, SOLO SNACKS 🍫🥤 y las horas 10:00-12:00. Música propia (musica.py, 120 bpm, tono -4). Sin audio original. Duración 15,3 s, 2,45 MB, 720x1280. Minutos usados de g3_19_2322: 4:22.50-4:24.60, 4:42.60-4:45.50, 4:49.00-4:52.00, 6:35.00-6:41.00 y 11:24.70-11:26.20.
+  v2 (editor, tras la revisión): fuera los anuncios de cerveza («TAP INTO A COOL ONE», «ICE COLD GOLD», 11:21.1-11:22.9 y 11:24.2-11:24.6): el supermercado empieza en 11:24.70 y acaba en 11:26.20, antes del aviso «PAN (5 $)» de 11:26.3. Fuera el aviso «COGER LA INDUMENTARIA» (4:41.9-4:42.5): el look 1 empieza en 4:42.60. Revisado a 30 fps en el vídeo final.
 historial:
 - fecha: 2026-11-23 18:27
   estado: idea
@@ -69,4 +60,8 @@ historial:
   nota: 'revisor: DEVUELTA. Anuncios de cerveza legibles («TAP INTO A COOL ONE», «ICE COLD GOLD» con vaso de cerveza)
     en 10,75-11,5 s, al empezar el tramo del súper (g3_19_2322 11:21.1-11:22.9): empezar el tramo en 11:23.0 o recortar
     arriba. De paso, quitar los avisos de botón «COGER LA INDUMENTARIA» (2,25-2,5 s) y «PAN (5 $)» (12,9-13,0 s)'
+- fecha: 2026-11-24 13:59
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v2 (correcciones del revisor)'
 titulo_youtube: 'Mi sábado en Vice City en GTA 6 🌴 #Shorts'

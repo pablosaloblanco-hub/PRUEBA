@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: redactada
+estado: disenada
 fecha: 2026-11-25 22:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (sí o no antes de verlo)
@@ -26,15 +26,9 @@ medios:
 drive: {}
 metricool: {}
 enlaces: {}
-notas: 'v1 (editor, grabación g3_19_2322.mp4): formato D «¿Lo consigue?» con dos momentos. Gancho: «COMENTA SÍ O
-  NO ANTES DE VERLO 👇» desde el primer fotograma; cada momento se congela antes del desenlace con «¿LO CONSIGUE?
-  🤔» y cuenta 3-2-1. Tramos (g3_19_2322.mp4): #1 28:38.00-28:40.00 (pick-up amarilla derrapando en la autopista,
-  plano aéreo; congelado) y 28:40.00-28:43.00 (la endereza: «SÍÍÍ 😎»; empieza después del menú de pausa de 28:34-28:37);
-  #2 16:05.60-16:08.65 (deportivo rojo hacia la curva; congelado) y 16:08.65-16:10.60 (se mete en el arbusto: «NO
-  💀», «-1 ARBUSTO 🌺»). Recortes: #1 [0.25,0.30,0.71,0.90] (sin brújula con la distancia rosa ni minimapa), #2 [0.27,0.11,0.73,0.80]
-  (sin subtítulos de la llamada, aviso de llamada ni estrellas). Sin policía, peatones ni personajes. Música propia
-  (musica.py, 134 bpm, tono 6). Sin audio original. Duración 16,3 s, 2,69 MB, 720x1280. Minutos usados de g3_19_2322:
-  16:05.60-16:10.60 y 28:38.00-28:43.00.'
+notas: |-
+  v1 (editor, grabación g3_19_2322.mp4): formato D «¿Lo consigue?» con dos momentos. Gancho: «COMENTA SÍ O NO ANTES DE VERLO 👇» desde el primer fotograma; cada momento se congela antes del desenlace con «¿LO CONSIGUE? 🤔» y cuenta 3-2-1. Tramos (g3_19_2322.mp4): #1 28:38.00-28:40.00 (pick-up amarilla derrapando en la autopista, plano aéreo; congelado) y 28:40.00-28:43.00 (la endereza: «SÍÍÍ 😎»; empieza después del menú de pausa de 28:34-28:37); #2 16:05.60-16:08.65 (deportivo rojo hacia la curva; congelado) y 16:08.65-16:09.40 (se mete en el arbusto: «NO 💀», «-1 ARBUSTO 🌺»). Recortes: #1 [0.25,0.30,0.71,0.90] (sin brújula con la distancia rosa ni minimapa), #2 [0.27,0.11,0.73,0.80] (sin subtítulos de la llamada, aviso de llamada ni estrellas). Sin policía, peatones ni personajes. Música propia (musica.py, 134 bpm, tono 6). Sin audio original. Duración 15,5 s, 2,64 MB, 720x1280. Minutos usados de g3_19_2322: 16:05.60-16:09.40 y 28:38.00-28:43.00.
+  v2 (editor, tras la revisión): el #2 acaba en 16:09.40 y se congela ahí; ya no sale el protagonista hablando por teléfono tras la ventanilla (16:09.5-16:10.6). Congelado revisado a resolución completa.
 historial:
 - fecha: 2026-11-23 18:27
   estado: idea
@@ -58,4 +52,8 @@ historial:
   nota: 'revisor: DEVUELTA. En el #2 se ve al protagonista por la ventanilla hablando por el móvil del juego (llamada
     en curso) de 12,8 s al final, y queda congelado bajo el cierre hasta 16,3 s (g3_19_2322 16:09.5-16:10.6). Terminar
     el tramo 4 en 16:09.4 (fin 969.4) y congelar ese fotograma, o tapar la ventanilla'
+- fecha: 2026-11-24 13:59
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v2 (correcciones del revisor)'
 titulo_youtube: '¿Lo consigue? 🤔 GTA 6 en Vice City #Shorts'
