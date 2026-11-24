@@ -1,5 +1,5 @@
 id: S25b-cuanto-duro-sin-chocar-2
-titulo: Cuanto duro sin chocar 2
+titulo: ¿Cuánto duro en moto sin caerme?
 formato: reel
 redes:
 - instagram
@@ -8,19 +8,45 @@ redes:
 estado: aprobada
 fecha: 2026-11-25 14:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (récord del cierre) y compartir
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  instagram: ''
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  instagram: |-
+    ¿Cuánto duro en moto sin caerme? ⏱️
+
+    Intento 1: 5,2 segundos y me como el coche de delante. Intento 2: modo abuelo y 8,8 segundos sin caerme. Récord personal. ¿Cuánto duras tú? Comenta tu récord 👇 y etiqueta a quien lo supera.
+
+    Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+  tiktok: '¿Cuánto duro en moto sin caerme en GTA 6? ⏱️ Intento 1: 5,2 s 💀 Intento 2: 8,8 s 🏆 (solo en el juego,
+    eh). ¿Cuánto duras tú? Comenta tu récord 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati
+    · Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    ¿Cuánto duro en moto sin caerme en GTA 6? ⏱️ Primer intento: 5,2 segundos hasta comerme el coche de delante. Segundo intento: modo abuelo, 8,8 segundos. ¿Cuánto duras tú? Comenta tu récord 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: '¿Cuánto duro en moto sin caerme en GTA 6? ⏱️ Récord: 8,8 s'
+medios:
+- S25b-cuanto-duro-sin-chocar-2.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: 'v1 (editor, grabación g3_19_2322.mp4): formato E «Contrarreloj»: cronómetro «SIN CAERME» que se para en
+  el golpe. Gancho: «RÉCORD A BATIR: ¿5 SEGUNDOS? 💀» y el contador corriendo desde el primer fotograma; golpe a
+  5,3 s con zoom, temblor, boom y «BRO 💀»; repetición a 0,4x; cierre ¿CUÁNTO DURAS TÚ? COMENTA TU RÉCORD 👇. Tramos
+  (g3_19_2322.mp4): intento 1 0:00.00-0:06.30 en moto hasta empotrarse contra el maletero del coche de delante (cronómetro
+  parado en 5,2 s) + repetición 0:05.00-0:06.30 a 0,4x (corta en pleno vuelo, antes del aterrizaje: piel revisada
+  cada 0,1 s, sin sangre); intento 2 1:56.60-2:05.40 vuelve a montar y circula 8,8 s sin caerse. No se usa 0:20-1:50
+  (móvil). Recorte y0=0,11 (sin brújula, distancia ni marcadores) y sin minimapa ni avisos de llamada; subtítulos
+  fuera. En 1:59.6 asoma una señal pequeña de «POLICE» (señal de calle, sin coches patrulla). Memes: RÉCORD A BATIR,
+  ESTO VA BIEN 👍, EL COCHE DE DELANTE: 🚙, BRO 💀, 5,2 SEGUNDOS. NUEVO RÉCORD 🏆, AHORA EN SERIO 😤, MODO ABUELO 🐢,
+  ¿QUIÉN DIJO MIEDO? 😎, 8,8 S 🏆. Música propia (musica.py, 140 bpm, tono 1). Sin audio original. Duración 21,2 s,
+  2,56 MB, 720x1280. Minutos usados de g3_19_2322: 0:00.00-0:06.30 y 1:56.60-2:05.40.'
 historial:
 - fecha: 2026-11-23 18:27
   estado: idea
@@ -30,3 +56,4 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: formato nuevo del catálogo (Pablo, 23/11: estilos distintos)'
+titulo_youtube: '¿Cuánto duro en moto sin caerme en GTA 6? ⏱️ #Shorts'

@@ -13,7 +13,7 @@ Reels de gameplay con más gancho: recopilatorios de choques y caídas, memes po
   "tramos": [
     {"inicio": 1712.4, "fin": 1716.0, "contador": "#1",
      "velocidad": 1.0,
-     "recorte": [0.3, 0.07, 0.7, 0.80],
+     "recorte": [0.3, 0.11, 0.7, 0.80],
      "zoom": [[1.6, 0.5, 1.35]],
      "temblor": [[1.6, 0.5, 14]],
      "destello": [1.6],

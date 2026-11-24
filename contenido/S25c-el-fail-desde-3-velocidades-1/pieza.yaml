@@ -1,5 +1,5 @@
 id: S25c-el-fail-desde-3-velocidades-1
-titulo: El fail desde 3 velocidades 1
+titulo: 'El fail desde 3 velocidades: el coche que salió volando'
 formato: reel
 redes:
 - tiktok
@@ -7,18 +7,34 @@ redes:
 estado: aprobada
 fecha: 2026-11-25 16:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (pregunta del cierre) y compartir
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  tiktok: 'El fail desde 3 velocidades 🔁 Normal, a 0,5x y a 0,25x… y el otro coche sigue en modo avión ✈️ (solo
+    en el juego, eh). ¿A qué velocidad lo has entendido? Comenta 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida
+    #GTA6Gameplay #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    El fail desde 3 velocidades en GTA 6 🔁 Un choque en pleno cruce de Vice City visto en normal, a 0,5x y a 0,25x: el otro coche sale volando por encima del mío. ¿A qué velocidad lo has entendido? Comenta 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: El fail desde 3 velocidades en GTA 6 🔁 ¿A cuál lo has entendido?
+medios:
+- S25c-el-fail-desde-3-velocidades-1.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: 'v1 (editor, grabación g3_19_2322.mp4): formato I «El fail desde 3 velocidades». NO es la caída de 0:30:
+  tras ella el personaje lleva rozaduras rojas en codo y antebrazo (de la caída de 0:05) y se ve al ponerse en pie,
+  así que se usa el choque múltiple del deportivo rojo de 15:41, que no enseña al personaje. Gancho: golpe a 0,9
+  s con zoom, temblor, boom y «BRO 💀»; cierre ¿A QUÉ VELOCIDAD LO HAS ENTENDIDO? 👇. Tramos (g3_19_2322.mp4): 15:40.70-15:43.70
+  a velocidad normal + repeticiones 15:41.10-15:43.10 a 0,5x (zoom 1,15) y 15:41.45-15:42.75 a 0,25x (zoom 1,35)
+  con congelado. Recorte [0.27,0.11,0.73,0.80]: sin estrellas, «Crimen denunciado», aviso de llamada, minimapa ni
+  subtítulos. Sin peatones ni policía en el cruce. Memes: VELOCIDAD NORMAL ▶️, BRO 💀, ¿QUÉ ACABA DE PASAR? 😳, MÍRALO
+  OTRA VEZ 👀, Y OTRA 💀, EL OTRO COCHE: MODO AVIÓN ✈️. Música propia (musica.py, 126 bpm, tono -2). Sin audio original.
+  Duración 15,3 s, 2,18 MB, 720x1280. Minutos usados de g3_19_2322: 15:40.70-15:43.70.'
 historial:
 - fecha: 2026-11-23 18:27
   estado: idea
@@ -28,3 +44,4 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: formato nuevo del catálogo (Pablo, 23/11: estilos distintos)'
+titulo_youtube: 'El fail desde 3 velocidades en GTA 6 🔁 #Shorts'

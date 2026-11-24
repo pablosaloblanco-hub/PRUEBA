@@ -1,24 +1,49 @@
 id: S24e-pov-narrado-1
-titulo: POV narrado 1
+titulo: 'POV: tu primer día de repartidor en Leonida'
 formato: reel
 redes:
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-24 22:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (pregunta del cierre) y etiquetar
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  tiktok: 'POV: tu primer día de repartidor en Leonida 📦 Me dan la furgo, «es facilísimo», dicen. Un susto en el
+    cruce, las puertas de atrás abiertas, las obras… y la furgo dijo hasta aquí 💀 (solo en el juego, eh). ¿Me contratan
+    o no? Comenta 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes: Rockstar Games
+    · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    POV: tu primer día de repartidor en Leonida 📦 Me dan la furgoneta de la licorería y me dicen que es facilísimo: primer cruce y primer susto, las puertas de atrás abiertas con las cajas de excursión, las obras sin frenar… y al final la furgo dijo hasta aquí 💀 ¿Me contratan o no? Comenta 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: 'POV: tu primer día de repartidor en Leonida 📦💀 ¿Me contratan o no?'
+medios:
+- S24e-pov-narrado-1.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: 'v1 (editor): formato G (POV narrado con `estilo: subtitulo`), «POV: tu primer día de repartidor en Leonida»
+  con la furgoneta de g3_23_1548; gancho: el vuelco de la furgoneta en el primer segundo («Así acabó mi primer día
+  de repartidor.» + BRO 💀) y después «3 HORAS ANTES ⏪» con scratch; cierre con pregunta. Tramos (g3_23_1548.mp4):
+  #1 02:41.85-02:42.75 vuelco de la furgoneta junto al camión (la protagonista de espaldas; corta antes de 02:42.8,
+  cuando se gira de perfil; recorte ancho [0.15, 0.11, 0.85, 0.85]); #2 01:52.0-01:55.0 cruce con carteles de carretera;
+  #3 01:55.6-01:57.6 un todoterreno casi la embiste en el cruce; #4 02:12.0-02:14.4 carretera con las puertas de
+  atrás abiertas y las cajas dentro (corta antes de 02:14.6: al fondo asoma un coche con luces); #5 02:34.4-02:35.45
+  llegada a las obras; #6 02:35.5-02:36.4 cámara de choque contra el camión; #7 02:37.75-02:38.7 la furgo tras el
+  golpe; #8 repetición 02:41.85-02:42.75 a 0,4x. Evitado: 01:48-01:51 (coche patrulla al lado), 02:24-02:31 (notificación
+  de mensaje, además fuera de recorte), 02:29-02:30.6 (usado en S24d). Recorte con y0 = 0,11: fuera la brújula con
+  iconos de misión y la distancia, el minimapa, la tarjeta del GPS, las notificaciones y los subtítulos. Sin armas
+  a la vista (tampoco a la espalda), sin policía, sin menús ni llamadas, sin interiores de la tienda ni del almacén.
+  Textos narrados: Así acabó mi primer día de repartidor. / Me dan la furgo de la licorería. «Es facilísimo», dicen.
+  / Primer cruce. Primer susto. / Llevo las puertas de atrás abiertas. Las cajas, de excursión. / Llegan las obras.
+  ¿Frenar? Para qué. / Bueno, aún arranca. / Y entonces la furgo dijo: hasta aquí. Memes: BRO 💀, 3 HORAS ANTES ⏪,
+  CASI 😳, 📦👋, PUM 💥; cierre ¿ME CONTRATAN O NO? 👇. Música propia (musica.py, 120 bpm, tono 4). Sin audio original.
+  Duración 16,2 s, 2,39 MB, 720x1280. Guion: trabajo/<id>/guion.json; hoja: trabajo/<id>/hoja_final.jpg.'
 historial:
 - fecha: 2026-11-23 18:27
   estado: idea
@@ -28,3 +53,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: formato nuevo del catálogo (Pablo, 23/11: estilos distintos)'
+- fecha: 2026-11-24 09:11
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1'
+- fecha: 2026-11-24 09:11
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1'
+titulo_youtube: 'POV: tu primer día de repartidor en GTA 6 📦💀 #Shorts'

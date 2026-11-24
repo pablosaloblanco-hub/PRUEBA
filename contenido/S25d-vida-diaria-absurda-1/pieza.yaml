@@ -1,5 +1,5 @@
 id: S25d-vida-diaria-absurda-1
-titulo: Vida diaria absurda 1
+titulo: 'Mi sábado en Vice City: ropa nueva y solo snacks'
 formato: reel
 redes:
 - instagram
@@ -8,19 +8,44 @@ redes:
 estado: aprobada
 fecha: 2026-11-25 20:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (pregunta del cierre) y etiquetar
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  instagram: ''
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  instagram: |-
+    Mi sábado en Vice City 🌴
+
+    10:00, a la tienda sin camiseta. 10:15, look 1: tirantes. 10:20, look 2: sudadera negra a 35 grados, un 10 de 10. 10:30, vuelta en moto con la sudadera. 12:00, la compra de la semana: solo snacks. ¿Y tu sábado cómo es? Comenta 👇 y etiqueta a tu compañero de compras.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+  tiktok: 'Mi sábado en Vice City 🌴 Ropa nueva, sudadera a 35 grados y la compra de la semana: solo snacks 🍫 ¿Y
+    tu sábado cómo es? Comenta 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati · Imágenes:
+    Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    Mi sábado en Vice City en GTA 6 🌴 A la tienda sin camiseta, look de tirantes, sudadera negra a 35 grados, vuelta en moto y la compra de la semana: solo snacks. ¿Y tu sábado cómo es? Comenta 👇
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: 'Mi sábado en Vice City 🌴 Ropa nueva y la compra: solo snacks'
+medios:
+- S25d-vida-diaria-absurda-1.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: 'v1 (editor, grabación g3_19_2322.mp4): formato J «Vida diaria absurda» con horario del día. Sin el tatuador:
+  la escena de 5:21-6:15 es una conversación con la dependienta con subtítulos (indica una casa sobre pilotes en
+  Peach Palm Drive) y queda fuera por diálogo. Gancho: «POV: tu sábado en Vice City 🌴» y «SIN CAMISETA Y A LA TIENDA
+  🛍️» desde el primer fotograma; cierre ¿Y TU SÁBADO CÓMO ES? 👇. Tramos (g3_19_2322.mp4): 4:22.50-4:24.60 entrada
+  a la tienda; 4:41.50-4:45.50 a 1,4x, camiseta de tirantes; 4:49.00-4:52.00 a 1,4x, sudadera negra (aviso de «indumentarias
+  desechables» fuera del recorte); 6:35.00-6:41.00 a 2x, en moto con la sudadera; 11:20.50-11:28.60 a 2,5x, pasillos
+  del supermercado (corta antes de las neveras con anuncios de cerveza). Recortes con y0=0,11 y x0≥0,25 (sin dinero,
+  estrellas, minimapa ni avisos). Aparecen indicaciones de botón «COGER LA INDUMENTARIA» de la tienda (interfaz,
+  no misión). Memes: POV, SIN CAMISETA Y A LA TIENDA 🛍️, LOOK 1: TIRANTES 💪, LOOK 2: SUDADERA NEGRA A 35 GRADOS
+  🥵, 10/10, Y A DAR UNA VUELTA CON LA SUDADERA 🏍️, LA COMPRA DE LA SEMANA 🛒, SOLO SNACKS 🍫🥤 y las horas 10:00-12:00.
+  Música propia (musica.py, 120 bpm, tono -4). Sin audio original. Duración 16,8 s, 2,59 MB, 720x1280. Minutos usados
+  de g3_19_2322: 4:22.50-4:24.60, 4:41.50-4:45.50, 4:49.00-4:52.00, 6:35.00-6:41.00 y 11:20.50-11:28.60.'
 historial:
 - fecha: 2026-11-23 18:27
   estado: idea
@@ -30,3 +55,4 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: formato nuevo del catálogo (Pablo, 23/11: estilos distintos)'
+titulo_youtube: 'Mi sábado en Vice City en GTA 6 🌴 #Shorts'

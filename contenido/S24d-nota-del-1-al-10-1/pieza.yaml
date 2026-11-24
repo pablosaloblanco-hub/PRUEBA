@@ -1,26 +1,56 @@
 id: S24d-nota-del-1-al-10-1
-titulo: Nota del 1 al 10 1
+titulo: Puntúo cómo conduzco cada vehículo en GTA 6
 formato: reel
 redes:
 - instagram
 - tiktok
 - youtube
-estado: aprobada
+estado: disenada
 fecha: 2026-11-24 20:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (pregunta del cierre) y etiquetar
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  instagram: ''
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  instagram: |-
+    Puntúo cómo conduzco cada vehículo en GTA 6 📝
+
+    Moto: salgo volando contra un coche azul, 2/10 (el vuelo, un 10). Furgoneta: un camión por mi carril, o yo por el suyo, 5/10. Quad: un camión cisterna por los pelos, 8/10. Excavadora: el camión no pidió esto, 3/10. ¿Qué nota me das tú? Comenta 👇 y etiqueta a quien conduce peor que yo en Leonida.
+
+    Solo en el juego: en la vida real, casco, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+  tiktok: 'Puntúo cómo conduzco cada vehículo en GTA 6 📝: moto 2/10, furgoneta 5/10, quad 8/10 y excavadora 3/10
+    (solo en el juego, eh). ¿Qué nota me das? Comenta 👇 #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay
+    #parati · Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    Puntúo cómo conduzco cada vehículo en GTA 6 📝 Moto contra un coche azul (2/10), furgoneta con un camión en mi carril (5/10), quad que esquiva un camión cisterna por los pelos (8/10) y una excavadora que el camión no se merecía (3/10). ¿Qué nota me das? Comenta 👇 Solo en el juego: en la vida real, casco, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: Puntúo cómo conduzco cada vehículo en GTA 6 📝 ¿Qué nota me das?
+medios:
+- S24d-nota-del-1-al-10-1.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: 'v1 (editor): formato F (nota del 1 al 10), «Puntúo cómo conduzco cada vehículo»: 4 vehículos con sello `nota`,
+  memes, sonidos y repetición; gancho: la caída de la moto con el golpe a 0,7 s («MOTO 🏍️» → «BRO 💀» → 2/10); repetición
+  0,4x de la caída; cierre con pregunta. Tramos: #1 moto, g3_20_0057 04:44.3-04:46.6, gamma 1,7, choca contra un
+  coche azul y sale volando (+ repetición 04:44.7-04:46.0 a 0,4x). Corta antes de 04:46.8 (cara del protagonista
+  en el suelo); piel ampliada cada 0,2 s: sin sangre; al fondo los rótulos «The Grog Barrel» y «Leroy''s» de la
+  calle (no son de la historia). #2 furgoneta, g3_23_1548 02:29.0-02:30.6, un camión invade el carril. #3 quad,
+  g3_23_1548 08:12.2-08:14.8, el camión cisterna cruza por delante (corta antes de 08:15: después asoman luces rojas
+  al fondo). #4 excavadora, g3_23_1548 03:17.0-03:20.0, el brazo golpea la furgoneta que va sobre el camión plataforma
+  (sale vapor). Recorte con y0 = 0,11 en todos para quitar la brújula con los iconos de misión y la distancia («0,19
+  millas»), además del minimapa, la tarjeta del GPS, las notificaciones y los subtítulos. Sin armas a la vista (tampoco
+  a la espalda), sin policía, sin menús ni llamadas. Descartado: g3_20_1745 01:34 (choque con chispas de noche)
+  porque la brújula está en rojo (posible búsqueda) y después se baja a por otro coche. Memes: MOTO 🏍️, BRO 💀, 2/10,
+  10/10 VUELO, 0/10 ATERRIZAJE 🤡, FURGONETA 🚐, ¿ESE CARRIL ERA MÍO? 😳, 5/10, QUAD 🏁, POR LOS PELOS 😳, 8/10, EXCAVADORA
+  🚜, EL CAMIÓN NO PIDIÓ ESTO 😭, 3/10; cierre ¿QUÉ NOTA ME DAS? 👇. Música propia (musica.py, 126 bpm, tono 3). Sin
+  audio original. Duración 15,4 s, 2,81 MB, 720x1280. Guion: trabajo/<id>/guion.json; hoja: trabajo/<id>/hoja_final.jpg.'
 historial:
 - fecha: 2026-11-23 18:27
   estado: idea
@@ -30,3 +60,12 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: formato nuevo del catálogo (Pablo, 23/11: estilos distintos)'
+- fecha: 2026-11-24 09:09
+  estado: redactada
+  quien: Claude
+  nota: 'editor: textos v1'
+- fecha: 2026-11-24 09:09
+  estado: disenada
+  quien: Claude
+  nota: 'editor: v1'
+titulo_youtube: 'Puntúo cómo conduzco cada vehículo en GTA 6 📝 #Shorts'

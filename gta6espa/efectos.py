@@ -269,12 +269,12 @@ def _par(x: float) -> int:
 def _filtro_tramo(tr: dict, modo: str, ancho_src: int, alto_src: int) -> str:
     vel = float(tr.get("velocidad", 1.0))
     if modo == "llenar":
-        lado = 0.73 * alto_src * 9 / 16 / ancho_src
-        def_rec = [0.5 - lado / 2, 0.07, 0.5 + lado / 2, 0.80]
+        lado = 0.69 * alto_src * 9 / 16 / ancho_src
+        def_rec = [0.5 - lado / 2, 0.11, 0.5 + lado / 2, 0.80]
     else:
-        # cuadrado sin la brújula de arriba (7 %) ni la franja de subtítulos y objetivos de abajo (20 %)
-        lado = 0.73 * alto_src / ancho_src
-        def_rec = [0.5 - lado / 2, 0.07, 0.5 + lado / 2, 0.80]
+        # cuadrado sin la brújula ni la distancia del GPS de arriba (11 %) ni la franja de subtítulos y objetivos de abajo (20 %)
+        lado = 0.69 * alto_src / ancho_src
+        def_rec = [0.5 - lado / 2, 0.11, 0.5 + lado / 2, 0.80]
     x0, y0, x1, y1 = tr.get("recorte") or def_rec
     cw, ch = _par((x1 - x0) * ancho_src), _par((y1 - y0) * alto_src)
     cx, cy = int(x0 * ancho_src), int(y0 * alto_src)

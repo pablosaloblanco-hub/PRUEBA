@@ -1,5 +1,5 @@
 id: S25e-lo-consigue-2
-titulo: Lo consigue 2
+titulo: ¿Lo consigue? Un derrape y un arbusto
 formato: reel
 redes:
 - tiktok
@@ -7,18 +7,34 @@ redes:
 estado: aprobada
 fecha: 2026-11-25 22:30
 tema_hashtag: '#GTA6Gameplay'
-objetivo: ''
-datos_usados: []
+objetivo: comentar (sí o no antes de verlo)
+datos_usados:
+- Plataformas
 capturas: []
 textos:
-  tiktok: ''
-  youtube: ''
-titulo_tiktok: ''
-medios: []
+  tiktok: '¿Lo consigue? 🤔 Comenta SÍ o NO antes de ver el final 👇 Uno sale como un piloto de rally… y el otro se
+    come un arbusto 🌺 (solo en el juego, eh). #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #parati
+    · Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.'
+  youtube: |-
+    ¿Lo consigue? 🤔 Dos momentos de GTA 6 congelados justo antes del final: una pick-up derrapando en la autopista y un deportivo rojo tomando una curva. Comenta SÍ o NO antes de verlo 👇 Solo en el juego: en la vida real, despacio y con cabeza.
+
+    Imágenes: Rockstar Games · Cuenta fan · No oficial. Gameplay grabado en PS5 por @gta6espa.
+    #GTA6 #GTAVI #GTA6Español #ViceCity #Leonida #GTA6Gameplay #Shorts
+titulo_tiktok: ¿Lo consigue? 🤔 Comenta SÍ o NO antes de verlo
+medios:
+- S25e-lo-consigue-2.mp4
 drive: {}
 metricool: {}
 enlaces: {}
-notas: ''
+notas: 'v1 (editor, grabación g3_19_2322.mp4): formato D «¿Lo consigue?» con dos momentos. Gancho: «COMENTA SÍ O
+  NO ANTES DE VERLO 👇» desde el primer fotograma; cada momento se congela antes del desenlace con «¿LO CONSIGUE?
+  🤔» y cuenta 3-2-1. Tramos (g3_19_2322.mp4): #1 28:38.00-28:40.00 (pick-up amarilla derrapando en la autopista,
+  plano aéreo; congelado) y 28:40.00-28:43.00 (la endereza: «SÍÍÍ 😎»; empieza después del menú de pausa de 28:34-28:37);
+  #2 16:05.60-16:08.65 (deportivo rojo hacia la curva; congelado) y 16:08.65-16:10.60 (se mete en el arbusto: «NO
+  💀», «-1 ARBUSTO 🌺»). Recortes: #1 [0.25,0.30,0.71,0.90] (sin brújula con la distancia rosa ni minimapa), #2 [0.27,0.11,0.73,0.80]
+  (sin subtítulos de la llamada, aviso de llamada ni estrellas). Sin policía, peatones ni personajes. Música propia
+  (musica.py, 134 bpm, tono 6). Sin audio original. Duración 16,3 s, 2,69 MB, 720x1280. Minutos usados de g3_19_2322:
+  16:05.60-16:10.60 y 28:38.00-28:43.00.'
 historial:
 - fecha: 2026-11-23 18:27
   estado: idea
@@ -28,3 +44,4 @@ historial:
   estado: aprobada
   quien: Claude
   nota: 'director: formato nuevo del catálogo (Pablo, 23/11: estilos distintos)'
+titulo_youtube: '¿Lo consigue? 🤔 GTA 6 en Vice City #Shorts'
