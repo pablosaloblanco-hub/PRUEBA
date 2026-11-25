@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: programada
+estado: publicada
 fecha: 2026-11-24 22:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -26,7 +26,9 @@ medios:
 - S24e-pov-narrado-1.mp4
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  tiktok: https://www.tiktok.com/@gta6espa/video/7711853952098225447
+  youtube: https://www.youtube.com/shorts/An8rLON7bmc
 notas: 'v1 (editor): formato G (POV narrado con `estilo: subtitulo`), «POV: tu primer día de repartidor en Leonida»
   con la furgoneta de g3_23_1548; gancho: el vuelco de la furgoneta en el primer segundo («Así acabó mi primer día
   de repartidor.» + BRO 💀) y después «3 HORAS ANTES ⏪» con scratch; cierre con pregunta. Tramos (g3_23_1548.mp4):
@@ -74,4 +76,8 @@ historial:
   estado: programada
   quien: Claude
   nota: Programada en Metricool
+- fecha: 2026-11-25 00:03
+  estado: publicada
+  quien: Claude
+  nota: Comprobado en Metricool 25/11
 titulo_youtube: 'POV: tu primer día de repartidor en GTA 6 📦💀 #Shorts'

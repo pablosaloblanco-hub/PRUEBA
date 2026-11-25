@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: programada
+estado: publicada
 fecha: 2026-11-24 20:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y etiquetar
@@ -35,7 +35,10 @@ medios:
 - S24d-nota-del-1-al-10-1.mp4
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  instagram: https://www.instagram.com/reel/DgItneTFQCs/
+  tiktok: https://www.tiktok.com/@gta6espa/video/7711822935954165025
+  youtube: https://www.youtube.com/shorts/-LOIR5cyQKQ
 notas: 'v1 (editor): formato F (nota del 1 al 10), «Puntúo cómo conduzco cada vehículo»: 4 vehículos con sello `nota`,
   memes, sonidos y repetición; gancho: la caída de la moto con el golpe a 0,7 s («MOTO 🏍️» → «BRO 💀» → 2/10); repetición
   0,4x de la caída; cierre con pregunta. Tramos: #1 moto, g3_20_0057 04:44.3-04:46.6, gamma 1,7, choca contra un
@@ -80,4 +83,8 @@ historial:
   estado: programada
   quien: Claude
   nota: Programada en Metricool
+- fecha: 2026-11-25 00:03
+  estado: publicada
+  quien: Claude
+  nota: Comprobado en Metricool 25/11
 titulo_youtube: 'Puntúo cómo conduzco cada vehículo en GTA 6 📝 #Shorts'

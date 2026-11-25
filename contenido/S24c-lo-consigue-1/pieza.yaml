@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: programada
+estado: publicada
 fecha: 2026-11-24 16:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar SÍ o NO antes de ver el final
@@ -25,7 +25,9 @@ medios:
 - S24c-lo-consigue-1.mp4
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  tiktok: https://www.tiktok.com/@gta6espa/video/7711761144851090727
+  youtube: https://www.youtube.com/shorts/SAwSWcyXBuI
 notas: 'v1 (editor). Material: g3_20_1933.mp4 (g3_20_1819 descartada entera por el arma a la espalda). Formato D
   (¿lo consigue?), modo cuadrado. Concepto: la lancha se mete por un hueco entre el manglar y un poste con un pájaro;
   se congela justo antes, «¿LO CONSIGUE? 🤔» y 3-2-1, y se revela que pasa rozando. Tramos (g3_20_1933): #1 09:43.6-09:47.95
@@ -67,4 +69,8 @@ historial:
   estado: programada
   quien: Claude
   nota: Programada en Metricool
+- fecha: 2026-11-25 00:03
+  estado: publicada
+  quien: Claude
+  nota: Comprobado en Metricool 25/11
 titulo_youtube: '¿Lo consigue? 🤔 Atajo en lancha por los manglares de GTA 6 #Shorts'
