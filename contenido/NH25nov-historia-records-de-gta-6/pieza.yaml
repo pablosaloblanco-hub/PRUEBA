@@ -3,7 +3,7 @@ titulo: Historia récords de GTA 6
 formato: historia
 redes:
 - instagram
-estado: programada
+estado: publicada
 fecha: 2026-11-25 13:00
 tema_hashtag: '#RockstarGames'
 objetivo: compartir (llevar al carrusel N25nov)
@@ -19,7 +19,8 @@ medios:
 - NH-25nov.jpg
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  instagram: https://www.instagram.com/stories/gta6espa/4038176434656456339
 notas: |-
   Historia de Instagram 1080x1920: archivo NH-25nov.jpg.
   Guion: título «LOS RÉCORDS DE GTA 6». 1) 93 M en 24 h: tráiler 1. 2) Más de 475 M en 24 h: tráiler 2. 3) Récord Guinness. + «NUEVO POST EN EL PERFIL».
@@ -54,3 +55,7 @@ historial:
   estado: programada
   quien: Claude
   nota: ''
+- fecha: 2026-11-26 10:32
+  estado: publicada
+  quien: Claude
+  nota: Comprobado en Metricool 26/11

@@ -5,7 +5,7 @@ redes:
 - instagram
 - tiktok
 - youtube
-estado: programada
+estado: publicada
 fecha: 2026-11-25 11:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y compartir
@@ -35,7 +35,10 @@ medios:
 - S24b-expectativa-vs-realidad-2.mp4
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  instagram: https://www.instagram.com/reel/DgKUglRNJ4H/
+  tiktok: https://www.tiktok.com/@gta6espa/video/7712054720126307623
+  youtube: https://www.youtube.com/shorts/68VauNru_Y4
 notas: 'v1 (editor). Material: g3_20_1745.mp4 (desde 17:30) y g3_20_1933.mp4 (g3_20_1819 descartada entera por el
   arma a la espalda). Formato C (expectativa vs realidad) con pantalla partida, modo llenar. Concepto: «MI PLAN
   PARA HOY: UN PASEO TRANQUILO» arriba (lancha a vista de dron en agua turquesa) y abajo el choque de frente contra
@@ -78,4 +81,8 @@ historial:
   estado: programada
   quien: Claude
   nota: Programada en Metricool
+- fecha: 2026-11-26 10:32
+  estado: publicada
+  quien: Claude
+  nota: Comprobado en Metricool 26/11
 titulo_youtube: 'Expectativa vs realidad en GTA 6 💀 ¿A ti también te pasa? #Shorts'

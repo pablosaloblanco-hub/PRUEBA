@@ -4,7 +4,7 @@ formato: reel
 redes:
 - tiktok
 - youtube
-estado: programada
+estado: publicada
 fecha: 2026-11-25 16:30
 tema_hashtag: '#GTA6Gameplay'
 objetivo: comentar (pregunta del cierre) y compartir
@@ -25,7 +25,9 @@ medios:
 - S25c-el-fail-desde-3-velocidades-1.mp4
 drive: {}
 metricool: {}
-enlaces: {}
+enlaces:
+  tiktok: https://www.tiktok.com/@gta6espa/video/7712132129961889057
+  youtube: https://www.youtube.com/shorts/RFcX0geTtJM
 notas: 'v1 (editor, grabación g3_19_2322.mp4): formato I «El fail desde 3 velocidades». NO es la caída de 0:30:
   tras ella el personaje lleva rozaduras rojas en codo y antebrazo (de la caída de 0:05) y se ve al ponerse en pie,
   así que se usa el choque múltiple del deportivo rojo de 15:41, que no enseña al personaje. Gancho: golpe a 0,9
@@ -64,4 +66,8 @@ historial:
   estado: programada
   quien: Claude
   nota: Programada en Metricool
+- fecha: 2026-11-26 10:32
+  estado: publicada
+  quien: Claude
+  nota: Comprobado en Metricool 26/11
 titulo_youtube: 'El fail desde 3 velocidades en GTA 6 🔁 #Shorts'
