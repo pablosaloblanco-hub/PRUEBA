@@ -16,6 +16,7 @@ Todos se montan con `python -m gta6espa efectos guion.json salida.mp4` (`docs/gu
 | J | **Vida diaria absurda en Leonida** | tiendas, gimnasio, jacuzzi, aparcar: lo cotidiano hecho desastre | «Cosas que solo pasan en Vice City» |
 | K | **Relax / paseo bonito** (1 de cada 10 como mucho) | planos bonitos, sin memes y música tranquila; un texto sereno y un final con guiño | «Vice City a las 19:00 🌅» |
 | L | **Secretos de Leonida** (con grabación hecha a propósito, ver `docs/secretos-leonida.md`) | gancho con el hallazgo en 1 s, ruta rápida (mapa o trayecto acelerado con `velocidad`), llegada y revelación con `zoom` + `destello` y pegatina `etiqueta` con la zona («📍 GRASSRIVERS»); cierre «GUÁRDALO 📌 para cuando juegues» | «Nadie conoce este sitio de GTA 6 🤫» / «El secreto que Rockstar escondió en…» |
+| M | **Guía paso a paso** (misión secreta, encargo o easter egg; datos del `investigador`) | portada «CÓMO HACER…» + 4–7 pasos numerados con `estilo: "subtitulo"` sobre la grabación de Pablo; requisitos al principio y recompensa al final; «GUÁRDALO 📌» | «La misión secreta que casi nadie ha hecho en GTA 6 🤫» |
 
 En el L se permite ver un arma escondida y el momento de recogerla (nunca disparar ni apuntar), y de las misiones secundarias solo dónde empiezan. Busca guardados: el texto pide guardar y comentar qué secreto quieren a continuación.
 
