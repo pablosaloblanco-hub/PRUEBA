@@ -1,0 +1,28 @@
+id: G29a-guia-el-skunk-ape-de-leonida
+titulo: 'Guía: el Skunk Ape de Leonida'
+formato: carrusel
+redes:
+- tiktok
+estado: aprobada
+fecha: 2026-11-29 18:00
+tema_hashtag: '#GTA6Guia'
+objetivo: ''
+datos_usados: []
+capturas: []
+textos:
+  tiktok: ''
+titulo_tiktok: ''
+medios: []
+drive: {}
+metricool: {}
+enlaces: {}
+notas: ''
+historial:
+- fecha: 2026-11-26 10:34
+  estado: idea
+  quien: Claude
+  nota: creada
+- fecha: 2026-11-26 10:34
+  estado: aprobada
+  quien: Claude
+  nota: Aprobada (formato M, datos en trabajo/guias)
